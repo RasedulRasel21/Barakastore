@@ -1,0 +1,46 @@
+{% liquid
+    assign variant = product.selected_or_first_available_variant
+    assign text_weight = text_weight | default: 'bold'
+    if  variant.available == false
+        assign text = 'products.product.stock_alert.out_of_stock_msg' | t
+        assign icon = 'x'
+        assign type = 'danger'
+    elsif variant.inventory_quantity <= settings.stock_threshold and variant.inventory_management and variant.inventory_policy == 'deny'
+        if short_msg
+            assign text = 'products.product.stock_alert.low_stock_short_msg' | t: value: variant.inventory_quantity
+        else
+            assign text = 'products.product.stock_alert.low_stock_msg' | t: value: variant.inventory_quantity
+        endif
+        assign icon = 'exclamation'
+        assign type = 'warning' 
+    elsif variant.inventory_quantity <= 0 and variant.inventory_management and variant.inventory_policy != 'deny' and settings.show_preorder_badge
+        assign text = 'products.product.stock_alert.pre_order_msg' | t
+        assign icon = 'exclamation'
+        assign type = 'success' 
+    else
+        if actual_inventory and variant.inventory_management
+            if short_msg
+                assign text = 'products.product.stock_alert.now_in_stock_short_msg' | t: value: variant.inventory_quantity
+            else
+                assign text = 'products.product.stock_alert.now_in_stock_msg' | t: value: variant.inventory_quantity
+            endif
+        else 
+            if short_msg
+                assign text = 'products.product.stock_alert.in_stock_short_msg' | t
+            else
+                assign text = 'products.product.stock_alert.in_stock_msg' | t
+            endif
+        endif
+        assign icon = 'check'
+        assign type = 'success'
+    endif
+%}
+
+{% assign cn = '#product-stock-alert' %}
+
+<div class="{{ cn }} @text-weight:{{ text_weight }} @type:{{ type }} {% if center == true %}@center{% endif %}">
+    <div class="{{ cn }}-icon">
+        {% render 'icon', name: icon %}
+    </div>
+    <div class="{{ cn }}-text">{{ text }}</div>
+</div>

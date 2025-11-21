@@ -1,0 +1,53 @@
+{%- assign NS = 'product-options-swatch' -%}
+{%- assign cn = '#' | append: NS -%}
+
+{% assign variant_option_index = product_option.position | minus: 1 %}
+
+{% render 'load-css', file: NS %}
+
+<div class="{{ cn }}">
+    {%- for product_option_value in product_option.values -%}
+        {% liquid            
+            assign input_id = product_option.name | handleize | append: product_option_value | escape | handleize | append: section.id
+            assign cn_availability = ''
+    
+            assign match_variant = product_option_value.variant
+
+            if match_variant
+                if match_variant.available == false
+                    assign cn_availability = '!sold-out'
+                endif
+            else
+                assign cn_availability = '!unavailable'
+
+            endif 
+        %}
+        {%- assign input_id = product_option.name | handleize | append: product_option_value | escape | handleize | append: section.id -%}
+        <label class="{{ cn }}-item" for="{{ input_id }}">
+            <input 
+                id="{{ input_id }}"
+                type="radio"
+                class="{{ cn }}-item-input {% if src == 'buttons' %}visually-hidden{% endif %}  {{ cn_availability }}"
+                {% unless src == 'buttons' %}hidden{% endunless %}
+                name="{{ product_option.name }}"
+                data-option-index="{{ variant_option_index }}"
+                data-option-value-id="{{ product_option_value.id }}"
+                {% if match_variant %}
+                    data-variant-id="{{ match_variant.id }}"
+                {% endif %}
+                value="{{ product_option_value | escape }}"
+                {% if product_option.selected_value == product_option_value %}checked{% endif %}
+                {% if match_variant.featured_media %}
+                    data-image-position="{{ match_variant.featured_media.position }}"
+                {% endif %}
+                
+            >
+            {% if product_option_value.product_url == blank %}
+                <div class="{{ cn }}-item-body" style="{%- render 'swatch-color-style', value: product_option_value -%}"></div>                
+            {% else %}
+                <a href="{{ product_option_value.product_url |  append: '?variant=' |  append: match_variant.id }}" class="{{ cn }}-item-body" style="{%- render 'swatch-color-style', value: product_option_value -%}"></a>                
+            {% endif %}
+        </label>
+    {%- endfor -%}
+</div>
+

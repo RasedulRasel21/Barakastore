@@ -1,0 +1,118 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "77cf50d9-3e94-4c0a-ab58-24b05244aa82": {
+      "type": "d_icon-features",
+      "blocks": {
+        "sections--20867772776729__77cf50d9-3e94-4c0a-ab58-24b05244aa82-feature-1": {
+          "type": "feature",
+          "settings": {
+            "icon": "truck-delivery",
+            "crop_image": true,
+            "heading": "Free Shipping Over $50",
+            "text": "",
+            "link": ""
+          }
+        },
+        "sections--20867772776729__77cf50d9-3e94-4c0a-ab58-24b05244aa82-feature-3": {
+          "type": "feature",
+          "settings": {
+            "icon": "message",
+            "crop_image": true,
+            "heading": "24\/7 Premium Support",
+            "text": "",
+            "link": ""
+          }
+        },
+        "sections--20867772776729__77cf50d9-3e94-4c0a-ab58-24b05244aa82-feature-2": {
+          "type": "feature",
+          "settings": {
+            "icon": "mood-smile",
+            "crop_image": true,
+            "heading": "Hassle Free Returns",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--20867772776729__77cf50d9-3e94-4c0a-ab58-24b05244aa82-feature-1",
+        "sections--20867772776729__77cf50d9-3e94-4c0a-ab58-24b05244aa82-feature-3",
+        "sections--20867772776729__77cf50d9-3e94-4c0a-ab58-24b05244aa82-feature-2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-e103ec40-a79c-4694-84a6-946a9fab9517",
+        "section_text_align": "left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "enable_round_media": false,
+        "media_size": 30,
+        "heading_scale": 50
+      }
+    },
+    "g_footer": {
+      "type": "g_footer",
+      "blocks": {
+        "d59c2c60-291c-4855-abb3-5b303d4c802c": {
+          "type": "text",
+          "settings": {
+            "heading": "Our mission",
+            "logo_width": 50,
+            "text": "<p>At Multi, we’re dedicated to providing our customers with the highest quality products and services on the market. We take pride in knowing that our products last and that our services exceed expectations.<\/p><p><em>This is a demonstration store. No orders will be fulfilled.<\/em><\/p>",
+            "show_social_icons": false
+          }
+        },
+        "936fb0c9-0d6a-4fa1-b802-dfc2a9742869": {
+          "type": "menu",
+          "settings": {
+            "heading": "Shop",
+            "menu": "catalog"
+          }
+        },
+        "a3306e81-1a29-4ef6-9b74-e1d0c0c7071b": {
+          "type": "menu",
+          "settings": {
+            "heading": "Information",
+            "menu": "footer"
+          }
+        },
+        "2d85d916-110b-47b4-846d-de94923e394c": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Newsletter",
+            "text": "<p>Join our newsletter and never miss out on the latest trends and promotions.<\/p>",
+            "show_social_icons": true
+          }
+        }
+      },
+      "block_order": [
+        "d59c2c60-291c-4855-abb3-5b303d4c802c",
+        "936fb0c9-0d6a-4fa1-b802-dfc2a9742869",
+        "a3306e81-1a29-4ef6-9b74-e1d0c0c7071b",
+        "2d85d916-110b-47b4-846d-de94923e394c"
+      ],
+      "settings": {
+        "show_country_selector": true,
+        "show_language_selector": false,
+        "social_new_tab": true,
+        "show_scroll_to_top": true,
+        "payment_enable": true,
+        "enable_follow_on_shop": true
+      }
+    }
+  },
+  "order": [
+    "77cf50d9-3e94-4c0a-ab58-24b05244aa82",
+    "g_footer"
+  ]
+}

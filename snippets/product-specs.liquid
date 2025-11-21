@@ -1,0 +1,48 @@
+{% liquid
+    assign NS = 'product-specs'
+    assign cn = '#' | append: NS
+
+    assign specs_list = specs | split: "</p>"
+    
+    if use_expand
+        assign has_excess = false
+        assign specs_limit = 3
+        assign show_all_threshold = specs_limit | plus: 2
+
+        if specs_list.size > show_all_threshold
+            assign has_excess = true
+        endif
+    endif
+%}
+
+{% capture Specs %}
+    {% for spec in specs_list %}
+        {% assign parts = spec | strip_html | split: ':' %}
+        {% assign label = parts[0] | strip %}
+        {% assign value = parts[1] | strip %}
+        {% if value != blank and label != blank %}
+            <div class="{{ cn }}-item {% if has_excess and forloop.index > specs_limit %}!excess{% endif %}">
+                <span class="{{ cn }}-item-name">{{ label }}</span>
+                <span class="{{ cn }}-item-value">{{ value }}</span> 
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endcapture %}
+
+{%- if Specs != blank -%}
+    {% render 'load-css', file: NS %}
+    <div class="{{ cn }}">
+        {%- if has_excess -%}
+            {%- assign expand_id = 'product-specs-expand-' | append: section.id -%}
+            <input class="{{ cn }}-checkbox" type="checkbox" id="{{ expand_id }}" hidden>
+            {{ Specs }}
+            <label class="{{ cn }}-link" for="{{ expand_id }}">
+                <span class="{{ cn }}-link-expand">{{ 'general.search.filters.show_all' | t }}</span>
+                <span class="{{ cn }}-link-collapse">{{ 'general.search.filters.show_less' | t }}</span>
+                {% render 'icon', name: 'angle-down' %}
+            </label>
+        {%- else -%}
+            {{ Specs }}
+        {%- endif -%}
+    </div>
+{%- endif -%}

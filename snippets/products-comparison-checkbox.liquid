@@ -1,0 +1,22 @@
+{% liquid
+    # Props:
+    # display: String(optional) product-card | product-meta - Need this to segregate product-card and the quick-view modal comparison checkboxes styles 
+
+    assign NS = 'products-comparison-checkbox'
+    assign cn = '#' | append: NS
+
+    assign product_url = product.url | split: '?' | first
+    if label == blank
+        assign label = 'sections.compare_products.compare' | t 
+    endif
+%}
+
+<{{ NS }} class="{{ cn }} {% if display %}@display:{{ display }}{% endif %}" hidden product-url="{{ product_url }}" section-id="{{ section.id }}">
+    <label class="{{ cn }}-label"> 
+        <input data-element="input" class="{{ cn }}-input visually-hidden" type="checkbox" name="compare-product-{{ product.id }}" form="">
+        <div class="{{ cn }}-icon">
+            {% render 'icon', name: 'check' %}
+        </div>
+        <span class="{{ cn }}-title">{{ label }}</span>
+    </label>
+</{{ NS }}>

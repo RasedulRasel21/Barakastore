@@ -1,0 +1,887 @@
+<script>
+    var globalLoadedStyles = {};
+    function loadStyle(style) {
+        if(globalLoadedStyles[style.getAttribute('href')]) {
+            return;
+        }
+        globalLoadedStyles[style.getAttribute('href')] = true;
+        if(style.media === 'print') {
+            style.media = 'all';
+        }
+    }
+    window.shopUrl = '{{ shop.url }}';
+    window.routes = {
+        cart_add_url: '{{ routes.cart_add_url }}',
+        cart_change_url: '{{ routes.cart_change_url }}',
+        cart_update_url: '{{ routes.cart_update_url }}',
+        predictive_search_url: '{{ routes.predictive_search_url }}'
+    };
+    window.dynamicURLs = {
+        account: '{{ routes.account_url }}',
+        accountLogin: '{{ routes.account_login_url }}',
+        accountLogout: '{{ routes.account_logout_url }}',
+        accountRegister: '{{ routes.account_register_url }}',
+        accountAddresses: '{{ routes.account_addresses_url }}',
+        allProductsCollection: '{{ routes.all_products_collection_url }}',
+        cart: '{{ routes.cart_url }}',
+        cartAdd: '{{ routes.cart_add_url }}',
+        cartChange: '{{ routes.cart_change_url }}',
+        cartClear: '{{ routes.cart_clear_url }}',
+        cartUpdate: '{{ routes.cart_update_url }}',
+        contact: '{{ shop_locale.iso_code | append: '/contact#contact_form' }}',
+        localization: '{{ shop_locale.iso_code | append: '/localization' }}',
+        collections: '{{ routes.collections_url }}',
+        predictiveSearch: '{{ routes.predictive_search_url }}',
+        productRecommendations: '{{ routes.product_recommendations_url }}',
+        root: '{{ routes.root_url }}',
+        search: '{{ routes.search_url }}'
+    };
+    window.cartStrings = {
+        error: `{{ 'sections.cart.cart_error' | t }}`,
+        quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t: quantity: '[quantity]' }}`
+    };
+    window.variantStrings = {
+        addToCart: `{{ 'products.product.add_to_cart' | t }}`,
+        soldOut: `{{ 'products.product.sold_out' | t }}`,
+        unavailable: `{{ 'products.product.unavailable' | t }}`,
+    };
+    window.accessibilityStrings = {
+        imageAvailable: `{{ 'products.product.media.image_available' | t: index: '[index]' }}`,
+        shareSuccess: `{{ 'general.share.success_message' | t }}`,
+        pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
+        playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
+    };
+
+
+    Shopify.money_format = "{{ shop.money_format }}";
+    Shopify.formatMoney = function(cents, format) {
+        if (typeof cents == 'string') { cents = cents.replace('.',''); }
+        let value = '';
+        const placeholderRegex = /\{\{\s*(\w+)\s*\}\}/;
+        const formatString = (format || Shopify.money_format);
+
+        function defaultOption(opt, def) {
+            return (typeof opt == 'undefined' ? def : opt);
+        }
+
+        function formatWithDelimiters(number, precision, thousands, decimal) {
+            precision = defaultOption(precision, 2);
+            thousands = defaultOption(thousands, ',');
+            decimal   = defaultOption(decimal, '.');
+
+            if (isNaN(number) || number == null) { return 0; }
+
+            number = (number/100.0).toFixed(precision);
+
+            const parts   = number.split('.'),
+                dollars = parts[0].replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1' + thousands),
+                cents   = parts[1] ? (decimal + parts[1]) : '';
+
+            return dollars + cents;
+        }
+
+        switch(formatString.match(placeholderRegex)[1]) {
+            case 'amount':
+                value = formatWithDelimiters(cents, 2);
+            break;
+            case 'amount_no_decimals':
+                value = formatWithDelimiters(cents, 0);
+            break;
+            case 'amount_with_comma_separator':
+                value = formatWithDelimiters(cents, 2, '.', ',');
+            break;
+            case 'amount_no_decimals_with_comma_separator':
+                value = formatWithDelimiters(cents, 0, '.', ',');
+            break;
+            case 'amount_no_decimals_with_space_separator':
+                value = formatWithDelimiters(cents, 2, ' ');
+            break;
+        }
+
+        return formatString.replace(placeholderRegex, value);
+    };
+
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    if (Shopify.designMode) {
+        document.documentElement.classList.add('shopify-design-mode');
+    }
+    function lazyImageOnLoad(img) {
+        img.setAttribute('loaded', '');
+    }
+
+    function onScriptLoad(name) {
+        switch(name) {
+        case 'blaze':
+            document.dispatchEvent(new CustomEvent('blaze-loaded'));
+            break;
+        case 'plyr':
+            document.dispatchEvent(new CustomEvent('plyr-loaded'));
+        break;
+        }
+    }
+</script><script>
+(() => {
+    const STATE_CLASSNAME_PREFIX = '!';
+
+    const __Events = Object.freeze({
+        VARIANT_UPDATE: 'variant:update',
+        VARIANT_CHANGE: 'variant:change',
+        VARIANT_LOADING: 'variant:loading',
+        VARIANT_UNAVAILABLE: 'variant:unavailable',
+        CART_ADD: 'cart:add',
+        CART_ADD_FEATURE: 'cart:add-feature',
+        CART_CHANGE: 'cart:change',
+        CART_UPDATE: 'cart:update',
+        CART_DRAWER_MUTE: 'cart-drawer:mute',
+        CART_REGISTER: 'cart:register',
+        CART_ERROR: 'cart:error',
+        CART_NOTIFICATIONS_ENABLING: 'cart:notififications-enable',
+        CART_REPLACE: 'cart:replace',
+        // CART_SAVED_ITEMS_CHANGE: 'cart-saves:change',
+        COLLECTION_LOADING: 'collection:loading',
+        COLLECTION_CHANGE: 'collection:change',
+        COLLECTION_UPDATE: 'collection:update',
+        COLLECTION_FILTER_CHANGE: 'filter:change',
+        COLLECTION_NAVIGATION_CHANGE: 'navigation:change',
+        COLLECTION_UPDATED: 'collection_updated',
+        COLLECTION_VIEW_CHANGE: 'collection:view-change',
+        PRODUCT_GALLERY_SLIDE_CHANGE: 'product-gallery:slide-change',
+        PRODUCT_GALLERY_EXPAND_CHANGE: 'product-gallery:expand-change',
+        TOAST_NOTIFICATION: 'toast-notification:open',
+        CLOSE_TOAST_NOTIFICATION: 'toast-notification:close',
+        UPSELL_PRODUCTS_CHANGE: 'upsell-products:change',
+        BROWSING_HISTORY_LOAD: 'browsing-history:load',
+        RECOMMENDATIONS_LOADED: 'recommendations:loaded',
+        SELLING_PLAN_CHANGE: 'selling-plan:change',
+        HEADER_UPDATE: 'header:nav-update',
+        HEADER_TOOLBAR_UPDATE: 'header:nav-toolbar-update',
+        PRODUCT_COMPARE_CHANGE: 'product-compare:change',
+        PRODUCT_COMPARE_UPDATE: 'product-compare:update',
+        PRODUCT_COMPARE_OPEN: 'product-compare:open',
+        PRODUCT_COMPARE_UPDATE_REQUEST: 'product-compare:update-request',
+        PRODUCT_BUNDLE_VARIANT_CHANGE: 'variant-selector-modal:change',
+        PRODUCT_FORM_SUBMIT: 'product-form:submit',
+        DARK_MODE_CHANGE: 'dark-mode:change'
+    })
+
+    const __MediaQueries = Object.freeze({
+        MOBILE: window.matchMedia('(max-width:  991px)'),
+        DESKTOP: window.matchMedia('(min-width: 992px)')
+    })
+
+    const __DomEvents = Object.freeze({
+        MODAL_CLOSE: new CustomEvent('modal-close', {
+            bubbles: true
+        }),
+        MODAL_OPEN: new CustomEvent('modal-open', {
+            bubbles: true
+        }),
+    })
+
+    const __StoreConfig = Object.freeze({
+        'browsingHistory': {
+            type: Array,
+            storage: 'local',
+            limit: 10
+        },
+        'compare': {
+            type: Array,
+            storage: 'local'
+        },
+        'sidescroll-info-shown': {
+            type: Boolean,
+            storage: 'session'
+        },
+        // 'wishlist': {
+        //     type: Array,
+        //     storage: 'local'
+        // },
+        // 'cartSaved': {
+        //     type: Array,
+        //     storage: 'local'
+        // },
+        'newsletter': {
+            type: Number,
+            storage: 'local'
+        },
+        'close-annoncement': {
+            type: Boolean,
+            storage: 'session'
+        },
+        'age-confirm': {
+            type: Boolean,
+            storage: 'local'
+        },
+        'collection-horizontal-view': {
+            type: Number,
+            storage: 'local'
+        },
+        'dark-mode': {
+            type: Number,
+            storage: 'local'
+        }
+    })
+
+    let componentCounter = 0;
+
+    // TODO: move error handling to proxy
+    class __Store {
+        static errors = {
+            missingStore(key) {
+                return new Error(`store ${key} does not exists`);
+            },
+            setArray(key) {
+                return new Error(`can't set value ${key} for Array type use add instead`)
+            },
+            notAnArray(key) {
+                return new Error(`${key} is not an array`)
+            }
+        }
+        constructor() {
+            this._store = new Map();
+            Object.entries(__StoreConfig).map(([ storeKey, options ]) => {
+                const storage = window[`${options.storage}Storage`];
+                const value = storage.getItem(storeKey);
+                const type = options.type;
+                this._store.set(storeKey, {
+                    type,
+                    storage,
+                    limit: options.limit,
+                    data: type === Array 
+                        ? new Set(value ? JSON.parse(value): []) 
+                        : value && type(value)
+                })
+            })
+        }
+        add(key, value) {
+            try {
+                const storeTarget = this._store.get(key);
+
+                if(!storeTarget) {
+                    throw __Store.errors.missingStore(key);
+                } 
+
+                if(storeTarget.type !== Array) {
+                    throw __Store.errors.notAnArray(key);
+                }
+
+                this._handleStoreLimit(storeTarget);
+                storeTarget.data.add(value);
+                this._sync(key);
+            } catch(e) {
+                console.error(e);
+            }
+        }
+        _handleStoreLimit(storeTarget) {
+            if(storeTarget.limit) {
+                let offset = storeTarget.limit - storeTarget.data.size;
+                const values = storeTarget.data.values();
+                while(offset <= 0) {
+                    let current = values.next();
+                    storeTarget.data.delete(current.value);
+                    offset++;
+                }
+            }
+        }
+        set(key, value) {
+            try {
+                const storeTarget = this._store.get(key);
+
+                if(!storeTarget) {
+                    throw __Store.errors.missingStore(key);
+                }
+
+                if(storeTarget.type === Array) {
+                    throw __Store.errors.setArray(key);
+                }
+
+                storeTarget.data = value;
+                this._sync(key);
+            } catch(e) {
+                console.error(e.message);
+            }
+        }
+        get(key) {
+            try {
+                const storeTarget = this._store.get(key);
+
+                if(!storeTarget) {
+                    throw __Store.errors.missingStore(key);
+                }
+
+                if(storeTarget.data === null) {
+                    return null;
+                }
+
+                return storeTarget.type === Array
+                    ? Array.from(storeTarget.data)
+                    : storeTarget.type(storeTarget.data);
+
+            } catch(e) {
+                console.error(e);
+            }
+        }
+
+        has(key, value) {
+            try {
+                const storeTarget = this._store.get(key);
+                if(!storeTarget) {
+                    throw __Store.errors.missingStore(key);
+                }
+                if(storeTarget.type !== Array) {
+                    throw __Store.errors.notAnArray(key);
+                }
+                return storeTarget.data.has(value);
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        remove(key, value) {
+            try {
+                const storeTarget = this._store.get(key);
+                if(!storeTarget) {
+                    throw __Store.errors.missingStore(key);
+                }
+                if(storeTarget.type === Array) {
+                    storeTarget.data.delete(value);
+                } else {
+                    storeTarget.value = null;
+                }
+                this._sync(key);
+            } catch(e) {
+                console.error(e);
+            }
+        }
+
+        clear(key) {
+            try {
+                const storeTarget = this._store.get(key);
+                if(!storeTarget) {
+                    throw __Store.errors.missingStore(key);
+                }
+                if(storeTarget.type === Array) {
+                    storeTarget.data.clear();
+                } else {
+                    throw __Store.errors.notAnArray(key);
+                }
+                this._sync(key);
+            } catch(e) {
+                console.error(e);
+            }
+        }
+
+        _sync(key) {
+            // none-blocking storage write
+            setTimeout(() => {
+                const target = this._store.get(key);
+                target.storage.setItem(key, target.type === Array ? JSON.stringify(Array.from(target.data)) : target.data);
+            }, 20);
+        }
+    }
+
+    class __PubSub {
+        constructor() {
+            this._subs = new Map();
+        }
+        subscribe(event, callback, options, sig) {
+            if(!this._subs.has(event)) {
+                this._subs.set(event, new Set());
+            }
+            const sub = {
+                callback,
+                sectionId: options.sectionId,
+                once: options.once,
+                global: options.global,
+                sig
+            }
+            this._subs.get(event).add(sub);
+            return sub;
+        }
+        unsubscribe(event, sub) {
+            if(this._subs.has(event)) {
+                this._subs.get(event)?.delete(sub);
+            }
+        }
+        publish(event, data, sectionId, sig) {
+            if(this._subs.has(event)) {
+                this._subs.get(event).forEach(sub => {
+                    const isSelfPublish = sub.sig === sig; // avoid circular publishing
+                    const isGlobalOrSection = sub.sectionId === sectionId || sub.global; 
+                    if(isGlobalOrSection && !isSelfPublish) {
+                        sub.callback(data);
+                        if(sub.once) {
+                            this.unsubscribe(event, sub);
+                        }
+                    }
+                });
+            }
+        }
+    }
+
+    const pubSub = new __PubSub();
+
+    class __Cache {
+        constructor() {
+            this._cache = new Map();
+        }
+        set(key, value) {
+            this._cache.set(key, value);
+        }
+        get(key) {
+            return this._cache.get(key);
+        }
+        has(key) {
+            return this._cache.has(key);
+        }
+        delete(key) {
+            this._cache.delete(key);
+        }
+        clear() {
+            this._cache.clear();
+        }
+    }
+    const memoize = (fn) => {
+        let cache = null;
+        return () => {
+            if (cache) {
+                return cache;
+            }
+            const result = fn();
+            cache = result;
+            return result;
+        }
+    }
+
+    const __Utils = Object.freeze({
+        getBrowserName: memoize(() => {
+            const userAgent = navigator.userAgent;
+            if (/Chrome/.test(userAgent) && !/Chromium/.test(userAgent)) {
+                return "Chrome";
+            }
+            if (/Edg/.test(userAgent)) {
+                return "Edge";
+            }
+            if (/Firefox/.test(userAgent)) {
+                return "Firefox";
+            }
+            if (/Safari/.test(userAgent)) {
+                return "Safari";
+            }
+            if (/Trident/.test(userAgent)) {
+                return "IE";
+            }
+            return "Unknown";
+        }),
+        isMobileBrowser: () => {
+            const agent = navigator.userAgent || navigator.vendor || window.opera;
+            return /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(agent)
+            || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(agent.substring(0, 4));
+        },
+        isFunction: (x) => {
+            return Object.prototype.toString.call(x) == '[object Function]';
+        },
+        debounce: (fn, wait) => {
+            let t;
+            return (...args) => {
+                clearTimeout(t);
+                t = setTimeout(() => fn.apply(this, args), wait);
+            }
+        },
+        setDocumentClickHandler: (cb) => {
+            let docClickListening = false;
+            return (state) => {
+                if (state && !docClickListening) {
+                    setTimeout(() => {
+                        document.addEventListener('click', cb);
+                        docClickListening = true;
+                    }, 20)
+                } else if (!state && docClickListening) {
+                    docClickListening = false;
+                    document.removeEventListener('click', cb);
+                }
+            }
+        },
+        parseHTML: (text) => {
+            return new DOMParser().parseFromString(text, 'text/html');
+        },
+        fetchHTML: (URL) => {
+            return fetch(URL)
+                .then(res => res.text())
+                .then(text => __Utils.parseHTML(text))
+                .catch(e => console.error(e));
+        },
+        $active: (el, state = true) => {
+            __Utils.$state(el, 'active', state);
+        },
+        $loading: (el, state = true) => {
+            __Utils.$state(el, 'loading', state);
+        },
+        $state: (el, name, state = true) => {
+            el.classList.toggle(`${STATE_CLASSNAME_PREFIX}${name}`, state)
+        },
+        $fetch: async (URL, options) => {
+            try {
+                if(__Utils.isFunction(options?.before)) {
+                    options.before();
+                }
+
+                let [cleanURL, existedParams] = URL.split('?');
+
+                let params = '';
+                if(options?.params || options.sectionId) {
+                    params = !!(options.params instanceof URLSearchParams)
+                        ? options.params
+                        : new URLSearchParams(options.params || '');
+                    
+                    if(options.sectionId) {
+                        params.append('section_id', options.sectionId);
+                    }
+
+                    params = params.toString();
+                }
+
+
+                // TODO: this logic should be refactored ASAP
+                params = [existedParams, params]
+                    .filter(Boolean)
+                    .join('&');
+
+                if(params) {
+                    params = `?${params}`;
+                }
+                
+                const res = await fetch(`${cleanURL}${params}`);
+                if(options?.nullOn404 && res.status === 404) {
+                    if(__Utils.isFunction(options?.after)) {
+                        options.after();
+                    }
+                    return null;
+                }
+                const doc = await res.text();
+                if(__Utils.isFunction(options?.after)) {
+                    options.after();
+                }
+                const $doc = __Utils.parseHTML(doc); 
+                return options?.selectAll ? 
+                    Array.from($doc.querySelectorAll(options.selectAll)) : 
+                    options?.select ? $doc.querySelector(options.select) : $doc;
+
+            } catch (error) {
+                console.error(error);
+                if(__Utils.isFunction(options?.after)) {
+                    options.after();
+                }
+            }
+        },
+        $hide: (el) => {
+            el.setAttribute('hidden', '');
+        },
+        $show: (el) => {
+            el.removeAttribute('hidden');
+        },
+        $classListTemp: (element, className, time = 1000) => {
+            element.classList.add(className);
+            setTimeout(() => element.classList.remove(className), time)
+        },
+        $isEmpty: (el) => {
+            if(!el) {
+                return;
+            }
+            if(el.content) {
+                el = el.content;
+            }
+            return el.textContent.trim() === '';
+        },
+        $isHidden: el => el.hasAttribute('hidden'),
+        $clone: el => {
+            if(el.content) {
+                return el.content.cloneNode(true);
+            }
+            return el.cloneNode(true);
+        },
+        $isEqual: (a, b) => a.isEqualNode(b),
+        $toggleDisplay: (el, state) => {
+            if(state === undefined) {
+                __Utils.$isHidden(el) ? __Utils.$show(el) : __Utils.$hide(el);
+                return;
+            }
+
+            state ? __Utils.$show(el) : __Utils.$hide(el);
+        },
+        $replaceContent: (from, to, force = false) => {
+            const target = to.content || to;
+            if(force || !__Utils.$isEqual(from, target) ) {
+                from.replaceChildren(...target.cloneNode(true).childNodes);
+            }
+        },
+        $JSON : el => JSON.parse(el.textContent)
+    });
+
+    class __CoreComponent extends HTMLElement {
+        constructor() {
+            super();
+            this.sectionId = this.getAttribute('section-id');
+            this._elements = new Map();
+            this._props = new Map();
+            this._subs = new Map();
+            this._$parentSection = null;
+            this.__sig = `${this.tagName}-${componentCounter}`;
+            componentCounter++; 
+        }
+        connectedCallback() {
+            this._handleElements();
+            if(!this.sectionId) {
+                console.warn(`section-id not found in <${this.tagName.toLocaleLowerCase()}> component`);
+            }
+            if(__Utils.isFunction(this.render)) {
+                this.render();
+            }
+        }
+        _handleElements() {
+            
+            if(!this.elements) {
+                return;
+            }
+
+            if(this.elements.$ && Array.isArray(this.elements.$)) {
+                this.elements.$.map(el => {
+                    this.elements[el] = Array.isArray(el) ? [`[data-element="${el}"]`] : `[data-element="${el}"]`;
+                })
+                delete this.elements.$;
+            }
+
+            for(const [key, value] of Object.entries(this.elements)) {
+                if(key.startsWith('$') && value === true) {
+                    this.elements[key.substring(1)] = key;
+                    delete this.elements[key];
+                }
+            }
+        }
+        _setElementEvents(el, events) {
+            const eventsMap = new Map();
+            Object.entries(events).map(([event, callback]) => {
+                callback = callback.bind(this);
+                eventsMap.set(event, callback);
+                if(Array.isArray(el)) {
+                    el.forEach(el => {
+                        el.addEventListener(event, callback);
+                    })
+                } else {
+                    el.addEventListener(event, callback);
+                }
+            });
+            return eventsMap;
+        }
+        $(el, events) {
+            if(typeof el === 'object') {
+                this._elements.set('__root__', {
+                    node: this,
+                    events: this._setElementEvents(this, el)
+                })
+                return;
+            }
+
+            const selector = this.elements[el];
+
+            if(!selector) {
+                console.error(`element ${el} not found in <${this.tagName.toLocaleLowerCase()}>`);
+                return;
+            }
+
+            if(this._elements.has(el) && this._elements.get(el).node.isConnected === false) {
+                this.$remove(el);
+            }
+
+            if(!this._elements.has(el)) {
+                let elEvents = null;
+
+                const node = this._selectElement(selector);
+                
+                if(!node) {
+                    return null;
+                }
+
+                if(typeof events === 'object' && node) {
+                    elEvents = this._setElementEvents(node, events);
+                }
+
+                this._elements.set(el, {
+                    node,
+                    events: elEvents
+                });
+            }
+
+            return this._elements.get(el).node;
+        }
+
+        $remove(el) {
+            if(!this._elements.has(el)) {
+                return;
+            }
+            this._clearElementEvents(this._elements.get(el));
+            this._elements.get(el).node.remove();
+            this._elements.get(el).node = null;
+            this._elements.delete(el);
+        }
+
+        _selectElement(selector) {
+            if(Array.isArray(selector)) {
+                return Array.from(this.querySelectorAll(this._parseSelector(selector[0])));
+            }
+            return this.querySelector(this._parseSelector(selector));
+        }
+        _parseSelector(selector) {
+            if(selector.startsWith('$')) {
+                return `[data-element="${selector.substring(1)}"]`
+            }
+            return selector;
+        }
+        prop(name) {
+            const valueType = this.propTypes[name];
+            if(!valueType) {
+                console.error(`prop ${name} not found in <${this.tagName.toLocaleLowerCase()}>`);
+                return;
+            }
+            if(!this._props.has(name)) {
+                this._props.set(name, 
+                    valueType === Number ? Number(this.getAttribute(name)) :
+                    valueType === Boolean ? this.hasAttribute(name) :
+                    this.getAttribute(name)
+                )
+            }
+            return this._props.get(name);
+        }
+        setProp(name, value='') {
+            this.prop(name);
+            if(!this._props.has(name)) {
+                console.warn(`prop ${name} does not exists in ${this.tagName}`);
+                return;
+            }
+            this.setAttribute(name, value);
+            this._props.set(name, value);
+        }
+        sub(event, callback, options) {
+            if(!this.sectionId) {
+                console.warn(`section-id not found in <${this.tagName.toLocaleLowerCase()}> component subscription for '${event}' will be ignored`);
+                return;
+            }
+            callback = callback.bind(this);
+            if(!this._subs.has(event)) {
+                const sub = pubSub.subscribe(event, callback, {
+                    sectionId: this.sectionId,
+                    ...options
+                }, this.__sig);
+                this._subs.set(event, sub);
+            }
+        }
+        unsub(event) {
+            if(this._subs.has(event)) {
+                const sub = this._subs.get(event);
+                this._subs.delete(event);
+                pubSub.unsubscribe(event, sub);
+            }
+        }
+        pub(event, data) {
+            pubSub.publish(event, data, this.sectionId, this.__sig);
+        }
+
+        _clearElementEvents(el) {
+            const { node, events } = el;
+
+            if(node && events) {
+                events.forEach((callback, event) => {
+                    if(Array.isArray(node)) {
+                        node.forEach(n => {
+                            n.removeEventListener(event, callback);
+                        })
+                    } else {
+                        node.removeEventListener(event, callback);
+                    }
+                    events.delete(event);
+                })
+            }
+
+        }
+
+        updateContentFrom(doc) {
+            if(!this.id) {
+                console.error(`<${this.tagName}> must have unique id to update the content`);
+                return;
+            }
+            const foreign = doc.getElementById(this.id);
+            if(!foreign) {
+                console.error(`provided content does not contain the same id as <${this.tagName}>`);
+                return;
+            }
+            __Utils.$replaceContent(this, foreign);
+        }
+
+        disconnectedCallback() {
+            this._subs.forEach((sub, event) => {
+                this.unsub(event, sub);
+            });
+            this._elements.forEach(this._clearElementEvents.bind(this));
+            this._elements.clear();
+            if(__Utils.isFunction(this.destroy)) {
+                this.destroy();
+            };
+        }
+
+        get $section() {
+            if(!this._$parentSection) {
+                this._$parentSection = document.getElementById(`shopify-section-${this.sectionId}`);
+            }
+            return this._$parentSection;
+        }
+    }
+
+    class __TopLayerStack {
+        constructor() {
+            this.stack = [];
+        }
+
+        add(element, onRemove) {
+            this.stack.push([element, onRemove]);
+        }
+
+        remove() {
+            this.stack.pop();
+        }
+
+        get isEmpty() {
+            return this.stack.length === 0;
+        }
+
+        get last() {
+            return this.stack.at(-1);
+        }
+    }
+
+    window.Global = Object.freeze({
+        Core: __CoreComponent,
+        TopLayerStack: new __TopLayerStack(),
+        Utils: __Utils,
+        Events: __Events,
+        DOMEvents: __DomEvents,
+        Cache: new __Cache(),
+        Store: new __Store(),
+        MediaQueries: __MediaQueries,
+        onBlazeLoad: (callback) => {
+            if(window.BlazeSlider) {
+                callback();
+            } else {
+                document.addEventListener('blaze-loaded', callback, { once: true })
+            }
+        },
+        onPlyrLoad: (callback) => {
+            if(window.Plyr) {
+                callback();
+            } else {
+                document.addEventListener('plyr-loaded', callback, { once: true })
+            }
+        }
+    })
+})()
+
+</script>

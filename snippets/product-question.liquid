@@ -1,0 +1,68 @@
+{%- liquid
+    assign NS = 'product-question'
+    assign cn = '#' | append: NS
+    assign email_input_id = NS | append: section.id | append: '-email'
+    assign question_input_id = NS | append: section.id | append: '-question'
+-%}
+
+{% render 'load-css', file: NS %}
+
+{% capture Form %}
+    {%- form 'contact' -%}
+        {%- if form.posted_successfully? -%}
+            <noscript>
+                {% render 'alert', type: 'success', t_heading: 'templates.contact.form.post_success' %}
+            </noscript>
+        {%- elsif form.errors -%}
+            {%- capture Error_text -%}
+                <ul role="list">
+                    <li>
+                        <p>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</p>
+                    </li>
+                </ul>
+            {%- endcapture -%}
+            {% render 'alert',
+                type: 'danger',
+                t_heading: 'templates.contact.form.error_heading',
+                text: Error_text
+            %}
+        {%- endif -%}
+        <input
+            type="hidden"
+            name="contact[Product question]"
+            value="{{ product.title }}"
+        >
+        {%- capture Email_input_atts -%}
+            type="email"
+            name="contact[email]"
+            value="{% if form.email %}{{ form.email | escape }}{% elsif customer %}{{ customer.email | escape }}{% endif %}"
+            autocomplete="email"
+            placeholder="{{ 'newsletter.long_label' | t }}"
+        {%- endcapture -%}
+        {%- render 'form-field',
+            id: email_input_id,
+            as: 'input',
+            input_atts: Email_input_atts,
+            t_label: 'newsletter.label'
+        -%}
+        {%- capture Message_input_atts -%}
+            name="contact[Message]"
+            placeholder="{{ 'products.product.question.placeholder' | t }}"
+            rows="3"
+        {%- endcapture -%}
+        {%- render 'form-field',
+            id: question_input_id,
+            as: 'textarea',
+            input_atts: Message_input_atts,
+            t_label: 'products.product.question.label'
+        -%}
+        {%- render 'button',
+            t_text: 'customer.login_page.submit',
+            block: true
+        -%}
+    {%- endform -%}
+{% endcapture %}
+
+<div class="{{ cn }}">
+    {{ Form }}
+</div>

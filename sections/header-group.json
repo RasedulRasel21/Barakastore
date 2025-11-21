@@ -1,0 +1,281 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcements": {
+      "type": "g_announcement-bar",
+      "settings": {
+        "home_page_only": false,
+        "close_btn": false,
+        "color_scheme": "",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none",
+        "show_arrows_navigation": true,
+        "enable_autoplay": true,
+        "autoplay": 3
+      }
+    },
+    "utility": {
+      "type": "g_utility-bar",
+      "blocks": {
+        "a9377da4-d7fc-480f-9da4-0b7c3c764a41": {
+          "type": "link",
+          "settings": {
+            "position": "left",
+            "link_label": "Free Shipping Over $50",
+            "link": "",
+            "icon": "truck-delivery"
+          }
+        },
+        "dd3ec072-897e-47c7-994b-369e37bbc167": {
+          "type": "mail_link",
+          "settings": {
+            "position": "right",
+            "mail_address": "info@multi.com",
+            "icon": "mail"
+          }
+        },
+        "2ec2509c-b6f3-4c16-aa0a-d1fccff68e22": {
+          "type": "phone_link",
+          "settings": {
+            "position": "right",
+            "phone_number": "(555) 555-1234",
+            "icon": "phone"
+          }
+        },
+        "834870f6-539a-4b91-8ac1-7017f0d79566": {
+          "type": "social_menu",
+          "settings": {
+            "position": "right",
+            "social_new_tab": true
+          }
+        },
+        "78b7efe3-988f-4bbd-b888-7b4e9a2fa897": {
+          "type": "localization_selector",
+          "settings": {
+            "position": "right",
+            "show_country_selector": true,
+            "show_localization_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "a9377da4-d7fc-480f-9da4-0b7c3c764a41",
+        "dd3ec072-897e-47c7-994b-369e37bbc167",
+        "2ec2509c-b6f3-4c16-aa0a-d1fccff68e22",
+        "834870f6-539a-4b91-8ac1-7017f0d79566",
+        "78b7efe3-988f-4bbd-b888-7b4e9a2fa897"
+      ],
+      "settings": {
+        "text_color": "#f6ecf9",
+        "bg_color": "#402249"
+      }
+    },
+    "header": {
+      "type": "g_header",
+      "blocks": {
+        "22eb1efb-4b47-4380-b69f-db5c1719c795": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu": "main-menu"
+          }
+        },
+        "ae5df5e3-5af2-4a8f-bc71-d741ffe95eb0": {
+          "type": "catalog",
+          "disabled": true,
+          "settings": {
+            "title": "Shop All",
+            "title_link": "",
+            "icon": "none",
+            "badge_text": "",
+            "badge_color": "#EC0000",
+            "menu": "main-menu",
+            "sidebar_image_type": "none",
+            "show_collection_thumbnails": false,
+            "show_collection_bg_image": false,
+            "enable_masonry_layout": true,
+            "columns": 3
+          }
+        },
+        "92e6bb09-4e64-432b-8370-09b1fb58d85e": {
+          "type": "subcollections_catalog",
+          "settings": {
+            "title": "Shop All",
+            "title_link": "",
+            "icon": "none",
+            "badge_text": "",
+            "badge_color": "#EC0000",
+            "menu": "catalog",
+            "sidebar_image_type": "thumbnail",
+            "subcollection_image_src": "thumbnail",
+            "show_collection_bg_image": false,
+            "subcollection_info": "price",
+            "image_position": "left",
+            "columns": 4
+          }
+        }
+      },
+      "block_order": [
+        "22eb1efb-4b47-4380-b69f-db5c1719c795",
+        "ae5df5e3-5af2-4a8f-bc71-d741ffe95eb0",
+        "92e6bb09-4e64-432b-8370-09b1fb58d85e"
+      ],
+      "settings": {
+        "enable_sticky_header": true,
+        "layout": "default",
+        "toolbar": "title_right",
+        "search_as_icon": false,
+        "logo_desktop_width": 130,
+        "logo_mobile_width": 100,
+        "show_country_selector": false,
+        "show_language_selector": false,
+        "cart_icon": "cart-shopping",
+        "show_cart_total": false,
+        "show_cart_counter": true,
+        "show_account_link": true
+      }
+    },
+    "navigation-bar": {
+      "type": "g_navigation-bar",
+      "blocks": {
+        "bb53162e-236f-4ab1-9874-2eb6f28536a6": {
+          "type": "featured_collection",
+          "settings": {
+            "position": "left",
+            "title": "Staff Picks",
+            "icon": "none",
+            "badge_text": "",
+            "badge_color": "#EC0000",
+            "collection": "laptops",
+            "image_position": "left",
+            "show_product_price": true,
+            "columns": 4,
+            "rows": 2,
+            "show_view_all": true,
+            "show_collection_image": true,
+            "collection_image_width": 25,
+            "crop_image": true,
+            "collection_image_position": "left"
+          }
+        },
+        "ca3a19ca-58b0-4141-9aad-0da1d8d81c20": {
+          "type": "product_lists",
+          "settings": {
+            "position": "left",
+            "title": "Outlet",
+            "title_link": "",
+            "icon": "none",
+            "badge_text": "",
+            "badge_color": "#EC0000",
+            "collections": [
+              "gaming",
+              "for-pros",
+              "creatives"
+            ],
+            "columns": 3,
+            "products_limit": 4,
+            "show_product_price": true,
+            "show_view_all": true,
+            "show_collection_image": true,
+            "collection_image_height": 150,
+            "collection_image_position": "above"
+          }
+        },
+        "2f806ad6-7a1c-4999-86a2-79a01063185c": {
+          "type": "image_with_text",
+          "settings": {
+            "position": "left",
+            "title": "🎧 New Series X",
+            "title_link": "",
+            "icon": "none",
+            "badge_text": "",
+            "badge_color": "#EC0000",
+            "image_size": "450px",
+            "mobile_image_size": "origin",
+            "image_width": 64,
+            "image_position": "right",
+            "color_scheme": "main",
+            "text_position": "center-center",
+            "content_icon": "none",
+            "icon_scale": 100,
+            "heading": "Unleash the <strong>Sound<\/strong>",
+            "heading_scale": 145,
+            "subheading": "",
+            "text": "<p>Revolutionary auditory encounter<\/p>",
+            "enlarge_text": false,
+            "info": "",
+            "f_button_label": "Find More",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        },
+        "d4ef318a-b325-4ab5-9a9c-78c5961cd5e9": {
+          "type": "browsing_history",
+          "settings": {
+            "position": "right",
+            "title": "Browsing History",
+            "icon": "none",
+            "badge_text": "",
+            "badge_color": "#EC0000"
+          }
+        },
+        "8a7d8c96-8608-4633-8db0-33a60a1c54a7": {
+          "type": "featured_blog",
+          "settings": {
+            "position": "right",
+            "title": "News",
+            "icon": "none",
+            "badge_text": "",
+            "badge_color": "#EC0000",
+            "blog": "news",
+            "image_position": "left",
+            "article_info": "date",
+            "columns": 3,
+            "rows": 2,
+            "show_view_all": true
+          }
+        },
+        "5476677b-a2cb-4410-82cd-1fc823d5166c": {
+          "type": "menu",
+          "settings": {
+            "position": "right",
+            "menu": "main-side"
+          }
+        }
+      },
+      "block_order": [
+        "bb53162e-236f-4ab1-9874-2eb6f28536a6",
+        "ca3a19ca-58b0-4141-9aad-0da1d8d81c20",
+        "2f806ad6-7a1c-4999-86a2-79a01063185c",
+        "d4ef318a-b325-4ab5-9a9c-78c5961cd5e9",
+        "8a7d8c96-8608-4633-8db0-33a60a1c54a7",
+        "5476677b-a2cb-4410-82cd-1fc823d5166c"
+      ],
+      "settings": {
+        "alignment": "manual",
+        "bg_color": "#ffffff",
+        "text_color": "#3e3e3e",
+        "invert_nav_colors": true
+      }
+    }
+  },
+  "order": [
+    "announcements",
+    "utility",
+    "header",
+    "navigation-bar"
+  ]
+}

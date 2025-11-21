@@ -1,0 +1,93 @@
+{%- liquid
+    # - Props:
+        # - show_variant_image: string: 'all'|'colors'|'none'
+
+    assign NS = 'product-variant-selector'
+    assign cn = '#' | append: NS
+
+    assign single_option = false
+    if product.options_with_values.size == 1
+        assign single_option = true
+    endif
+    assign section_id = section_id | default: section.id 
+    assign settings_color_option_names = settings.color_swatches_options | split: ',' | handleize
+    assign variant_available = true
+    if variant.id == null
+        assign variant_available = false
+    endif 
+-%}
+
+{% render 'load-css', file: NS %}
+
+
+
+<product-variant-listener section-id="{{ section_id }}" id="b-{{ block_id }}">
+    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" form="{{ product_form_id }}">
+    <product-variant-selector section-id="{{ section_id }}">
+        <div class="{{ cn }} js-only" >
+            {%- for product_option in product.options_with_values -%}
+                {%- liquid
+                    unless show_variant_image == 'none'
+                        assign variant_image_display = true
+                    endunless
+
+                    assign option_name_handle = product_option.name | handleize
+                    if settings_color_option_names contains option_name_handle
+                        assign match_color = true
+                    else
+                        if show_variant_image == 'colors'
+                            assign variant_image_display = false
+                        endif
+                        assign match_color = false
+                    endif
+                    if color_swatches and match_color
+                        assign show_color_swatches = true
+                    else
+                        assign show_color_swatches = false
+                    endif
+                -%}
+                
+                <div class="{{ cn }}-item">
+                    <h2 class="{{ cn }}-item-heading">
+                        {{ product_option.name }}:
+                        {% if picker_type == 'swatch' or show_color_swatches %}
+                            <span class="{{ cn }}-item-heading-value">{{ product_option.selected_value }}</span>
+                        {% endif %}
+                    </h2>
+                    <div class="{{ cn }}-item-body">
+                        {%- if show_color_swatches -%}
+                            {% render 'load-css', file: 'product-options-swatch' %}
+                            {% render 'product-options-swatch',
+                                product: product,
+                                product_option: product_option,
+                                current_variant: variant,
+                            %}
+                        {%- elsif picker_type == 'swatch' -%}
+                            {% render 'load-css', file: 'product-options-radio' %}
+                            {% render 'product-options-radio',
+                                product: product,
+                                current_variant: variant,
+                                option: product_option,
+                                columns: buttons_columns,
+                                price_display: price_display,
+                                show_variant_image: variant_image_display,
+                                show_stock_alert: show_stock_alert
+                            %}
+                        {%- elsif picker_type == 'dropdown' -%}
+                            {% render 'load-css', file: 'product-options-dropdown' %}
+                            {% render 'product-options-dropdown',
+                                product: product,
+                                current_variant: variant,
+                                option: product_option,
+                                show_stock_alert: show_stock_alert,
+                                single_option: single_option,
+                                price_display: price_display,
+                                show_variant_image: variant_image_display
+                            %}
+                        {%- endif -%}
+                    </div>
+                </div>     
+            {%- endfor -%}
+        </div>
+    </product-variant-selector>
+</product-variant-listener>

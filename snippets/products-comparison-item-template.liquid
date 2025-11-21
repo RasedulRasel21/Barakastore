@@ -1,0 +1,265 @@
+{% liquid
+    assign NS = 'products-comparison'
+    assign cn = '#' | append: NS
+    assign meta_counter = 0
+    assign product_url = product.url | split: '?' | first
+
+    if product.has_only_default_variant == false and product.available
+        assign available_variants_size = product.variants | where: 'available' | size
+
+        if available_variants_size > 1
+            assign has_multiple_available_variants = true
+        endif
+    endif
+
+    assign settings_color_option_names_arr = settings.color_swatches_options | split: ','
+    assign settings_color_option_handle_arr = ''
+    for setting_color_name in settings_color_option_names_arr
+        assign setting_color_handle = setting_color_name | handleize
+        assign settings_color_option_handle_arr = settings_color_option_handle_arr | append: setting_color_handle
+        unless forloop.last
+            assign settings_color_option_handle_arr = settings_color_option_handle_arr | append: ','       
+        endunless
+    endfor
+    assign settings_color_option_handle_arr = settings_color_option_handle_arr | split: ','
+%}
+
+{% capture image_srcsize %}min(100vw, {{ modal_item_media_size }}){% endcapture %}
+
+{%- capture Product -%}
+    <div class="{{ cn }}-product">
+        <div class="{{ cn }}-product-info">
+            <a href="{{ product_url }}" class="stretched-link">{{ product.title }}</a>
+            <div class="{{ cn }}-product-media">
+                {% render 'media',
+                    image: product.featured_image,
+                    size: 'square',
+                    srcsize_desktop: image_srcsize,
+                    srcsize_mobile: image_srcsize
+                %}
+            </div>
+            <h5 class="{{ cn }}-product-title">
+                {%- if section.settings.enable_product_title_truncation -%}
+                    <span class="#text-truncate" style="--text-truncate-lines: {{ section.settings.product_title_max_lines }}">{{ product.title }}</span>
+                {%- else -%}
+                    {{ product.title }}
+                {%- endif -%}
+            </h5>
+        </div>
+        <div class="{{ cn }}-product-action">
+            {% if has_multiple_available_variants %}
+                {% render 'button',
+                    t_text: 'products.product.view_options',
+                    tag: 'a'
+                    link: product_url,
+                    block: true,
+                    no_arrow: true,
+                %}
+            {% else %}
+                {%- if product.first_available_variant.available -%}
+                    {%- capture Button -%}
+                        {% render 'button',
+                            element: 'to-cart-button'
+                            t_text: 'products.product.add_to_cart',
+                            block: true,
+                            loading: true,
+                            no_arrow: true
+                        %}
+                    {%- endcapture -%}
+                    {%- render 'product-to-cart', 
+                        trigger: Button, 
+                        variant: product.first_available_variant
+                    -%}
+                {%- else -%}
+                    {%- assign button_text = 'products.product.sold_out' -%}
+                    {%- render 'button',
+                        t_text: button_text,
+                        block: true,
+                        atts: 'disabled',
+                        no_arrow: true
+                    -%}
+                {%- endif -%}
+            {% endif %}
+            <div class="{{ cn }}-product-remove">
+                {% render 'button',
+                    t_text: 'sections.compare_products.remove',
+                    tier: 'link',
+                    block: true,
+                    no_arrow: true,
+                    size: 'sm',
+                    element: 'remove'
+                %}
+            </div>
+        </div>
+    </div>
+{%- endcapture -%}
+
+{% capture Empty_cell_value %}
+    <div class="{{ cn }}-cell-empty">
+        {%- render 'icon', name: 'minus' -%}
+    </div>
+{% endcapture %}
+
+<template data-compare-content-template>
+    <product-comparison-item class="{{ cn }}-column" product-url="{{ product_url }}" section-id="{{ section.id }}" data-compare-content>
+        <div class="{{ cn }}-cell">
+            {{ Product }}
+        </div>
+        {%- for block in section.blocks -%}
+            {% assign empty_meta_info = false %}
+            {%- capture Block_content -%}
+                {%- case block.type -%}
+                    {%- when 'price' -%}
+                        {% assign block_heading = 'sections.compare_products.price' | t %}
+                        {% render 'price', product: product, center_align: true %}
+                    {%- when 'weight' -%}
+                        {% assign block_heading = 'sections.compare_products.weight' | t  %}
+                        {%- assign weights = product.variants | map: 'weight' | uniq | sort -%}
+                        {%- assign weight_sum = weights | sum -%}
+                        {%- capture Weight -%}
+                            {%- if weight_sum > 0 -%}
+                                {%- assign min_weight = weights | first | weight_with_unit -%}
+                                {%- if weights.size > 1 -%}
+                                    {%- assign max_weight = weights | last | weight_with_unit -%}
+                                {%- endif -%}
+                                {{ min_weight }}{%- if max_weight -%}{{ ' - ' | append: max_weight }}{%- endif -%}
+                            {%- endif -%}
+                        {%- endcapture -%}
+                        {%- if Weight != blank -%}
+                            {{ Weight }}
+                        {%- else -%}
+                            {{ Empty_cell_value }}
+                        {%- endif -%}
+                    {%- when 'type' -%}
+                        {% assign block_heading = 'sections.compare_products.type' | t  %}
+                        {%- if product.type != blank -%}
+                            {{ product.type }}
+                        {%- else -%}
+                            {{ Empty_cell_value }}
+                        {%- endif -%}
+                    {%- when 'description' -%}
+                        {% assign block_heading = 'sections.compare_products.description' | t  %}
+                        {%- if product.description != blank -%}
+                            <div class="#rte @text-align:left">{{ product.description }}</div>
+                        {%- else -%}
+                            {{ Empty_cell_value }}
+                        {%- endif -%}
+                    {%- when 'vendor' -%}
+                        {% assign block_heading = 'sections.compare_products.brand' | t  %}
+                        {{ product.vendor }}
+                    {%- when 'stock_alert' -%}
+                        {% assign block_heading = 'sections.compare_products.availability' | t  %}
+                        {%- render 'product-stock-alert',
+                            center: true,
+                            text_weight: 'normal',
+                            short_msg: true,
+                            id: block.id,
+                            product: product,
+                            stock_threshold: settings.stock_threshold
+                            actual_inventory: block.settings.actual_inventory
+                        -%}
+                    {%- when 'rating' -%}
+                        {% assign block_heading = 'sections.compare_products.rating' | t  %}
+                        {%- capture Rating -%}
+                            {%- render 'star-rating', 
+                                value: product.metafields.reviews.rating.value,
+                                count: product.metafields.reviews.rating_count,
+                                show_count_title: true
+                            -%}
+                        {%- endcapture -%}
+                        {%- if Rating != blank -%}
+                            {{ Rating }}
+                        {%- else -%}
+                            {%- assign empty_meta_info = true -%}
+                            {{ Empty_cell_value }}
+                        {% endif %}
+                    {%- when 'product_option' -%}
+                        {% assign block_heading = block.settings.label | default: block.settings.option_name  %}
+                        {% if product.options contains block.settings.option_name %}
+                            {% for product_option in product.options_with_values %}
+                                {% if product_option.name == block.settings.option_name %}
+                                    {%- assign option_name_handle = product_option.name | handleize -%}
+                                    {% if settings_color_option_handle_arr contains option_name_handle %}
+                                        {% assign color_option = true %}
+                                    {% else %}
+                                        {% assign color_option = false %}
+                                    {% endif %}
+                                    {% if block.settings.use_color_swatches and color_option %}
+                                        <div class="{{ cn }}-cell-swatches">
+                                            {% for color_value in product_option.values %}
+                                                <span class="{{ cn }}-cell-swatch" style="{%- render 'swatch-color-style', value: color_value -%}"></span>
+                                            {% endfor %}
+                                        </div>
+                                    {% else %}
+                                        {{ product_option.values | join: ' / ' }}
+                                    {% endif %}
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
+                        {% else %}
+                            {%- assign empty_meta_info = true -%}
+                            {{ Empty_cell_value }}
+                        {% endif %}
+                    {%- when 'metafield' -%}
+                        {% assign block_heading = block.settings.label  %}
+                        {%- if block.settings.label != blank  -%}
+                            {%- liquid
+                                assign ns_handle = block.settings.key | split: '.'
+                                assign ns = ns_handle[0]
+                                assign handle = ns_handle[1]
+                                assign metafield = product.metafields[ns][handle].value
+                            -%}
+                            {%- if metafield != blank -%}
+                                {{ metafield }}
+                            {%- else -%}
+                                {%- assign empty_meta_info = true -%}
+                                {{ Empty_cell_value }}
+                            {%- endif -%}
+                        {%- endif -%}
+                    {%- endcase -%}
+                {%- endcapture -%}
+                {%- if Block_content != blank -%}
+                    {% assign meta_block = false %}
+                    {% if  meta_block_types contains block.type %}
+                        {% assign meta_block = true %}
+                        {%- assign meta_counter = meta_counter | plus: 1 -%}
+                    {% endif %}
+
+                    <div 
+                        class="{{ cn }}-cell" 
+                        {{ block.shopify_attributes }} 
+                        {% if meta_block %}
+                            {% unless empty_meta_info %}
+                                data-meta="{{ meta_counter }}"
+                            {% else %}
+                                data-empty-meta="{{ meta_counter }}"
+                            {% endunless %}   
+                        {% endif %}
+                    >
+                        <div class="{{ cn }}-cell-inner">
+                            {% if headings_display %}
+                                <p class="{{ cn }}-cell-heading">{{ block_heading }}</p>
+                            {% endif %}
+                            <div class="{{ cn }}-cell-value">
+                                {{ Block_content }}
+                            </div>
+                        </div>
+                    </div>
+                {%- endif -%}
+        {%- endfor -%}
+    </product-comparison-item>
+</template>
+
+<template data-compare-thumb>
+    <product-comparison-item class="{{ cn }}-bar-thumbs-item" product-url="{{ product_url }}" section-id="{{ section.id }}" data-compare-thumb>
+        <a class="stretched-link" href="{{ product_url }}" aria-label="{{ product.title }}"></a>
+        <div class="{{ cn }}-bar-thumbs-item-media">
+            {%- render 'media',
+                image: product.featured_image,
+                size: 'square',
+                image_res: 80,
+            -%} 
+        </div>
+        <div class="{{ cn }}-bar-thumbs-item-remove" data-element="remove">{% render 'icon', name: 'x' %}</div>
+    </product-comparison-item>
+</template>

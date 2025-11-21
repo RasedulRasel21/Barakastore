@@ -1,0 +1,279 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay Group",
+  "sections": {
+    "cart_drawer": {
+      "type": "g_cart-drawer",
+      "blocks": {
+        "9e843ec4-5f7a-4ea3-b62f-836b6eacefa4": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "invert",
+            "full_width": false,
+            "heading": "",
+            "subheading": "",
+            "text_position": "center-center",
+            "link": ""
+          }
+        },
+        "products": {
+          "type": "products",
+          "settings": {
+            "show_remove_button": true
+          }
+        },
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "9f6e7d29-bf86-4a43-8345-fb4b5b2aa0e5": {
+          "type": "product_recommendations",
+          "settings": {
+            "heading": "You may interested in",
+            "fallback_products": []
+          }
+        },
+        "da8298d2-ea10-4deb-b0a3-97c4b29c8af1": {
+          "type": "free_shipping",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "9e843ec4-5f7a-4ea3-b62f-836b6eacefa4",
+        "products",
+        "subtotal",
+        "9f6e7d29-bf86-4a43-8345-fb4b5b2aa0e5",
+        "da8298d2-ea10-4deb-b0a3-97c4b29c8af1"
+      ],
+      "settings": {
+        "show_final_price_checkout_button": false,
+        "show_stock_alert": false,
+        "checkout_position": "bottom",
+        "show_cart_counter": false
+      }
+    },
+    "newsletter": {
+      "type": "g_newsletter-popup",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 15% Off"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Be the first to know about new collections and exclusive offers."
+          }
+        },
+        "form": {
+          "type": "newsletter_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "form"
+      ],
+      "settings": {
+        "new_customers_only": false,
+        "color_scheme": "scheme-4aaf3b82-8d8c-414f-aaf0-3b2f457f982b",
+        "display_delay_sec": 1,
+        "days_to_re_appear": 1,
+        "popup_type": "popover",
+        "use_trigger_button": false,
+        "floating_button_label": "Subscribe",
+        "floating_button_icon": "mail",
+        "image_position": "bg",
+        "image_overlay": 75
+      }
+    },
+    "g_popup_collection_AkyJiW": {
+      "type": "g_popup-collection",
+      "blocks": {
+        "products_jPnJqt": {
+          "type": "products",
+          "settings": {
+            "products_limit": 7,
+            "show_only_products_in_stock": false
+          }
+        },
+        "banner_HB4K48": {
+          "type": "banner",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay": 0,
+            "heading": "",
+            "heading_scale": 80,
+            "subheading": "",
+            "button": "Shop All",
+            "button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "products_jPnJqt",
+        "banner_HB4K48"
+      ],
+      "settings": {
+        "button_text": "Today's Deals",
+        "icon": "bell",
+        "position_x": "left",
+        "heading": "Today's <strong>Deals<\/strong>",
+        "subheading": "",
+        "collection": "best-deals",
+        "slide_every": "row",
+        "slides_per_view": 5
+      }
+    },
+    "g_products_comparison_yQrpPk": {
+      "type": "g_products-comparison",
+      "blocks": {
+        "type_7ahEkt": {
+          "type": "type",
+          "settings": {}
+        },
+        "price_J7U7WT": {
+          "type": "price",
+          "settings": {}
+        },
+        "stock_alert_bpkPMB": {
+          "type": "stock_alert",
+          "settings": {
+            "actual_inventory": false
+          }
+        },
+        "description_7DwKq4": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "metafield_zVfCAE": {
+          "type": "metafield",
+          "settings": {
+            "label": "Screen size",
+            "key": "custom.screen_size"
+          }
+        },
+        "metafield_3FRxtR": {
+          "type": "metafield",
+          "settings": {
+            "label": "Screen resolution",
+            "key": "custom.screen_resolution"
+          }
+        },
+        "product_option_enGjVL": {
+          "type": "product_option",
+          "settings": {
+            "label": "RAM",
+            "option_name": "RAM",
+            "use_color_swatches": true
+          }
+        },
+        "product_option_ehWfbC": {
+          "type": "product_option",
+          "settings": {
+            "label": "Storage",
+            "option_name": "Storage",
+            "use_color_swatches": true
+          }
+        },
+        "product_option_XVGqUW": {
+          "type": "product_option",
+          "settings": {
+            "label": "CPU",
+            "option_name": "CPU",
+            "use_color_swatches": true
+          }
+        },
+        "metafield_YAFaLM": {
+          "type": "metafield",
+          "settings": {
+            "label": "Connectivity",
+            "key": "custom.connectivity"
+          }
+        },
+        "metafield_Hk8E8F": {
+          "type": "metafield",
+          "settings": {
+            "label": "Megapixels",
+            "key": "custom.megapixels"
+          }
+        },
+        "metafield_t3ynEb": {
+          "type": "metafield",
+          "settings": {
+            "label": "Operation system",
+            "key": "custom.operation_system"
+          }
+        },
+        "metafield_6qdQVc": {
+          "type": "metafield",
+          "settings": {
+            "label": "Product dimensions",
+            "key": "custom.product_dimensions"
+          }
+        },
+        "metafield_dFRa9n": {
+          "type": "metafield",
+          "settings": {
+            "label": "Weight",
+            "key": "custom.product_weight"
+          }
+        },
+        "metafield_eewqQe": {
+          "type": "metafield",
+          "settings": {
+            "label": "Сountry of origin",
+            "key": "custom._ountry_of_origin"
+          }
+        }
+      },
+      "block_order": [
+        "type_7ahEkt",
+        "price_J7U7WT",
+        "stock_alert_bpkPMB",
+        "description_7DwKq4",
+        "metafield_zVfCAE",
+        "metafield_3FRxtR",
+        "product_option_enGjVL",
+        "product_option_ehWfbC",
+        "product_option_XVGqUW",
+        "metafield_YAFaLM",
+        "metafield_Hk8E8F",
+        "metafield_t3ynEb",
+        "metafield_6qdQVc",
+        "metafield_dFRa9n",
+        "metafield_eewqQe"
+      ],
+      "settings": {
+        "products_limit": false,
+        "headings_display": "cell",
+        "cell_dividers": true,
+        "column_dividers": true,
+        "enable_product_title_truncation": true,
+        "product_title_max_lines": 2,
+        "show_bar": true,
+        "show_sidescroll_info": true
+      }
+    }
+  },
+  "order": [
+    "cart_drawer",
+    "newsletter",
+    "g_popup_collection_AkyJiW",
+    "g_products_comparison_yQrpPk"
+  ]
+}

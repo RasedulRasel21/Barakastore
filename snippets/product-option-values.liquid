@@ -1,0 +1,141 @@
+{% comment %}
+  Props:
+    product: object
+    cn: string
+    src?: 'buttons'
+    product_option: object
+    current: object - variant
+    price_display: 'none' | 'dif' | 'abs'
+    show_variant_image: boolean
+    show_stock_alert: boolean
+{% endcomment %}
+
+{% assign product_option_index = product_option.position | minus: 1 %}
+
+{%- for product_option_value in product_option.values -%}
+    {% liquid
+        assign input_id = product_option.name | handleize | append: product_option_value | escape | handleize | append: product.id | append: section.id
+        assign cn_availability = ''
+        assign price = blank
+        assign match_variant_media = blank
+        # match_variant - The variant that's associated with this option value, combined with the other currently selected option values
+        assign match_variant = product_option_value.variant
+        if match_variant
+            if match_variant.available == false
+                assign cn_availability = '!sold-out'
+            endif
+        else
+            assign cn_availability = '!unavailable'
+        endif 
+
+        if show_variant_image and match_variant.featured_media
+            assign match_variant_media = match_variant.featured_media
+        endif
+
+        if price_display != 'none' and match_variant
+            if price_display == 'diff'
+                assign price = current.price | minus: match_variant.price   
+            endif
+            if price_display == 'abs'
+                assign price = match_variant.price
+            endif
+        endif
+
+        assign stock_alert_message = false
+        assign stock_alert_counter = 0
+
+        if match_variant
+            if show_stock_alert and match_variant.inventory_quantity <= settings.stock_threshold and match_variant.inventory_management and match_variant.inventory_policy == 'deny'
+                assign cart_product_count =  cart | item_count_for_variant: match_variant.id
+                if cart_product_count < match_variant.inventory_quantity
+                    assign inventory = match_variant.inventory_quantity
+                    assign stock_alert_message = 'products.product.stock_alert.low_stock_msg' | t: value: inventory
+                    assign stock_alert_counter = inventory
+                endif
+            endif
+        endif
+
+        assign hide_price = false
+
+        if price_display == 'diff' and price == 0
+            assign hide_price = true
+        endif
+
+        if price_display == 'diff' 
+            if price > 0
+                assign price_icon = 'minus'
+            else
+                assign price_icon = 'plus'
+            endif
+        endif
+    %}
+
+    <label class="{{ cn }}-item" for="{{ input_id }}">
+        <input 
+            id="{{ input_id }}"
+            type="radio"
+            class="{{ cn }}-item-input {% if src == 'buttons' %}visually-hidden{% endif %} {{ cn_availability }}"
+            {% unless src == 'buttons' %}hidden{% endunless %}
+            name="{{ product_option.name }}"
+            data-option-index="{{ product_option_index }}"
+            data-option-value-id="{{ product_option_value.id }}"
+            value="{{ product_option_value | escape }}"
+            {% if product_option.selected_value == product_option_value %}checked{% endif %}
+            {% if match_variant %} 
+                data-variant-id="{{ match_variant.id }}"
+            {% endif %}
+            {% liquid
+                # For some reason, the match_variant_media variable may return blank here.
+            %}
+            {% if match_variant.featured_media %}
+                data-image-position="{{ match_variant.featured_media.position }}"
+            {% endif %}
+        >
+        {% capture Option_item_body %}
+            {%- if match_variant_media != blank -%}
+                <div class="{{ cn }}-item-media">
+                    {% render 'media',
+                        image: match_variant_media,
+                        size: 'square',
+                        image_fit: 'contain',
+                        image_res: 50,
+                        animate_lazy_loading: false
+                    %}
+                </div>
+            {%- endif -%}
+
+            <div class="{{ cn }}-item-value">
+                <div class="{{ cn }}-item-title">
+                    {{ product_option_value }}
+                    {%- if stock_alert_message -%}
+                        <p class="{{ cn }}-item-stock-alert-title">{{ stock_alert_message }}</p>
+                    {%- endif -%}
+                </div>
+                {%- if unavailable_title -%}
+                    <span class="{{ cn }}-item-unavailable">{{ 'products.product.unavailable' | t | downcase }}</span>
+                {%- endif -%}
+                {%- if out_of_stock_title -%}
+                    <span class="{{ cn }}-item-sold-out">{{ 'products.product.stock_alert.out_of_stock_msg' | t | downcase }}</span>
+                {%- endif -%}
+                {%- if price != blank and product.price_varies -%}
+                    <div class="{{ cn }}-item-price {% if hide_price %}@invisible{% endif %}">
+                        {% render 'icon', name: price_icon %}
+                        {{ price | abs | money }}
+                    </div>
+                {%- endif -%}
+            </div>
+        {% endcapture %}
+        {% if product_option_value.product_url == blank %}
+            <div class="{{ cn }}-item-body">
+                {{ Option_item_body }}
+            </div> 
+        {% else %}
+            <a href="{{ product_option_value.product_url |  append: '?variant=' |  append: match_variant.id }}" class="{{ cn }}-item-body">
+                {{ Option_item_body }}
+            </a>
+        {% endif %}
+        {% if stock_alert_counter > 0 %}
+            <span class="{{ cn }}-item-stock-alert-counter">{{ stock_alert_counter }}</span>
+        {% endif %}
+    </label>
+{%- endfor -%}
