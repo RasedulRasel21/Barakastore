@@ -289,6 +289,89 @@
         "section_button_label": ""
       }
     },
+    "d_rich_text_hCmQe4": {
+      "type": "d_rich-text",
+      "blocks": {
+        "text_GP94cx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br/>Describe a product, share announcements or welcome customers to your store.</p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_EVCfhG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Équipements sportifs",
+            "heading_scale": 120
+          }
+        },
+        "buttons_W9DaMj": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "info": "",
+            "f_button_label": "",
+            "f_button_link": "",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "text_GP94cx",
+        "heading_EVCfhG",
+        "buttons_W9DaMj"
+      ],
+      "settings": {
+        "color_scheme": "main",
+        "content_width": 100,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_featured_collection_DNJJt3": {
+      "type": "d_featured-collection",
+      "blocks": {
+        "products_8PfHYp": {
+          "type": "products",
+          "settings": {
+            "products_limit": 10,
+            "show_only_products_in_stock": false
+          }
+        },
+        "banner_NRfgMA": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "image_overlay": 0,
+            "heading": "{{ section.settings.collection.title }}",
+            "heading_scale": 80,
+            "subheading": "",
+            "button": "Tout Acheter",
+            "button_tier": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "products_8PfHYp",
+        "banner_NRfgMA"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "collection": "sports-equipments-and-devices",
+        "slide_every": "row",
+        "slides_per_view": 3,
+        "section_button_label": ""
+      }
+    },
     "44740013-f582-4a84-95bb-7fedd7580f01": {
       "type": "d_hero-image",
       "blocks": {
@@ -702,6 +785,8 @@
     "4152f3c4-fce8-4429-bb55-9810434cbea7",
     "a9aa1c18-4e1a-4ece-84d1-856cdf4312fe",
     "7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df",
+    "d_rich_text_hCmQe4",
+    "d_featured_collection_DNJJt3",
     "44740013-f582-4a84-95bb-7fedd7580f01",
     "d_featured_collection_grid_KXmb7T",
     "165469275319e90978",
