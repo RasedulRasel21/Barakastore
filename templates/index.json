@@ -9,134 +9,157 @@
  */
 {
   "sections": {
-    "d5887403-0b8d-487c-a9e7-7bd2378b1180": {
+    "d_image_with_text_slideshow_Hrybxq": {
       "type": "d_image-with-text-slideshow",
       "blocks": {
-        "template--15204627546146__d5887403-0b8d-487c-a9e7-7bd2378b1180-1687153659b8addc40-0": {
+        "image_VUeBK9": {
           "type": "image",
           "settings": {
-            "color_scheme": "scheme-ddd0ac1c-6853-46d4-93bb-09ee6d4fd510",
-            "image_width": 60,
+            "color_scheme": "main",
+            "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
+            "image_width": 50,
             "hide_image_shadow": false,
-            "pattern": "pattern-tic-tac-toe_64",
-            "pattern_scale": 120,
-            "pattern_animation": "bottom-right",
-            "heading": "Best in Class",
-            "heading_scale": 120,
-            "subheading": "",
-            "text": "<p>Upgrade Your Workstation with a High-Performance Laptop.</p>",
-            "text_position": "center-left",
-            "f_button_label": "Shop Laptops",
-            "f_button_tier": "secondary"
-          }
-        },
-        "template--15204627546146__d5887403-0b8d-487c-a9e7-7bd2378b1180-1687153659b8addc40-1": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
-            "image_width": 59,
-            "hide_image_shadow": false,
-            "pattern": "pattern-bubbles_100",
+            "pattern": "none",
             "pattern_scale": 100,
-            "pattern_animation": "top",
-            "heading": "Televisions",
+            "pattern_animation": "none",
+            "heading": "<strong>Doctor Recommended and User Approved</strong>",
             "heading_scale": 120,
-            "subheading": "",
-            "text": "<p>TVs that Bring You Closer to the Action!</p>",
+            "subheading": "Knee Relief Massager",
+            "text": "<p>Designed with input from orthopedic specialists</p>",
             "text_position": "center-left",
-            "f_button_label": "Shop TVs",
-            "f_button_tier": "secondary"
+            "f_button_label": "Shop now",
+            "f_button_link": "shopify://products/electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1",
+            "f_button_tier": "primary"
           }
         },
-        "32ee1640-72e6-42c9-822b-eae615104bb6": {
+        "image_6zNkqx": {
           "type": "image",
           "settings": {
-            "color_scheme": "invert",
-            "image_width": 58,
+            "color_scheme": "main",
+            "image": "shopify://shop_images/u0lt3984q2nteh9zcgfm.webp",
+            "image_width": 50,
             "hide_image_shadow": false,
-            "pattern": "pattern-bank-note_100",
+            "pattern": "none",
             "pattern_scale": 100,
-            "pattern_animation": "right",
-            "heading": "Sound Systems",
+            "pattern_animation": "none",
+            "heading": "<strong>Virtual Reality Glasses</strong>",
             "heading_scale": 120,
             "subheading": "",
-            "text": "<p>Experience Audio Excellence with Cutting-Edge Sound Systems.</p>",
+            "text": "<p>A comprehensive destination for tech whizzes and novices alike</p>",
             "text_position": "center-left",
-            "f_button_label": "Shop Now",
-            "f_button_tier": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "template--15204627546146__d5887403-0b8d-487c-a9e7-7bd2378b1180-1687153659b8addc40-0",
-        "template--15204627546146__d5887403-0b8d-487c-a9e7-7bd2378b1180-1687153659b8addc40-1",
-        "32ee1640-72e6-42c9-822b-eae615104bb6"
-      ],
-      "settings": {
-        "section_height": "450px",
-        "mobile_image_size": "350px",
-        "section_width": 85,
-        "image_position": "right",
-        "align_image_bottom": true,
-        "crop_images": false,
-        "show_arrows_navigation": true,
-        "show_pagination": false,
-        "enable_autoplay": false,
-        "autoplay": 5,
-        "animated_caption": true
-      }
-    },
-    "aae7ff7e-1862-49ab-97e4-76059580ccb7": {
-      "type": "d_featured-collection-with-image",
-      "blocks": {
-        "template--15204627546146__aae7ff7e-1862-49ab-97e4-76059580ccb7-16871576362fc59ee0-0": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Subheading"
-          }
-        },
-        "template--15204627546146__aae7ff7e-1862-49ab-97e4-76059580ccb7-16871576362fc59ee0-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Hot</strong> Now",
-            "heading_scale": 195
-          }
-        },
-        "template--15204627546146__aae7ff7e-1862-49ab-97e4-76059580ccb7-16871576362fc59ee0-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explore our best-selling products!</p>",
-            "enlarge_text": true
-          }
-        },
-        "45bf4090-f580-4c0e-ac39-2b4693ff8b75": {
-          "type": "buttons",
-          "settings": {
-            "info": "",
-            "f_button_label": "Shop All",
+            "f_button_label": "Shop now",
+            "f_button_link": "shopify://collections/virtual-reality",
             "f_button_tier": "primary"
           }
         }
       },
       "block_order": [
-        "template--15204627546146__aae7ff7e-1862-49ab-97e4-76059580ccb7-16871576362fc59ee0-0",
-        "template--15204627546146__aae7ff7e-1862-49ab-97e4-76059580ccb7-16871576362fc59ee0-1",
-        "template--15204627546146__aae7ff7e-1862-49ab-97e4-76059580ccb7-16871576362fc59ee0-2",
-        "45bf4090-f580-4c0e-ac39-2b4693ff8b75"
+        "image_VUeBK9",
+        "image_6zNkqx"
+      ],
+      "name": "Image with text slideshow",
+      "settings": {
+        "section_height": "650px",
+        "mobile_image_size": "450px",
+        "section_width": 100,
+        "image_position": "right",
+        "align_image_bottom": true,
+        "crop_images": true,
+        "show_arrows_navigation": true,
+        "show_pagination": false,
+        "enable_autoplay": true,
+        "autoplay": 5,
+        "animated_caption": false
+      }
+    },
+    "bbd66abd-c63a-42b9-84d1-9bb7e7374a9b": {
+      "type": "d_hero-background-video",
+      "blocks": {
+        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The <strong>Next</strong> Level",
+            "heading_scale": 190
+          }
+        },
+        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unleash the Ultimate Charging Experience!</p>",
+            "enlarge_text": true
+          }
+        },
+        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "info": "",
+            "f_button_label": "Accessories",
+            "f_button_link": "shopify://collections/accessories",
+            "f_button_tier": "secondary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-heading-1",
+        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-text-1",
+        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
+        "section_layout": "full",
+        "embedded_video": "https://youtu.be/Y5Tmf-5fYCQ?si=JsKj9n1JJtwioYOB",
+        "overlay": 65,
+        "image_size": "550px",
+        "mobile_image_size": "650px",
+        "image": "shopify://shop_images/S6e24b8b833be4603a3a3c68ccadf9b02t.webp",
+        "display_desktop_only": false,
+        "use_box": false,
+        "text_position": "center-center",
+        "mobile_offset": false,
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_opacity": 65,
+        "pattern_animation": "none"
+      }
+    },
+    "15b65ea5-36b9-4044-baab-de887f308881": {
+      "type": "d_moving-text",
+      "blocks": {
+        "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping Over $100",
+            "icon": "none",
+            "link": ""
+          }
+        },
+        "001cdebc-882e-4131-bdd3-008b152becf6": {
+          "type": "text",
+          "settings": {
+            "text": "Free 2-day Delivery",
+            "icon": "none",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1",
+        "001cdebc-882e-4131-bdd3-008b152becf6"
       ],
       "settings": {
-        "heading": "",
-        "subheading": "",
-        "collection": "computer-systems",
-        "rows": 3,
-        "show_only_products_in_stock": false,
-        "image_size": 40,
-        "overlay": 10,
-        "image_position": "right",
-        "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
-        "text_position": "top-center",
-        "use_box": false
+        "color_scheme": "main",
+        "text_scale": 80,
+        "stop_on_hover": false,
+        "moving_direction": "normal",
+        "speed_mult": "1",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "bottom"
       }
     },
     "4152f3c4-fce8-4429-bb55-9810434cbea7": {
@@ -159,8 +182,8 @@
         "template--20725112013081__4152f3c4-fce8-4429-bb55-9810434cbea7-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "The <strong>Best</strong> Setup",
-            "heading_scale": 190
+            "heading": "End the Struggle with Pain",
+            "heading_scale": 120
           }
         },
         "template--20725112013081__4152f3c4-fce8-4429-bb55-9810434cbea7-buttons-1": {
@@ -192,292 +215,88 @@
         "pattern_animation": "none"
       }
     },
-    "7520875b-edfb-4e15-8ed5-eaf1cb688212": {
-      "type": "d_shoppable-image",
+    "a9aa1c18-4e1a-4ece-84d1-856cdf4312fe": {
+      "type": "d_featured-collection",
       "blocks": {
-        "template--20725112013081__7520875b-edfb-4e15-8ed5-eaf1cb688212-spot_product-1": {
-          "type": "spot_product",
+        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-products-1": {
+          "type": "products",
           "settings": {
-            "product": "27-inch-desktop-monitor",
-            "coord_x": 51,
-            "coord_y": 50
+            "products_limit": 10,
+            "show_only_products_in_stock": false
           }
         },
-        "05290162-d5e6-4668-b13d-ca2438506194": {
-          "type": "spot_product",
+        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-banner-1": {
+          "type": "banner",
+          "disabled": true,
           "settings": {
-            "product": "bluetooth-headphones",
-            "coord_x": 25,
-            "coord_y": 80
-          }
-        },
-        "c21aaa42-0ba4-4114-8e5e-4e00558d1315": {
-          "type": "spot_product",
-          "settings": {
-            "product": "6-6-inch-smartphone",
-            "coord_x": 33,
-            "coord_y": 72
-          }
-        },
-        "312f13ce-ce8a-412a-841a-5432e2c6cd61": {
-          "type": "spot_product",
-          "settings": {
-            "product": "15-6-inch-gaming-laptop-rtx3080",
-            "coord_x": 75,
-            "coord_y": 74
-          }
-        },
-        "e1c5549a-037e-402d-a7f1-51384002e9a0": {
-          "type": "spot_product",
-          "settings": {
-            "product": "wired-mechanical-keyboard",
-            "coord_x": 50,
-            "coord_y": 87
-          }
-        },
-        "257885fd-6607-4511-b878-b4a63cb2b152": {
-          "type": "spot_product",
-          "settings": {
-            "product": "wireless-bluetooth-mouse",
-            "coord_x": 63,
-            "coord_y": 87
+            "color_scheme": "",
+            "image_overlay": 0,
+            "heading": "{{ section.settings.collection.title }}",
+            "heading_scale": 80,
+            "subheading": "",
+            "button": "Shop All",
+            "button_tier": "primary"
           }
         }
       },
       "block_order": [
-        "template--20725112013081__7520875b-edfb-4e15-8ed5-eaf1cb688212-spot_product-1",
-        "05290162-d5e6-4668-b13d-ca2438506194",
-        "c21aaa42-0ba4-4114-8e5e-4e00558d1315",
-        "312f13ce-ce8a-412a-841a-5432e2c6cd61",
-        "e1c5549a-037e-402d-a7f1-51384002e9a0",
-        "257885fd-6607-4511-b878-b4a63cb2b152"
+        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-products-1",
+        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-banner-1"
       ],
       "settings": {
         "heading": "",
         "subheading": "",
-        "section_layout": "full",
-        "spots_color": "#ffffff",
-        "spots_icon_type": "plus",
-        "show_product_rating": true,
-        "show_product_custom_badges": true,
-        "pattern": "none",
-        "pattern_scale": 100,
-        "pattern_opacity": 65,
-        "pattern_animation": "none"
-      }
-    },
-    "e4db26cf-8ef5-4456-97cb-438cd585272e": {
-      "type": "d_moving-image",
-      "blocks": {
-        "template--15204627546146__e4db26cf-8ef5-4456-97cb-438cd585272e-16871539616b950fd0-0": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "d1af7d17-e15d-4980-80f9-38d0131c2805": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "277aa13b-ea77-4e2b-bda3-2188561d9ec7": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "aaffb194-7b72-4589-a7c8-dc6d0fd17628": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15204627546146__e4db26cf-8ef5-4456-97cb-438cd585272e-16871539616b950fd0-0",
-        "d1af7d17-e15d-4980-80f9-38d0131c2805",
-        "277aa13b-ea77-4e2b-bda3-2188561d9ec7",
-        "aaffb194-7b72-4589-a7c8-dc6d0fd17628"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "invert",
-        "image_height": 120,
-        "stop_on_hover": true,
-        "moving_direction": "normal",
-        "speed_mult": "1",
-        "stacked_layout": false,
-        "pattern": "pattern-bank-note_100",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
+        "collection": "health-care",
+        "slide_every": "row",
+        "slides_per_view": 4,
+        "section_button_label": ""
       }
     },
     "7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df": {
       "type": "d_collection-list",
       "blocks": {
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "monitors",
-            "custom_title": "Monitors"
-          }
-        },
         "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-1": {
           "type": "collection",
           "settings": {
-            "collection": "laptops",
-            "custom_title": "Laptops"
+            "collection": "accessories",
+            "custom_title": "Accessories"
           }
         },
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-2": {
+        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-0": {
           "type": "collection",
           "settings": {
-            "collection": "tvs",
-            "custom_title": "TVs"
+            "collection": "laptop-bags",
+            "custom_title": "Laptop bags"
           }
         },
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-3": {
+        "collection_hqHM4V": {
           "type": "collection",
           "settings": {
-            "collection": "soundbars",
-            "custom_title": "Home Audio"
-          }
-        },
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "cameras",
-            "custom_title": "Digital Cameras"
-          }
-        },
-        "4f2f348e-d129-49a8-a721-dea726be26bf": {
-          "type": "collection",
-          "settings": {
-            "collection": "vr-headsets",
-            "custom_title": "VR Headsets"
-          }
-        },
-        "153f0d5c-f938-4fa7-9bac-ae1cb55819d9": {
-          "type": "collection",
-          "settings": {
-            "collection": "gamepads",
-            "custom_title": "Controllers"
-          }
-        },
-        "52bd8947-a13f-486e-977e-f61f55ce0028": {
-          "type": "collection",
-          "settings": {
-            "collection": "headphones",
-            "custom_title": "Headsets"
-          }
-        },
-        "03274a0b-3bab-4cf6-8718-6f7f10a82b3f": {
-          "type": "collection",
-          "settings": {
-            "collection": "smartwatches",
-            "custom_title": "Smartwatches"
-          }
-        },
-        "9c832333-20c5-4dff-aadd-45e34e850001": {
-          "type": "collection",
-          "settings": {
-            "collection": "graphics-cards",
-            "custom_title": "Components"
-          }
-        },
-        "bec229f0-6e9e-4bfb-8528-6ff3d67b8cac": {
-          "type": "collection",
-          "settings": {
-            "collection": "smartphones",
-            "custom_title": "Smartphones"
-          }
-        },
-        "eac4c5d3-2929-42e8-a553-84f48e301f6f": {
-          "type": "collection",
-          "settings": {
-            "collection": "mice",
-            "custom_title": "Peripherals"
+            "collection": "health-care",
+            "custom_title": ""
           }
         }
       },
       "block_order": [
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-0",
         "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-1",
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-2",
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-3",
-        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-4",
-        "4f2f348e-d129-49a8-a721-dea726be26bf",
-        "153f0d5c-f938-4fa7-9bac-ae1cb55819d9",
-        "52bd8947-a13f-486e-977e-f61f55ce0028",
-        "03274a0b-3bab-4cf6-8718-6f7f10a82b3f",
-        "9c832333-20c5-4dff-aadd-45e34e850001",
-        "bec229f0-6e9e-4bfb-8528-6ff3d67b8cac",
-        "eac4c5d3-2929-42e8-a553-84f48e301f6f"
+        "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-0",
+        "collection_hqHM4V"
       ],
       "settings": {
         "heading": "Featured Categories",
         "subheading": "All Products in One Place",
-        "columns": 6,
+        "columns": 3,
         "section_button_label": ""
-      }
-    },
-    "15b65ea5-36b9-4044-baab-de887f308881": {
-      "type": "d_moving-text",
-      "blocks": {
-        "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Free Shipping Over $100",
-            "icon": "none",
-            "link": ""
-          }
-        },
-        "001cdebc-882e-4131-bdd3-008b152becf6": {
-          "type": "text",
-          "settings": {
-            "text": "Free 2-day Delivery",
-            "icon": "none",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1",
-        "001cdebc-882e-4131-bdd3-008b152becf6"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "text_scale": 140,
-        "stop_on_hover": false,
-        "moving_direction": "normal",
-        "speed_mult": "1",
-        "pattern": "pattern-bubbles_100",
-        "pattern_scale": 100,
-        "pattern_animation": "bottom"
       }
     },
     "44740013-f582-4a84-95bb-7fedd7580f01": {
       "type": "d_hero-image",
       "blocks": {
-        "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-0": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Featured"
-          }
-        },
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-1": {
           "type": "heading",
           "settings": {
-            "heading": "Digital <strong>Cameras</strong>",
-            "heading_scale": 190
-          }
-        },
-        "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Capture Lifes Moments with High-Quality Digital Cameras.</p>",
-            "enlarge_text": false
+            "heading": "Virtual Reality Glasses",
+            "heading_scale": 120
           }
         },
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-3": {
@@ -486,21 +305,22 @@
             "mobile_hidden": false,
             "info": "",
             "f_button_label": "Shop Now",
+            "f_button_link": "shopify://collections/virtual-reality",
             "f_button_tier": "primary",
-            "s_button_label": "Find More",
+            "s_button_label": "",
+            "s_button_link": "",
             "s_button_tier": "link"
           }
         }
       },
       "block_order": [
-        "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-0",
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-1",
-        "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-2",
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-3"
       ],
       "settings": {
         "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
         "section_layout": "full",
+        "image": "shopify://shop_images/young-woman-enjoying-new-technology-vr-glasses_23-2149402436.avif",
         "image_size": "650px",
         "mobile_image_size": "550px",
         "overlay": 15,
@@ -513,6 +333,42 @@
         "mobile_offset": false
       }
     },
+    "d_featured_collection_grid_KXmb7T": {
+      "type": "d_featured-collection-grid",
+      "blocks": {
+        "products_YRbnUm": {
+          "type": "products",
+          "settings": {
+            "show_only_products_in_stock": false
+          }
+        },
+        "banner_DTqgh3": {
+          "type": "banner",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay": 0,
+            "heading": "{{ section.settings.collection.title }}",
+            "heading_scale": 80,
+            "subheading": "Shop All",
+            "button": "Shop All",
+            "button_tier": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "products_YRbnUm",
+        "banner_DTqgh3"
+      ],
+      "name": "Featured collection grid",
+      "settings": {
+        "heading": "Best selling",
+        "subheading": "",
+        "collection": "virtual-reality",
+        "columns": 4,
+        "rows": 3,
+        "section_button_label": ""
+      }
+    },
     "165469275319e90978": {
       "type": "d_gallery",
       "blocks": {
@@ -521,8 +377,10 @@
           "settings": {
             "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
             "span": "6",
+            "image": "shopify://shop_images/FilmprivacyMacBookPro.jpg",
             "image_overlay": 36,
             "text_position": "bottom-left",
+            "link": "shopify://products/film-privacy-macbook-air-13-m1-finition-mate-pose-magnetique-vision-confidentielle",
             "heading": "Laptops",
             "subheading": "",
             "text": "Unlock Limitless Possibilities with High-Performance Laptops.",
@@ -534,8 +392,10 @@
           "settings": {
             "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
             "span": "6",
+            "image": "shopify://shop_images/0711719598558_I10.jpg",
             "image_overlay": 36,
-            "text_position": "center-center",
+            "text_position": "bottom-left",
+            "link": "shopify://products/gaming-headset-with-microphone-sony-pulse-elite-white",
             "heading": "Headphones",
             "subheading": "",
             "text": "Discover a New Level of Audio Immersion with Our Premium Headphones.",
@@ -545,11 +405,13 @@
         "fbeb17e9-dbcc-42b9-bd81-82f0b552ac11": {
           "type": "gallery_item",
           "settings": {
-            "color_scheme": "main",
+            "color_scheme": "accent",
             "span": "4",
-            "image_overlay": 0,
+            "image": "shopify://shop_images/5051794021967_I02.jpg",
+            "image_overlay": 80,
             "text_position": "bottom-center",
-            "heading": "Smartwatches",
+            "link": "shopify://collections/laptop-bags",
+            "heading": "Laptop Bags",
             "subheading": "",
             "text": "Experience the Power of Smartwatches for Efficient Time Management.",
             "button_label": "Find more"
@@ -558,11 +420,14 @@
         "6eb76a81-b285-46e6-aae2-d96297973bef": {
           "type": "gallery_item",
           "settings": {
-            "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
+            "color_scheme": "accent",
             "span": "4",
-            "image_overlay": 36,
+            "image": "shopify://shop_images/S5f57e558d491438a84898777a4f8e3ff6_1681e4c7-b302-46b0-a5f1-00c86810e4a5.webp",
+            "alt_image": "shopify://shop_images/Magcubic-HY320-Mini-Newly-Native-720P-Android-11-4K-Projector-300ANSI-Wifi6-BT5-0-Cinema-Outdoor_9e2529b2-8cd5-49ed-93cf-35dc45ec7d14.webp",
+            "image_overlay": 80,
             "text_position": "bottom-center",
-            "heading": "Gaming",
+            "link": "shopify://collections/sports-equipments-and-devices",
+            "heading": "Sports Equipments",
             "subheading": "",
             "text": "Unleash Your Gaming Potential with Cutting-Edge Technology.",
             "button_label": "Find more"
@@ -571,11 +436,13 @@
         "95c1ad85-2f0f-4cc6-b65a-6d163b293706": {
           "type": "gallery_item",
           "settings": {
-            "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
+            "color_scheme": "accent",
             "span": "4",
-            "image_overlay": 0,
-            "text_position": "top-right",
-            "heading": "VR",
+            "image": "shopify://shop_images/image.webp",
+            "image_overlay": 80,
+            "text_position": "bottom-center",
+            "link": "shopify://collections/virtual-reality",
+            "heading": "Virtual Reality",
             "subheading": "",
             "text": "Explore the Boundless Possibilities of VR Technology.",
             "button_label": "Find more"
@@ -630,117 +497,12 @@
         "165469277996cce953-1"
       ],
       "settings": {
-        "heading": "💻 Best Selling Laptops",
-        "subheading": "Portability meets Power",
-        "collection": "laptops",
+        "heading": "Laptop Bags",
+        "subheading": "",
+        "collection": "laptop-bags",
         "slide_every": "row",
-        "slides_per_view": 5,
+        "slides_per_view": 4,
         "section_button_label": ""
-      }
-    },
-    "bbd66abd-c63a-42b9-84d1-9bb7e7374a9b": {
-      "type": "d_hero-background-video",
-      "blocks": {
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Player Ready"
-          }
-        },
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "The <strong>Next</strong> Level",
-            "heading_scale": 190
-          }
-        },
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Unleash the Ultimate Gaming Experience!</p>",
-            "enlarge_text": true
-          }
-        },
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "mobile_hidden": false,
-            "info": "Demo video by Unreal Engine™",
-            "f_button_label": "Components",
-            "f_button_tier": "secondary",
-            "s_button_label": "Accessories",
-            "s_button_tier": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-subheading-1",
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-heading-1",
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-text-1",
-        "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-buttons-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
-        "section_layout": "full",
-        "embedded_video": "https://www.youtube.com/watch?v=bJPxq6QogKE&ab_channel=UnrealEngine",
-        "overlay": 65,
-        "image_size": "550px",
-        "mobile_image_size": "650px",
-        "display_desktop_only": false,
-        "use_box": false,
-        "text_position": "center-center",
-        "mobile_offset": false,
-        "pattern": "none",
-        "pattern_scale": 100,
-        "pattern_opacity": 65,
-        "pattern_animation": "none"
-      }
-    },
-    "7492d593-6a53-49f8-bcbe-1ae9192d049a": {
-      "type": "d_stacked-images-with-text",
-      "blocks": {
-        "template--15204627546146__7492d593-6a53-49f8-bcbe-1ae9192d049a-1687153484ddc55cb6-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Made for <strong>Pros</strong>",
-            "heading_scale": 195
-          }
-        },
-        "template--15204627546146__7492d593-6a53-49f8-bcbe-1ae9192d049a-1687153484ddc55cb6-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Discover Professional-Grade Tools and Equipment for Every Industry.</p>",
-            "enlarge_text": true
-          }
-        },
-        "template--15204627546146__7492d593-6a53-49f8-bcbe-1ae9192d049a-1687153484ddc55cb6-3": {
-          "type": "buttons",
-          "settings": {
-            "info": "",
-            "f_button_label": "Shop Now",
-            "f_button_tier": "primary",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_tier": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "template--15204627546146__7492d593-6a53-49f8-bcbe-1ae9192d049a-1687153484ddc55cb6-1",
-        "template--15204627546146__7492d593-6a53-49f8-bcbe-1ae9192d049a-1687153484ddc55cb6-2",
-        "template--15204627546146__7492d593-6a53-49f8-bcbe-1ae9192d049a-1687153484ddc55cb6-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-e103ec40-a79c-4694-84a6-946a9fab9517",
-        "section_width": 90,
-        "blur_secondary_image": false,
-        "image_position": "right",
-        "text_position": "center-left",
-        "media_width": 55,
-        "pattern": "pattern-topography_600",
-        "pattern_scale": 120,
-        "pattern_animation": "none"
       }
     },
     "d_images_collage_with_text_M3WFUU": {
@@ -749,6 +511,7 @@
         "image_6km3x3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/d4e83b6c-f2c2-11ed-8efc-0a580a69716d.jpg",
             "image_width": 32,
             "coord_x": 4,
             "coord_y": 97
@@ -757,6 +520,7 @@
         "image_k4xWHV": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/4nPEezQ9j3xyj5wpYEsfa5.jpg",
             "image_width": 20,
             "coord_x": 5,
             "coord_y": 38
@@ -765,6 +529,7 @@
         "image_4LgYVQ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/588a3548-e978-424a-85f1-b9766fe53083_800x800_b1a2e747-a6e4-4b36-b367-4565410c554f.jpg",
             "image_width": 55,
             "coord_x": 50,
             "coord_y": 50
@@ -773,6 +538,7 @@
         "image_Um8rXe": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/217303bb37550e1d83b4f93ebe043768.jpg",
             "image_width": 25,
             "coord_x": 100,
             "coord_y": 4
@@ -781,6 +547,7 @@
         "image_PV9R9P": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/fc63b8ce80580c2c542efe494d4cdebd.jpg",
             "image_width": 20,
             "coord_x": 87,
             "coord_y": 100
@@ -800,7 +567,7 @@
         "collage_width": 60,
         "collage_position": "right",
         "heading": "Made for <strong>Pros</strong>",
-        "heading_scale": 215,
+        "heading_scale": 120,
         "subheading": "",
         "text": "<p>Discover Professional-Grade Tools and Equipment for Every Industry.</p>",
         "text_position": "center-left",
@@ -810,373 +577,6 @@
         "pattern": "pattern-topography_600",
         "pattern_scale": 120,
         "pattern_animation": "none"
-      }
-    },
-    "d_images_collage_with_text_RYyXUj": {
-      "type": "d_images-collage-with-text",
-      "blocks": {
-        "image_FnxnBm": {
-          "type": "image",
-          "settings": {
-            "image_width": 42,
-            "coord_x": 50,
-            "coord_y": 50
-          }
-        },
-        "image_AFhBep": {
-          "type": "image",
-          "settings": {
-            "image_width": 38,
-            "coord_x": 100,
-            "coord_y": 16
-          }
-        },
-        "image_WF7tbL": {
-          "type": "image",
-          "settings": {
-            "image_width": 48,
-            "coord_x": 0,
-            "coord_y": 0
-          }
-        },
-        "image_PAi7Pp": {
-          "type": "image",
-          "settings": {
-            "image_width": 42,
-            "coord_x": 88,
-            "coord_y": 100
-          }
-        },
-        "image_xNRfcb": {
-          "type": "image",
-          "settings": {
-            "image_width": 37,
-            "coord_x": 4,
-            "coord_y": 82
-          }
-        }
-      },
-      "block_order": [
-        "image_FnxnBm",
-        "image_AFhBep",
-        "image_WF7tbL",
-        "image_PAi7Pp",
-        "image_xNRfcb"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-e103ec40-a79c-4694-84a6-946a9fab9517",
-        "section_width": 95,
-        "collage_width": 47,
-        "collage_position": "left",
-        "heading": "<strong>Easier </strong>Than <strong>Ever</strong>",
-        "heading_scale": 170,
-        "subheading": "",
-        "text": "<p>Discover Professional-Grade Tools and Equipment for Every Industry.</p>",
-        "text_position": "center-center",
-        "f_button_label": "Shop All",
-        "f_button_link": "",
-        "f_button_tier": "primary",
-        "pattern": "pattern-topography_600",
-        "pattern_scale": 120,
-        "pattern_animation": "none"
-      }
-    },
-    "a9aa1c18-4e1a-4ece-84d1-856cdf4312fe": {
-      "type": "d_featured-collection",
-      "blocks": {
-        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-products-1": {
-          "type": "products",
-          "settings": {
-            "products_limit": 10,
-            "show_only_products_in_stock": false
-          }
-        },
-        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-banner-1": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "",
-            "image_overlay": 0,
-            "heading": "{{ section.settings.collection.title }}",
-            "heading_scale": 80,
-            "subheading": "",
-            "button": "Shop All",
-            "button_tier": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-products-1",
-        "template--20396371149104__a9aa1c18-4e1a-4ece-84d1-856cdf4312fe-banner-1"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "collection": "for-pros",
-        "slide_every": "row",
-        "slides_per_view": 5,
-        "section_button_label": ""
-      }
-    },
-    "16546932831bf3fc14": {
-      "type": "d_featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "Featured blog",
-        "subheading": "",
-        "blog": "",
-        "show_date": true,
-        "show_author": false,
-        "tags_display": "first",
-        "image_size": "square",
-        "slide_every": "row",
-        "slides_per_view": 4,
-        "articles_limit": 6,
-        "section_button_label": ""
-      }
-    },
-    "3f3e5cde-e893-4049-9a33-d729a42c9523": {
-      "type": "d_video-popup-with-text",
-      "blocks": {
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-0": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Subheading"
-          }
-        },
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video popup with text heading",
-            "heading_scale": 120
-          }
-        },
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Give customers details about the hero image or content on the template.</p>",
-            "enlarge_text": false
-          }
-        },
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-3": {
-          "type": "buttons",
-          "settings": {
-            "info": "",
-            "f_button_label": "Shop now",
-            "f_button_link": "",
-            "f_button_tier": "primary",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_tier": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-0",
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-1",
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-2",
-        "template--15204627546146__3f3e5cde-e893-4049-9a33-d729a42c9523-168715408252428fab-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "section_layout": "full",
-        "embedded_video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "autoplay": true,
-        "image_size": "450px",
-        "mobile_image_size": "origin",
-        "image_width": 50,
-        "image_position": "left",
-        "text_position": "center-center",
-        "pattern": "pattern-formal-invitation_100",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
-      }
-    },
-    "16546927101b0880bc": {
-      "type": "d_icon-features",
-      "blocks": {
-        "1654692710a4251b56-0": {
-          "type": "feature",
-          "settings": {
-            "icon": "star",
-            "crop_image": true,
-            "heading": "Feature",
-            "text": "Feature text",
-            "link": ""
-          }
-        },
-        "1654692710a4251b56-1": {
-          "type": "feature",
-          "settings": {
-            "icon": "star",
-            "crop_image": true,
-            "heading": "Feature",
-            "text": "Feature text",
-            "link": ""
-          }
-        },
-        "1654692710a4251b56-2": {
-          "type": "feature",
-          "settings": {
-            "icon": "star",
-            "crop_image": true,
-            "heading": "Feature",
-            "text": "Feature text",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1654692710a4251b56-0",
-        "1654692710a4251b56-1",
-        "1654692710a4251b56-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "invert",
-        "section_text_align": "left",
-        "pattern": "pattern-wiggle_52",
-        "pattern_scale": 100,
-        "pattern_animation": "none",
-        "enable_round_media": false,
-        "media_size": 35,
-        "heading_scale": 55
-      }
-    },
-    "1c66042b-0a96-416a-bd0e-308a579e5b44": {
-      "type": "d_hero-image",
-      "blocks": {
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Score Big Savings on All Your Favorites"
-          }
-        },
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Don't Miss the Deal",
-            "heading_scale": 140
-          }
-        },
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Score Big Savings on All Your Favorites </p>",
-            "enlarge_text": false
-          }
-        },
-        "10042875-7719-43ee-83fd-bbc30b0cdda8": {
-          "type": "timer",
-          "settings": {
-            "date": "06-25-2025",
-            "hide_on_complete": false
-          }
-        },
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "mobile_hidden": false,
-            "info": "*Cannot be combined with any other offer",
-            "f_button_label": "Shop Deals",
-            "f_button_tier": "secondary",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_tier": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-subheading-1",
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-heading-1",
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-text-1",
-        "10042875-7719-43ee-83fd-bbc30b0cdda8",
-        "template--20396371149104__1c66042b-0a96-416a-bd0e-308a579e5b44-buttons-1"
-      ],
-      "settings": {
-        "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
-        "section_layout": "full",
-        "image_size": "650px",
-        "mobile_image_size": "origin",
-        "overlay": 0,
-        "pattern": "pattern-graph-paper_100",
-        "pattern_scale": 100,
-        "pattern_opacity": 11,
-        "pattern_animation": "none",
-        "use_box": true,
-        "text_position": "center-left",
-        "mobile_offset": true
-      }
-    },
-    "920a2283-c821-4d2b-a703-a71fe99ba983": {
-      "type": "d_image-columns-slider",
-      "blocks": {
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-2": {
-          "type": "column",
-          "settings": {
-            "heading": "Gamers",
-            "subheading": "",
-            "text": "Unlock Your Full Gaming Potential with Top-Notch Equipment.",
-            "button_label": ""
-          }
-        },
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-3": {
-          "type": "column",
-          "settings": {
-            "heading": "Work",
-            "subheading": "",
-            "text": "Create a Professional Workspace with Quality Office Supplies.",
-            "button_label": ""
-          }
-        },
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-1": {
-          "type": "column",
-          "settings": {
-            "heading": "Creatives",
-            "subheading": "",
-            "text": "Discover the Perfect Tools to Fuel Your Creative Journey.",
-            "button_label": ""
-          }
-        },
-        "9305cc2c-69f6-4ee1-89c4-f9ca045ca2fc": {
-          "type": "column",
-          "settings": {
-            "heading": "Pros",
-            "subheading": "",
-            "text": "Elevate Your Professional Game with Our Top-Notch Products.",
-            "button_label": ""
-          }
-        },
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-4": {
-          "type": "column",
-          "settings": {
-            "heading": "Home",
-            "subheading": "",
-            "text": "Transform Your Home with the Latest Tech Innovations.",
-            "button_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-2",
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-3",
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-1",
-        "9305cc2c-69f6-4ee1-89c4-f9ca045ca2fc",
-        "template--20396371149104__920a2283-c821-4d2b-a703-a71fe99ba983-column-4"
-      ],
-      "settings": {
-        "heading": "Explore our Collections",
-        "subheading": "Everything You Need",
-        "slide_every": "row",
-        "slides_per_view": 4,
-        "heading_scale": 50,
-        "enlarge_text": false,
-        "image_size": "portrait",
-        "align_blocks_height": true,
-        "button_tier": "primary"
       }
     },
     "a9c69136-4e22-4bd5-927f-d1dd9081a18a": {
@@ -1192,7 +592,7 @@
           "type": "heading",
           "settings": {
             "heading": "Newsletter",
-            "heading_scale": 180
+            "heading_scale": 120
           }
         },
         "template--20725112013081__a9c69136-4e22-4bd5-927f-d1dd9081a18a-newsletter_form-1": {
@@ -1208,143 +608,17 @@
       "settings": {
         "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
         "section_layout": "full",
+        "image": "shopify://shop_images/New-Wireless-Lavalier-Microphone-Portable-Audio-Video-Recording-Mini-Mic-for-iPhone-Android-Live-Broadcast-Gaming_e2b4f0ce-96ec-4628-b5bd-800f9b93a031.webp",
         "image_size": "450px",
         "mobile_image_size": "origin",
-        "overlay": 45,
+        "overlay": 50,
         "use_box": false,
         "text_position": "center-center",
         "mobile_offset": false,
         "pattern": "pattern-bubbles_100",
         "pattern_scale": 100,
-        "pattern_opacity": 13,
+        "pattern_opacity": 5,
         "pattern_animation": "top"
-      }
-    },
-    "b0d5dd21-a9ea-4105-9c38-6fae9859eec8": {
-      "type": "d_featured-blog",
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "blog": "news",
-        "show_date": true,
-        "show_author": false,
-        "tags_display": "first",
-        "image_size": "square",
-        "slide_every": "row",
-        "slides_per_view": 4,
-        "articles_limit": 6,
-        "section_button_label": ""
-      }
-    },
-    "fa864932-c6b7-4fa1-adec-271b57d1349b": {
-      "type": "d_product-promotion",
-      "blocks": {
-        "template--20862087201049__fa864932-c6b7-4fa1-adec-271b57d1349b-info-1": {
-          "type": "info",
-          "settings": {
-            "image_margin": true,
-            "show_reviews": true
-          }
-        },
-        "template--20862087201049__fa864932-c6b7-4fa1-adec-271b57d1349b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Don't miss out on this deal",
-            "heading_scale": 100,
-            "subheading": ""
-          }
-        },
-        "template--20862087201049__fa864932-c6b7-4fa1-adec-271b57d1349b-countdown-1": {
-          "type": "countdown",
-          "settings": {
-            "heading": "",
-            "date": "08-09-2024"
-          }
-        }
-      },
-      "block_order": [
-        "template--20862087201049__fa864932-c6b7-4fa1-adec-271b57d1349b-info-1",
-        "template--20862087201049__fa864932-c6b7-4fa1-adec-271b57d1349b-heading-1",
-        "template--20862087201049__fa864932-c6b7-4fa1-adec-271b57d1349b-countdown-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "product": "",
-        "pattern": "none",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
-      }
-    },
-    "f7743768-41af-41db-93f7-b2d80a764925": {
-      "type": "d_testimonials",
-      "blocks": {
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Author",
-            "heading": "Heading",
-            "text": "Review or testimonial text",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Author",
-            "heading": "Heading",
-            "text": "Review or testimonial text",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Author",
-            "heading": "Heading",
-            "text": "Review or testimonial text",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-4": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Author",
-            "heading": "Heading",
-            "text": "Review or testimonial text",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "bcfb7e8b-70a1-448b-9304-8a3bfb8ae628": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Author",
-            "heading": "Heading",
-            "text": "Review or testimonial text",
-            "star_count": "5",
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-1",
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-2",
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-3",
-        "template--20867772514585__f7743768-41af-41db-93f7-b2d80a764925-testimonial-4",
-        "bcfb7e8b-70a1-448b-9304-8a3bfb8ae628"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Testimonials4",
-        "subheading": "",
-        "slides_per_view": 4,
-        "show_stars": true,
-        "section_button_label": "",
-        "section_button_link": ""
       }
     },
     "d_moving_testimonials_dPpCPk": {
@@ -1355,7 +629,7 @@
           "settings": {
             "author_name": "Alice J.",
             "heading": "My best choice!",
-            "text": "",
+            "text": "\"Good Quality product with good performance. Easy to use.\"\nVery happy with this charger. Works perfectly for my phone, watch and earbuds. No complaints.",
             "star_count": "5",
             "product": ""
           }
@@ -1365,7 +639,7 @@
           "settings": {
             "author_name": "Fabio W.",
             "heading": "Really great deal!",
-            "text": "",
+            "text": "\"Excellent product. Charges all devices at once.\"\nGreat quality and very convenient. Easy to set up. Charges everything smoothly. Recommended.",
             "star_count": "5",
             "product": ""
           }
@@ -1375,7 +649,7 @@
           "settings": {
             "author_name": "Michael T.",
             "heading": "Amazing quality",
-            "text": "",
+            "text": "\"Nice design. Works well.\"\nGood charging station. Phone charges in any position. Little bit slow but okay for overnight. Easy to use.",
             "star_count": "5",
             "product": ""
           }
@@ -1385,7 +659,7 @@
           "settings": {
             "author_name": "Artur S.",
             "heading": "That's what i was looking for",
-            "text": "",
+            "text": "\"Perfect for daily use. Good quality.\"\nDoes the job perfectly. All three devices charge at same time. Very easy and convenient. Worth buying.",
             "star_count": "5",
             "product": ""
           }
@@ -1395,7 +669,7 @@
           "settings": {
             "author_name": "Veronika H.",
             "heading": "Very nice design",
-            "text": "",
+            "text": "\"Great product. Very practical.\"\nCharges phone, watch and AirPods together. Good performance. Easy to place devices. No issues so far.",
             "star_count": "5",
             "product": ""
           }
@@ -1422,30 +696,18 @@
     }
   },
   "order": [
-    "d5887403-0b8d-487c-a9e7-7bd2378b1180",
-    "aae7ff7e-1862-49ab-97e4-76059580ccb7",
-    "4152f3c4-fce8-4429-bb55-9810434cbea7",
-    "7520875b-edfb-4e15-8ed5-eaf1cb688212",
-    "e4db26cf-8ef5-4456-97cb-438cd585272e",
-    "7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df",
+    "d_image_with_text_slideshow_Hrybxq",
+    "bbd66abd-c63a-42b9-84d1-9bb7e7374a9b",
     "15b65ea5-36b9-4044-baab-de887f308881",
+    "4152f3c4-fce8-4429-bb55-9810434cbea7",
+    "a9aa1c18-4e1a-4ece-84d1-856cdf4312fe",
+    "7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df",
     "44740013-f582-4a84-95bb-7fedd7580f01",
+    "d_featured_collection_grid_KXmb7T",
     "165469275319e90978",
     "1654692779f62752bf",
-    "bbd66abd-c63a-42b9-84d1-9bb7e7374a9b",
-    "7492d593-6a53-49f8-bcbe-1ae9192d049a",
     "d_images_collage_with_text_M3WFUU",
-    "d_images_collage_with_text_RYyXUj",
-    "a9aa1c18-4e1a-4ece-84d1-856cdf4312fe",
-    "16546932831bf3fc14",
-    "3f3e5cde-e893-4049-9a33-d729a42c9523",
-    "16546927101b0880bc",
-    "1c66042b-0a96-416a-bd0e-308a579e5b44",
-    "920a2283-c821-4d2b-a703-a71fe99ba983",
     "a9c69136-4e22-4bd5-927f-d1dd9081a18a",
-    "b0d5dd21-a9ea-4105-9c38-6fae9859eec8",
-    "fa864932-c6b7-4fa1-adec-271b57d1349b",
-    "f7743768-41af-41db-93f7-b2d80a764925",
     "d_moving_testimonials_dPpCPk"
   ]
 }

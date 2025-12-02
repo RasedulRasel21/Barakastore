@@ -76,6 +76,7 @@
   display: block;
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 .\#header-toolbar {
   display: flex;

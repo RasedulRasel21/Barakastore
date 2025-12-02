@@ -1,0 +1,1094 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1649081791eb3a0c3d": {
+      "type": "d_promo-banner",
+      "blocks": {
+        "10fdd41f-2315-41d6-9635-dd0c3a78ad9c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get an Extra $10 off",
+            "heading_scale": 100,
+            "subheading": ""
+          }
+        },
+        "11c282eb-3e60-4199-a1a1-3cda519388da": {
+          "type": "timer",
+          "settings": {
+            "date": "12-15-2025",
+            "hide_on_complete": false
+          }
+        },
+        "1801d392-ba0e-494e-8b63-0ccbceb07137": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>When you spend $100 or more on clearance items</p>"
+          }
+        },
+        "29095ef3-e037-48ac-a925-11a52cbedbd1": {
+          "type": "button",
+          "settings": {
+            "mobile_hidden": false,
+            "label": "Use Code: GET10",
+            "link": "",
+            "tier": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "10fdd41f-2315-41d6-9635-dd0c3a78ad9c",
+        "11c282eb-3e60-4199-a1a1-3cda519388da",
+        "1801d392-ba0e-494e-8b63-0ccbceb07137",
+        "29095ef3-e037-48ac-a925-11a52cbedbd1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
+        "section_layout": "full",
+        "desktop_text_align": "space-between",
+        "link": "",
+        "pattern": "pattern-wiggle_52",
+        "pattern_scale": 160,
+        "pattern_opacity": 65,
+        "pattern_animation": "bottom-right"
+      }
+    },
+    "main": {
+      "type": "s_product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_scale": 100,
+            "enable_text_truncation": false,
+            "max_lines": 3,
+            "badges_display": "before",
+            "show_low_stock": false,
+            "badges_scale": 100,
+            "prev_attach": false
+          }
+        },
+        "9c180697-4c38-4cd5-9d94-b3c03c77e714": {
+          "type": "rating",
+          "settings": {
+            "show_count": true,
+            "prev_attach": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "text_scale": 200,
+            "bold_text": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "db834cde-9204-4d36-b1e7-26c7fddc78c2": {
+          "type": "countdown",
+          "settings": {
+            "meta_heading": "Sale ends in:",
+            "text_scale": 175,
+            "use_sale_price_color": true,
+            "prev_attach": true
+          }
+        },
+        "7e37f69f-d0e7-4b32-801c-81c63db85c51": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "swatch",
+            "show_variant_image": "colors",
+            "color_swatches": false,
+            "price_display": "diff",
+            "swatches_grid_columns": "2",
+            "show_stock_alert": false,
+            "prev_attach": false
+          }
+        },
+        "36262d9b-9d82-451a-86c7-53a5fba4ed9c": {
+          "type": "product_options_list",
+          "settings": {
+            "show_sku": false,
+            "enable_sorting": true,
+            "enable_stock_sort": true,
+            "prev_attach": true
+          }
+        },
+        "stock_alert": {
+          "type": "stock_alert",
+          "settings": {
+            "actual_inventory": false,
+            "prev_attach": false
+          }
+        },
+        "dabcb986-093f-4262-ab8a-50e5c7833b64": {
+          "type": "buy_with",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "prev_attach": false
+          }
+        },
+        "buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_stock_notifier": true,
+            "show_payment_methods": true,
+            "show_gift_card_recipient": false,
+            "prev_attach": false
+          }
+        },
+        "065925bb-103a-456d-9b2c-a27d1df6a5d8": {
+          "type": "specs",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "Specifications",
+            "specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
+            "prev_attach": false
+          }
+        },
+        "compare_checkbox_nKcEEA": {
+          "type": "compare_checkbox",
+          "disabled": true,
+          "settings": {
+            "label": "Add to Compare List",
+            "prev_attach": false
+          }
+        },
+        "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
+          "type": "collapsible_tab_text",
+          "settings": {
+            "heading": "Shipping information",
+            "icon": "info",
+            "content": "<p>We offer fast and reliable shipping options to ensure that your order arrives in a timely manner. Our dedicated team works diligently to process and ship your items as quickly as possible.</p><p>Here are some key points to note about our shipping policy:</p><ul><li>We offer free shipping on all orders over $50 within the United States.</li><li>For orders under $50, a flat shipping fee of $5 will be applied.</li><li>We also provide international shipping options for our customers outside of the United States. Shipping fees may vary depending on the destination.</li><li>Once your order has been shipped, you will receive a confirmation email with tracking information, allowing you to easily monitor the progress of your delivery.</li></ul>",
+            "prev_attach": false
+          }
+        },
+        "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0": {
+          "type": "collapsible_tab_question",
+          "settings": {
+            "heading": "Have a question?",
+            "icon": "mail",
+            "prev_attach": false
+          }
+        },
+        "16a22540-baae-4510-8eae-93a395bbdc7e": {
+          "type": "share",
+          "settings": {
+            "meta_heading": "Share this product",
+            "use_colors": true,
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "9c180697-4c38-4cd5-9d94-b3c03c77e714",
+        "price",
+        "db834cde-9204-4d36-b1e7-26c7fddc78c2",
+        "7e37f69f-d0e7-4b32-801c-81c63db85c51",
+        "36262d9b-9d82-451a-86c7-53a5fba4ed9c",
+        "stock_alert",
+        "dabcb986-093f-4262-ab8a-50e5c7833b64",
+        "buttons",
+        "065925bb-103a-456d-9b2c-a27d1df6a5d8",
+        "compare_checkbox_nKcEEA",
+        "a685ac79-30ea-4b8b-83c6-58c2d92e8d88",
+        "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0",
+        "16a22540-baae-4510-8eae-93a395bbdc7e"
+      ],
+      "settings": {
+        "layout": "default",
+        "use_surface_color_for_bg": true,
+        "show_divider": true,
+        "use_images_set": false,
+        "gallery_type": "slideshow",
+        "gallery_position": "left",
+        "gallery_width": 64,
+        "enable_image_zoom": true,
+        "autoplay_video": false,
+        "image_expand": true,
+        "sticky_add_to_cart": true,
+        "sticky_add_to_cart_position": "bottom",
+        "enable_share_button": false,
+        "use_brand_colors": true,
+        "show_product_specs": true,
+        "product_specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
+        "specs_use_expand": false,
+        "show_product_bundle": true,
+        "product_bundle_heading": "Buy together & save",
+        "product_bundle_variant_selector": false
+      }
+    },
+    "fd8ca66b-95a5-4125-a6c0-04faf9d13788": {
+      "type": "d_background-video-with-text",
+      "blocks": {
+        "21094e2a-81da-403e-bf41-cd12ed7f8019": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "rocket",
+            "icon_scale": 180
+          }
+        },
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Featured"
+          }
+        },
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Ready",
+            "heading_scale": 210
+          }
+        },
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock Your Ultimate Performance Potential with Cutting-Edge Technology.</p>",
+            "enlarge_text": false
+          }
+        },
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "Find More",
+            "f_button_link": "",
+            "f_button_tier": "secondary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "21094e2a-81da-403e-bf41-cd12ed7f8019",
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-subheading-1",
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-heading-1",
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1",
+        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
+        "section_layout": "container",
+        "embedded_video": "https://youtu.be/1w0OQHsMkac?si=HC1hHw3kRwDADCi_",
+        "image_size": "550px",
+        "mobile_image_size": "origin",
+        "image": "shopify://shop_images/S6e24b8b833be4603a3a3c68ccadf9b02t.webp",
+        "display_desktop_only": false,
+        "image_width": 50,
+        "image_position": "left",
+        "text_position": "bottom-left",
+        "pattern": "pattern-topography_600",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "a3ffaaa1-8a74-4dca-a668-d574b867228f": {
+      "type": "d_accordion-with-images",
+      "blocks": {
+        "item_g3MWVg": {
+          "type": "item",
+          "settings": {
+            "heading": "Collapsible heading",
+            "icon": "none",
+            "text": "<p>Collapsible content</p>",
+            "image": "shopify://shop_images/87.webp"
+          }
+        },
+        "4c199312-8929-490f-ad36-58e9fde88d8f": {
+          "type": "item",
+          "settings": {
+            "heading": "Top Grade Components",
+            "icon": "none",
+            "text": "<p>Choose from a wide range of top-notch parts.</p>",
+            "image": "shopify://shop_images/2-2.jpg"
+          }
+        },
+        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "Stunning Visuals",
+            "icon": "none",
+            "text": "<p>Breathtaking Imagery Immerse yourself in the awe-inspiring imagery</p>",
+            "image": "shopify://shop_images/0711719598558_I10.jpg"
+          }
+        },
+        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2": {
+          "type": "item",
+          "settings": {
+            "heading": "Unbeatable Performance",
+            "icon": "none",
+            "text": "<p>Achieve superior performance with our top-of-the-line products, backed by scientific research and expert recommendations.</p>",
+            "image": "shopify://shop_images/S8a0ffe7d6ca74fb78c0e33584e08ee16F.webp"
+          }
+        },
+        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-3": {
+          "type": "item",
+          "settings": {
+            "heading": "Exceptional Quality",
+            "icon": "none",
+            "text": "<p>Ensure that all products meet our superior standards of quality and performance, providing our customers with the best possible experience.</p>",
+            "image": "shopify://shop_images/d8003382-dbaf-4414-b0d7-d6b8b3cb553d.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_g3MWVg",
+        "4c199312-8929-490f-ad36-58e9fde88d8f",
+        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1",
+        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2",
+        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-4aaf3b82-8d8c-414f-aaf0-3b2f457f982b",
+        "heading": "Your Superpower",
+        "subheading": "",
+        "heading_position": "inside",
+        "section_layout": "container",
+        "image_size": "650px",
+        "mobile_image_size": "350px",
+        "image_width": 50,
+        "image_position": "right",
+        "pattern": "pattern-diagonal-lines_6",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "85a0ac6a-88e2-441d-9f20-a9024da7875a": {
+      "type": "d_testimonials",
+      "blocks": {
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Alice J.",
+            "heading": "My best choice!",
+            "text": "\"Good value. Works as described.\"\nNice quality product. Charges everything properly. Can use phone while charging. Easy to use. Happy with purchase.",
+            "star_count": "5",
+            "product": ""
+          }
+        },
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Fabio W.",
+            "heading": "Really great deal!",
+            "text": "\"Highly recommended. Good build quality.\"\nExcellent charging pad. Very easy to use. Phone charges in any direction. Good performance overall.",
+            "star_count": "5",
+            "product": ""
+          }
+        },
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Michael T.",
+            "heading": "Amazing quality",
+            "text": "\"Very convenient. Good product.\"\nWorks great for all my devices. Easy setup. Good charging speed. Quality is nice. No problems.",
+            "star_count": "5",
+            "product": ""
+          }
+        },
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Artur S.",
+            "heading": "That's what I was looking for",
+            "text": "\"Solid product. Does what it claims.\"\nGood quality charger. Easy to use daily. Phone and watch charge well. Worth the money.",
+            "star_count": "5",
+            "product": ""
+          }
+        },
+        "a6d1a922-cc6d-4fe0-b506-2f0c08eb82a4": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Veronika H.",
+            "heading": "Very nice design",
+            "text": "",
+            "star_count": "5",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-1",
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-4",
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-2",
+        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-3",
+        "a6d1a922-cc6d-4fe0-b506-2f0c08eb82a4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "What Our Customers Think",
+        "subheading": "",
+        "slides_per_view": 3,
+        "show_stars": true,
+        "section_button_label": "",
+        "section_button_link": ""
+      }
+    },
+    "1655475777b1187173": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "16554757779f91ab44-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "16554757779f91ab44-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text heading",
+            "heading_scale": 120
+          }
+        },
+        "16554757779f91ab44-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the hero image or content on the template.</p>",
+            "enlarge_text": false
+          }
+        },
+        "16554757779f91ab44-3": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "16554757779f91ab44-0",
+        "16554757779f91ab44-1",
+        "16554757779f91ab44-2",
+        "16554757779f91ab44-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "section_layout": "container",
+        "image_size": "450px",
+        "mobile_image_size": "origin",
+        "image_width": 50,
+        "image_position": "left",
+        "text_position": "center-center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "trust_badges_custom_BTMF4B": {
+      "type": "trust-badges-custom",
+      "blocks": {
+        "badge_yCpFrm": {
+          "type": "badge",
+          "settings": {
+            "icon_image": "shopify://shop_images/English.avif",
+            "icon_type": "guarantee",
+            "days_text": "90",
+            "days_label": "DAYS",
+            "title": "RESULTS OR MONEY BACK GUARANTEE",
+            "description": "If you're not absolutely thrilled with the Knee Relief Massager, we don't want your money. No hassles, no questions asked."
+          }
+        },
+        "badge_nk7WC9": {
+          "type": "badge",
+          "settings": {
+            "icon_image": "shopify://shop_images/English___11.avif",
+            "icon_type": "shipping",
+            "days_text": "90",
+            "days_label": "DAYS",
+            "title": "FREE SHIPPING",
+            "description": "We offer free shipping & handling on all orders."
+          }
+        },
+        "badge_RAjFrz": {
+          "type": "badge",
+          "settings": {
+            "icon_image": "shopify://shop_images/Add_a_subheading_20240505_000430_0000__1.avif",
+            "icon_type": "quality",
+            "days_text": "90",
+            "days_label": "DAYS",
+            "title": "GUARANTEED HIGH QUALITY",
+            "description": "Knee Relief Massagers are crafted with premium, durable materials. Experience consistent, reliable relief day after day."
+          }
+        }
+      },
+      "block_order": [
+        "badge_yCpFrm",
+        "badge_nk7WC9",
+        "badge_RAjFrz"
+      ],
+      "name": "Trust Badges",
+      "settings": {
+        "heading": "Over 50,000 happy customers",
+        "background_color": "#e8f4f5",
+        "icon_color": "#2d9ca5"
+      }
+    },
+    "problem_solution_custom_Mi4NhL": {
+      "type": "problem-solution-custom",
+      "blocks": {
+        "paragraph_43QrBB": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Knee pain isn't just about getting older—it's about what's missing in your knees. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and without pain."
+          }
+        },
+        "paragraph_WTpCzk": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "This is called Joint Drought – when you don't have enough synovial fluid, your knees dry out and rub bone on bone."
+          }
+        },
+        "paragraph_8cn8JX": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Without enough movement, this fluid can't flow right, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_43QrBB",
+        "paragraph_WTpCzk",
+        "paragraph_8cn8JX"
+      ],
+      "name": "Problem Solution",
+      "settings": {
+        "layout": "image-left",
+        "media_type": "video",
+        "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
+        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
+        "background_color": "#ffffff",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "product": "cordless-charger-belkin-wiz029vfbk",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b"
+      }
+    },
+    "problem_solution_custom_RPtgz4": {
+      "type": "problem-solution-custom",
+      "blocks": {
+        "paragraph_QXFXx4": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "The Knee Relief Massager is engineered with cutting-edge Triple Therapy Technology that combines Red Light Therapy, Heat Therapy, and Massage Therapy to support your knee joint effectively."
+          }
+        },
+        "paragraph_7fJHcU": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "This enhances blood circulation, relaxes tight muscles, and reduces inflammation in your knee joints, making movement easier and more comfortable."
+          }
+        },
+        "paragraph_kgGUHm": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "The Knee Relief Massager gives your knees the comprehensive care they need to stay mobile and pain-free."
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_QXFXx4",
+        "paragraph_7fJHcU",
+        "paragraph_kgGUHm"
+      ],
+      "name": "Problem Solution",
+      "settings": {
+        "layout": "image-right",
+        "media_type": "video",
+        "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
+        "heading": "Introducing: Triple Therapy Technology:",
+        "background_color": "#ffffff",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "product": "bluetooth-headphones-grundig-earbuds-white",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b"
+      }
+    },
+    "problem_solution_custom_DitJHK": {
+      "type": "problem-solution-custom",
+      "blocks": {
+        "paragraph_m8n6gY": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Our revolutionary \"over the knee\" design provides targeted relief that handheld massagers can't match."
+          }
+        },
+        "paragraph_aXQGRx": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "The Knee Relief Massager is engineered not just to support, but to enhance the movement and health of your knee:"
+          }
+        },
+        "paragraph_UUL8H7": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Enhanced Synovial Fluid Movement: The unique wrap-around design helps the flow of synovial fluid, lubricating your joints and easing pain."
+          }
+        },
+        "paragraph_fFfQFD": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Triple Therapy Technology: Integrates Red Light Therapy, Heat Therapy, and Massage Therapy to boost circulation, speed up the recovery of sore joints, and reduce inflammation."
+          }
+        },
+        "paragraph_KFgBWt": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Customizable Therapy Settings: Easily adjust the intensity of heat and massage to match your comfort level and meet your therapeutic needs, ensuring each session is effective."
+          }
+        },
+        "paragraph_RFWYBX": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Sleek and Practical for Daily Use: Designed to be used anywhere, anytime. It’s easy to wear at home, at work, or even while relaxing."
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_m8n6gY",
+        "paragraph_aXQGRx",
+        "paragraph_UUL8H7",
+        "paragraph_fFfQFD",
+        "paragraph_KFgBWt",
+        "paragraph_RFWYBX"
+      ],
+      "name": "Problem Solution",
+      "settings": {
+        "layout": "image-left",
+        "media_type": "video",
+        "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
+        "heading": "Innovative Features for Ultimate Knee Relief:",
+        "background_color": "#ffffff",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "product": "bluetooth-headphones-grundig-earbuds-white",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b"
+      }
+    },
+    "doctor_recommended_hKebFa": {
+      "type": "doctor-recommended",
+      "name": "Doctor Recommended",
+      "settings": {
+        "heading": "Doctor Recommended and User Approved",
+        "description": "Designed with input from orthopedic specialists, the Knee Relief Massager is your surgery-free solution to chronic knee pain.",
+        "image": "shopify://shop_images/KneeRelief2__1_8d3977dd-8c2c-49aa-bc84-eaffa28b0ae9.avif",
+        "background_color": "#ffffff",
+        "show_testimonial": true,
+        "testimonial_text": "The Knee Relief Massager is an exceptional tool for anyone suffering from knee discomfort. Its integrated therapy system not only eases pain but also aids in recovery. It's like having a personal physiotherapist available at any time.",
+        "testimonial_author": "- Samantha L",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "cta_link": "",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b"
+      }
+    },
+    "how_it_works_7gg6MM": {
+      "type": "how-it-works",
+      "blocks": {
+        "step_3GYRET": {
+          "type": "step",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Untitled_design__2___1.avif",
+            "video": "",
+            "title": "Unique Over-the-Knee Design:",
+            "description": "Unlike handheld devices, this massager fully surrounds your knee at all times. It fits snug so you can read a book, watch tv, or just sit back and relax without having to use your hands."
+          }
+        },
+        "step_AG69wg": {
+          "type": "step",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/2__2___1.avif",
+            "video": "",
+            "title": "Customizable Therapy Settings:",
+            "description": "With the push of a button you can change the massage level. Easy-to-use controls make sure you get the right pressure and heat every time."
+          }
+        },
+        "step_EKptEd": {
+          "type": "step",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/1__3___1.avif",
+            "video": "",
+            "title": "Durable, Comfortable Material:",
+            "description": "Made with high-quality, flexible fabrics that makes it incredibly comfortable."
+          }
+        }
+      },
+      "block_order": [
+        "step_3GYRET",
+        "step_AG69wg",
+        "step_EKptEd"
+      ],
+      "name": "How It Works",
+      "settings": {
+        "heading": "How The Knee Relief Massager Works:",
+        "subheading": "The Knee Relief Massager is expertly built to soothe knee pain and make your knee joints stronger.",
+        "description": "Simply please it over your knee, adjust for your comfort, and feel the relief.",
+        "background_color": "#ffffff",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "cta_link": "",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b"
+      }
+    },
+    "comparison_table_custom_gr8rLD": {
+      "type": "comparison-table-custom",
+      "blocks": {
+        "feature_yg6wEP": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Lasting Pain Relief",
+            "has_feature_brand": true,
+            "has_feature_comp1": false,
+            "has_feature_comp2": false
+          }
+        },
+        "feature_kfqfzc": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Drug Free",
+            "has_feature_brand": true,
+            "has_feature_comp1": true,
+            "has_feature_comp2": false
+          }
+        },
+        "feature_aqjwHA": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Hands-Free",
+            "has_feature_brand": true,
+            "has_feature_comp1": false,
+            "has_feature_comp2": false
+          }
+        },
+        "feature_VQH7Nw": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Over-the-Knee Design",
+            "has_feature_brand": true,
+            "has_feature_comp1": false,
+            "has_feature_comp2": false
+          }
+        },
+        "feature_PVeNBw": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Customizable Settings",
+            "has_feature_brand": true,
+            "has_feature_comp1": false,
+            "has_feature_comp2": false
+          }
+        },
+        "feature_XedTC9": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Portable Convenience",
+            "has_feature_brand": true,
+            "has_feature_comp1": false,
+            "has_feature_comp2": false
+          }
+        },
+        "feature_zrDTfG": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Safe for Daily Use",
+            "has_feature_brand": true,
+            "has_feature_comp1": false,
+            "has_feature_comp2": false
+          }
+        },
+        "feature_HQEWkD": {
+          "type": "feature",
+          "settings": {
+            "feature_name": "Quick Pain Relief",
+            "has_feature_brand": true,
+            "has_feature_comp1": false,
+            "has_feature_comp2": false
+          }
+        }
+      },
+      "block_order": [
+        "feature_yg6wEP",
+        "feature_kfqfzc",
+        "feature_aqjwHA",
+        "feature_VQH7Nw",
+        "feature_PVeNBw",
+        "feature_XedTC9",
+        "feature_zrDTfG",
+        "feature_HQEWkD"
+      ],
+      "name": "Comparison Table",
+      "settings": {
+        "heading": "What Sets the Knee Relief Massager Apart from Regular Knee Massagers and Medications?",
+        "brand_name": "norelie",
+        "competitor1_name": "OTHER",
+        "competitor2_name": "Medications",
+        "background_color": "#f8f8f8"
+      }
+    },
+    "clinical_proof_custom_BLzmq4": {
+      "type": "clinical-proof-custom",
+      "blocks": {
+        "paragraph_gPbRLw": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Clinical evidence supports the use of knee massagers for temporary pain relief and improved joint mobility. Massagers that combine heat, vibration, and massage therapy are shown to be effective in reducing symptoms of knee osteoarthritis by enhancing circulation and relieving pain."
+          }
+        },
+        "paragraph_b8DYf9": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "This comprehensive approach aids in managing knee pain effectively, leading to improved quality of life and well-being. Such devices offer a non-invasive alternative to manage knee pain without the need for continuous medication or surgical interventions."
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_gPbRLw",
+        "paragraph_b8DYf9"
+      ],
+      "name": "Clinical Proof",
+      "settings": {
+        "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
+        "heading": "Clinical Proof",
+        "background_color": "#2d9ca5",
+        "show_link": true,
+        "link_text": "https://pubmed.ncbi.nlm.nih.gov/34880892/",
+        "link_url": ""
+      }
+    },
+    "problem_solution_custom_7N6tcE": {
+      "type": "problem-solution-custom",
+      "blocks": {
+        "paragraph_WrqGbG": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Imagine waking up rejuvenated, free from the nagging knee discomfort that’s been slowing you down. The Knee Relief Massager was designed to give you just that."
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_WrqGbG"
+      ],
+      "name": "Problem Solution",
+      "settings": {
+        "layout": "image-right",
+        "media_type": "image",
+        "image": "shopify://shop_images/ComfySole__4___1.avif",
+        "video": "",
+        "heading": "Imagine a Day Without Knee Pain",
+        "background_color": "#ffffff",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b"
+      }
+    },
+    "how_it_works_fhNm6K": {
+      "type": "how-it-works",
+      "blocks": {
+        "step_URJinB": {
+          "type": "step",
+          "settings": {
+            "media_type": "video",
+            "video": "https://cdn.shopify.com/videos/c/o/v/ce5ce2805c53427ab9c836f478c2cb82.mp4",
+            "title": "Step 1",
+            "description": "Place the massager around your knee and secure it."
+          }
+        },
+        "step_jHHymU": {
+          "type": "step",
+          "settings": {
+            "media_type": "video",
+            "video": "https://cdn.shopify.com/videos/c/o/v/cd6fd4dc25f64983b32ea63f4f700406.mp4",
+            "title": "Step 2",
+            "description": "Adjust the settings for a comfortable yet effective treatment to stabilize your knee."
+          }
+        },
+        "step_naVW4x": {
+          "type": "step",
+          "settings": {
+            "media_type": "video",
+            "video": "https://cdn.shopify.com/videos/c/o/v/eedbd74e7ea14009af62b47fc5759156.mp4",
+            "title": "Step 3",
+            "description": "Go about your day, enjoying pain-free movement."
+          }
+        },
+        "step_J6fUKd": {
+          "type": "step",
+          "settings": {
+            "media_type": "video",
+            "video": "https://cdn.shopify.com/videos/c/o/v/d5e9532b2ebc49c6a57212e66886436f.mp4",
+            "title": "Step 4",
+            "description": "Use it during any activity, from walking to resting, ensuring continuous knee support."
+          }
+        }
+      },
+      "block_order": [
+        "step_URJinB",
+        "step_jHHymU",
+        "step_naVW4x",
+        "step_J6fUKd"
+      ],
+      "name": "How It Works",
+      "settings": {
+        "heading": "How to Use the Knee Relief Massage",
+        "subheading": "",
+        "description": "",
+        "background_color": "#ffffff",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "cta_link": "",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b"
+      }
+    },
+    "testimonials_custom_EiF8DE": {
+      "type": "testimonials-custom",
+      "blocks": {
+        "testimonial_hwXQEU": {
+          "type": "testimonial",
+          "settings": {
+            "customer_photo": "shopify://shop_images/Untitled_design__12___1.avif",
+            "testimonial_text": "After using the Knee Relief Massager, my knee pain has significantly decreased, and I can walk much longer distances. It's a game-changer for me!",
+            "customer_name": "James T.",
+            "customer_location": "Birmingham",
+            "purchase_info": "Purchased 1 pair"
+          }
+        },
+        "testimonial_LntfTE": {
+          "type": "testimonial",
+          "settings": {
+            "customer_photo": "shopify://shop_images/Untitled_design__12___1.avif",
+            "testimonial_text": "After using the Knee Relief Massager, my knee pain has significantly decreased, and I can walk much longer distances. It's a game-changer for me!",
+            "customer_name": "James T.",
+            "customer_location": "Birmingham",
+            "purchase_info": "Purchased 1 pair"
+          }
+        },
+        "testimonial_FpiCL3": {
+          "type": "testimonial",
+          "settings": {
+            "customer_photo": "shopify://shop_images/Untitled_design__12___1.avif",
+            "testimonial_text": "After using the Knee Relief Massager, my knee pain has significantly decreased, and I can walk much longer distances. It's a game-changer for me!",
+            "customer_name": "James T.",
+            "customer_location": "Birmingham",
+            "purchase_info": "Purchased 1 pair"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_hwXQEU",
+        "testimonial_LntfTE",
+        "testimonial_FpiCL3"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "heading": "Real Users.",
+        "subheading": "Real Life-Changing Results.",
+        "background_color": "#f8f8f8"
+      }
+    },
+    "pricing_cta_inEjFK": {
+      "type": "pricing-cta",
+      "blocks": {
+        "benefit_b9E48h": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "Big Special Discount"
+          }
+        },
+        "benefit_Lq6DVR": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "90-Day Results or Refund Guarantee"
+          }
+        },
+        "benefit_9ebqfF": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "FREE Shipping on orders over £40"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_b9E48h",
+        "benefit_Lq6DVR",
+        "benefit_9ebqfF"
+      ],
+      "name": "Pricing CTA",
+      "settings": {
+        "heading": "Order Today & Get FREE Pairs While Stock Lasts",
+        "subheading": "Limited time offer",
+        "product_image_1": "shopify://shop_images/ComfySole__4___1.avif",
+        "product_image_2": "shopify://shop_images/ComfySole__4___1.avif",
+        "product_image_3": "shopify://shop_images/KneeRelief2__1_8d3977dd-8c2c-49aa-bc84-eaffa28b0ae9.avif",
+        "product_image_4": "shopify://shop_images/Electric-Heating-Massage-Knee-Pad-Wireless-Heated-Knee-Massager-Wormwood-Constant-Temperature-Hot-Compress-Vibration-Massage_8dc23806-8f48-49c2-819b-44971201c647.webp",
+        "offer_title": "Take advantage of the discount now",
+        "offer_subtitle": "Try Your Knee Massagers NOW Risk-Free With Our Best Offer Ever!",
+        "background_color": "#ffffff",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "cta_link": "",
+        "cta_bg_color": "#ff6b35",
+        "cta_hover_color": "#e55a2b",
+        "show_shipping_badge": true,
+        "shipping_text": "FREE & FAST Shipping!",
+        "show_note": true,
+        "note_label": "NOTE:",
+        "note_text": "Not Available on Amazon or eBay",
+        "show_stock_alert": true,
+        "stock_alert_text": "Sale ends today or when current stock is sold out"
+      }
+    }
+  },
+  "order": [
+    "1649081791eb3a0c3d",
+    "main",
+    "fd8ca66b-95a5-4125-a6c0-04faf9d13788",
+    "a3ffaaa1-8a74-4dca-a668-d574b867228f",
+    "85a0ac6a-88e2-441d-9f20-a9024da7875a",
+    "1655475777b1187173",
+    "trust_badges_custom_BTMF4B",
+    "problem_solution_custom_Mi4NhL",
+    "problem_solution_custom_RPtgz4",
+    "problem_solution_custom_DitJHK",
+    "doctor_recommended_hKebFa",
+    "how_it_works_7gg6MM",
+    "comparison_table_custom_gr8rLD",
+    "clinical_proof_custom_BLzmq4",
+    "problem_solution_custom_7N6tcE",
+    "how_it_works_fhNm6K",
+    "testimonials_custom_EiF8DE",
+    "pricing_cta_inEjFK"
+  ]
+}

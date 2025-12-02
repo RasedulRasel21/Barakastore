@@ -1,0 +1,399 @@
+<!-- sections/pricing-cta.liquid -->
+
+<!-- HTML Structure -->
+<section class="pricing-cta-section">
+  <div class="container">
+    <div class="pricing-header">
+      <h2 class="pricing-heading">{{ section.settings.heading }}</h2>
+      <p class="pricing-subheading">{{ section.settings.subheading }}</p>
+    </div>
+
+    <div class="pricing-box">
+      <div class="pricing-images">
+        <div class="images-grid">
+          {% for i in (1..4) %}
+            {% assign image_key = 'product_image_' | append: i %}
+            {% if section.settings[image_key] != blank %}
+              <div class="product-image-item">
+                <img src="{{ section.settings[image_key] | img_url: '200x' }}" alt="Product {{ i }}">
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="pricing-content">
+        <h3 class="pricing-offer-title">{{ section.settings.offer_title }}</h3>
+        <p class="pricing-offer-subtitle">{{ section.settings.offer_subtitle }}</p>
+
+        <div class="pricing-benefits">
+          {% for block in section.blocks %}
+            <div class="benefit-item" {{ block.shopify_attributes }}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#2d9ca5">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+              </svg>
+              <span>{{ block.settings.benefit_text }}</span>
+            </div>
+          {% endfor %}
+        </div>
+
+        {% if section.settings.show_cta %}
+          <a href="{{ section.settings.cta_link }}" class="pricing-cta">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+              <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+            </svg>
+            {{ section.settings.cta_text }}
+          </a>
+        {% endif %}
+
+        {% if section.settings.show_shipping_badge %}
+          <div class="shipping-badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#ff6b35">
+              <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+            </svg>
+            {{ section.settings.shipping_text }}
+          </div>
+        {% endif %}
+
+        {% if section.settings.show_note %}
+          <p class="pricing-note">
+            <strong>{{ section.settings.note_label }}</strong> {{ section.settings.note_text }}
+          </p>
+        {% endif %}
+
+        {% if section.settings.show_stock_alert %}
+          <p class="stock-alert">{{ section.settings.stock_alert_text }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styles -->
+<style>
+  .pricing-cta-section {
+    background: {{ section.settings.background_color }};
+    padding: 80px 20px;
+  }
+
+  .pricing-cta-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .pricing-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+
+  .pricing-subheading {
+    font-size: 18px;
+    color: #666;
+  }
+
+  .pricing-box {
+    background: white;
+    border: 3px solid #2d9ca5;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+
+  .pricing-images {
+    margin-bottom: 30px;
+  }
+
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+  }
+
+  .product-image-item {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .product-image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .pricing-offer-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .pricing-offer-subtitle {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .pricing-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+
+  .benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .pricing-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: {{ section.settings.cta_bg_color }};
+    color: white;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    max-width: 400px;
+    transition: all 0.3s ease;
+  }
+
+  .pricing-cta:hover {
+    background: {{ section.settings.cta_hover_color }};
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  }
+
+  .shipping-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #fff5e6;
+    color: #ff6b35;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .pricing-note {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+
+  .stock-alert {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+  }
+
+  @media (max-width: 768px) {
+    .pricing-heading {
+      font-size: 26px;
+    }
+
+    .images-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pricing-box {
+      padding: 25px;
+    }
+
+    .pricing-benefits {
+      padding: 0;
+    }
+  }
+</style>
+
+<!-- Schema -->
+{% schema %}
+{
+  "name": "Pricing CTA",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Order Today & Get FREE Pairs While Stock Lasts"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Limited time offer"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image_1",
+      "label": "Product Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image_2",
+      "label": "Product Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image_3",
+      "label": "Product Image 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image_4",
+      "label": "Product Image 4"
+    },
+    {
+      "type": "text",
+      "id": "offer_title",
+      "label": "Offer Title",
+      "default": "Take advantage of the discount now"
+    },
+    {
+      "type": "text",
+      "id": "offer_subtitle",
+      "label": "Offer Subtitle",
+      "default": "Try Your Knee Massagers NOW Risk-Free With Our Best Offer Ever!"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cta",
+      "label": "Show CTA Button",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Add to cart"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Button Link"
+    },
+    {
+      "type": "color",
+      "id": "cta_bg_color",
+      "label": "CTA Background Color",
+      "default": "#ff6b35"
+    },
+    {
+      "type": "color",
+      "id": "cta_hover_color",
+      "label": "CTA Hover Color",
+      "default": "#e55a2b"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_badge",
+      "label": "Show Shipping Badge",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "shipping_text",
+      "label": "Shipping Text",
+      "default": "FREE & FAST Shipping!"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_note",
+      "label": "Show Note",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "note_label",
+      "label": "Note Label",
+      "default": "NOTE:"
+    },
+    {
+      "type": "text",
+      "id": "note_text",
+      "label": "Note Text",
+      "default": "Not Available on Amazon or eBay"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_stock_alert",
+      "label": "Show Stock Alert",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "stock_alert_text",
+      "label": "Stock Alert Text",
+      "default": "Sale ends today or when current stock is sold out"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "settings": [
+        {
+          "type": "text",
+          "id": "benefit_text",
+          "label": "Benefit Text",
+          "default": "Big Special Discount"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing CTA",
+      "blocks": [
+        {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "Big Special Discount"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "90-Day Results or Refund Guarantee"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": "FREE Shipping on orders over £40"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

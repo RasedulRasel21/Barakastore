@@ -13,10 +13,32 @@
   "sections": {
     "announcements": {
       "type": "g_announcement-bar",
+      "blocks": {
+        "announcement_GyzxF3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Fast shipping",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "announcement_eE378x": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping over $50",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_GyzxF3",
+        "announcement_eE378x"
+      ],
       "settings": {
         "home_page_only": false,
         "close_btn": false,
-        "color_scheme": "",
+        "color_scheme": "dark-mode",
         "pattern": "none",
         "pattern_scale": 100,
         "pattern_animation": "none",
@@ -76,6 +98,7 @@
         "834870f6-539a-4b91-8ac1-7017f0d79566",
         "78b7efe3-988f-4bbd-b888-7b4e9a2fa897"
       ],
+      "disabled": true,
       "settings": {
         "text_color": "#f6ecf9",
         "bg_color": "#402249"
@@ -86,9 +109,8 @@
       "blocks": {
         "22eb1efb-4b47-4380-b69f-db5c1719c795": {
           "type": "menu",
-          "disabled": true,
           "settings": {
-            "menu": "main-menu"
+            "menu": "mega-menu"
           }
         },
         "ae5df5e3-5af2-4a8f-bc71-d741ffe95eb0": {
@@ -99,51 +121,36 @@
             "title_link": "",
             "icon": "none",
             "badge_text": "",
-            "badge_color": "#EC0000",
-            "menu": "main-menu",
-            "sidebar_image_type": "none",
-            "show_collection_thumbnails": false,
-            "show_collection_bg_image": false,
+            "badge_color": "#ec0000",
+            "menu": "mega-menu",
+            "sidebar_image_type": "collection_image",
+            "show_collection_thumbnails": true,
+            "show_collection_bg_image": true,
             "enable_masonry_layout": true,
             "columns": 3
-          }
-        },
-        "92e6bb09-4e64-432b-8370-09b1fb58d85e": {
-          "type": "subcollections_catalog",
-          "settings": {
-            "title": "Shop All",
-            "title_link": "",
-            "icon": "none",
-            "badge_text": "",
-            "badge_color": "#EC0000",
-            "menu": "catalog",
-            "sidebar_image_type": "thumbnail",
-            "subcollection_image_src": "thumbnail",
-            "show_collection_bg_image": false,
-            "subcollection_info": "price",
-            "image_position": "left",
-            "columns": 4
           }
         }
       },
       "block_order": [
         "22eb1efb-4b47-4380-b69f-db5c1719c795",
-        "ae5df5e3-5af2-4a8f-bc71-d741ffe95eb0",
-        "92e6bb09-4e64-432b-8370-09b1fb58d85e"
+        "ae5df5e3-5af2-4a8f-bc71-d741ffe95eb0"
       ],
       "settings": {
         "enable_sticky_header": true,
         "layout": "default",
-        "toolbar": "title_right",
-        "search_as_icon": false,
-        "logo_desktop_width": 130,
-        "logo_mobile_width": 100,
+        "toolbar": "only_icons",
+        "search_as_icon": true,
+        "logo": "shopify://shop_images/Artboard_8_copy.svg",
+        "logo_desktop_width": 200,
+        "logo_mobile_width": 130,
         "show_country_selector": false,
-        "show_language_selector": false,
+        "show_language_selector": true,
         "cart_icon": "cart-shopping",
         "show_cart_total": false,
         "show_cart_counter": true,
-        "show_account_link": true
+        "show_account_link": true,
+        "show_comparison_icon": false,
+        "show_comparison_counter": false
       }
     },
     "navigation-bar": {
@@ -156,7 +163,7 @@
             "title": "Staff Picks",
             "icon": "none",
             "badge_text": "",
-            "badge_color": "#EC0000",
+            "badge_color": "#ec0000",
             "collection": "laptops",
             "image_position": "left",
             "show_product_price": true,
@@ -177,7 +184,7 @@
             "title_link": "",
             "icon": "none",
             "badge_text": "",
-            "badge_color": "#EC0000",
+            "badge_color": "#ec0000",
             "collections": [
               "gaming",
               "for-pros",
@@ -200,7 +207,7 @@
             "title_link": "",
             "icon": "none",
             "badge_text": "",
-            "badge_color": "#EC0000",
+            "badge_color": "#ec0000",
             "image_size": "450px",
             "mobile_image_size": "origin",
             "image_width": 64,
@@ -209,13 +216,14 @@
             "text_position": "center-center",
             "content_icon": "none",
             "icon_scale": 100,
-            "heading": "Unleash the <strong>Sound<\/strong>",
+            "heading": "Unleash the <strong>Sound</strong>",
             "heading_scale": 145,
             "subheading": "",
-            "text": "<p>Revolutionary auditory encounter<\/p>",
+            "text": "<p>Revolutionary auditory encounter</p>",
             "enlarge_text": false,
             "info": "",
             "f_button_label": "Find More",
+            "f_button_link": "",
             "f_button_tier": "primary",
             "s_button_label": "",
             "s_button_link": "",
@@ -229,7 +237,7 @@
             "title": "Browsing History",
             "icon": "none",
             "badge_text": "",
-            "badge_color": "#EC0000"
+            "badge_color": "#ec0000"
           }
         },
         "8a7d8c96-8608-4633-8db0-33a60a1c54a7": {
@@ -239,7 +247,7 @@
             "title": "News",
             "icon": "none",
             "badge_text": "",
-            "badge_color": "#EC0000",
+            "badge_color": "#ec0000",
             "blog": "news",
             "image_position": "left",
             "article_info": "date",
@@ -252,7 +260,7 @@
           "type": "menu",
           "settings": {
             "position": "right",
-            "menu": "main-side"
+            "menu": ""
           }
         }
       },
@@ -264,7 +272,9 @@
         "8a7d8c96-8608-4633-8db0-33a60a1c54a7",
         "5476677b-a2cb-4410-82cd-1fc823d5166c"
       ],
+      "disabled": true,
       "settings": {
+        "enable_sticky_bar": false,
         "alignment": "manual",
         "bg_color": "#ffffff",
         "text_color": "#3e3e3e",

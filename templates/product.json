@@ -23,7 +23,7 @@
         "11c282eb-3e60-4199-a1a1-3cda519388da": {
           "type": "timer",
           "settings": {
-            "date": "06-25-2025",
+            "date": "12-15-2025",
             "hide_on_complete": false
           }
         },
@@ -223,6 +223,7 @@
         "enable_share_button": false,
         "use_brand_colors": true,
         "show_product_specs": true,
+        "product_specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
         "specs_use_expand": false,
         "show_product_bundle": true,
         "product_bundle_heading": "Buy together & save",
@@ -274,6 +275,7 @@
           "settings": {
             "info": "",
             "f_button_label": "Find More",
+            "f_button_link": "",
             "f_button_tier": "secondary",
             "s_button_label": "",
             "s_button_link": "",
@@ -290,10 +292,11 @@
       ],
       "settings": {
         "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
-        "section_layout": "full",
-        "embedded_video": "https://www.youtube.com/watch?v=o6HJVBg1lNg&ab_channel=%E5%82%BB%E7%93%9C%E7%8B%90%E7%8B%B8%E6%AD%A3%E5%9C%A8%E7%8B%90%E8%AA%AA",
+        "section_layout": "container",
+        "embedded_video": "https://youtu.be/1w0OQHsMkac?si=HC1hHw3kRwDADCi_",
         "image_size": "550px",
         "mobile_image_size": "origin",
+        "image": "shopify://shop_images/S6e24b8b833be4603a3a3c68ccadf9b02t.webp",
         "display_desktop_only": false,
         "image_width": 50,
         "image_position": "left",
@@ -319,12 +322,22 @@
     "a3ffaaa1-8a74-4dca-a668-d574b867228f": {
       "type": "d_accordion-with-images",
       "blocks": {
+        "item_g3MWVg": {
+          "type": "item",
+          "settings": {
+            "heading": "Collapsible heading",
+            "icon": "none",
+            "text": "<p>Collapsible content</p>",
+            "image": "shopify://shop_images/87.webp"
+          }
+        },
         "4c199312-8929-490f-ad36-58e9fde88d8f": {
           "type": "item",
           "settings": {
             "heading": "Top Grade Components",
             "icon": "none",
-            "text": "<p>Choose from a wide range of top-notch parts.</p>"
+            "text": "<p>Choose from a wide range of top-notch parts.</p>",
+            "image": "shopify://shop_images/2-2.jpg"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1": {
@@ -332,7 +345,8 @@
           "settings": {
             "heading": "Stunning Visuals",
             "icon": "none",
-            "text": "<p>Breathtaking Imagery Immerse yourself in the awe-inspiring imagery</p>"
+            "text": "<p>Breathtaking Imagery Immerse yourself in the awe-inspiring imagery</p>",
+            "image": "shopify://shop_images/0711719598558_I10.jpg"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2": {
@@ -340,7 +354,8 @@
           "settings": {
             "heading": "Unbeatable Performance",
             "icon": "none",
-            "text": "<p>Achieve superior performance with our top-of-the-line products, backed by scientific research and expert recommendations.</p>"
+            "text": "<p>Achieve superior performance with our top-of-the-line products, backed by scientific research and expert recommendations.</p>",
+            "image": "shopify://shop_images/S8a0ffe7d6ca74fb78c0e33584e08ee16F.webp"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-3": {
@@ -348,11 +363,13 @@
           "settings": {
             "heading": "Exceptional Quality",
             "icon": "none",
-            "text": "<p>Ensure that all products meet our superior standards of quality and performance, providing our customers with the best possible experience.</p>"
+            "text": "<p>Ensure that all products meet our superior standards of quality and performance, providing our customers with the best possible experience.</p>",
+            "image": "shopify://shop_images/d8003382-dbaf-4414-b0d7-d6b8b3cb553d.png"
           }
         }
       },
       "block_order": [
+        "item_g3MWVg",
         "4c199312-8929-490f-ad36-58e9fde88d8f",
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1",
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2",
@@ -367,7 +384,7 @@
         "image_size": "650px",
         "mobile_image_size": "350px",
         "image_width": 50,
-        "image_position": "left",
+        "image_position": "right",
         "pattern": "pattern-diagonal-lines_6",
         "pattern_scale": 100,
         "pattern_animation": "none"
@@ -381,7 +398,7 @@
           "settings": {
             "author_name": "Alice J.",
             "heading": "My best choice!",
-            "text": "",
+            "text": "\"Good value. Works as described.\"\nNice quality product. Charges everything properly. Can use phone while charging. Easy to use. Happy with purchase.",
             "star_count": "5",
             "product": ""
           }
@@ -391,7 +408,7 @@
           "settings": {
             "author_name": "Fabio W.",
             "heading": "Really great deal!",
-            "text": "",
+            "text": "\"Highly recommended. Good build quality.\"\nExcellent charging pad. Very easy to use. Phone charges in any direction. Good performance overall.",
             "star_count": "5",
             "product": ""
           }
@@ -401,7 +418,7 @@
           "settings": {
             "author_name": "Michael T.",
             "heading": "Amazing quality",
-            "text": "",
+            "text": "\"Very convenient. Good product.\"\nWorks great for all my devices. Easy setup. Good charging speed. Quality is nice. No problems.",
             "star_count": "5",
             "product": ""
           }
@@ -411,7 +428,7 @@
           "settings": {
             "author_name": "Artur S.",
             "heading": "That's what I was looking for",
-            "text": "",
+            "text": "\"Solid product. Does what it claims.\"\nGood quality charger. Easy to use daily. Phone and watch charge well. Worth the money.",
             "star_count": "5",
             "product": ""
           }
@@ -445,6 +462,7 @@
     },
     "51b2f79b-2659-442b-b72c-249cd3ab32b4": {
       "type": "d_product-image-gallery",
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
@@ -548,6 +566,7 @@
         "template--20725111521561__2afd22fb-9750-41b2-8c7a-753c463f3183-text-1",
         "template--20725111521561__2afd22fb-9750-41b2-8c7a-753c463f3183-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "main",
         "content_width": 100,
@@ -613,6 +632,7 @@
         "97d9fffd-382a-4228-b225-d0c7207617d6",
         "29f59255-3fca-4164-81b3-14d7f8fb1d33"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
@@ -677,9 +697,17 @@
         "de9227b2-70e6-4dc7-a8c1-9328eaffc716",
         "61168824-f3bf-4bed-a2af-7e5c033851a4"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Compare with similar items",
         "subheading": "",
+        "compare_products": [
+          "3-in-1-fast-wireless-charger-for-iphone-apple-devices",
+          "coque-securit-rotative-ipad-air-13-202524-m3m2-noir",
+          "laptop-travel-shoulder-bag-briefcase-brown",
+          "nneoba-mini-android-11-projector-black",
+          "gaming-headset-with-microphone-sony-pulse-elite-white"
+        ],
         "show_stripes": true,
         "show_main_product_accent": true,
         "enable_product_title_truncation": true,
@@ -691,9 +719,11 @@
       "blocks": {
         "product_HQwrnr": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-4aaf3b82-8d8c-414f-aaf0-3b2f457f982b",
             "product": "15-6-inch-intel-gaming-laptop",
+            "image": "shopify://shop_images/51zQYFXxVsL.jpg",
             "overlay": 0,
             "pattern": "pattern-bubbles_100",
             "pattern_scale": 100,
@@ -704,6 +734,7 @@
             "text": "<p>Discover the Latest Innovations in Power and Performance with Our Laptops Collection.</p>",
             "text_position": "center-center",
             "f_button_label": "SHOP NOW",
+            "f_button_link": "",
             "f_button_tier": "secondary"
           }
         },
@@ -722,6 +753,7 @@
             "text": "<p>Upgrade Your Desk Setup with High-Quality Ergonomic Mouses.</p>",
             "text_position": "center-center",
             "f_button_label": "SHOP NOW",
+            "f_button_link": "",
             "f_button_tier": "primary"
           }
         },
@@ -740,6 +772,7 @@
             "text": "<p>Enhance your Gaming Experience with Bluetooth Controllers.</p>",
             "text_position": "center-center",
             "f_button_label": "SHOP NOW",
+            "f_button_link": "",
             "f_button_tier": "secondary"
           }
         },
@@ -758,6 +791,7 @@
             "text": "<p>Unlock Stunning Photography with Cutting-Edge Mirrorless Digital Cameras.</p>",
             "text_position": "center-center",
             "f_button_label": "SHOP NOW",
+            "f_button_link": "",
             "f_button_tier": "secondary"
           }
         },
@@ -776,6 +810,7 @@
             "text": "<p>Top of The Line Streaming Ready Gaming System</p>",
             "text_position": "center-center",
             "f_button_label": "SHOP NOW",
+            "f_button_link": "",
             "f_button_tier": "primary"
           }
         }
@@ -787,6 +822,7 @@
         "product_cdkBrP",
         "product_RhtzU9"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "full",
         "section_height": "550px",
@@ -818,6 +854,7 @@
             "span": "4",
             "image_overlay": 0,
             "text_position": "bottom-center",
+            "link": "",
             "heading": "Gaming",
             "subheading": "",
             "text": "",
@@ -831,6 +868,7 @@
             "span": "4",
             "image_overlay": 0,
             "text_position": "bottom-center",
+            "link": "",
             "heading": "Outlet",
             "subheading": "",
             "text": "",
@@ -844,6 +882,7 @@
             "span": "4",
             "image_overlay": 0,
             "text_position": "bottom-center",
+            "link": "",
             "heading": "Best Sellers",
             "subheading": "",
             "text": "",
@@ -856,6 +895,7 @@
         "16554757855da6121d-1",
         "9467c20c-42a0-4696-85d4-7a8913fe71fd"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",

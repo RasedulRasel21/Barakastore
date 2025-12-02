@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "s_page-header",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "250px",
+        "mobile_image_size": "250px",
+        "bg_image_overlay": 30,
+        "text_position": "inside",
+        "custom_text": "",
+        "text_content_width": 50
+      }
+    },
+    "main": {
+      "type": "s_page",
+      "disabled": true,
+      "settings": {
+        "content_width": 80,
+        "font_scale": 100
+      }
+    },
+    "d_rich_text_NfAdHA": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_EpntJP": {
+          "type": "heading",
+          "settings": {
+            "heading": "About",
+            "heading_scale": 120
+          }
+        },
+        "text_XkNcpJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to BarakaStore, where innovation meets style. We're passionate about bringing you carefully curated products that enhance your daily life, from cutting-edge tech accessories to premium lifestyle essentials.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EpntJP",
+        "text_XkNcpJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "color_scheme": "scheme-27e1e1b8-7c17-4f87-a38d-34818dc4fad6",
+        "content_width": 100,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_image_with_text_gFbKWN": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "heading_bh4nt9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_scale": 120
+          }
+        },
+        "text_73d3kc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Founded with a vision to make quality products accessible to everyone, BarakaStore has grown from a small online store to a trusted name in e-commerce. We believe that everyone deserves access to products that combine functionality, durability, and style without breaking the bank.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bh4nt9",
+        "text_73d3kc"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "color_scheme": "scheme-27e1e1b8-7c17-4f87-a38d-34818dc4fad6",
+        "section_layout": "container",
+        "image": "shopify://shop_images/New-Wireless-Lavalier-Microphone-Portable-Audio-Video-Recording-Mini-Mic-for-iPhone-Android-Live-Broadcast-Gaming_e2b4f0ce-96ec-4628-b5bd-800f9b93a031.webp",
+        "image_size": "origin",
+        "mobile_image_size": "origin",
+        "image_width": 50,
+        "image_position": "left",
+        "text_position": "center-left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_rich_text_yddHFD": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_H9tgX4": {
+          "type": "heading",
+          "settings": {
+            "heading": "What We Offer",
+            "heading_scale": 120
+          }
+        },
+        "text_PfWWEB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our diverse catalog includes:</p><ul><li><strong>Tech Accessories</strong>: From wireless microphones and projectors to gaming peripherals, we source the latest technology to keep you connected and entertained.</li><li><strong>Laptop Bags & Briefcases</strong>: Professional, stylish carrying solutions for the modern professional and student.</li><li><strong>Premium Accessories</strong>: Carefully selected items that add convenience and elegance to your everyday routine.</li></ul><h3>Our Promise</h3><p><strong>Quality First</strong>: Every product in our store is vetted for quality and performance. We partner with reliable manufacturers to ensure you receive items that meet our high standards.</p><p><strong>Customer Satisfaction</strong>: Your happiness is our priority. We offer responsive customer support, secure shopping, and hassle-free returns.</p><p><strong>Competitive Pricing</strong>: We believe great products shouldn't cost a fortune. Our efficient operations allow us to offer competitive prices without compromising quality.</p><p><strong>Fast Shipping</strong>: We understand you're excited about your purchase. That's why we work hard to process and ship orders quickly.</p><h3>Why Choose BarakaStore?</h3><ul><li>Curated selection of trending products</li><li>Secure payment processing</li><li>Responsive customer service team</li><li>Regular special offers and promotions</li><li>Easy returns and exchanges</li></ul><h3>Get in Touch</h3><p>Have questions or suggestions? We'd love to hear from you. Visit our <a href=\"https://barakastore25.myshopify.com/pages/about#\">Contact</a> page to reach out to our friendly support team.</p><p>Thank you for choosing BarakaStore. We're excited to be part of your shopping journey!</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_H9tgX4",
+        "text_PfWWEB"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "color_scheme": "scheme-27e1e1b8-7c17-4f87-a38d-34818dc4fad6",
+        "content_width": 100,
+        "text_align": "left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "main",
+    "d_rich_text_NfAdHA",
+    "d_image_with_text_gFbKWN",
+    "d_rich_text_yddHFD"
+  ]
+}

@@ -17,7 +17,8 @@
         "mobile_image_size": "250px",
         "bg_image_overlay": 30,
         "text_position": "inside",
-        "custom_text": ""
+        "custom_text": "",
+        "text_content_width": 50
       }
     },
     "main": {
@@ -75,7 +76,7 @@
         "template--15251332431906__95e70b35-5499-4923-bc8f-0d25402732ca-textarea-1"
       ],
       "settings": {
-        "heading": "Contact form",
+        "heading": "",
         "subheading": "",
         "content_width": 80,
         "image_width": 50,

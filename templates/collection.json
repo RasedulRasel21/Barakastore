@@ -37,7 +37,8 @@
         "template--20862087758105__0238d741-12d1-4a19-b6c5-9428b65f22e2-info-1": {
           "type": "info",
           "settings": {
-            "image_margin": false,
+            "custom_image": "shopify://shop_images/0711719598558_R20.jpg",
+            "image_margin": true,
             "show_reviews": true
           }
         },
@@ -53,7 +54,7 @@
           "type": "countdown",
           "settings": {
             "heading": "",
-            "date": "06-25-2025"
+            "date": "12-25-2025"
           }
         }
       },
@@ -97,6 +98,66 @@
         "sidebar_width": 20
       }
     },
+    "d_moving_image_jUmgra": {
+      "type": "d_moving-image",
+      "blocks": {
+        "image_qWKKba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/588a3548-e978-424a-85f1-b9766fe53083_800x800_b1a2e747-a6e4-4b36-b367-4565410c554f.jpg",
+            "link": "shopify://products/3-in-1-fast-wireless-charger-for-iphone-apple-devices"
+          }
+        },
+        "image_8TyyJK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S8a0ffe7d6ca74fb78c0e33584e08ee16F.webp",
+            "link": "shopify://products/waterproof-pu-leather-laptop-backpack-computer-bag-grey"
+          }
+        },
+        "image_8NL3bQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FilmprivacyMacBookPro.jpg",
+            "link": "shopify://products/folio-quick-note-ipad-pro-11-m4-2024-azerty"
+          }
+        },
+        "image_DYVcEU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Magcubic-HY320-Mini-Newly-Native-720P-Android-11-4K-Projector-300ANSI-Wifi6-BT5-0-Cinema-Outdoor_a61c989f-038c-455d-818c-c5f73852aea8.webp",
+            "link": "shopify://products/nneoba-mini-android-11-projector-black"
+          }
+        },
+        "image_VyBpib": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/New-Wireless-Lavalier-Microphone-Portable-Audio-Video-Recording-Mini-Mic-for-iPhone-Android-Live-Broadcast-Gaming.webp",
+            "link": "shopify://products/wireless-lavalier-microphone-for-iphone-android-live-recording"
+          }
+        }
+      },
+      "block_order": [
+        "image_qWKKba",
+        "image_8TyyJK",
+        "image_8NL3bQ",
+        "image_DYVcEU",
+        "image_VyBpib"
+      ],
+      "disabled": true,
+      "name": "Image marquee",
+      "settings": {
+        "color_scheme": "",
+        "image_height": 120,
+        "stop_on_hover": true,
+        "moving_direction": "normal",
+        "speed_mult": "1",
+        "stacked_layout": false,
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
     "c25cd274-8f04-4926-9e88-6c45c6596880": {
       "type": "d_hero-image",
       "blocks": {
@@ -117,7 +178,7 @@
         "0611ac1f-861b-463f-9588-b28e32ae897f": {
           "type": "timer",
           "settings": {
-            "date": "06-25-2025",
+            "date": "12-15-2025",
             "hide_on_complete": false
           }
         },
@@ -150,9 +211,11 @@
         "template--20867772186905__c25cd274-8f04-4926-9e88-6c45c6596880-heading-1",
         "template--20867772186905__c25cd274-8f04-4926-9e88-6c45c6596880-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
         "section_layout": "full",
+        "image": "shopify://shop_images/satechi1.webp",
         "image_size": "450px",
         "mobile_image_size": "origin",
         "overlay": 30,
@@ -171,6 +234,7 @@
     "child_collections",
     "0238d741-12d1-4a19-b6c5-9428b65f22e2",
     "main",
+    "d_moving_image_jUmgra",
     "c25cd274-8f04-4926-9e88-6c45c6596880"
   ]
 }

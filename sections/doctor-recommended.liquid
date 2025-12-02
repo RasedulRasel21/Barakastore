@@ -1,0 +1,243 @@
+<!-- sections/doctor-recommended.liquid -->
+
+<!-- HTML Structure -->
+<section class="doctor-recommended-section">
+  <div class="container">
+    <h2 class="doctor-heading">{{ section.settings.heading }}</h2>
+    
+    <div class="doctor-grid">
+      <div class="doctor-content">
+        <p class="doctor-description">{{ section.settings.description }}</p>
+        
+        {% if section.settings.show_testimonial %}
+          <div class="testimonial-box">
+            <div class="stars">
+              {% for i in (1..5) %}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#ffc107">
+                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                </svg>
+              {% endfor %}
+            </div>
+            <p class="testimonial-text">{{ section.settings.testimonial_text }}</p>
+            <p class="testimonial-author">{{ section.settings.testimonial_author }}</p>
+          </div>
+        {% endif %}
+        
+        {% if section.settings.show_cta %}
+          <a href="{{ section.settings.cta_link }}" class="doctor-cta">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+              <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+            </svg>
+            {{ section.settings.cta_text }}
+          </a>
+        {% endif %}
+      </div>
+
+      <div class="doctor-image">
+        {% if section.settings.image != blank %}
+          <img src="{{ section.settings.image | img_url: '600x' }}" alt="{{ section.settings.heading }}">
+        {% else %}
+          <div class="placeholder-image">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styles -->
+<style>
+  .doctor-recommended-section {
+    background: {{ section.settings.background_color }};
+    padding: 80px 20px;
+  }
+
+  .doctor-recommended-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .doctor-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+  }
+
+  .doctor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .doctor-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-box {
+    background: #e8f4f5;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    font-style: italic;
+  }
+
+  .stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 15px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .testimonial-author {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+    font-style: normal;
+  }
+
+  .doctor-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .placeholder-image {
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: #f0f0f0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .doctor-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: {{ section.settings.cta_bg_color }};
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .doctor-cta:hover {
+    background: {{ section.settings.cta_hover_color }};
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  @media (max-width: 968px) {
+    .doctor-heading {
+      font-size: 26px;
+    }
+
+    .doctor-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+</style>
+
+<!-- Schema -->
+{% schema %}
+{
+  "name": "Doctor Recommended",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Doctor Recommended and User Approved"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Designed with input from orthopedic specialists, the Knee Relief Massager is your surgery-free solution to chronic knee pain."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_testimonial",
+      "label": "Show Testimonial",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "testimonial_text",
+      "label": "Testimonial Text",
+      "default": "The Knee Relief Massager is an exceptional tool for anyone suffering from knee discomfort. Its integrated therapy system not only eases pain but also aids in recovery. It's like having a personal physiotherapist available at any time."
+    },
+    {
+      "type": "text",
+      "id": "testimonial_author",
+      "label": "Testimonial Author",
+      "default": "- Samantha L"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cta",
+      "label": "Show CTA Button",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Add to cart"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Button Link"
+    },
+    {
+      "type": "color",
+      "id": "cta_bg_color",
+      "label": "CTA Background Color",
+      "default": "#ff6b35"
+    },
+    {
+      "type": "color",
+      "id": "cta_hover_color",
+      "label": "CTA Hover Color",
+      "default": "#e55a2b"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Doctor Recommended"
+    }
+  ]
+}
+{% endschema %}

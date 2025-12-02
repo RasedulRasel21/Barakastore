@@ -29,7 +29,7 @@
           "settings": {
             "icon": "message",
             "crop_image": true,
-            "heading": "24\/7 Premium Support",
+            "heading": "24/7 Premium Support",
             "text": "",
             "link": ""
           }
@@ -55,6 +55,7 @@
         "section_text_align": "left",
         "pattern": "none",
         "pattern_scale": 100,
+        "pattern_animation": "none",
         "enable_round_media": false,
         "media_size": 30,
         "heading_scale": 50
@@ -66,9 +67,10 @@
         "d59c2c60-291c-4855-abb3-5b303d4c802c": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "logo_width": 50,
-            "text": "<p>At Multi, we’re dedicated to providing our customers with the highest quality products and services on the market. We take pride in knowing that our products last and that our services exceed expectations.<\/p><p><em>This is a demonstration store. No orders will be fulfilled.<\/em><\/p>",
+            "heading": "",
+            "logo": "shopify://shop_images/Artboard_8_copy.svg",
+            "logo_width": 80,
+            "text": "<p>BaraKaStore is your trusted destination for premium electronics and tech accessories in France.</p>",
             "show_social_icons": false
           }
         },
@@ -76,21 +78,21 @@
           "type": "menu",
           "settings": {
             "heading": "Shop",
-            "menu": "catalog"
+            "menu": "mega-menu"
           }
         },
         "a3306e81-1a29-4ef6-9b74-e1d0c0c7071b": {
           "type": "menu",
           "settings": {
             "heading": "Information",
-            "menu": "footer"
+            "menu": "custom"
           }
         },
         "2d85d916-110b-47b4-846d-de94923e394c": {
           "type": "newsletter",
           "settings": {
             "heading": "Newsletter",
-            "text": "<p>Join our newsletter and never miss out on the latest trends and promotions.<\/p>",
+            "text": "<p>Join our newsletter and never miss out on the latest trends and promotions.</p>",
             "show_social_icons": true
           }
         }
@@ -103,7 +105,7 @@
       ],
       "settings": {
         "show_country_selector": true,
-        "show_language_selector": false,
+        "show_language_selector": true,
         "social_new_tab": true,
         "show_scroll_to_top": true,
         "payment_enable": true,

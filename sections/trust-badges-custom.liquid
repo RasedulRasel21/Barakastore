@@ -1,0 +1,233 @@
+<!-- sections/trust-badges.liquid -->
+
+<!-- HTML Structure -->
+<section class="tbs-trust-badges-section">
+  <div class="tbs-container">
+    <h2 class="tbs-trust-badges-title">
+      {{ section.settings.heading }}
+    </h2>
+    
+    <div class="tbs-badges-grid">
+      {% for block in section.blocks %}
+        <div class="tbs-badge-item" {{ block.shopify_attributes }}>
+          <div class="tbs-badge-icon">
+            {% if block.settings.icon_image != blank %}
+              <img src="{{ block.settings.icon_image | img_url: '80x80' }}" alt="{{ block.settings.title }}" class="tbs-icon-image">
+            {% elsif block.settings.icon_type == 'guarantee' %}
+              <div class="tbs-icon-circle tbs-guarantee-icon">
+                <span class="tbs-guarantee-days">{{ block.settings.days_text }}</span>
+              </div>
+              <div class="tbs-icon-label">{{ block.settings.days_label }}</div>
+            {% endif %}
+          </div>
+          <div class="tbs-badge-content">
+            <h3 class="tbs-badge-title">{{ block.settings.title }}</h3>
+            <p class="tbs-badge-description">{{ block.settings.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styles -->
+<style>
+  .tbs-trust-badges-section {
+    background: {{ section.settings.background_color }};
+    padding: 60px 20px;
+  }
+
+  .tbs-trust-badges-section .tbs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .tbs-trust-badges-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+
+  .tbs-badges-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+
+  .tbs-badge-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .tbs-badge-icon {
+    flex-shrink: 0;
+  }
+
+  .tbs-icon-circle {
+    width: 80px;
+    height: 80px;
+    background: {{ section.settings.icon_color }};
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .tbs-guarantee-icon {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .tbs-icon-label {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .tbs-icon-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+
+  .tbs-badge-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+  }
+
+  .tbs-badge-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .tbs-trust-badges-title {
+      font-size: 24px;
+    }
+
+    .tbs-badges-grid {
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+  }
+</style>
+
+<!-- Schema -->
+{% schema %}
+{
+  "name": "Trust Badges",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Over 50,000 happy customers"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#e8f4f5"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon Background Color",
+      "default": "#2d9ca5"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Badge",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Custom Icon Image"
+        },
+        {
+          "type": "select",
+          "id": "icon_type",
+          "label": "Icon Type",
+          "info": "Only used if no custom image is uploaded",
+          "options": [
+            {
+              "value": "guarantee",
+              "label": "Money Back Guarantee"
+            }
+          ],
+          "default": "guarantee"
+        },
+        {
+          "type": "text",
+          "id": "days_text",
+          "label": "Days Number (for guarantee)",
+          "default": "90"
+        },
+        {
+          "type": "text",
+          "id": "days_label",
+          "label": "Days Label (for guarantee)",
+          "default": "DAYS"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "RESULTS OR MONEY BACK GUARANTEE"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "If you're not absolutely thrilled with the Knee Relief Massager, we don't want your money."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust Badges",
+      "blocks": [
+        {
+          "type": "badge",
+          "settings": {
+            "icon_type": "guarantee",
+            "days_text": "90",
+            "days_label": "DAYS",
+            "title": "RESULTS OR MONEY BACK GUARANTEE",
+            "description": "If you're not absolutely thrilled with the Knee Relief Massager, we don't want your money. No hassles, no questions asked."
+          }
+        },
+        {
+          "type": "badge",
+          "settings": {
+            "icon_type": "shipping",
+            "title": "FREE SHIPPING",
+            "description": "We offer free shipping & handling on all orders."
+          }
+        },
+        {
+          "type": "badge",
+          "settings": {
+            "icon_type": "quality",
+            "title": "GUARANTEED HIGH QUALITY",
+            "description": "Knee Relief Massagers are crafted with premium, durable materials. Experience consistent, reliable relief day after day."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
