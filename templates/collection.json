@@ -45,9 +45,9 @@
         "template--20862087758105__0238d741-12d1-4a19-b6c5-9428b65f22e2-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Limited Time Offer",
+            "heading": "Offre à Durée Limitée",
             "heading_scale": 80,
-            "subheading": "Don't Miss The Deal"
+            "subheading": "Ne Manquez Pas Cette Offre"
           }
         },
         "template--20862087758105__0238d741-12d1-4a19-b6c5-9428b65f22e2-countdown-1": {
@@ -164,7 +164,7 @@
         "template--20867772186905__c25cd274-8f04-4926-9e88-6c45c6596880-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Don't Miss The Final Sale</p>",
+            "text": "<p>Ne Manquez Pas la Vente Finale</p>",
             "enlarge_text": true
           }
         },
@@ -172,7 +172,7 @@
           "type": "subheading",
           "disabled": true,
           "settings": {
-            "subheading": "Subheading"
+            "subheading": "Sous-titre"
           }
         },
         "0611ac1f-861b-463f-9588-b28e32ae897f": {
@@ -186,7 +186,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Final Sale",
+            "heading": "Vente Finale",
             "heading_scale": 120
           }
         },
@@ -195,7 +195,7 @@
           "settings": {
             "mobile_hidden": false,
             "info": "",
-            "f_button_label": "Shop Now",
+            "f_button_label": "Acheter Maintenant",
             "f_button_link": "",
             "f_button_tier": "primary",
             "s_button_label": "",

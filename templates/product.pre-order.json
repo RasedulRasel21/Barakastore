@@ -15,7 +15,7 @@
         "10fdd41f-2315-41d6-9635-dd0c3a78ad9c": {
           "type": "heading",
           "settings": {
-            "heading": "Get an Extra $10 off",
+            "heading": "Obtenez 10€ de Réduction Supplémentaire",
             "heading_scale": 100,
             "subheading": ""
           }
@@ -31,7 +31,7 @@
           "type": "button",
           "settings": {
             "mobile_hidden": false,
-            "label": "Use Code: GET10",
+            "label": "Utilisez le Code : GET10",
             "link": "",
             "tier": "primary"
           }
@@ -116,7 +116,7 @@
         "63e3f5e0-86d8-4bce-ae2d-aa76f5824797": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Please be aware this is pre order <\/strong><\/p><p>The products will be shipped to you once they become available<\/p>",
+            "text": "<p><strong>Veuillez noter qu'il s'agit d'une précommande <\/strong><\/p><p>Les produits vous seront expédiés dès qu'ils seront disponibles<\/p>",
             "size": "body",
             "text_uppercase": false,
             "prev_attach": false
@@ -181,14 +181,14 @@
         "template--15265575993378__321485f8-5188-467a-85dd-9849e4eafd31-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Video with text heading",
+            "heading": "Vidéo avec titre de texte",
             "heading_scale": 210
           }
         },
         "template--15265575993378__321485f8-5188-467a-85dd-9849e4eafd31-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the hero image or content on the template.<\/p>",
+            "text": "<p>Donnez aux clients des détails sur l'image principale ou le contenu du modèle.<\/p>",
             "enlarge_text": false
           }
         },
@@ -229,7 +229,7 @@
     "bf68ff39-3604-4104-bb9e-9f41dfaedaca": {
       "type": "d_product-description",
       "settings": {
-        "heading": "Product information",
+        "heading": "Informations sur le produit",
         "subheading": "",
         "content_width": 80,
         "font_scale": 100,
@@ -244,25 +244,25 @@
         "template--15265575993378__2975ab6b-f1cd-4cb9-9520-cded225cf7b2-item-1": {
           "type": "item",
           "settings": {
-            "heading": "Collapsible heading",
+            "heading": "Titre pliable",
             "icon": "none",
-            "text": "<p>Collapsible content<\/p>"
+            "text": "<p>Contenu pliable<\/p>"
           }
         },
         "template--15265575993378__2975ab6b-f1cd-4cb9-9520-cded225cf7b2-item-2": {
           "type": "item",
           "settings": {
-            "heading": "Collapsible heading",
+            "heading": "Titre pliable",
             "icon": "none",
-            "text": "<p>Collapsible content<\/p>"
+            "text": "<p>Contenu pliable<\/p>"
           }
         },
         "template--15265575993378__2975ab6b-f1cd-4cb9-9520-cded225cf7b2-item-3": {
           "type": "item",
           "settings": {
-            "heading": "Collapsible heading",
+            "heading": "Titre pliable",
             "icon": "none",
-            "text": "<p>Collapsible content<\/p>"
+            "text": "<p>Contenu pliable<\/p>"
           }
         }
       },

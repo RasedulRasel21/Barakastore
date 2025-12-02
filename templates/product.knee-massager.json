@@ -15,7 +15,7 @@
         "10fdd41f-2315-41d6-9635-dd0c3a78ad9c": {
           "type": "heading",
           "settings": {
-            "heading": "Get an Extra $10 off",
+            "heading": "Obtenez 10€ de Réduction Supplémentaire",
             "heading_scale": 100,
             "subheading": ""
           }
@@ -31,14 +31,14 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>When you spend $100 or more on clearance items</p>"
+            "text": "<p>Lorsque vous dépensez 100€ ou plus sur les articles en liquidation</p>"
           }
         },
         "29095ef3-e037-48ac-a925-11a52cbedbd1": {
           "type": "button",
           "settings": {
             "mobile_hidden": false,
-            "label": "Use Code: GET10",
+            "label": "Utilisez le Code : GET10",
             "link": "",
             "tier": "primary"
           }
@@ -161,14 +161,14 @@
           "type": "compare_checkbox",
           "disabled": true,
           "settings": {
-            "label": "Add to Compare List",
+            "label": "Ajouter à la Liste de Comparaison",
             "prev_attach": false
           }
         },
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
           "type": "collapsible_tab_text",
           "settings": {
-            "heading": "Shipping information",
+            "heading": "Informations de livraison",
             "icon": "info",
             "content": "<p>We offer fast and reliable shipping options to ensure that your order arrives in a timely manner. Our dedicated team works diligently to process and ship your items as quickly as possible.</p><p>Here are some key points to note about our shipping policy:</p><ul><li>We offer free shipping on all orders over $50 within the United States.</li><li>For orders under $50, a flat shipping fee of $5 will be applied.</li><li>We also provide international shipping options for our customers outside of the United States. Shipping fees may vary depending on the destination.</li><li>Once your order has been shipped, you will receive a confirmation email with tracking information, allowing you to easily monitor the progress of your delivery.</li></ul>",
             "prev_attach": false
@@ -177,7 +177,7 @@
         "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0": {
           "type": "collapsible_tab_question",
           "settings": {
-            "heading": "Have a question?",
+            "heading": "Une question?",
             "icon": "mail",
             "prev_attach": false
           }
@@ -244,20 +244,20 @@
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-subheading-1": {
           "type": "subheading",
           "settings": {
-            "subheading": "Featured"
+            "subheading": "En vedette"
           }
         },
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Get Ready",
+            "heading": "Préparez-Vous",
             "heading_scale": 210
           }
         },
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Unlock Your Ultimate Performance Potential with Cutting-Edge Technology.</p>",
+            "text": "<p>Libérez Votre Potentiel de Performance Ultime avec une Technologie de Pointe.</p>",
             "enlarge_text": false
           }
         },
@@ -304,25 +304,25 @@
         "item_g3MWVg": {
           "type": "item",
           "settings": {
-            "heading": "Collapsible heading",
+            "heading": "Titre pliable",
             "icon": "none",
-            "text": "<p>Collapsible content</p>",
+            "text": "<p>Contenu pliable</p>",
             "image": "shopify://shop_images/87.webp"
           }
         },
         "4c199312-8929-490f-ad36-58e9fde88d8f": {
           "type": "item",
           "settings": {
-            "heading": "Top Grade Components",
+            "heading": "Composants de Haute Qualité",
             "icon": "none",
-            "text": "<p>Choose from a wide range of top-notch parts.</p>",
+            "text": "<p>Choisissez parmi une large gamme de pièces de première qualité.</p>",
             "image": "shopify://shop_images/2-2.jpg"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1": {
           "type": "item",
           "settings": {
-            "heading": "Stunning Visuals",
+            "heading": "Visuels Époustouflants",
             "icon": "none",
             "text": "<p>Breathtaking Imagery Immerse yourself in the awe-inspiring imagery</p>",
             "image": "shopify://shop_images/0711719598558_I10.jpg"

@@ -31,14 +31,14 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>When you spend $100 or more on clearance items</p>"
+            "text": "<p>Lorsque vous dépensez 100€ ou plus sur les articles en liquidation</p>"
           }
         },
         "29095ef3-e037-48ac-a925-11a52cbedbd1": {
           "type": "button",
           "settings": {
             "mobile_hidden": false,
-            "label": "Use Code: GET10",
+            "label": "Utilisez le Code : GET10",
             "link": "",
             "tier": "primary"
           }
@@ -96,7 +96,7 @@
         "db834cde-9204-4d36-b1e7-26c7fddc78c2": {
           "type": "countdown",
           "settings": {
-            "meta_heading": "Sale ends in:",
+            "meta_heading": "La vente se termine dans :",
             "text_scale": 175,
             "use_sale_price_color": true,
             "prev_attach": true
@@ -134,7 +134,7 @@
           "type": "buy_with",
           "disabled": true,
           "settings": {
-            "meta_heading": "Frequently Bought Together",
+            "meta_heading": "Souvent Achetés Ensemble",
             "prev_attach": false
           }
         },
@@ -152,7 +152,7 @@
           "type": "specs",
           "disabled": true,
           "settings": {
-            "meta_heading": "Specifications",
+            "meta_heading": "Spécifications",
             "specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
             "prev_attach": false
           }
@@ -161,23 +161,23 @@
           "type": "compare_checkbox",
           "disabled": true,
           "settings": {
-            "label": "Add to Compare List",
+            "label": "Ajouter à la Liste de Comparaison",
             "prev_attach": false
           }
         },
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
           "type": "collapsible_tab_text",
           "settings": {
-            "heading": "Shipping information",
+            "heading": "Informations de livraison",
             "icon": "info",
-            "content": "<p>We offer fast and reliable shipping options to ensure that your order arrives in a timely manner. Our dedicated team works diligently to process and ship your items as quickly as possible.</p><p>Here are some key points to note about our shipping policy:</p><ul><li>We offer free shipping on all orders over $50 within the United States.</li><li>For orders under $50, a flat shipping fee of $5 will be applied.</li><li>We also provide international shipping options for our customers outside of the United States. Shipping fees may vary depending on the destination.</li><li>Once your order has been shipped, you will receive a confirmation email with tracking information, allowing you to easily monitor the progress of your delivery.</li></ul>",
+            "content": "<p>Nous offrons des options d'expédition rapides et fiables pour garantir que votre commande arrive dans les délais. Notre équipe dévouée travaille avec diligence pour traiter et expédier vos articles aussi rapidement que possible.</p><p>Voici quelques points clés à noter concernant notre politique d'expédition :</p><ul><li>Nous offrons la livraison gratuite sur toutes les commandes de plus de 50€ en France.</li><li>Pour les commandes de moins de 50€, des frais de livraison forfaitaires de 5€ seront appliqués.</li><li>Nous proposons également des options d'expédition internationale pour nos clients hors de France. Les frais d'expédition peuvent varier selon la destination.</li><li>Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec les informations de suivi, vous permettant de suivre facilement la progression de votre livraison.</li></ul>",
             "prev_attach": false
           }
         },
         "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0": {
           "type": "collapsible_tab_question",
           "settings": {
-            "heading": "Have a question?",
+            "heading": "Une question?",
             "icon": "mail",
             "prev_attach": false
           }
@@ -185,7 +185,7 @@
         "16a22540-baae-4510-8eae-93a395bbdc7e": {
           "type": "share",
           "settings": {
-            "meta_heading": "Share this product",
+            "meta_heading": "Partager ce produit",
             "use_colors": true,
             "prev_attach": false
           }
@@ -226,7 +226,7 @@
         "product_specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
         "specs_use_expand": false,
         "show_product_bundle": true,
-        "product_bundle_heading": "Buy together & save",
+        "product_bundle_heading": "Achetez ensemble et économisez",
         "product_bundle_variant_selector": false
       }
     },
@@ -234,7 +234,7 @@
       "type": "d_product-collections",
       "disabled": true,
       "settings": {
-        "heading": "Continue shopping",
+        "heading": "Continuer vos achats",
         "subheading": "",
         "columns": 5
       }
@@ -253,20 +253,20 @@
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-subheading-1": {
           "type": "subheading",
           "settings": {
-            "subheading": "Featured"
+            "subheading": "En vedette"
           }
         },
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Get Ready",
+            "heading": "Préparez-Vous",
             "heading_scale": 210
           }
         },
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Unlock Your Ultimate Performance Potential with Cutting-Edge Technology.</p>",
+            "text": "<p>Libérez Votre Potentiel de Performance Ultime avec une Technologie de Pointe.</p>",
             "enlarge_text": false
           }
         },
@@ -274,7 +274,7 @@
           "type": "buttons",
           "settings": {
             "info": "",
-            "f_button_label": "Find More",
+            "f_button_label": "En Savoir Plus",
             "f_button_link": "",
             "f_button_tier": "secondary",
             "s_button_label": "",
@@ -310,7 +310,7 @@
       "type": "d_product-description",
       "disabled": true,
       "settings": {
-        "heading": "Product information",
+        "heading": "Informations sur le produit",
         "subheading": "",
         "content_width": 80,
         "font_scale": 125,
@@ -325,45 +325,45 @@
         "item_g3MWVg": {
           "type": "item",
           "settings": {
-            "heading": "Collapsible heading",
+            "heading": "Titre pliable",
             "icon": "none",
-            "text": "<p>Collapsible content</p>",
+            "text": "<p>Contenu pliable</p>",
             "image": "shopify://shop_images/87.webp"
           }
         },
         "4c199312-8929-490f-ad36-58e9fde88d8f": {
           "type": "item",
           "settings": {
-            "heading": "Top Grade Components",
+            "heading": "Composants de Haute Qualité",
             "icon": "none",
-            "text": "<p>Choose from a wide range of top-notch parts.</p>",
+            "text": "<p>Choisissez parmi une large gamme de pièces de première qualité.</p>",
             "image": "shopify://shop_images/2-2.jpg"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1": {
           "type": "item",
           "settings": {
-            "heading": "Stunning Visuals",
+            "heading": "Visuels Époustouflants",
             "icon": "none",
-            "text": "<p>Breathtaking Imagery Immerse yourself in the awe-inspiring imagery</p>",
+            "text": "<p>Images Époustouflantes - Plongez-vous dans une imagerie à couper le souffle</p>",
             "image": "shopify://shop_images/0711719598558_I10.jpg"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2": {
           "type": "item",
           "settings": {
-            "heading": "Unbeatable Performance",
+            "heading": "Performance Imbattable",
             "icon": "none",
-            "text": "<p>Achieve superior performance with our top-of-the-line products, backed by scientific research and expert recommendations.</p>",
+            "text": "<p>Atteignez des performances supérieures avec nos produits haut de gamme, soutenus par la recherche scientifique et les recommandations d'experts.</p>",
             "image": "shopify://shop_images/S8a0ffe7d6ca74fb78c0e33584e08ee16F.webp"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-3": {
           "type": "item",
           "settings": {
-            "heading": "Exceptional Quality",
+            "heading": "Qualité Exceptionnelle",
             "icon": "none",
-            "text": "<p>Ensure that all products meet our superior standards of quality and performance, providing our customers with the best possible experience.</p>",
+            "text": "<p>Assurez-vous que tous les produits répondent à nos normes supérieures de qualité et de performance, offrant à nos clients la meilleure expérience possible.</p>",
             "image": "shopify://shop_images/d8003382-dbaf-4414-b0d7-d6b8b3cb553d.png"
           }
         }
@@ -377,7 +377,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4aaf3b82-8d8c-414f-aaf0-3b2f457f982b",
-        "heading": "Your Superpower",
+        "heading": "Votre Superpouvoir",
         "subheading": "",
         "heading_position": "inside",
         "section_layout": "container",
@@ -452,7 +452,7 @@
         "a6d1a922-cc6d-4fe0-b506-2f0c08eb82a4"
       ],
       "settings": {
-        "heading": "What Our Customers Think",
+        "heading": "Ce Que Nos Clients en Pensent",
         "subheading": "",
         "slides_per_view": 3,
         "show_stars": true,
@@ -582,8 +582,8 @@
         "template--20725111521561__620dfe3e-0549-45bc-9369-faee1f10a612-spot_text-1": {
           "type": "spot_text",
           "settings": {
-            "heading": "Stunning Screen",
-            "text": "Experience the next level of visual excellence with our impressive display.",
+            "heading": "Écran Époustouflant",
+            "text": "Découvrez le prochain niveau d'excellence visuelle avec notre écran impressionnant.",
             "coord_x": 44,
             "coord_y": 42
           }
@@ -591,8 +591,8 @@
         "bc925a0c-da34-4325-9e91-a85a0f2dfc7f": {
           "type": "spot_text",
           "settings": {
-            "heading": "Mechanical Keyboard",
-            "text": "Designed with expert knowledge to enhance your typing experience.",
+            "heading": "Clavier Mécanique",
+            "text": "Conçu avec une expertise technique pour améliorer votre expérience de frappe.",
             "coord_x": 54,
             "coord_y": 51
           }
@@ -600,8 +600,8 @@
         "c73e4e79-c9a5-4b59-8c27-7ea7cb431fc5": {
           "type": "spot_text",
           "settings": {
-            "heading": "Sound System",
-            "text": "Explore our top-of-the-line sound system designed to elevate your audio experience.",
+            "heading": "Système Audio",
+            "text": "Découvrez notre système audio haut de gamme conçu pour élever votre expérience sonore.",
             "coord_x": 27,
             "coord_y": 50
           }
@@ -609,8 +609,8 @@
         "97d9fffd-382a-4228-b225-d0c7207617d6": {
           "type": "spot_text",
           "settings": {
-            "heading": "Touchpad",
-            "text": "Accurate tracking and responsiveness for a seamless user interaction.",
+            "heading": "Pavé Tactile",
+            "text": "Suivi précis et réactivité pour une interaction utilisateur fluide.",
             "coord_x": 50,
             "coord_y": 59
           }
@@ -618,8 +618,8 @@
         "29f59255-3fca-4164-81b3-14d7f8fb1d33": {
           "type": "spot_text",
           "settings": {
-            "heading": "Aluminum Finish",
-            "text": "Obtain a sleek and polished aesthetic.",
+            "heading": "Finition en Aluminium",
+            "text": "Obtenez une esthétique élégante et raffinée.",
             "coord_x": 71,
             "coord_y": 58
           }
@@ -699,7 +699,7 @@
       ],
       "disabled": true,
       "settings": {
-        "heading": "Compare with similar items",
+        "heading": "Comparer avec des articles similaires",
         "subheading": "",
         "compare_products": [
           "3-in-1-fast-wireless-charger-for-iphone-apple-devices",
@@ -728,12 +728,12 @@
             "pattern": "pattern-bubbles_100",
             "pattern_scale": 100,
             "pattern_animation": "top",
-            "heading": "The Ultimate Gaming Arsenal",
+            "heading": "L'Arsenal de Jeu Ultime",
             "heading_scale": 120,
             "subheading": "",
-            "text": "<p>Discover the Latest Innovations in Power and Performance with Our Laptops Collection.</p>",
+            "text": "<p>Découvrez les Dernières Innovations en Puissance et Performance avec Notre Collection d'Ordinateurs Portables.</p>",
             "text_position": "center-center",
-            "f_button_label": "SHOP NOW",
+            "f_button_label": "ACHETER MAINTENANT",
             "f_button_link": "",
             "f_button_tier": "secondary"
           }
@@ -747,12 +747,12 @@
             "pattern": "pattern-hideout_40",
             "pattern_scale": 100,
             "pattern_animation": "top-right",
-            "heading": "Ergonomic Precision",
+            "heading": "Précision Ergonomique",
             "heading_scale": 120,
             "subheading": "",
-            "text": "<p>Upgrade Your Desk Setup with High-Quality Ergonomic Mouses.</p>",
+            "text": "<p>Améliorez Votre Configuration de Bureau avec des Souris Ergonomiques de Haute Qualité.</p>",
             "text_position": "center-center",
-            "f_button_label": "SHOP NOW",
+            "f_button_label": "ACHETER MAINTENANT",
             "f_button_link": "",
             "f_button_tier": "primary"
           }
@@ -766,12 +766,12 @@
             "pattern": "pattern-tic-tac-toe_64",
             "pattern_scale": 100,
             "pattern_animation": "bottom-right",
-            "heading": "Wire-Free Wins",
+            "heading": "Victoires Sans Fil",
             "heading_scale": 120,
             "subheading": "",
-            "text": "<p>Enhance your Gaming Experience with Bluetooth Controllers.</p>",
+            "text": "<p>Améliorez Votre Expérience de Jeu avec des Manettes Bluetooth.</p>",
             "text_position": "center-center",
-            "f_button_label": "SHOP NOW",
+            "f_button_label": "ACHETER MAINTENANT",
             "f_button_link": "",
             "f_button_tier": "secondary"
           }
@@ -785,12 +785,12 @@
             "pattern": "pattern-bank-note_100",
             "pattern_scale": 100,
             "pattern_animation": "right",
-            "heading": "Craftsmanship Meets Innovation",
+            "heading": "L'Artisanat Rencontre l'Innovation",
             "heading_scale": 120,
             "subheading": "",
-            "text": "<p>Unlock Stunning Photography with Cutting-Edge Mirrorless Digital Cameras.</p>",
+            "text": "<p>Débloquez une Photographie Époustouflante avec des Appareils Photo Numériques Sans Miroir de Pointe.</p>",
             "text_position": "center-center",
-            "f_button_label": "SHOP NOW",
+            "f_button_label": "ACHETER MAINTENANT",
             "f_button_link": "",
             "f_button_tier": "secondary"
           }
@@ -804,12 +804,12 @@
             "pattern": "pattern-topography_600",
             "pattern_scale": 100,
             "pattern_animation": "bottom-left",
-            "heading": "Stream Ready Gaming System",
+            "heading": "Système de Jeu Prêt pour le Streaming",
             "heading_scale": 120,
             "subheading": "",
-            "text": "<p>Top of The Line Streaming Ready Gaming System</p>",
+            "text": "<p>Système de Jeu Haut de Gamme Prêt pour le Streaming</p>",
             "text_position": "center-center",
-            "f_button_label": "SHOP NOW",
+            "f_button_label": "ACHETER MAINTENANT",
             "f_button_link": "",
             "f_button_tier": "primary"
           }
@@ -837,8 +837,8 @@
     "16554757745dec0af9": {
       "type": "d_product-recommendations",
       "settings": {
-        "heading": "You Will Also Like",
-        "subheading": "Related Products",
+        "heading": "Vous Aimerez Aussi",
+        "subheading": "Produits Connexes",
         "slide_every": "row",
         "slides_per_view": 4,
         "products_limit": 7
@@ -855,7 +855,7 @@
             "image_overlay": 0,
             "text_position": "bottom-center",
             "link": "",
-            "heading": "Gaming",
+            "heading": "Jeux",
             "subheading": "",
             "text": "",
             "button_label": ""
@@ -869,7 +869,7 @@
             "image_overlay": 0,
             "text_position": "bottom-center",
             "link": "",
-            "heading": "Outlet",
+            "heading": "Déstockage",
             "subheading": "",
             "text": "",
             "button_label": ""
@@ -883,7 +883,7 @@
             "image_overlay": 0,
             "text_position": "bottom-center",
             "link": "",
-            "heading": "Best Sellers",
+            "heading": "Meilleures Ventes",
             "subheading": "",
             "text": "",
             "button_label": ""
