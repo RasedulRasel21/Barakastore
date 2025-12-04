@@ -13,7 +13,7 @@
         {% if block.type == 'image' %}
           <div class="testimonial-image" {{ block.shopify_attributes }}>
             {% if block.settings.image != blank %}
-              <img src="{{ block.settings.image | img_url: '300x' }}" alt="Customer testimonial">
+              <img src="{{ block.settings.image | img_url: 'master' }}" alt="Customer testimonial">
             {% else %}
               <div class="placeholder-image">
                 {{ 'image' | placeholder_svg_tag }}
@@ -31,7 +31,7 @@
             <div class="testimonial-header">
               <div class="customer-photo">
                 {% if block.settings.customer_photo != blank %}
-                  <img src="{{ block.settings.customer_photo | img_url: '150x' }}" alt="{{ block.settings.customer_name }}">
+                  <img src="{{ block.settings.customer_photo | img_url: 'master' }}" alt="{{ block.settings.customer_name }}">
                 {% else %}
                   <div class="photo-placeholder">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="#999">
@@ -75,7 +75,7 @@
   }
 
   .testimonials-section .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
   }
 

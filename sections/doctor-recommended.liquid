@@ -1,12 +1,12 @@
 <!-- sections/doctor-recommended.liquid -->
 
-<!-- HTML Structure -->
 <section class="doctor-recommended-section">
   <div class="container">
-    <h2 class="doctor-heading">{{ section.settings.heading }}</h2>
+    
     
     <div class="doctor-grid">
       <div class="doctor-content">
+        <h2 class="doctor-heading">{{ section.settings.heading }}</h2>
         <p class="doctor-description">{{ section.settings.description }}</p>
         
         {% if section.settings.show_testimonial %}
@@ -23,13 +23,31 @@
           </div>
         {% endif %}
         
-        {% if section.settings.show_cta %}
-          <a href="{{ section.settings.cta_link }}" class="doctor-cta">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
-              <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
-            </svg>
-            {{ section.settings.cta_text }}
-          </a>
+        {% if section.settings.show_cta and section.settings.product != blank %}
+          {%- assign selected_product = section.settings.product -%}
+          {%- assign current_variant = selected_product.selected_or_first_available_variant -%}
+          
+          <div class="doctor-product-action">
+            {%- if current_variant.available -%}
+              {%- capture Button -%}
+                <button type="button" class="doctor-cta">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                    <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                  </svg>
+                  {{ section.settings.cta_text }}
+                </button>
+              {%- endcapture -%}
+
+              {% render 'product-to-cart', 
+                  trigger: Button, 
+                  variant: current_variant
+              %}
+            {%- else -%}
+              <button type="button" class="doctor-cta" disabled>
+                {{ 'products.product.sold_out' | t }}
+              </button>
+            {%- endif -%}
+          </div>
         {% endif %}
       </div>
 
@@ -46,7 +64,6 @@
   </div>
 </section>
 
-<!-- CSS Styles -->
 <style>
   .doctor-recommended-section {
     background: {{ section.settings.background_color }};
@@ -54,7 +71,7 @@
   }
 
   .doctor-recommended-section .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
   }
 
@@ -124,24 +141,37 @@
     justify-content: center;
   }
 
+  .doctor-product-action {
+    margin-top: 20px;
+  }
+
   .doctor-cta {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: {{ section.settings.cta_bg_color }};
+    background: linear-gradient(115deg, #c740a3, #9140c7);
     color: white;
     padding: 16px 32px;
-    border-radius: 8px;
-    text-decoration: none;
+    border-radius: 25px;
     font-size: 16px;
     font-weight: 600;
     transition: all 0.3s ease;
     width: 100%;
     justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
   }
 
-  .doctor-cta:hover {
-    background: {{ section.settings.cta_hover_color }};
+  .doctor-cta:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #ccc;
+  }
+
+  .doctor-cta:hover:not(:disabled) {
+    background: linear-gradient(115deg, #c740a3, #9140c7);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
@@ -158,7 +188,20 @@
   }
 </style>
 
-<!-- Schema -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const ctaButtons = document.querySelectorAll('.doctor-cta');
+    ctaButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+</script>
+
 {% schema %}
 {
   "name": "Doctor Recommended",
@@ -217,21 +260,10 @@
       "default": "Add to cart"
     },
     {
-      "type": "url",
-      "id": "cta_link",
-      "label": "CTA Button Link"
-    },
-    {
-      "type": "color",
-      "id": "cta_bg_color",
-      "label": "CTA Background Color",
-      "default": "#ff6b35"
-    },
-    {
-      "type": "color",
-      "id": "cta_hover_color",
-      "label": "CTA Hover Color",
-      "default": "#e55a2b"
+      "type": "product",
+      "id": "product",
+      "label": "Select Product",
+      "info": "Choose the product to add to cart when button is clicked"
     }
   ],
   "presets": [

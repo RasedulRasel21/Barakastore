@@ -1,6 +1,5 @@
 <!-- sections/how-it-works.liquid -->
 
-<!-- HTML Structure -->
 <section class="how-it-works-section">
   <div class="container">
     <h2 class="how-heading">{{ section.settings.heading }}</h2>
@@ -17,7 +16,7 @@
                 Your browser does not support the video tag.
               </video>
             {% elsif block.settings.image != blank %}
-              <img src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.title }}">
+              <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
             {% else %}
               <div class="placeholder-image">
                 {{ 'image' | placeholder_svg_tag }}
@@ -32,20 +31,35 @@
       {% endfor %}
     </div>
 
-    {% if section.settings.show_cta %}
+    {% if section.settings.show_cta and section.settings.product != blank %}
+      {%- assign selected_product = section.settings.product -%}
+      {%- assign current_variant = selected_product.selected_or_first_available_variant -%}
+      
       <div class="how-cta-wrapper">
-        <a href="{{ section.settings.cta_link }}" class="how-cta">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
-            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
-          </svg>
-          {{ section.settings.cta_text }}
-        </a>
+        {%- if current_variant.available -%}
+          {%- capture Button -%}
+            <button type="button" class="how-cta">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+              </svg>
+              {{ section.settings.cta_text }}
+            </button>
+          {%- endcapture -%}
+
+          {% render 'product-to-cart', 
+              trigger: Button, 
+              variant: current_variant
+          %}
+        {%- else -%}
+          <button type="button" class="how-cta" disabled>
+            {{ 'products.product.sold_out' | t }}
+          </button>
+        {%- endif -%}
       </div>
     {% endif %}
   </div>
 </section>
 
-<!-- CSS Styles -->
 <style>
   .how-it-works-section {
     background: {{ section.settings.background_color }};
@@ -53,7 +67,7 @@
   }
 
   .how-it-works-section .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
   }
 
@@ -88,7 +102,7 @@
   }
 
   .step-item {
-    text-align: center;
+    text-align: left;
   }
 
   .step-image {
@@ -140,20 +154,29 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: {{ section.settings.cta_bg_color }};
+    background: linear-gradient(115deg, #c740a3, #9140c7);
     color: white;
     padding: 16px 32px;
-    border-radius: 8px;
-    text-decoration: none;
+    border-radius: 25px;
     font-size: 16px;
     font-weight: 600;
     transition: all 0.3s ease;
     width: 30%;
     justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
   }
 
-  .how-cta:hover {
-    background: {{ section.settings.cta_hover_color }};
+  .how-cta:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #ccc;
+  }
+
+  .how-cta:hover:not(:disabled) {
+    background: linear-gradient(115deg, #c740a3, #9140c7);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
@@ -173,7 +196,20 @@
   }
 </style>
 
-<!-- Schema -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const ctaButtons = document.querySelectorAll('.how-cta');
+    ctaButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+</script>
+
 {% schema %}
 {
   "name": "How The Knee Relief Mas",
@@ -215,21 +251,10 @@
       "default": "Add to cart"
     },
     {
-      "type": "url",
-      "id": "cta_link",
-      "label": "CTA Button Link"
-    },
-    {
-      "type": "color",
-      "id": "cta_bg_color",
-      "label": "CTA Background Color",
-      "default": "#ff6b35"
-    },
-    {
-      "type": "color",
-      "id": "cta_hover_color",
-      "label": "CTA Hover Color",
-      "default": "#e55a2b"
+      "type": "product",
+      "id": "product",
+      "label": "Select Product",
+      "info": "Choose the product to add to cart when button is clicked"
     }
   ],
   "blocks": [

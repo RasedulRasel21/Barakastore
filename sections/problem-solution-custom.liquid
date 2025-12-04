@@ -1,6 +1,5 @@
 <!-- sections/problem-solution.liquid -->
 
-<!-- HTML Structure -->
 <section class="pbs-problem-solution-section">
   <div class="pbs-container">
     <div class="pbs-problem-solution-grid pbs-layout-{{ section.settings.layout }}">
@@ -11,7 +10,7 @@
             Your browser does not support the video tag.
           </video>
         {% elsif section.settings.image != blank %}
-          <img src="{{ section.settings.image | img_url: '600x' }}" alt="{{ section.settings.heading }}">
+          <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.heading }}">
         {% else %}
           <div class="pbs-placeholder-image">
             {{ 'image' | placeholder_svg_tag }}
@@ -35,17 +34,11 @@
           <div class="pbs-product-action">
             {%- if current_variant.available -%}
               {%- capture Button -%}
-                <button type="button" class="pbs-problem-cta" data-loading="false">
+                <button type="button" class="pbs-problem-cta">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="white" class="pbs-cart-icon">
                     <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
                   </svg>
                   <span class="pbs-cta-text">{{ section.settings.cta_text }}</span>
-                  <span class="pbs-cta-loading" style="display: none;">
-                    <svg class="pbs-spinner" width="20" height="20" viewBox="0 0 24 24" fill="none">
-                      <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" opacity="0.25"></circle>
-                      <path fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" opacity="0.75"></path>
-                    </svg>
-                  </span>
                 </button>
               {%- endcapture -%}
 
@@ -53,7 +46,6 @@
                   trigger: Button, 
                   variant: current_variant
               %}
-            
             {%- else -%}
               <button type="button" class="pbs-problem-cta" disabled>
                 <span class="pbs-cta-text">{{ 'products.product.sold_out' | t }}</span>
@@ -66,7 +58,6 @@
   </div>
 </section>
 
-<!-- CSS Styles -->
 <style>
   .pbs-problem-solution-section {
     background: {{ section.settings.background_color }};
@@ -74,7 +65,7 @@
   }
 
   .pbs-problem-solution-section .pbs-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
   }
 
@@ -143,11 +134,10 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: {{ section.settings.cta_bg_color }};
+    background: linear-gradient(115deg, #c740a3, #9140c7);
     color: white;
     padding: 16px 32px;
-    border-radius: 8px;
-    text-decoration: none;
+    border-radius: 25px;
     font-size: 16px;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -164,40 +154,8 @@
     background: #ccc;
   }
 
-  .pbs-problem-cta[data-loading="true"] {
-    pointer-events: none;
-  }
-
-  .pbs-problem-cta[data-loading="true"] .pbs-cart-icon,
-  .pbs-problem-cta[data-loading="true"] .pbs-cta-text {
-    display: none;
-  }
-
-  .pbs-problem-cta[data-loading="true"] .pbs-cta-loading {
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .pbs-cta-loading {
-    display: none;
-  }
-
-  .pbs-spinner {
-    animation: pbs-spin 1s linear infinite;
-  }
-
-  @keyframes pbs-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .pbs-problem-cta:hover:not(:disabled):not([data-loading="true"]) {
-    background: {{ section.settings.cta_hover_color }};
+  .pbs-problem-cta:hover:not(:disabled) {
+    background: linear-gradient(115deg, #c740a3, #9140c7);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
@@ -218,7 +176,20 @@
   }
 </style>
 
-<!-- Schema -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const ctaButtons = document.querySelectorAll('.pbs-problem-cta');
+    ctaButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+</script>
+
 {% schema %}
 {
   "name": "Problem Solution",
@@ -296,18 +267,6 @@
       "id": "product",
       "label": "Select Product",
       "info": "Choose the product to add to cart when button is clicked"
-    },
-    {
-      "type": "color",
-      "id": "cta_bg_color",
-      "label": "CTA Background Color",
-      "default": "#ff6b35"
-    },
-    {
-      "type": "color",
-      "id": "cta_hover_color",
-      "label": "CTA Hover Color",
-      "default": "#e55a2b"
     }
   ],
   "blocks": [

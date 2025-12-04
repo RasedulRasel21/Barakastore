@@ -1,0 +1,311 @@
+<!-- sections/guarantee.liquid -->
+
+<!-- HTML Structure -->
+<section class="guarantee-section">
+  <div class="container">
+    <h2 class="guarantee-heading">{{ section.settings.heading }}</h2>
+    
+    <div class="guarantee-content">
+      <div class="guarantee-badge">
+        {% if section.settings.badge_image != blank %}
+          <img src="{{ section.settings.badge_image | img_url: 'master' }}" 
+               alt="Guarantee Badge" 
+               class="badge-image">
+        {% else %}
+          <div class="badge-circle">
+            <div class="badge-top-text">{{ section.settings.satisfaction_percentage }}</div>
+            <div class="badge-satisfaction">SATISFACTION</div>
+            <div class="badge-days">{{ section.settings.days_number }}</div>
+            <div class="badge-days-label">DAYS</div>
+            <div class="badge-guarantee">GUARANTEE</div>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="guarantee-text">
+        <h3 class="guarantee-subtitle">{{ section.settings.subtitle }}</h3>
+        
+        {% for block in section.blocks %}
+          <p class="guarantee-paragraph" {{ block.shopify_attributes }}>
+            {{ block.settings.paragraph }}
+          </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styles -->
+<style>
+  .guarantee-section {
+    background: {{ section.settings.background_color }};
+    padding: 80px 20px;
+  }
+
+  .guarantee-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .guarantee-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .guarantee-content {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 60px;
+    align-items: flex-start;
+  }
+
+  .guarantee-badge {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .badge-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+  }
+
+  .badge-circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(135deg, #2d9ca5 0%, #1f7e87 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(45, 156, 165, 0.25);
+    border: 8px solid white;
+  }
+
+  .badge-top-text {
+    font-size: 52px;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+    margin-bottom: 2px;
+  }
+
+  .badge-satisfaction {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .badge-days {
+    font-size: 72px;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  .badge-days-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+  }
+
+  .badge-guarantee {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2.5px;
+  }
+
+  .guarantee-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+
+  .guarantee-paragraph {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 18px;
+  }
+
+  .guarantee-paragraph:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .guarantee-section {
+      padding: 60px 20px;
+    }
+
+    .guarantee-heading {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .guarantee-content {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .badge-circle {
+      width: 220px;
+      height: 220px;
+    }
+
+    .badge-top-text {
+      font-size: 44px;
+    }
+
+    .badge-days {
+      font-size: 60px;
+    }
+
+    .badge-image {
+      max-width: 220px;
+    }
+
+    .guarantee-subtitle {
+      font-size: 17px;
+    }
+
+    .guarantee-paragraph {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .guarantee-heading {
+      font-size: 24px;
+    }
+
+    .badge-circle {
+      width: 200px;
+      height: 200px;
+      border: 6px solid white;
+    }
+
+    .badge-top-text {
+      font-size: 38px;
+    }
+
+    .badge-days {
+      font-size: 52px;
+    }
+
+    .badge-image {
+      max-width: 200px;
+    }
+  }
+</style>
+
+<!-- Schema -->
+{% schema %}
+{
+  "name": "Guarantee",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Try It 90 Days With Our \"Results or Refund\" Guarantee"
+    },
+    {
+      "type": "image_picker",
+      "id": "badge_image",
+      "label": "Badge Image (Optional)",
+      "info": "Upload a custom badge image. If not provided, a default badge will be displayed."
+    },
+    {
+      "type": "text",
+      "id": "satisfaction_percentage",
+      "label": "Satisfaction Percentage",
+      "default": "100%"
+    },
+    {
+      "type": "text",
+      "id": "days_number",
+      "label": "Days Number",
+      "default": "90"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Our promise to you:"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "name": "Paragraph",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "paragraph",
+          "label": "Paragraph Text",
+          "default": "Your paragraph text here."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guarantee",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "We believe in our products, and we don't want you to spend a cent until you're 100% sure it will work for you."
+          }
+        },
+        {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "That's why we offer a 90-day, results or you don't pay guarantee."
+          }
+        },
+        {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "If for any reason you don't like the product, you get all your money back."
+          }
+        },
+        {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "In other words, you only pay if you experience a benefit from the product."
+          }
+        },
+        {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Based on the statistics, we dare to say that we are almost 100% sure that you will."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

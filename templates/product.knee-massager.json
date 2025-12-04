@@ -15,7 +15,7 @@
         "10fdd41f-2315-41d6-9635-dd0c3a78ad9c": {
           "type": "heading",
           "settings": {
-            "heading": "Obtenez 10€ de Réduction Supplémentaire",
+            "heading": "Get an Extra $10 off",
             "heading_scale": 100,
             "subheading": ""
           }
@@ -31,14 +31,14 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Lorsque vous dépensez 100€ ou plus sur les articles en liquidation</p>"
+            "text": "<p>When you spend $100 or more on clearance items</p>"
           }
         },
         "29095ef3-e037-48ac-a925-11a52cbedbd1": {
           "type": "button",
           "settings": {
             "mobile_hidden": false,
-            "label": "Utilisez le Code : GET10",
+            "label": "Use Code: GET10",
             "link": "",
             "tier": "primary"
           }
@@ -161,14 +161,14 @@
           "type": "compare_checkbox",
           "disabled": true,
           "settings": {
-            "label": "Ajouter à la Liste de Comparaison",
+            "label": "Add to Compare List",
             "prev_attach": false
           }
         },
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
           "type": "collapsible_tab_text",
           "settings": {
-            "heading": "Informations de livraison",
+            "heading": "Shipping information",
             "icon": "info",
             "content": "<p>We offer fast and reliable shipping options to ensure that your order arrives in a timely manner. Our dedicated team works diligently to process and ship your items as quickly as possible.</p><p>Here are some key points to note about our shipping policy:</p><ul><li>We offer free shipping on all orders over $50 within the United States.</li><li>For orders under $50, a flat shipping fee of $5 will be applied.</li><li>We also provide international shipping options for our customers outside of the United States. Shipping fees may vary depending on the destination.</li><li>Once your order has been shipped, you will receive a confirmation email with tracking information, allowing you to easily monitor the progress of your delivery.</li></ul>",
             "prev_attach": false
@@ -177,7 +177,7 @@
         "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0": {
           "type": "collapsible_tab_question",
           "settings": {
-            "heading": "Une question?",
+            "heading": "Have a question?",
             "icon": "mail",
             "prev_attach": false
           }
@@ -244,20 +244,20 @@
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-subheading-1": {
           "type": "subheading",
           "settings": {
-            "subheading": "En vedette"
+            "subheading": "Featured"
           }
         },
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Préparez-Vous",
+            "heading": "Get Ready",
             "heading_scale": 210
           }
         },
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Libérez Votre Potentiel de Performance Ultime avec une Technologie de Pointe.</p>",
+            "text": "<p>Unlock Your Ultimate Performance Potential with Cutting-Edge Technology.</p>",
             "enlarge_text": false
           }
         },
@@ -304,25 +304,25 @@
         "item_g3MWVg": {
           "type": "item",
           "settings": {
-            "heading": "Titre pliable",
+            "heading": "Collapsible heading",
             "icon": "none",
-            "text": "<p>Contenu pliable</p>",
+            "text": "<p>Collapsible content</p>",
             "image": "shopify://shop_images/87.webp"
           }
         },
         "4c199312-8929-490f-ad36-58e9fde88d8f": {
           "type": "item",
           "settings": {
-            "heading": "Composants de Haute Qualité",
+            "heading": "Top Grade Components",
             "icon": "none",
-            "text": "<p>Choisissez parmi une large gamme de pièces de première qualité.</p>",
+            "text": "<p>Choose from a wide range of top-notch parts.</p>",
             "image": "shopify://shop_images/2-2.jpg"
           }
         },
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1": {
           "type": "item",
           "settings": {
-            "heading": "Visuels Époustouflants",
+            "heading": "Stunning Visuals",
             "icon": "none",
             "text": "<p>Breathtaking Imagery Immerse yourself in the awe-inspiring imagery</p>",
             "image": "shopify://shop_images/0711719598558_I10.jpg"
@@ -582,9 +582,7 @@
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "cordless-charger-belkin-wiz029vfbk",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b"
+        "product": "cordless-charger-belkin-wiz029vfbk"
       }
     },
     "problem_solution_custom_RPtgz4": {
@@ -623,9 +621,7 @@
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "bluetooth-headphones-grundig-earbuds-white",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b"
+        "product": "bluetooth-headphones-grundig-earbuds-white"
       }
     },
     "problem_solution_custom_DitJHK": {
@@ -685,9 +681,7 @@
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "bluetooth-headphones-grundig-earbuds-white",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b"
+        "product": "bluetooth-headphones-grundig-earbuds-white"
       }
     },
     "doctor_recommended_hKebFa": {
@@ -696,16 +690,14 @@
       "settings": {
         "heading": "Doctor Recommended and User Approved",
         "description": "Designed with input from orthopedic specialists, the Knee Relief Massager is your surgery-free solution to chronic knee pain.",
-        "image": "shopify://shop_images/KneeRelief2__1_8d3977dd-8c2c-49aa-bc84-eaffa28b0ae9.avif",
+        "image": "shopify://shop_images/Back-Brace-for-Lower-Back-Pain-Relief-with-Pulley-System-Lumbar-Support-Belt-for-Men-Women_21708b7c-2e0b-47a8-b8f7-5d521de63443.webp",
         "background_color": "#ffffff",
         "show_testimonial": true,
         "testimonial_text": "The Knee Relief Massager is an exceptional tool for anyone suffering from knee discomfort. Its integrated therapy system not only eases pain but also aids in recovery. It's like having a personal physiotherapist available at any time.",
         "testimonial_author": "- Samantha L",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "cta_link": "",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b"
+        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
       }
     },
     "how_it_works_7gg6MM": {
@@ -755,9 +747,7 @@
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "cta_link": "",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b"
+        "product": "3-in-1-wireless-heated-knee-elbow-massager-with-vibration-usb-rechargeable-3-modes-for-relaxation"
       }
     },
     "comparison_table_custom_gr8rLD": {
@@ -879,7 +869,7 @@
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
         "heading": "Clinical Proof",
-        "background_color": "#2d9ca5",
+        "background_color": "#5590ea",
         "show_link": true,
         "link_text": "https://pubmed.ncbi.nlm.nih.gov/34880892/",
         "link_url": ""
@@ -902,15 +892,13 @@
       "settings": {
         "layout": "image-right",
         "media_type": "image",
-        "image": "shopify://shop_images/ComfySole__4___1.avif",
+        "image": "shopify://shop_images/ComfySole__4___1__1.avif",
         "video": "",
         "heading": "Imagine a Day Without Knee Pain",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b"
+        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
       }
     },
     "how_it_works_fhNm6K": {
@@ -967,9 +955,7 @@
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "cta_link": "",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b"
+        "product": ""
       }
     },
     "testimonials_custom_EiF8DE": {
@@ -1058,9 +1044,7 @@
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "cta_link": "",
-        "cta_bg_color": "#ff6b35",
-        "cta_hover_color": "#e55a2b",
+        "product": "3-in-1-wireless-heated-knee-elbow-massager-with-vibration-usb-rechargeable-3-modes-for-relaxation",
         "show_shipping_badge": true,
         "shipping_text": "FREE & FAST Shipping!",
         "show_note": true,
@@ -1068,6 +1052,101 @@
         "note_text": "Not Available on Amazon or eBay",
         "show_stock_alert": true,
         "stock_alert_text": "Sale ends today or when current stock is sold out"
+      }
+    },
+    "faq_custom_XeQAF9": {
+      "type": "faq-custom",
+      "blocks": {
+        "faq_item_EcVnDm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How quickly can I expect to feel relief from the Knee Relief Massager?",
+            "answer": "Many users report feeling relief within the first few uses. However, results can vary based on individual conditions. Consistent use is recommended for best results."
+          }
+        },
+        "faq_item_cnGaFD": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How often should I use the Knee Relief Massager?",
+            "answer": "You can use the massager daily for 15-20 minute sessions. It's safe for regular use and can be incorporated into your daily routine."
+          }
+        },
+        "faq_item_WakN8e": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if the Knee Relief Massager doesn't work for me?",
+            "answer": "We offer a 90-day money-back guarantee. If you're not satisfied with the results, you can return it for a full refund - no questions asked."
+          }
+        },
+        "faq_item_NTT8WB": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you tell me about your return policy?",
+            "answer": "We have a hassle-free 90-day return policy. If you're not completely satisfied, simply contact our customer service team for a full refund."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_EcVnDm",
+        "faq_item_cnGaFD",
+        "faq_item_WakN8e",
+        "faq_item_NTT8WB"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "heading": "Have a Question? We're Here to Help!",
+        "background_color": "#ffffff"
+      }
+    },
+    "guarantee_custom_WPFPkj": {
+      "type": "guarantee-custom",
+      "blocks": {
+        "paragraph_BTXt8X": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "We believe in our products, and we don't want you to spend a cent until you're 100% sure it will work for you."
+          }
+        },
+        "paragraph_83fFBn": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "That's why we offer a 90-day, results or you don't pay guarantee."
+          }
+        },
+        "paragraph_mP48Yy": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "If for any reason you don't like the product, you get all your money back."
+          }
+        },
+        "paragraph_KYNmQk": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "In other words, you only pay if you experience a benefit from the product."
+          }
+        },
+        "paragraph_zFJigM": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Based on the statistics, we dare to say that we are almost 100% sure that you will."
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_BTXt8X",
+        "paragraph_83fFBn",
+        "paragraph_mP48Yy",
+        "paragraph_KYNmQk",
+        "paragraph_zFJigM"
+      ],
+      "name": "Guarantee",
+      "settings": {
+        "heading": "Try It 90 Days With Our \"Results or Refund\" Guarantee",
+        "badge_image": "shopify://shop_images/English_1.avif",
+        "satisfaction_percentage": "100%",
+        "days_number": "90",
+        "subtitle": "Our promise to you:",
+        "background_color": "#ffffff"
       }
     }
   },
@@ -1089,6 +1168,8 @@
     "problem_solution_custom_7N6tcE",
     "how_it_works_fhNm6K",
     "testimonials_custom_EiF8DE",
-    "pricing_cta_inEjFK"
+    "pricing_cta_inEjFK",
+    "faq_custom_XeQAF9",
+    "guarantee_custom_WPFPkj"
   ]
 }

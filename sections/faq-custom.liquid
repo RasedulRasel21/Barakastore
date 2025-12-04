@@ -1,0 +1,207 @@
+<!-- sections/faq.liquid -->
+
+<!-- HTML Structure -->
+<section class="faq-section">
+  <div class="container">
+    <h2 class="faq-heading">{{ section.settings.heading }}</h2>
+    
+    <div class="faq-list">
+      {% for block in section.blocks %}
+        <div class="faq-item" {{ block.shopify_attributes }}>
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            <span>{{ block.settings.question }}</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>{{ block.settings.answer }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styles -->
+<style>
+  .faq-section {
+    background: {{ section.settings.background_color }};
+    padding: 80px 20px;
+  }
+
+  .faq-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .faq-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .faq-item {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .faq-item.active {
+    border-color: #2d9ca5;
+  }
+
+  .faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-align: left;
+    transition: background 0.3s ease;
+  }
+
+  .faq-question:hover {
+    background: #f8f8f8;
+  }
+
+  .faq-icon {
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    color: #2d9ca5;
+  }
+
+  .faq-item.active .faq-icon {
+    transform: rotate(180deg);
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+
+  .faq-item.active .faq-answer {
+    max-height: 500px;
+    padding: 0 25px 20px;
+  }
+
+  .faq-answer p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .faq-heading {
+      font-size: 26px;
+    }
+
+    .faq-question {
+      padding: 15px 20px;
+      font-size: 15px;
+    }
+
+    .faq-item.active .faq-answer {
+      padding: 0 20px 15px;
+    }
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  // No additional JavaScript needed - using inline onclick
+</script>
+
+<!-- Schema -->
+{% schema %}
+{
+  "name": "FAQ",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Have a Question? We're Here to Help!"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "Your question here?"
+        },
+        {
+          "type": "textarea",
+          "id": "answer",
+          "label": "Answer",
+          "default": "Your answer here."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ",
+      "blocks": [
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How quickly can I expect to feel relief from the Knee Relief Massager?",
+            "answer": "Many users report feeling relief within the first few uses. However, results can vary based on individual conditions. Consistent use is recommended for best results."
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "How often should I use the Knee Relief Massager?",
+            "answer": "You can use the massager daily for 15-20 minute sessions. It's safe for regular use and can be incorporated into your daily routine."
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if the Knee Relief Massager doesn't work for me?",
+            "answer": "We offer a 90-day money-back guarantee. If you're not satisfied with the results, you can return it for a full refund - no questions asked."
+          }
+        },
+        {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you tell me about your return policy?",
+            "answer": "We have a hassle-free 90-day return policy. If you're not completely satisfied, simply contact our customer service team for a full refund."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
