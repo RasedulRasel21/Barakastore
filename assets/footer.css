@@ -10,6 +10,12 @@
 .\#footer.\@back-to-top {
   --footer-padding-top: 0;
 }
+.\#footer-copyright-payment{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
 .\#footer-heading {
   color: var(--footer-heading-color);
   font-size: 1.25rem;
