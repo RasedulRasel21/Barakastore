@@ -144,7 +144,7 @@
             {%- endif -%}
             {%- if section.settings.payment_enable -%}
                 <div class="{{ cn }}-copyright-payment">
-                    {%- render 'product-payment-methods', center: true -%}
+                   Secure payment {%- render 'product-payment-methods', center: true -%}
                 </div>
             {%- endif -%}
             <p class="{{ cn }}-copyright-text">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }} {{ powered_by_link }}</p>
