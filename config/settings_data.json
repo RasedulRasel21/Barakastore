@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "show_preorder_badge": false,
     "theme_dark_mode": "switch",
     "enable_sections_dark_mode": true,
     "color_accent": "#d36bf1",
