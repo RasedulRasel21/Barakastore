@@ -47,63 +47,6 @@
         "autoplay": 3
       }
     },
-    "utility": {
-      "type": "g_utility-bar",
-      "blocks": {
-        "a9377da4-d7fc-480f-9da4-0b7c3c764a41": {
-          "type": "link",
-          "settings": {
-            "position": "left",
-            "link_label": "Free Shipping Over $50",
-            "link": "",
-            "icon": "truck-delivery"
-          }
-        },
-        "dd3ec072-897e-47c7-994b-369e37bbc167": {
-          "type": "mail_link",
-          "settings": {
-            "position": "right",
-            "mail_address": "info@multi.com",
-            "icon": "mail"
-          }
-        },
-        "2ec2509c-b6f3-4c16-aa0a-d1fccff68e22": {
-          "type": "phone_link",
-          "settings": {
-            "position": "right",
-            "phone_number": "(555) 555-1234",
-            "icon": "phone"
-          }
-        },
-        "834870f6-539a-4b91-8ac1-7017f0d79566": {
-          "type": "social_menu",
-          "settings": {
-            "position": "right",
-            "social_new_tab": true
-          }
-        },
-        "78b7efe3-988f-4bbd-b888-7b4e9a2fa897": {
-          "type": "localization_selector",
-          "settings": {
-            "position": "right",
-            "show_country_selector": true,
-            "show_localization_selector": false
-          }
-        }
-      },
-      "block_order": [
-        "a9377da4-d7fc-480f-9da4-0b7c3c764a41",
-        "dd3ec072-897e-47c7-994b-369e37bbc167",
-        "2ec2509c-b6f3-4c16-aa0a-d1fccff68e22",
-        "834870f6-539a-4b91-8ac1-7017f0d79566",
-        "78b7efe3-988f-4bbd-b888-7b4e9a2fa897"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_color": "#f6ecf9",
-        "bg_color": "#402249"
-      }
-    },
     "header": {
       "type": "g_header",
       "blocks": {
@@ -112,28 +55,10 @@
           "settings": {
             "menu": "mega-menu"
           }
-        },
-        "ae5df5e3-5af2-4a8f-bc71-d741ffe95eb0": {
-          "type": "catalog",
-          "disabled": true,
-          "settings": {
-            "title": "Accessories",
-            "title_link": "",
-            "icon": "none",
-            "badge_text": "",
-            "badge_color": "#ec0000",
-            "menu": "mega-menu",
-            "sidebar_image_type": "collection_image",
-            "show_collection_thumbnails": true,
-            "show_collection_bg_image": true,
-            "enable_masonry_layout": true,
-            "columns": 3
-          }
         }
       },
       "block_order": [
-        "22eb1efb-4b47-4380-b69f-db5c1719c795",
-        "ae5df5e3-5af2-4a8f-bc71-d741ffe95eb0"
+        "22eb1efb-4b47-4380-b69f-db5c1719c795"
       ],
       "settings": {
         "enable_sticky_header": true,
@@ -284,7 +209,6 @@
   },
   "order": [
     "announcements",
-    "utility",
     "header",
     "navigation-bar"
   ]

@@ -9,59 +9,6 @@
  */
 {
   "sections": {
-    "1649081791eb3a0c3d": {
-      "type": "d_promo-banner",
-      "blocks": {
-        "10fdd41f-2315-41d6-9635-dd0c3a78ad9c": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get an Extra $10 off",
-            "heading_scale": 100,
-            "subheading": ""
-          }
-        },
-        "11c282eb-3e60-4199-a1a1-3cda519388da": {
-          "type": "timer",
-          "settings": {
-            "date": "12-15-2025",
-            "hide_on_complete": false
-          }
-        },
-        "1801d392-ba0e-494e-8b63-0ccbceb07137": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>When you spend $100 or more on clearance items</p>"
-          }
-        },
-        "29095ef3-e037-48ac-a925-11a52cbedbd1": {
-          "type": "button",
-          "settings": {
-            "mobile_hidden": false,
-            "label": "Use Code: GET10",
-            "link": "",
-            "tier": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "10fdd41f-2315-41d6-9635-dd0c3a78ad9c",
-        "11c282eb-3e60-4199-a1a1-3cda519388da",
-        "1801d392-ba0e-494e-8b63-0ccbceb07137",
-        "29095ef3-e037-48ac-a925-11a52cbedbd1"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
-        "section_layout": "full",
-        "desktop_text_align": "space-between",
-        "link": "",
-        "pattern": "pattern-wiggle_52",
-        "pattern_scale": 160,
-        "pattern_opacity": 65,
-        "pattern_animation": "bottom-right"
-      }
-    },
     "main": {
       "type": "s_product",
       "blocks": {
@@ -131,14 +78,6 @@
             "prev_attach": false
           }
         },
-        "dabcb986-093f-4262-ab8a-50e5c7833b64": {
-          "type": "buy_with",
-          "disabled": true,
-          "settings": {
-            "meta_heading": "Frequently Bought Together",
-            "prev_attach": false
-          }
-        },
         "buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -149,46 +88,12 @@
             "prev_attach": false
           }
         },
-        "065925bb-103a-456d-9b2c-a27d1df6a5d8": {
-          "type": "specs",
-          "disabled": true,
-          "settings": {
-            "meta_heading": "Specifications",
-            "specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
-            "prev_attach": false
-          }
-        },
-        "compare_checkbox_nKcEEA": {
-          "type": "compare_checkbox",
-          "disabled": true,
-          "settings": {
-            "label": "Add to Compare List",
-            "prev_attach": false
-          }
-        },
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
           "type": "collapsible_tab_text",
           "settings": {
             "heading": "Shipping information",
             "icon": "info",
             "content": "<p>We offer fast and reliable shipping options to ensure that your order arrives in a timely manner. Our dedicated team works diligently to process and ship your items as quickly as possible.</p><p>Here are some key points to note about our shipping policy:</p><ul><li>We offer free shipping on all orders over $50 within the United States.</li><li>For orders under $50, a flat shipping fee of $5 will be applied.</li><li>We also provide international shipping options for our customers outside of the United States. Shipping fees may vary depending on the destination.</li><li>Once your order has been shipped, you will receive a confirmation email with tracking information, allowing you to easily monitor the progress of your delivery.</li></ul>",
-            "prev_attach": false
-          }
-        },
-        "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0": {
-          "type": "collapsible_tab_question",
-          "settings": {
-            "heading": "Have a question?",
-            "icon": "mail",
-            "prev_attach": false
-          }
-        },
-        "16a22540-baae-4510-8eae-93a395bbdc7e": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "meta_heading": "Share this product",
-            "use_colors": true,
             "prev_attach": false
           }
         }
@@ -201,13 +106,8 @@
         "7e37f69f-d0e7-4b32-801c-81c63db85c51",
         "36262d9b-9d82-451a-86c7-53a5fba4ed9c",
         "stock_alert",
-        "dabcb986-093f-4262-ab8a-50e5c7833b64",
         "buttons",
-        "065925bb-103a-456d-9b2c-a27d1df6a5d8",
-        "compare_checkbox_nKcEEA",
-        "a685ac79-30ea-4b8b-83c6-58c2d92e8d88",
-        "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0",
-        "16a22540-baae-4510-8eae-93a395bbdc7e"
+        "a685ac79-30ea-4b8b-83c6-58c2d92e8d88"
       ],
       "custom_css": [
         "@media (max-width: 767px) {.\\#product-title .\\#heading {--heading-scale: 0.6 !important; }}"
@@ -233,273 +133,6 @@
         "show_product_bundle": true,
         "product_bundle_heading": "Buy together & save",
         "product_bundle_variant_selector": false
-      }
-    },
-    "fd8ca66b-95a5-4125-a6c0-04faf9d13788": {
-      "type": "d_background-video-with-text",
-      "blocks": {
-        "21094e2a-81da-403e-bf41-cd12ed7f8019": {
-          "type": "icon",
-          "disabled": true,
-          "settings": {
-            "icon": "rocket",
-            "icon_scale": 180
-          }
-        },
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Featured"
-          }
-        },
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get Ready",
-            "heading_scale": 210
-          }
-        },
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Unlock Your Ultimate Performance Potential with Cutting-Edge Technology.</p>",
-            "enlarge_text": false
-          }
-        },
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "info": "",
-            "f_button_label": "Find More",
-            "f_button_link": "",
-            "f_button_tier": "secondary",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_tier": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "21094e2a-81da-403e-bf41-cd12ed7f8019",
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-subheading-1",
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-heading-1",
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1",
-        "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
-        "section_layout": "container",
-        "embedded_video": "https://youtu.be/1w0OQHsMkac?si=HC1hHw3kRwDADCi_",
-        "image_size": "550px",
-        "mobile_image_size": "origin",
-        "image": "shopify://shop_images/S6e24b8b833be4603a3a3c68ccadf9b02t.webp",
-        "display_desktop_only": false,
-        "image_width": 50,
-        "image_position": "left",
-        "text_position": "bottom-left",
-        "pattern": "pattern-topography_600",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
-      }
-    },
-    "a3ffaaa1-8a74-4dca-a668-d574b867228f": {
-      "type": "d_accordion-with-images",
-      "blocks": {
-        "item_g3MWVg": {
-          "type": "item",
-          "settings": {
-            "heading": "Collapsible heading",
-            "icon": "none",
-            "text": "<p>Collapsible content</p>",
-            "image": "shopify://shop_images/87.webp"
-          }
-        },
-        "4c199312-8929-490f-ad36-58e9fde88d8f": {
-          "type": "item",
-          "settings": {
-            "heading": "Top Grade Components",
-            "icon": "none",
-            "text": "<p>Choose from a wide range of top-notch parts.</p>",
-            "image": "shopify://shop_images/2-2.jpg"
-          }
-        },
-        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1": {
-          "type": "item",
-          "settings": {
-            "heading": "Stunning Visuals",
-            "icon": "none",
-            "text": "<p>Breathtaking Imagery Immerse yourself in the awe-inspiring imagery</p>",
-            "image": "shopify://shop_images/0711719598558_I10.jpg"
-          }
-        },
-        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2": {
-          "type": "item",
-          "settings": {
-            "heading": "Unbeatable Performance",
-            "icon": "none",
-            "text": "<p>Achieve superior performance with our top-of-the-line products, backed by scientific research and expert recommendations.</p>",
-            "image": "shopify://shop_images/S8a0ffe7d6ca74fb78c0e33584e08ee16F.webp"
-          }
-        },
-        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-3": {
-          "type": "item",
-          "settings": {
-            "heading": "Exceptional Quality",
-            "icon": "none",
-            "text": "<p>Ensure that all products meet our superior standards of quality and performance, providing our customers with the best possible experience.</p>",
-            "image": "shopify://shop_images/d8003382-dbaf-4414-b0d7-d6b8b3cb553d.png"
-          }
-        }
-      },
-      "block_order": [
-        "item_g3MWVg",
-        "4c199312-8929-490f-ad36-58e9fde88d8f",
-        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-1",
-        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2",
-        "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-4aaf3b82-8d8c-414f-aaf0-3b2f457f982b",
-        "heading": "Your Superpower",
-        "subheading": "",
-        "heading_position": "inside",
-        "section_layout": "container",
-        "image_size": "650px",
-        "mobile_image_size": "350px",
-        "image_width": 50,
-        "image_position": "right",
-        "pattern": "pattern-diagonal-lines_6",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
-      }
-    },
-    "85a0ac6a-88e2-441d-9f20-a9024da7875a": {
-      "type": "d_testimonials",
-      "blocks": {
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Alice J.",
-            "heading": "My best choice!",
-            "text": "\"Good value. Works as described.\"\nNice quality product. Charges everything properly. Can use phone while charging. Easy to use. Happy with purchase.",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-4": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Fabio W.",
-            "heading": "Really great deal!",
-            "text": "\"Highly recommended. Good build quality.\"\nExcellent charging pad. Very easy to use. Phone charges in any direction. Good performance overall.",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Michael T.",
-            "heading": "Amazing quality",
-            "text": "\"Very convenient. Good product.\"\nWorks great for all my devices. Easy setup. Good charging speed. Quality is nice. No problems.",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Artur S.",
-            "heading": "That's what I was looking for",
-            "text": "\"Solid product. Does what it claims.\"\nGood quality charger. Easy to use daily. Phone and watch charge well. Worth the money.",
-            "star_count": "5",
-            "product": ""
-          }
-        },
-        "a6d1a922-cc6d-4fe0-b506-2f0c08eb82a4": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Veronika H.",
-            "heading": "Very nice design",
-            "text": "",
-            "star_count": "5",
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-1",
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-4",
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-2",
-        "template--20867772711193__85a0ac6a-88e2-441d-9f20-a9024da7875a-testimonial-3",
-        "a6d1a922-cc6d-4fe0-b506-2f0c08eb82a4"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "What Our Customers Think",
-        "subheading": "",
-        "slides_per_view": 3,
-        "show_stars": true,
-        "section_button_label": "",
-        "section_button_link": ""
-      }
-    },
-    "1655475777b1187173": {
-      "type": "d_image-with-text",
-      "blocks": {
-        "16554757779f91ab44-0": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Subheading"
-          }
-        },
-        "16554757779f91ab44-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text heading",
-            "heading_scale": 120
-          }
-        },
-        "16554757779f91ab44-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Give customers details about the hero image or content on the template.</p>",
-            "enlarge_text": false
-          }
-        },
-        "16554757779f91ab44-3": {
-          "type": "buttons",
-          "settings": {
-            "info": "",
-            "f_button_label": "Shop now",
-            "f_button_link": "",
-            "f_button_tier": "primary",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_tier": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "16554757779f91ab44-0",
-        "16554757779f91ab44-1",
-        "16554757779f91ab44-2",
-        "16554757779f91ab44-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "section_layout": "container",
-        "image_size": "450px",
-        "mobile_image_size": "origin",
-        "image_width": 50,
-        "image_position": "left",
-        "text_position": "center-center",
-        "pattern": "none",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
       }
     },
     "trust_badges_custom_BTMF4B": {
@@ -1156,12 +789,7 @@
     }
   },
   "order": [
-    "1649081791eb3a0c3d",
     "main",
-    "fd8ca66b-95a5-4125-a6c0-04faf9d13788",
-    "a3ffaaa1-8a74-4dca-a668-d574b867228f",
-    "85a0ac6a-88e2-441d-9f20-a9024da7875a",
-    "1655475777b1187173",
     "trust_badges_custom_BTMF4B",
     "problem_solution_custom_Mi4NhL",
     "problem_solution_custom_RPtgz4",
