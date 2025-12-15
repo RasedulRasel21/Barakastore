@@ -209,6 +209,9 @@
         "a7e0e856-8e0f-4ca0-a9bb-8e4a41241bf0",
         "16a22540-baae-4510-8eae-93a395bbdc7e"
       ],
+      "custom_css": [
+        "@media (max-width: 767px) {.\\#product-title .\\#heading {--heading-scale: 0.6 !important; }}"
+      ],
       "settings": {
         "layout": "default",
         "use_surface_color_for_bg": true,
