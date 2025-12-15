@@ -655,7 +655,7 @@
         "text": "<p>Découvrez des Outils et Équipements de Qualité Professionnelle pour Tous les Secteurs.</p>",
         "text_position": "center-left",
         "f_button_label": "Acheter Maintenant",
-        "f_button_link": "",
+        "f_button_link": "shopify://collections/charger",
         "f_button_tier": "primary",
         "pattern": "pattern-topography_600",
         "pattern_scale": 120,
