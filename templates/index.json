@@ -130,10 +130,18 @@
     "15b65ea5-36b9-4044-baab-de887f308881": {
       "type": "d_moving-text",
       "blocks": {
+        "text_TwBNjQ": {
+          "type": "text",
+          "settings": {
+            "text": "Tech • Gadgets • Santé • Sport — Découvrez les nouveautés chaque semaine !",
+            "icon": "none",
+            "link": ""
+          }
+        },
         "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1": {
           "type": "text",
           "settings": {
-            "text": "Livraison Gratuite dès 100€",
+            "text": "Livraison Gratuite dès €50",
             "icon": "none",
             "link": ""
           }
@@ -141,13 +149,14 @@
         "001cdebc-882e-4131-bdd3-008b152becf6": {
           "type": "text",
           "settings": {
-            "text": "Livraison en 2 Jours Gratuite",
+            "text": "Livraison rapide & paiement 100 % sécurisé",
             "icon": "none",
             "link": ""
           }
         }
       },
       "block_order": [
+        "text_TwBNjQ",
         "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1",
         "001cdebc-882e-4131-bdd3-008b152becf6"
       ],

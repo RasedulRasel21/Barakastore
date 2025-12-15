@@ -17,7 +17,7 @@
         "announcement_GyzxF3": {
           "type": "announcement",
           "settings": {
-            "text": "Fast shipping",
+            "text": "Expédition rapide",
             "link": "",
             "icon": "none"
           }
@@ -25,7 +25,7 @@
         "announcement_eE378x": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping over $50",
+            "text": "Livraison Gratuite dès €50",
             "link": "",
             "icon": "none"
           }
