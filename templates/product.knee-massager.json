@@ -99,24 +99,6 @@
             "prev_attach": false
           }
         },
-        "upsell_cross_sell_booster_product_upsells_3QMwPK": {
-          "type": "shopify://apps/upsell-cross-sell-booster/blocks/product-upsells/019ab266-a3a9-7921-a8c4-710967eb5511",
-          "settings": {
-            "title": "Vous aimerez peut-être aussi",
-            "collection": "health-care",
-            "show_count": 4,
-            "card_width": 400,
-            "grid_gap": 10,
-            "padding": 10,
-            "border_radius": 8,
-            "background_color": "#ffffff",
-            "text_color": "#000000",
-            "button_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_text": "Add",
-            "button_border_radius": 4
-          }
-        },
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
           "type": "collapsible_tab_text",
           "settings": {
@@ -137,7 +119,6 @@
         "36262d9b-9d82-451a-86c7-53a5fba4ed9c",
         "stock_alert",
         "buttons",
-        "upsell_cross_sell_booster_product_upsells_3QMwPK",
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88"
       ],
       "custom_css": [
