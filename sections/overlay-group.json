@@ -87,6 +87,7 @@
         "text",
         "form"
       ],
+      "disabled": true,
       "settings": {
         "new_customers_only": false,
         "color_scheme": "scheme-4aaf3b82-8d8c-414f-aaf0-3b2f457f982b",
@@ -131,7 +132,7 @@
         "button_text": "Today's Deals",
         "icon": "bell",
         "position_x": "left",
-        "heading": "Today's <strong>Deals<\/strong>",
+        "heading": "Today's <strong>Deals</strong>",
         "subheading": "",
         "collection": "best-deals",
         "slide_every": "row",
