@@ -19,7 +19,7 @@
           "settings": {
             "icon": "truck-delivery",
             "crop_image": true,
-            "heading": "Free Shipping Over $50",
+            "heading": "Livraison Gratuite dès €50",
             "text": "",
             "link": ""
           }
@@ -29,7 +29,7 @@
           "settings": {
             "icon": "message",
             "crop_image": true,
-            "heading": "24/7 Premium Support",
+            "heading": "Assistance premium 24h/24 et 7j/7",
             "text": "",
             "link": ""
           }
@@ -39,7 +39,7 @@
           "settings": {
             "icon": "mood-smile",
             "crop_image": true,
-            "heading": "Hassle Free Returns",
+            "heading": "Retours sans tracas",
             "text": "",
             "link": ""
           }
@@ -70,14 +70,14 @@
             "heading": "",
             "logo": "shopify://shop_images/Artboard_8_copy.svg",
             "logo_width": 80,
-            "text": "<p>BaraKaStore is your trusted destination for premium electronics and tech accessories in France.<br/><br/><a href=\"mailto:info@barakastore.net\" title=\"mailto:info@barakastore.net\">info@barakastore.net</a></p>",
+            "text": "<p>BaraKaStore est votre destination de confiance pour les produits électroniques et accessoires technologiques haut de gamme en France.<br/><br/><a href=\"mailto:info@barakastore.net\" title=\"mailto:info@barakastore.net\">info@barakastore.net</a></p>",
             "show_social_icons": false
           }
         },
         "936fb0c9-0d6a-4fa1-b802-dfc2a9742869": {
           "type": "menu",
           "settings": {
-            "heading": "Shop",
+            "heading": "Boutique",
             "menu": "mega-menu"
           }
         },
@@ -92,7 +92,7 @@
           "type": "newsletter",
           "settings": {
             "heading": "Newsletter",
-            "text": "<p>Join our newsletter and never miss out on the latest trends and promotions.</p>",
+            "text": "<p>Abonnez-vous à notre newsletter et ne manquez jamais les dernières tendances et promotions.</p>",
             "show_social_icons": true
           }
         }
