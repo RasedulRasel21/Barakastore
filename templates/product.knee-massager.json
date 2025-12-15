@@ -68,9 +68,9 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_scale": 100,
+            "heading_scale": 80,
             "enable_text_truncation": false,
-            "max_lines": 3,
+            "max_lines": 2,
             "badges_display": "before",
             "show_low_stock": false,
             "badges_scale": 100,
@@ -185,6 +185,7 @@
         },
         "16a22540-baae-4510-8eae-93a395bbdc7e": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "meta_heading": "Share this product",
             "use_colors": true,
@@ -223,7 +224,7 @@
         "sticky_add_to_cart_position": "bottom",
         "enable_share_button": false,
         "use_brand_colors": true,
-        "show_product_specs": true,
+        "show_product_specs": false,
         "product_specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
         "specs_use_expand": false,
         "show_product_bundle": true,
