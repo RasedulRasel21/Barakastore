@@ -42,6 +42,15 @@
             "prev_attach": true
           }
         },
+        "text_xDKHkM": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><a href=\"https://norelie-uk.com/pages/return-conditions?utm_id=01JB4F1RV1NG5VJ9H81G2SNW3P&utm_source=Klaviyo&utm_medium=campaign\"><span style=\"text-decoration:underline\"><strong>90-DAY RISK FREE TRIAL</strong></span></a></h4><ul><li><strong>Experience Triple Therapy Technology: </strong>Knee Relief Massager's innovative design combines Heat, Red Light, and Massage therapy to stabilize your knee and swiftly remove pain.</li><li><strong>Dynamic “Over-The-Knee” Design: </strong>Provides deeper, more sustainable relief than many clinical or handheld massagers— all from the comfort of your own home.</li><li><strong>Enhances Blood Flow: </strong>Speeds up recovery without the need for long walks or exercise.</li></ul>",
+            "size": "body",
+            "text_uppercase": false,
+            "prev_attach": false
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -122,6 +131,7 @@
         "title",
         "upsell_cross_sell_booster_product_bundle_BGQttQ",
         "9c180697-4c38-4cd5-9d94-b3c03c77e714",
+        "text_xDKHkM",
         "price",
         "db834cde-9204-4d36-b1e7-26c7fddc78c2",
         "7e37f69f-d0e7-4b32-801c-81c63db85c51",
