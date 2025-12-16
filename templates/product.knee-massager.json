@@ -107,6 +107,15 @@
             "content": "<p>We offer fast and reliable shipping options to ensure that your order arrives in a timely manner. Our dedicated team works diligently to process and ship your items as quickly as possible.</p><p>Here are some key points to note about our shipping policy:</p><ul><li>We offer free shipping on all orders over $50 within the United States.</li><li>For orders under $50, a flat shipping fee of $5 will be applied.</li><li>We also provide international shipping options for our customers outside of the United States. Shipping fees may vary depending on the destination.</li><li>Once your order has been shipped, you will receive a confirmation email with tracking information, allowing you to easily monitor the progress of your delivery.</li></ul>",
             "prev_attach": false
           }
+        },
+        "collapsible_tab_text_LL7m4m": {
+          "type": "collapsible_tab_text",
+          "settings": {
+            "heading": "90-day risk-free trial",
+            "icon": "package",
+            "content": "<p><strong>Try it risk-free for 90 days!</strong></p><p>In other words, you can try the product in normal use for two months.</p><p>Return for free if you are not satisfied.</p><p>Contact info@barakastore.net to initiate a refund.</p><p>We will refund faulty products, lost packages and incorrectly shipped orders.</p>",
+            "prev_attach": false
+          }
         }
       },
       "block_order": [
@@ -119,7 +128,8 @@
         "36262d9b-9d82-451a-86c7-53a5fba4ed9c",
         "stock_alert",
         "buttons",
-        "a685ac79-30ea-4b8b-83c6-58c2d92e8d88"
+        "a685ac79-30ea-4b8b-83c6-58c2d92e8d88",
+        "collapsible_tab_text_LL7m4m"
       ],
       "custom_css": [
         "@media (max-width: 767px) {.\\#product-title .\\#heading {--heading-scale: 0.6 !important; }}"
