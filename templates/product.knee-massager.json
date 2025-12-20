@@ -113,7 +113,7 @@
           "settings": {
             "heading": "Informations de livraison",
             "icon": "info",
-            "content": "<p>Nous offrons des options d'expédition rapides et fiables pour garantir que votre commande arrive dans les délais. Notre équipe dévouée travaille avec diligence pour traiter et expédier vos articles aussi rapidement que possible.</p><p>Voici quelques points clés à noter concernant notre politique d'expédition :</p><ul><li>Nous offrons la livraison gratuite sur toutes les commandes de plus de 150€ en France.</li><li>Nous proposons également des options d'expédition internationale pour nos clients hors de France. Les frais d'expédition peuvent varier selon la destination.</li><li>Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec les informations de suivi, vous permettant de suivre facilement la progression de votre livraison.</li></ul>",
+            "content": "<p>Nous offrons des options d'expédition rapides et fiables pour garantir que votre commande arrive dans les délais. Notre équipe dévouée travaille avec diligence pour traiter et expédier vos articles aussi rapidement que possible.</p><p>Voici quelques points clés à noter concernant notre politique d'expédition :</p><ul><li>Nous offrons la livraison gratuite sur toutes les commandes de plus de 50€ en France.</li><li>Nous proposons également des options d'expédition internationale pour nos clients hors de France. Les frais d'expédition peuvent varier selon la destination.</li><li>Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec les informations de suivi, vous permettant de suivre facilement la progression de votre livraison.</li></ul>",
             "prev_attach": false
           }
         },
