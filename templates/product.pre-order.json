@@ -86,7 +86,7 @@
         "a68e8d3b-8a31-48f2-9d39-c0737960dcdd": {
           "type": "countdown",
           "settings": {
-            "meta_heading": "Sale ends in:",
+            "meta_heading": "La vente se termine dans :",
             "text_scale": 175,
             "use_sale_price_color": true,
             "prev_attach": false
@@ -135,7 +135,7 @@
         "6869677d-4a02-4300-adfb-3e693d0b1235": {
           "type": "share",
           "settings": {
-            "meta_heading": "Share this product",
+            "meta_heading": "Partager ce produit",
             "use_colors": true,
             "prev_attach": false
           }
@@ -166,7 +166,7 @@
         "show_product_specs": false,
         "product_specs": "<p>Brand: {{ product.vendor }}<\/p><p>Title: {{ product.title }}<\/p>",
         "show_product_bundle": true,
-        "product_bundle_heading": "Buy together & save"
+        "product_bundle_heading": "Achetez ensemble et économisez"
       }
     },
     "321485f8-5188-467a-85dd-9849e4eafd31": {
@@ -175,7 +175,7 @@
         "template--15265575993378__321485f8-5188-467a-85dd-9849e4eafd31-subheading-1": {
           "type": "subheading",
           "settings": {
-            "subheading": "Subheading"
+            "subheading": "Sous-titre"
           }
         },
         "template--15265575993378__321485f8-5188-467a-85dd-9849e4eafd31-heading-1": {
@@ -196,7 +196,7 @@
           "type": "buttons",
           "settings": {
             "info": "",
-            "f_button_label": "Find More",
+            "f_button_label": "En savoir plus",
             "f_button_link": "",
             "f_button_tier": "secondary",
             "s_button_label": "",
@@ -273,7 +273,7 @@
       ],
       "settings": {
         "color_scheme": "accent",
-        "heading": "Heading",
+        "heading": "Titre",
         "subheading": "",
         "heading_position": "inside",
         "section_layout": "container",
@@ -304,7 +304,7 @@
         "template--15265575993378__d2d75fdf-7ef1-4738-af97-397f99d898af-spot_text-1": {
           "type": "spot_text",
           "settings": {
-            "heading": "Card title",
+            "heading": "Titre de la carte",
             "text": "",
             "coord_x": 21,
             "coord_y": 19
@@ -313,7 +313,7 @@
         "729f6178-6205-40be-be7d-736300032eb8": {
           "type": "spot_text",
           "settings": {
-            "heading": "Card title",
+            "heading": "Titre de la carte",
             "text": "",
             "coord_x": 25,
             "coord_y": 73
@@ -322,7 +322,7 @@
         "8f1f2d98-0d05-44b5-acbf-a1ce3866ccf9": {
           "type": "spot_text",
           "settings": {
-            "heading": "Card title",
+            "heading": "Titre de la carte",
             "text": "",
             "coord_x": 74,
             "coord_y": 87
@@ -331,7 +331,7 @@
         "1253feb5-6588-4829-abda-0dba8aefc8c4": {
           "type": "spot_text",
           "settings": {
-            "heading": "Card title",
+            "heading": "Titre de la carte",
             "text": "",
             "coord_x": 80,
             "coord_y": 16
@@ -340,7 +340,7 @@
         "dc68e283-ef8a-4d63-9008-afcb229feea9": {
           "type": "spot_text",
           "settings": {
-            "heading": "Card title",
+            "heading": "Titre de la carte",
             "text": "",
             "coord_x": 54,
             "coord_y": 50
@@ -355,7 +355,7 @@
         "dc68e283-ef8a-4d63-9008-afcb229feea9"
       ],
       "settings": {
-        "heading": "Image hot spots",
+        "heading": "Points d'intérêt de l'image",
         "subheading": "",
         "section_layout": "full",
         "spots_color": "#ffffff"
@@ -387,7 +387,7 @@
         "template--15265575993378__754f7702-d82c-416d-89df-63c5feec689a-vendor-1"
       ],
       "settings": {
-        "heading": "Compare with similar items",
+        "heading": "Comparer avec des articles similaires",
         "subheading": "",
         "compare_products": [
           "4pcs-stainless-steel-cutlery-set-dinnerware-set-western-tableware-classic-dinner-set-knife-fork-spoon-flatware-restaurant-dining",
@@ -404,7 +404,7 @@
     "16554757745dec0af9": {
       "type": "d_product-recommendations",
       "settings": {
-        "heading": "Recommended for You",
+        "heading": "Recommandé pour Vous",
         "subheading": "",
         "slide_every": "row",
         "slides_per_view": 4,

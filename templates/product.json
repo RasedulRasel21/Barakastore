@@ -15,7 +15,7 @@
         "10fdd41f-2315-41d6-9635-dd0c3a78ad9c": {
           "type": "heading",
           "settings": {
-            "heading": "Get an Extra $10 off",
+            "heading": "Obtenez 10€ de Réduction Supplémentaire",
             "heading_scale": 100,
             "subheading": ""
           }
@@ -399,8 +399,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Alice J.",
-            "heading": "My best choice!",
-            "text": "\"Good value. Works as described.\"\nNice quality product. Charges everything properly. Can use phone while charging. Easy to use. Happy with purchase.",
+            "heading": "Mon meilleur choix !",
+            "text": "\"Bon rapport qualité-prix. Fonctionne comme décrit.\"\nProduit de bonne qualité. Charge tout correctement. Peut utiliser le téléphone pendant la charge. Facile à utiliser. Satisfait de l'achat.",
             "star_count": "5",
             "product": ""
           }
@@ -409,8 +409,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Fabio W.",
-            "heading": "Really great deal!",
-            "text": "\"Highly recommended. Good build quality.\"\nExcellent charging pad. Very easy to use. Phone charges in any direction. Good performance overall.",
+            "heading": "Vraiment une excellente affaire !",
+            "text": "\"Hautement recommandé. Bonne qualité de fabrication.\"\nExcellente station de charge. Très facile à utiliser. Le téléphone se charge dans n'importe quelle direction. Bonne performance globale.",
             "star_count": "5",
             "product": ""
           }
@@ -419,8 +419,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Michael T.",
-            "heading": "Amazing quality",
-            "text": "\"Very convenient. Good product.\"\nWorks great for all my devices. Easy setup. Good charging speed. Quality is nice. No problems.",
+            "heading": "Qualité incroyable",
+            "text": "\"Très pratique. Bon produit.\"\nFonctionne parfaitement pour tous mes appareils. Configuration facile. Bonne vitesse de charge. Qualité agréable. Aucun problème.",
             "star_count": "5",
             "product": ""
           }
@@ -429,8 +429,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Artur S.",
-            "heading": "That's what I was looking for",
-            "text": "\"Solid product. Does what it claims.\"\nGood quality charger. Easy to use daily. Phone and watch charge well. Worth the money.",
+            "heading": "C'est exactement ce que je cherchais",
+            "text": "\"Produit solide. Fait ce qu'il prétend.\"\nChargeur de bonne qualité. Facile à utiliser quotidiennement. Le téléphone et la montre se chargent bien. Vaut l'argent.",
             "star_count": "5",
             "product": ""
           }
@@ -439,7 +439,7 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Veronika H.",
-            "heading": "Very nice design",
+            "heading": "Très beau design",
             "text": "",
             "star_count": "5",
             "product": ""
