@@ -290,6 +290,7 @@
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-text-1",
         "template--20725111521561__fd8ca66b-95a5-4125-a6c0-04faf9d13788-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-43291996-e85e-427b-9ff9-ae9e732c56b9",
         "section_layout": "container",
@@ -375,6 +376,7 @@
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-2",
         "template--20725111521561__a3ffaaa1-8a74-4dca-a668-d574b867228f-item-3"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-4aaf3b82-8d8c-414f-aaf0-3b2f457f982b",
         "heading": "Votre Superpouvoir",
