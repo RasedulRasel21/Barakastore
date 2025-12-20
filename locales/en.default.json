@@ -703,6 +703,9 @@
         },
         "pickup_unavailable_banner_title": {
           "many": "No store is available with your items."
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "many": "No shops available in %{country} with your items"
         }
       },
       "shipping": {
@@ -775,6 +778,9 @@
         },
         "shipping_method_recurring_shipments_group_title": {
           "many": "Recurring mailings"
+        },
+        "address_form": {
+          "max_address": "The limit for {{max_addresses}} addresses has been reached. Delete one to add a new one."
         }
       },
       "payment": {
@@ -792,7 +798,12 @@
         },
         "discount_show_more_warnings": {
           "many": "Show more %{count}"
-        }
+        },
+        "discount_codes_removed_summary": {
+          "many": "%{count} discount codes have been removed"
+        },
+        "saved_addresses": "Registered addresses",
+        "save_this_address": "Save this address"
       },
       "shipping_errors": {
         "shipping_method_not_available_generic": {
@@ -800,6 +811,11 @@
         },
         "shipping_method_not_available_updated": {
           "many": "We are unable to ship at least one of the items you added to your location. Please remove it/them to be able to pay, or contact the store."
+        },
+        "must_use_address_banner": {
+          "one": "Your order can only be shipped to the address of %{name}.",
+          "other": "Your order can only be shipped to one of these addresses.",
+          "many": "Your order can only be shipped to one of these addresses."
         }
       },
       "processing": {
@@ -960,6 +976,12 @@
         "detail_item_label": {
           "many": "{{count}} items"
         }
+      },
+      "billing": {
+        "update_address_banner": "Update this address to view your delivery options."
+      },
+      "address_management": {
+        "confirm_address_deletion": "Do you really want to delete the address {{address}} ?"
       }
     },
     "notices": {
