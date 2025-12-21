@@ -634,30 +634,33 @@
         "testimonial_hwXQEU": {
           "type": "testimonial",
           "settings": {
-            "customer_photo": "shopify://shop_images/Untitled_design__12___1.avif",
-            "testimonial_text": "Après avoir utilisé le Masseur de Soulagement du Genou, ma douleur au genou a considérablement diminué et je peux marcher sur de bien plus longues distances. C'est un vrai changement pour moi !",
-            "customer_name": "James T.",
-            "customer_location": "Paris",
+            "image": "shopify://shop_images/Untitled_design__12___1.avif",
+            "avatar": "shopify://shop_images/Smart-Hot-Compress-Knee-Relaxing-Massager-Knee-Cap-Treasure-Laser-Infrared-Elbow-Shoulder-Massager-Relive-Joint_b5b1b346-e5e3-4a19-b93f-6e3adf14d18a.webp",
+            "quote": "Après avoir utilisé le masseur pour soulager mes douleurs au genou, mes douleurs ont considérablement diminué et je peux marcher beaucoup plus longtemps. Ça a changé ma vie !",
+            "author_name": "James T.",
+            "author_location": "Birmingham",
             "purchase_info": "A acheté 1 paire"
           }
         },
         "testimonial_LntfTE": {
           "type": "testimonial",
           "settings": {
-            "customer_photo": "shopify://shop_images/Untitled_design__12___1.avif",
-            "testimonial_text": "Après avoir utilisé le Masseur de Soulagement du Genou, ma douleur au genou a considérablement diminué et je peux marcher sur de bien plus longues distances. C'est un vrai changement pour moi !",
-            "customer_name": "James T.",
-            "customer_location": "Paris",
+            "image": "shopify://shop_images/Untitled_design__13___1.avif",
+            "avatar": "shopify://shop_images/KneeRelief_3_2048x2048_4c5daa79-c5df-45de-be60-39b3b94874c8.webp",
+            "quote": "Travailler dans le bâtiment est éprouvant pour mes genoux. Le masseur de genoux m'a apporté le soulagement dont j'avais besoin pour supporter les longues journées de travail sans douleur. C'est un produit fantastique !",
+            "author_name": "Thomas R. ",
+            "author_location": "Newcastle",
             "purchase_info": "A acheté 1 paire"
           }
         },
         "testimonial_FpiCL3": {
           "type": "testimonial",
           "settings": {
-            "customer_photo": "shopify://shop_images/Untitled_design__12___1.avif",
-            "testimonial_text": "Après avoir utilisé le Masseur de Soulagement du Genou, ma douleur au genou a considérablement diminué et je peux marcher sur de bien plus longues distances. C'est un vrai changement pour moi !",
-            "customer_name": "James T.",
-            "customer_location": "Paris",
+            "image": "shopify://shop_images/Untitled_design__14___1.avif",
+            "avatar": "shopify://shop_images/KneeRelief_1_2048x2048_2da5d2bd-b074-4a43-982e-d8df82c5b1b0.webp",
+            "quote": "Je souffre de douleurs chroniques au genou depuis des années, et rien ne semblait me soulager jusqu'à ce que j'essaie le masseur de genoux. Il est facile à utiliser et a considérablement amélioré mon quotidien.",
+            "author_name": "Emily S.",
+            "author_location": "Cardiff",
             "purchase_info": "A acheté 1 paire"
           }
         }
@@ -669,9 +672,14 @@
       ],
       "name": "Testimonials",
       "settings": {
-        "heading": "De Vrais Utilisateurs.",
-        "subheading": "De Vrais Résultats qui Changent la Vie.",
-        "background_color": "#f8f8f8"
+        "heading_line_1": "Real Users.",
+        "heading_line_2_highlight": "Real Life-Changing",
+        "heading_line_2_rest": "Results.",
+        "testimonials_image": "shopify://shop_images/Untitled_design__11___2.avif",
+        "image_alt": "Customer testimonials",
+        "show_cta": true,
+        "cta_text": "Add to cart",
+        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
       }
     },
     "pricing_cta_inEjFK": {
