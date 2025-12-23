@@ -10,7 +10,7 @@
 {
   "current": {
     "show_preorder_badge": false,
-    "theme_dark_mode": "switch",
+    "theme_dark_mode": "none",
     "enable_sections_dark_mode": true,
     "color_accent": "#d36bf1",
     "color_sale_price": "#dc358b",
@@ -70,9 +70,9 @@
     "button_underline": "hover",
     "button_section_cta": "link",
     "header_layout": "default",
-    "header_lights_off": true,
+    "header_lights_off": false,
     "dropdowns_show_carets": true,
-    "dropdowns_open_by_click": true,
+    "dropdowns_open_by_click": false,
     "social_twitter_link": "",
     "social_facebook_link": "https://www.facebook.com/BaraKastore.FR/",
     "social_pinterest_link": "https://www.pinterest.com/BaraKastore_FR/",
