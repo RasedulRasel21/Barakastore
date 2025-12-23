@@ -275,6 +275,7 @@
           "type": "collection",
           "settings": {
             "collection": "laptop-bags",
+            "image": "shopify://shop_images/0192158279381_S9136885_P20.jpg",
             "custom_title": "Sacs pour Ordinateur Portable"
           }
         },
