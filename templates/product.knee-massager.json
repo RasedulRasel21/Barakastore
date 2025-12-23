@@ -116,13 +116,21 @@
             "prev_attach": false
           }
         },
+        "custom_liquid_WjEqcJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "heading": "",
+            "liquid_content": "<style>\n.delivery-box {\n    background-color: #fbfbfb;\n    border-radius: 8px;\n    padding: 16px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    max-width: 600px;\n    margin: 20px auto;\n}\n.truck-icon {\n    width: 28px;\n    height: 28px;\n    flex-shrink: 0;\n}\n.truck-icon svg {\n    width: 100%;\n    height: 100%;\n}\n.delivery-text {\n    font-size: 16px;\n    color: #0e2453;\n    font-weight: 500;\n    text-align: left;\n}\n\n</style>\n<div class=\"delivery-box\">\n  <div class=\"truck-icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n      <path fill=\"#0E8390\" d=\"M20 8h-3V4a1 1 0 0 0-1-1H2v17h2.184a3.001 3.001 0 0 0 5.632 0h4.368a3.001 3.001 0 0 0 5.632 0H22v-7l-2-5zm0 2.618V13h-4V9h2.382l1.618 4.618zM7 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z\"></path>\n    </svg>\n  </div>\n\n  <div class=\"delivery-text\" id=\"delivery-estimate\">\n    Commandez aujourd'hui, recevez votre commande entre\n    <span class=\"start-date\"></span> et \n    <span class=\"end-date\"></span>\n  </div>\n</div>\n<script>\n  function formatDate(date) {\n    return date.toLocaleDateString(\"en-US\", {\n      weekday: \"short\",\n      month: \"short\",\n      day: \"numeric\"\n    });\n  }\n\n  const today = new Date();\n\n  const startDate = new Date(today);\n  startDate.setDate(today.getDate() + 7);\n\n  const endDate = new Date(today);\n  endDate.setDate(today.getDate() + 14);\n\n  document.querySelector(\".start-date\").innerHTML =\n    `<span style=\"color:#0E8390;font-weight:bold;\">${formatDate(startDate)}</span>`;\n\n  document.querySelector(\".end-date\").innerHTML =\n    `<span style=\"color:#0E8390;font-weight:bold;\">${formatDate(endDate)}</span>`;\n</script>",
+            "prev_attach": true
+          }
+        },
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
           "type": "collapsible_tab_text",
           "settings": {
             "heading": "Informations de livraison",
             "icon": "info",
             "content": "<p>Nous offrons des options d'expédition rapides et fiables pour garantir que votre commande arrive dans les délais. Notre équipe dévouée travaille avec diligence pour traiter et expédier vos articles aussi rapidement que possible.</p><p>Voici quelques points clés à noter concernant notre politique d'expédition :</p><ul><li>Nous offrons la livraison gratuite sur toutes les commandes de plus de 50€ en France.</li><li>Nous proposons également des options d'expédition internationale pour nos clients hors de France. Les frais d'expédition peuvent varier selon la destination.</li><li>Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec les informations de suivi, vous permettant de suivre facilement la progression de votre livraison.</li></ul>",
-            "prev_attach": false
+            "prev_attach": true
           }
         },
         "collapsible_tab_text_LL7m4m": {
@@ -147,6 +155,7 @@
         "stock_alert",
         "custom_liquid_nGVmjh",
         "buttons",
+        "custom_liquid_WjEqcJ",
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88",
         "collapsible_tab_text_LL7m4m"
       ],
