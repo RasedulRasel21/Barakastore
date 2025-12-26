@@ -196,7 +196,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "RÉSULTATS OU GARANTIE DE REMBOURSEMENT",
-            "description": "Si vous n'êtes pas absolument ravi du Masseur de Soulagement du Genou, nous ne voulons pas votre argent. Aucun tracas, aucune question posée."
+            "description": "Conçue pour un confort optimal, notre genouillère s'adapte parfaitement et accompagne vos mouvements, vous permettant de la porter jour et nuit sans aucune gêne."
           }
         },
         "badge_nk7WC9": {
@@ -218,7 +218,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "HAUTE QUALITÉ GARANTIE",
-            "description": "Les Masseurs de Soulagement du Genou sont fabriqués avec des matériaux de qualité supérieure et durables. Profitez d'un soulagement constant et fiable jour après jour."
+            "description": "Notre genouillère est bien plus qu'un simple support : c'est un outil pour votre rétablissement et votre mode de vie actif."
           }
         }
       },
@@ -240,33 +240,27 @@
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "La douleur au genou n'est pas seulement une question de vieillissement — il s'agit de ce qui manque à vos genoux. Vos articulations ont besoin de quelque chose appelé liquide synovial. C'est comme de l'huile qui maintient vos genoux en mouvement en douceur et sans douleur."
-          }
-        },
-        "paragraph_WTpCzk": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Cela s'appelle la Sécheresse Articulaire — lorsque vous n'avez pas assez de liquide synovial, vos genoux se dessèchent et frottent os contre os."
+            "paragraph": "Technologie de soutien du genou NEENCA : des coussinets en gel anatomiques enveloppent la rotule, tandis que des stabilisateurs à ressorts métalliques double face assurent un maintien optimal de l’articulation. Ces éléments fonctionnels spécifiques renforcent le soutien latéral, préservent la stabilité articulaire et offrent un soutien maximal au genou. L’infusion innovante d’ions de cuivre dans les stabilisateurs à ressorts contrôle les mouvements et favorise efficacement la rééducation du genou. Idéal pour la protection sportive et la récupération après une blessure."
           }
         },
         "paragraph_8cn8JX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Sans suffisamment de mouvement, ce liquide ne peut pas circuler correctement, et vos genoux commencent à grincer comme une charnière de porte rouillée. Mais comment bouger quand vous souffrez ?"
+            "paragraph": "Soulagement et soutien efficaces - Les stabilisateurs en cuivre situés de part et d'autre assurent stabilité et protection aux genoux fragiles ou blessés, réduisant significativement la pression sur la rotule et offrant un soutien optimal à l'articulation. L'orthèse enveloppe la rotule, améliorant la stabilité du genou, détendant les tendons, évitant les tiraillements et les tensions musculaires. Cette orthèse médicale est idéale pour soulager les douleurs au genou, les déchirures du ménisque, l'arthrite, les lésions des ligaments croisés antérieur (LCA), postérieur (LCP) et latéral interne (LLI), ainsi que d'autres douleurs articulaires, et pour la récupération après une entorse, une foulure ou une blessure sportive."
           }
         }
       },
       "block_order": [
         "paragraph_43QrBB",
-        "paragraph_WTpCzk",
         "paragraph_8cn8JX"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "RÉSOLU : La Vraie Raison Derrière Votre Douleur au Genou :",
+        "media_type": "image",
+        "image": "shopify://shop_images/2-510x510.webp",
+        "video": "https://cdn.shopify.com/videos/c/o/v/6b09e6446100445999b51d9df4707008.mp4",
+        "heading": "RÉSOLU : La véritable raison de votre genouillère :",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
@@ -279,19 +273,19 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou est conçu avec une Technologie Triple Thérapie de pointe qui combine la Thérapie par Lumière Rouge, la Thérapie par Chaleur et la Thérapie par Massage pour soutenir efficacement votre articulation du genou."
+            "paragraph": "SYSTÈME DE SANGLE X-FIT : Les sangles Velcro supérieures et inférieures sont hautement réglables, ce qui assure un ajustement parfait de l’arrière vers l’avant et offre une stabilité maximale à votre jambe."
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Cela améliore la circulation sanguine, détend les muscles tendus et réduit l'inflammation dans vos articulations du genou, rendant les mouvements plus faciles et plus confortables."
+            "paragraph": "Un coussinet en gel anatomique entoure votre rotule. Ce design ingénieux protège votre rotule des blessures potentielles et évite une pression excessive sur celle-ci. Il est spécialement conçu pour les personnes souffrant de douleurs à la rotule ou de lésions articulaires."
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou offre à vos genoux les soins complets dont ils ont besoin pour rester mobiles et sans douleur."
+            "paragraph": "Conception à dos ouvert : contrairement aux produits similaires, l’arrière de la genouillère est conçu pour une bonne aération. Le tissu ne comprime pas le creux poplité pendant l’effort et la transpiration ne s’accumule pas. Pour une sensation de confort optimal pendant l’entraînement !"
           }
         }
       },
@@ -304,12 +298,12 @@
       "settings": {
         "layout": "image-right",
         "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Présentation : Technologie Triple Thérapie :",
+        "video": "https://cdn.shopify.com/videos/c/o/v/6b09e6446100445999b51d9df4707008.mp4",
+        "heading": "Présentation : genouillère :",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "neenca-hinged-knee-brace-for-knee-pain-knee-support-with-side-stabilizers-joint-pain-relief-arthritis-meniscus-tear-acl-pcl"
       }
     },
     "problem_solution_custom_DitJHK": {
