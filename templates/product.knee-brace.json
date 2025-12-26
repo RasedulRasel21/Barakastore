@@ -298,6 +298,7 @@
       "settings": {
         "layout": "image-right",
         "media_type": "video",
+        "image": "shopify://shop_images/Screenshot_8.png",
         "video": "https://cdn.shopify.com/videos/c/o/v/6b09e6446100445999b51d9df4707008.mp4",
         "heading": "Présentation : genouillère :",
         "background_color": "#ffffff",
@@ -312,54 +313,27 @@
         "paragraph_m8n6gY": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Notre design révolutionnaire \"sur le genou\" fournit un soulagement ciblé que les masseurs manuels ne peuvent égaler."
-          }
-        },
-        "paragraph_aXQGRx": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou est conçu non seulement pour soutenir, mais aussi pour améliorer le mouvement et la santé de votre genou :"
-          }
-        },
-        "paragraph_UUL8H7": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Mouvement Amélioré du Liquide Synovial : Le design enveloppant unique aide à l'écoulement du liquide synovial, lubrifiant vos articulations et soulageant la douleur."
-          }
-        },
-        "paragraph_fFfQFD": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Technologie Triple Thérapie : Intègre la Thérapie par Lumière Rouge, la Thérapie par Chaleur et la Thérapie par Massage pour stimuler la circulation, accélérer la récupération des articulations douloureuses et réduire l'inflammation."
-          }
-        },
-        "paragraph_KFgBWt": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Paramètres de Thérapie Personnalisables : Ajustez facilement l'intensité de la chaleur et du massage pour correspondre à votre niveau de confort et répondre à vos besoins thérapeutiques, garantissant que chaque séance est efficace."
+            "paragraph": "Technologie de soutien du genou NEENCA : un coussinet rotulien en gel à la forme anatomique enveloppe votre rotule, tandis que des stabilisateurs latéraux amovibles en cuivre, articulés de part et d’autre, épousent parfaitement votre articulation. Cet élément fonctionnel spécifique renforce le soutien latéral et maintient la stabilité articulaire, offrant un soutien maximal à votre genou. De plus, l’infusion innovante d’ions de cuivre dans les stabilisateurs à ressort contribue à contrôler vos mouvements et favorise efficacement la récupération de votre genou. C’est le choix idéal pour la protection sportive et le soulagement de la douleur."
           }
         },
         "paragraph_RFWYBX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Élégant et Pratique pour un Usage Quotidien : Conçu pour être utilisé n'importe où, n'importe quand. Il est facile à porter à la maison, au travail ou même en vous relaxant."
+            "paragraph": "CONFORT OPTIMAL – La conception ouverte au niveau des rotules et du dos évite la pression sur les rotules et l'accumulation de transpiration. Le tissu doux est doté d'orifices de ventilation et de 2 sangles Velcro réglables. La technologie de ventilation intégrée réduit les odeurs et l'humidité. Respirant et absorbant, il assure une bonne aération. Les sangles Velcro supérieures et inférieures sont hautement réglables pour un maintien parfait, de l'avant à l'arrière. Idéal pour les personnes aux cuisses fortes ou les personnes âgées, ce vêtement vous offre une solution complète."
           }
         }
       },
       "block_order": [
         "paragraph_m8n6gY",
-        "paragraph_aXQGRx",
-        "paragraph_UUL8H7",
-        "paragraph_fFfQFD",
-        "paragraph_KFgBWt",
         "paragraph_RFWYBX"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
         "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Caractéristiques Innovantes pour un Soulagement Ultime du Genou :",
+        "image": "shopify://shop_images/Screenshot_8.png",
+        "video": "https://cdn.shopify.com/videos/c/o/v/bdc3ffb86b3943b29751e9ad4920a9bc.mp4",
+        "heading": "Caractéristiques innovantes pour une genouillère ultime :",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
@@ -371,15 +345,15 @@
       "name": "Doctor Recommended",
       "settings": {
         "heading": "Recommandé par les Médecins et Approuvé par les Utilisateurs",
-        "description": "Conçu avec la contribution de spécialistes en orthopédie, le Masseur de Soulagement du Genou est votre solution sans chirurgie pour la douleur chronique au genou.",
-        "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
+        "description": "Genouillère articulée professionnelle avec stabilisateurs latéraux amovibles en cuivre et coussinet en gel pour la rotule, support médical pour le genou avec conception ouverte au niveau de la rotule et du dos.",
+        "image": "shopify://shop_images/81xYfEKsNRL._AC_SL1500_._SX1200.jpg",
         "background_color": "#ffffff",
         "show_testimonial": true,
-        "testimonial_text": "Le Masseur de Soulagement du Genou est un outil exceptionnel pour toute personne souffrant d'inconfort au genou. Son système de thérapie intégré non seulement soulage la douleur mais aide également à la récupération. C'est comme avoir un physiothérapeute personnel disponible à tout moment.",
+        "testimonial_text": "Cette genouillère renforce efficacement le soutien latéral et maintient la stabilité de votre articulation, offrant un soutien maximal au genou. Elle épouse parfaitement la forme de votre jambe à 360° et son système de fixation breveté « X-Strap » assure un ajustement personnalisé. Elle protège le genou des blessures potentielles sans entraver la mobilité ! Plus fiable que les autres genouillères, elle offre un renforcement supplémentaire sans sacrifier le confort, vous permettant de la porter toute la journée !",
         "testimonial_author": "- Samantha L",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "neenca-hinged-knee-brace-for-knee-pain-knee-support-with-side-stabilizers-joint-pain-relief-arthritis-meniscus-tear-acl-pcl"
       }
     },
     "how_it_works_7gg6MM": {
