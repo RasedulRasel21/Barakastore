@@ -344,7 +344,8 @@
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/s-l1600_3.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
         "heading": "Discover the Power of Cold Laser Therapy for Chronic Pain Relief",
         "background_color": "#ffffff",
@@ -357,16 +358,16 @@
       "type": "doctor-recommended",
       "name": "Doctor Recommended",
       "settings": {
-        "heading": "Recommandé par les Médecins et Approuvé par les Utilisateurs",
-        "description": "Conçu avec la contribution de spécialistes en orthopédie, le Masseur de Soulagement du Genou est votre solution sans chirurgie pour la douleur chronique au genou.",
-        "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
+        "heading": "Doctor Recommended and User Approved",
+        "description": "The RedRevive™ Cold Laser Therapy Wand is fast becoming the go-to solution for chronic pain relief. Medical professionals trust this cutting-edge technology because it delivers deep, targeted therapy to help relieve pain and improve mobility.",
+        "image": "shopify://shop_images/s-l1600_2.webp",
         "background_color": "#ffffff",
         "show_testimonial": true,
-        "testimonial_text": "Le Masseur de Soulagement du Genou est un outil exceptionnel pour toute personne souffrant d'inconfort au genou. Son système de thérapie intégré non seulement soulage la douleur mais aide également à la récupération. C'est comme avoir un physiothérapeute personnel disponible à tout moment.",
-        "testimonial_author": "- Samantha L",
+        "testimonial_text": "“I’ve used RedRevive™ with many of my patients dealing with chronic pain. The cold laser penetrates deeply, helping reduce inflammation and promote healing. It’s a powerful, non-invasive tool for pain management.”",
+        "testimonial_author": "Dr. Jeff Norman, Chronic Pain Specialist",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "kts-laser-therapy-device-for-body-pain-relief-18x620nm-laser-diode-lllt-cold-laser-arthritis-physical-therapy-equipment-massager"
       }
     },
     "how_it_works_7gg6MM": {
@@ -408,6 +409,7 @@
         "step_AG69wg",
         "step_EKptEd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "Comment Fonctionne le Masseur de Soulagement du Genou :",
@@ -505,6 +507,7 @@
         "feature_zrDTfG",
         "feature_HQEWkD"
       ],
+      "disabled": true,
       "name": "Comparison Table",
       "settings": {
         "heading": "Qu'est-ce qui Distingue le Masseur de Soulagement du Genou des Masseurs de Genou Ordinaires et des Médicaments ?",
@@ -520,13 +523,13 @@
         "paragraph_gPbRLw": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Les preuves cliniques soutiennent l'utilisation de masseurs pour genoux pour un soulagement temporaire de la douleur et une mobilité articulaire améliorée. Les masseurs qui combinent chaleur, vibration et thérapie par massage se sont révélés efficaces pour réduire les symptômes de l'arthrose du genou en améliorant la circulation et en soulageant la douleur."
+            "paragraph": "Red light therapy has been shown to enhance circulation, reduce inflammation, and promote tissue repair."
           }
         },
         "paragraph_b8DYf9": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Cette approche complète aide à gérer efficacement la douleur au genou, conduisant à une amélioration de la qualité de vie et du bien-être. Ces appareils offrent une alternative non invasive pour gérer la douleur au genou sans nécessiter de médicaments continus ou d'interventions chirurgicales."
+            "paragraph": "A study examining the effects of low-level light therapy (LLLT) demonstrated that red and near-infrared wavelengths penetrate deep into the skin, stimulating cellular activity and improving blood flow. These findings support the use of red light therapy for accelerating recovery, reducing discomfort, and enhancing overall skin and muscle health."
           }
         }
       },
@@ -537,7 +540,7 @@
       "name": "Clinical Proof",
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
-        "heading": "Preuve Clinique",
+        "heading": "Clinical Proof",
         "background_color": "#e8f4f5",
         "show_link": true,
         "link_text": "https://pubmed.ncbi.nlm.nih.gov/34880892/",
@@ -550,24 +553,38 @@
         "paragraph_WrqGbG": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Imaginez vous réveiller rajeuni, libéré de l'inconfort persistant au genou qui vous ralentissait. Le Masseur de Soulagement du Genou a été conçu pour vous offrir exactement cela."
+            "paragraph": "We’re so confident in the power of RedRevive™ that we offer a 90-day trial. You have three full months to see how it works for you! "
+          }
+        },
+        "paragraph_3jwVVC": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "When you try RedRevive™, you’re not just buying a product—you’re investing in your freedom. That’s why we give you three months to use RedRevive™ at home, on the go, or wherever you need relief."
+          }
+        },
+        "paragraph_p7RQrT": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "If you’re not satisfied, just return the wand within 90 days for a full refund—no questions asked!"
           }
         }
       },
       "block_order": [
-        "paragraph_WrqGbG"
+        "paragraph_WrqGbG",
+        "paragraph_3jwVVC",
+        "paragraph_p7RQrT"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
         "media_type": "image",
-        "image": "shopify://shop_images/ComfySole__4___1__1.avif",
+        "image": "shopify://shop_images/s-l1600_1.webp",
         "video": "",
-        "heading": "Imaginez un Jour Sans Douleur au Genou",
+        "heading": "Don’t Just Take Our Word For It— Try RedRevive™ Risk-Free for 90 Days!",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "kts-laser-therapy-device-for-body-pain-relief-18x620nm-laser-diode-lllt-cold-laser-arthritis-physical-therapy-equipment-massager"
       }
     },
     "how_it_works_fhNm6K": {
@@ -616,6 +633,7 @@
         "step_naVW4x",
         "step_J6fUKd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "Comment Utiliser le Masseur de Soulagement du Genou",
@@ -669,6 +687,7 @@
         "testimonial_LntfTE",
         "testimonial_FpiCL3"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "heading_line_1": "Real Users.",
@@ -708,6 +727,7 @@
         "benefit_Lq6DVR",
         "benefit_9ebqfF"
       ],
+      "disabled": true,
       "name": "Pricing CTA",
       "settings": {
         "heading": "Commandez Aujourd'hui et Obtenez des Paires GRATUITES Tant qu'il y a du Stock",
