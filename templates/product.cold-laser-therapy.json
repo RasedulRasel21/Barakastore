@@ -320,54 +320,33 @@
         "paragraph_m8n6gY": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Notre design révolutionnaire \"sur le genou\" fournit un soulagement ciblé que les masseurs manuels ne peuvent égaler."
+            "paragraph": "Targeted Cold Laser Therapy at the Push of a Button: The RedRevive™ Wand uses soothing wavelengths of cold laser light to target pain. It’s designed to reduce inflammation, promote circulation, and heal damaged tissues, offering lasting relief from muscle aches, joint pain, and more.\n\n\n\nPortable and Convenient: Whether you're at home, traveling, or at the office, the RedRevive™ Wand is your portable pain relief solution. Use it anywhere to experience the benefits of cold laser therapy without needing to visit a clinic."
           }
         },
         "paragraph_aXQGRx": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou est conçu non seulement pour soutenir, mais aussi pour améliorer le mouvement et la santé de votre genou :"
+            "paragraph": "Compact and Easy to Use: RedRevive™ is designed for easy use. Just glide the wand over painful areas slowly and smoothly. Its ergonomic shape makes it easy to hold and use anywhere."
           }
         },
         "paragraph_UUL8H7": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Mouvement Amélioré du Liquide Synovial : Le design enveloppant unique aide à l'écoulement du liquide synovial, lubrifiant vos articulations et soulageant la douleur."
-          }
-        },
-        "paragraph_fFfQFD": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Technologie Triple Thérapie : Intègre la Thérapie par Lumière Rouge, la Thérapie par Chaleur et la Thérapie par Massage pour stimuler la circulation, accélérer la récupération des articulations douloureuses et réduire l'inflammation."
-          }
-        },
-        "paragraph_KFgBWt": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Paramètres de Thérapie Personnalisables : Ajustez facilement l'intensité de la chaleur et du massage pour correspondre à votre niveau de confort et répondre à vos besoins thérapeutiques, garantissant que chaque séance est efficace."
-          }
-        },
-        "paragraph_RFWYBX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Élégant et Pratique pour un Usage Quotidien : Conçu pour être utilisé n'importe où, n'importe quand. Il est facile à porter à la maison, au travail ou même en vous relaxant."
+            "paragraph": "Portable and Convenient: Whether you're at home, traveling, or at the office, the RedRevive™ Wand is your portable pain relief solution. Use it anywhere to experience the benefits of cold laser therapy without needing to visit a clinic."
           }
         }
       },
       "block_order": [
         "paragraph_m8n6gY",
         "paragraph_aXQGRx",
-        "paragraph_UUL8H7",
-        "paragraph_fFfQFD",
-        "paragraph_KFgBWt",
-        "paragraph_RFWYBX"
+        "paragraph_UUL8H7"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
         "media_type": "video",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Caractéristiques Innovantes pour un Soulagement Ultime du Genou :",
+        "heading": "Discover the Power of Cold Laser Therapy for Chronic Pain Relief",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
