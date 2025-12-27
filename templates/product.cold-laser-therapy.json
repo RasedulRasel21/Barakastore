@@ -272,7 +272,7 @@
       "settings": {
         "layout": "image-left",
         "media_type": "image",
-        "image": "shopify://shop_images/D_NQ_NP_2X_822804-MLB78550134500_082024-F.webp",
+        "image": "shopify://shop_images/s-l1600.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
         "heading": "SOLVED: The True Cause of Chronic Pain",
         "background_color": "#ffffff",
@@ -287,37 +287,31 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou est conçu avec une Technologie Triple Thérapie de pointe qui combine la Thérapie par Lumière Rouge, la Thérapie par Chaleur et la Thérapie par Massage pour soutenir efficacement votre articulation du genou."
-          }
-        },
-        "paragraph_7fJHcU": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Cela améliore la circulation sanguine, détend les muscles tendus et réduit l'inflammation dans vos articulations du genou, rendant les mouvements plus faciles et plus confortables."
+            "paragraph": "When you use the RedRevive™ Wand on areas of discomfort, it immediately improves blood flow and promotes tissue repair."
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou offre à vos genoux les soins complets dont ils ont besoin pour rester mobiles et sans douleur."
+            "paragraph": "This helps reduce inflammation, ease stiffness, and relieve pain without relying on medications. With regular use, RedRevive™ can restore your body’s natural ability to heal."
           }
         }
       },
       "block_order": [
         "paragraph_QXFXx4",
-        "paragraph_7fJHcU",
         "paragraph_kgGUHm"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/s-l1600_4.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Présentation : Technologie Triple Thérapie :",
+        "heading": "The RedRevive™ Cold Laser Therapy Wand Neutralizes Chronic Pain With Advanced Cold Laser Technology",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "kts-laser-therapy-device-for-body-pain-relief-18x620nm-laser-diode-lllt-cold-laser-arthritis-physical-therapy-equipment-massager"
       }
     },
     "problem_solution_custom_DitJHK": {
