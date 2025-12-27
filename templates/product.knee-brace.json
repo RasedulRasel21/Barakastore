@@ -492,6 +492,7 @@
         "feature_zrDTfG",
         "feature_HQEWkD"
       ],
+      "disabled": true,
       "name": "Comparison Table",
       "settings": {
         "heading": "Qu'est-ce qui Distingue le Masseur de Soulagement du Genou des Masseurs de Genou Ordinaires et des Médicaments ?",
@@ -617,6 +618,7 @@
         "step_naVW4x",
         "step_J6fUKd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "Comment Utiliser le Masseur de Soulagement du Genou",
@@ -670,6 +672,7 @@
         "testimonial_LntfTE",
         "testimonial_FpiCL3"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "heading_line_1": "Real Users.",
@@ -709,6 +712,7 @@
         "benefit_Lq6DVR",
         "benefit_9ebqfF"
       ],
+      "disabled": true,
       "name": "Pricing CTA",
       "settings": {
         "heading": "Commandez Aujourd'hui et Obtenez des Paires GRATUITES Tant qu'il y a du Stock",
@@ -738,29 +742,29 @@
         "faq_item_EcVnDm": {
           "type": "faq_item",
           "settings": {
-            "question": "À quelle vitesse puis-je m'attendre à ressentir un soulagement avec le Masseur de Soulagement du Genou ?",
-            "answer": "De nombreux utilisateurs signalent ressentir un soulagement dès les premières utilisations. Cependant, les résultats peuvent varier selon les conditions individuelles. Une utilisation régulière est recommandée pour de meilleurs résultats."
+            "question": "What is the Neenca Hx-042 designed for?",
+            "answer": "The Neenca Hx-042 is designed to provide optimal support and compression for various injuries, including ankle sprains and joint pain. Its innovative design uses advanced materials to offer stability while allowing a full range of motion. This means that whether you’re recovering from an injury or managing chronic pain, the Hx-042 can help alleviate discomfort while keeping you active."
           }
         },
         "faq_item_cnGaFD": {
           "type": "faq_item",
           "settings": {
-            "question": "À quelle fréquence dois-je utiliser le Masseur de Soulagement du Genou ?",
-            "answer": "Vous pouvez utiliser le masseur quotidiennement pendant des séances de 15 à 20 minutes. Il est sûr pour une utilisation régulière et peut être intégré à votre routine quotidienne."
+            "question": "What are the key features of the Neenca Hx-042?",
+            "answer": "The Neenca Hx-042 boasts several key features that set it apart, including adjustable straps for a custom fit, a lightweight and breathable material, and a compact design that can be worn comfortably throughout the day. These attributes ensure that it remains functional and discreet under clothing, making it suitable for everyday wear whether you’re at work, exercising, or just relaxing at home."
           }
         },
         "faq_item_WakN8e": {
           "type": "faq_item",
           "settings": {
-            "question": "Que se passe-t-il si le Masseur de Soulagement du Genou ne fonctionne pas pour moi ?",
-            "answer": "Nous offrons une garantie de remboursement de 90 jours. Si vous n'êtes pas satisfait des résultats, vous pouvez le retourner pour un remboursement complet - sans poser de questions."
+            "question": "How does the Neenca Hx-042 compare to other similar products?",
+            "answer": "Compared to similar ankle supports, the Neenca Hx-042 offers enhanced comfort with its ergonomic design and superior materials. While many supports may restrict movement, the Hx-042 is crafted to provide stability without sacrificing mobility, making it ideal for both rehabilitation and active lifestyles. Users have reported better performance and satisfaction with this model over traditional ankle braces."
           }
         },
         "faq_item_NTT8WB": {
           "type": "faq_item",
           "settings": {
-            "question": "Pouvez-vous me parler de votre politique de retour ?",
-            "answer": "Nous avons une politique de retour sans tracas de 90 jours. Si vous n'êtes pas entièrement satisfait, contactez simplement notre équipe de service client pour un remboursement complet."
+            "question": "Can the Neenca Hx-042 be used by athletes?",
+            "answer": "Absolutely! The Neenca Hx-042 is particularly beneficial for athletes as it supports the ankle during high-intensity activities. Its design allows for improved circulation and muscle control, which can enhance performance while reducing the risk of re-injury. Whether you're running, playing basketball, or engaging in weight training, this ankle support can be a crucial part of your gear."
           }
         }
       },
