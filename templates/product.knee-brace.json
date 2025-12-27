@@ -537,20 +537,34 @@
         "paragraph_WrqGbG": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Imaginez vous réveiller rajeuni, libéré de l'inconfort persistant au genou qui vous ralentissait. Le Masseur de Soulagement du Genou a été conçu pour vous offrir exactement cela."
+            "paragraph": "Système breveté X-Strap : Bénéficiez d’un ajustement parfait à chaque utilisation grâce à notre système X-Strap innovant qui offre une compression et un soutien personnalisés."
+          }
+        },
+        "paragraph_XQzM73": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Stabilisateurs latéraux amovibles : Nos deux stabilisateurs latéraux en cuivre offrent un renforcement supplémentaire, assurant la stabilité de votre genou lors de toute activité."
+          }
+        },
+        "paragraph_EfWFFr": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Coussinet rotulien en gel : Le coussinet en gel anatomique entoure votre rotule, offrant un soutien amortissant et soulageant la pression sur vos articulations."
           }
         }
       },
       "block_order": [
-        "paragraph_WrqGbG"
+        "paragraph_WrqGbG",
+        "paragraph_XQzM73",
+        "paragraph_EfWFFr"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
         "media_type": "image",
-        "image": "shopify://shop_images/ComfySole__4___1__1.avif",
+        "image": "shopify://shop_images/2-510x510.webp",
         "video": "",
-        "heading": "Imaginez un Jour Sans Douleur au Genou",
+        "heading": "Pourquoi choisir notre genouillère ?",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
