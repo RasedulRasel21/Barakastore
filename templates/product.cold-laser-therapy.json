@@ -240,33 +240,41 @@
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "La douleur au genou n'est pas seulement une question de vieillissement — il s'agit de ce qui manque à vos genoux. Vos articulations ont besoin de quelque chose appelé liquide synovial. C'est comme de l'huile qui maintient vos genoux en mouvement en douceur et sans douleur."
+            "paragraph": "Laser Therapy Hair Growth Comb is indicated to treat Androgenetic Alopecia and promote hair growth in females who have Ludwig (Savin) I-4, II-1, II-2, or frontal patterns of hair loss and in males who have Norwood Hamilton Classifications of IIa to V and who both have Fitzpatrick Skin Types I to IV"
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Cela s'appelle la Sécheresse Articulaire — lorsque vous n'avez pas assez de liquide synovial, vos genoux se dessèchent et frottent os contre os."
+            "paragraph": "Chronic pain is usually caused by poor circulation and damaged tissues that can’t heal properly. Over time, your joints and muscles ache, throb, and stiffen as they fail to get the nutrients they need to recover."
           }
         },
-        "paragraph_8cn8JX": {
+        "paragraph_ExNjG7": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Sans suffisamment de mouvement, ce liquide ne peut pas circuler correctement, et vos genoux commencent à grincer comme une charnière de porte rouillée. Mais comment bouger quand vous souffrez ?"
+            "paragraph": "This is why so many treatments fail—they don’t address the root cause of your pain."
+          }
+        },
+        "paragraph_tXK76G": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "But with RedRevive™, you’re targeting the true source of discomfort."
           }
         }
       },
       "block_order": [
         "paragraph_43QrBB",
         "paragraph_WTpCzk",
-        "paragraph_8cn8JX"
+        "paragraph_ExNjG7",
+        "paragraph_tXK76G"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/D_NQ_NP_2X_822804-MLB78550134500_082024-F.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "RÉSOLU : La Vraie Raison Derrière Votre Douleur au Genou :",
+        "heading": "SOLVED: The True Cause of Chronic Pain",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Ajouter au panier",
