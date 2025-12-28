@@ -22,12 +22,12 @@
             "pattern": "none",
             "pattern_scale": 100,
             "pattern_animation": "none",
-            "heading": "<strong>Recommandé par les Médecins et Approuvé par les Utilisateurs</strong>",
+            "heading": "<strong>Recommended by Doctors and Approved by Users</strong>",
             "heading_scale": 100,
-            "subheading": "Masseur de Soulagement du Genou",
-            "text": "<p>Conçu avec la contribution de spécialistes en orthopédie</p>",
+            "subheading": "Knee Relief Massager",
+            "text": "<p>Designed with input from orthopedic specialists</p>",
             "text_position": "center-left",
-            "f_button_label": "Acheter maintenant",
+            "f_button_label": "Shop now",
             "f_button_link": "shopify://products/electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1",
             "f_button_tier": "primary"
           }
@@ -42,12 +42,12 @@
             "pattern": "none",
             "pattern_scale": 100,
             "pattern_animation": "none",
-            "heading": "<strong>Équipez-vous pour la victoire</strong>",
+            "heading": "<strong>Equip Yourself for Victory</strong>",
             "heading_scale": 120,
             "subheading": "",
-            "text": "<p>Découvrez une sélection haut de gamme d’équipements sportifs conçus pour améliorer vos performances.</p>",
+            "text": "<p>Discover une sélection premium d’équipements sportifs conçus pour améliorer vos performances.</p>",
             "text_position": "center-left",
-            "f_button_label": "Acheter maintenant",
+            "f_button_label": "Shop now",
             "f_button_link": "shopify://collections/sports-equipments-and-devices",
             "f_button_tier": "primary"
           }
@@ -85,7 +85,7 @@
         "template--20396371149104__bbd66abd-c63a-42b9-84d1-9bb7e7374a9b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Découvrez l'Expérience de Charge Ultime !</p>",
+            "text": "<p>Discover the Ultimate Charging Experience!</p>",
             "enlarge_text": true
           }
         },
@@ -94,7 +94,7 @@
           "settings": {
             "mobile_hidden": false,
             "info": "",
-            "f_button_label": "Accessoires",
+            "f_button_label": "Accessories",
             "f_button_link": "shopify://collections/accessories",
             "f_button_tier": "secondary",
             "s_button_label": "",
@@ -133,7 +133,7 @@
         "text_TwBNjQ": {
           "type": "text",
           "settings": {
-            "text": "Tech • Gadgets • Santé • Sport — Découvrez les nouveautés chaque semaine !",
+            "text": "Tech • Gadgets • Health • Sports — Discover new arrivals every week!",
             "icon": "none",
             "link": ""
           }
@@ -141,7 +141,7 @@
         "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1": {
           "type": "text",
           "settings": {
-            "text": "Livraison Gratuite dès €50",
+            "text": "Free Shipping over $50",
             "icon": "none",
             "link": ""
           }
@@ -177,7 +177,7 @@
         "2df6c62d-6353-46b3-99f5-77de5547227d": {
           "type": "subheading",
           "settings": {
-            "subheading": "Performance Ultime"
+            "subheading": "Ultimate Performance"
           }
         },
         "template--20725112013081__4152f3c4-fce8-4429-bb55-9810434cbea7-text-1": {
@@ -191,7 +191,7 @@
         "template--20725112013081__4152f3c4-fce8-4429-bb55-9810434cbea7-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Mettez Fin à la Douleur",
+            "heading": "Put an End to Pain",
             "heading_scale": 120
           }
         },
@@ -243,7 +243,7 @@
             "heading": "{{ section.settings.collection.title }}",
             "heading_scale": 80,
             "subheading": "",
-            "button": "Tout Acheter",
+            "button": "Tout Buy",
             "button_tier": "primary"
           }
         }
@@ -268,7 +268,7 @@
           "type": "collection",
           "settings": {
             "collection": "accessories",
-            "custom_title": "Accessoires"
+            "custom_title": "Accessories"
           }
         },
         "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-0": {
@@ -276,7 +276,7 @@
           "settings": {
             "collection": "laptop-bags",
             "image": "shopify://shop_images/0192158279381_S9136885_P20.jpg",
-            "custom_title": "Sacs pour Ordinateur Portable"
+            "custom_title": "Laptop Bags"
           }
         },
         "collection_hqHM4V": {
@@ -293,8 +293,8 @@
         "collection_hqHM4V"
       ],
       "settings": {
-        "heading": "Catégories en Vedette",
-        "subheading": "Tous les Produits au Même Endroit",
+        "heading": "Featured Categories",
+        "subheading": "All Products in One Place",
         "columns": 3,
         "section_button_label": ""
       }
@@ -313,7 +313,7 @@
         "heading_EVCfhG": {
           "type": "heading",
           "settings": {
-            "heading": "Équipements sportifs",
+            "heading": "Sports Equipment",
             "heading_scale": 120
           }
         },
@@ -364,7 +364,7 @@
             "heading": "{{ section.settings.collection.title }}",
             "heading_scale": 80,
             "subheading": "",
-            "button": "Tout Acheter",
+            "button": "Tout Buy",
             "button_tier": "primary"
           }
         }
@@ -388,7 +388,7 @@
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-1": {
           "type": "heading",
           "settings": {
-            "heading": "Lunettes de Réalité Virtuelle",
+            "heading": "Virtual Reality Glasses",
             "heading_scale": 120
           }
         },
@@ -397,7 +397,7 @@
           "settings": {
             "mobile_hidden": false,
             "info": "",
-            "f_button_label": "Acheter Maintenant",
+            "f_button_label": "Buy Maintenant",
             "f_button_link": "shopify://collections/virtual-reality",
             "f_button_tier": "primary",
             "s_button_label": "",
@@ -442,8 +442,8 @@
             "image_overlay": 0,
             "heading": "{{ section.settings.collection.title }}",
             "heading_scale": 80,
-            "subheading": "Tout Acheter",
-            "button": "Tout Acheter",
+            "subheading": "Tout Buy",
+            "button": "Tout Buy",
             "button_tier": "primary"
           }
         }
@@ -454,7 +454,7 @@
       ],
       "name": "Featured collection grid",
       "settings": {
-        "heading": "Meilleures Ventes",
+        "heading": "Best Sellers",
         "subheading": "",
         "collection": "virtual-reality",
         "columns": 4,
@@ -474,9 +474,9 @@
             "image_overlay": 36,
             "text_position": "bottom-left",
             "link": "shopify://collections/accessories",
-            "heading": "Ordinateurs Portables",
+            "heading": "Portable Computers",
             "subheading": "",
-            "text": "Découvrez des Possibilités Infinies avec des Ordinateurs Portables Haute Performance.",
+            "text": "Discover Endless Possibilities with High-Performance Laptops.",
             "button_label": "En savoir plus"
           }
         },
@@ -489,9 +489,9 @@
             "image_overlay": 36,
             "text_position": "bottom-left",
             "link": "shopify://collections/headphones-earbuds",
-            "heading": "Casques Audio",
+            "heading": "Audio Headphones",
             "subheading": "",
-            "text": "Découvrez un Nouveau Niveau d'Immersion Sonore avec Nos Casques Premium.",
+            "text": "Discover a New Level of Sound Immersion with Our Premium Headphones.",
             "button_label": "En savoir plus"
           }
         },
@@ -504,9 +504,9 @@
             "image_overlay": 80,
             "text_position": "bottom-center",
             "link": "shopify://collections/laptop-bags",
-            "heading": "Sacs pour Ordinateur Portable",
+            "heading": "Laptop Bags",
             "subheading": "",
-            "text": "Profitez de la Puissance des Montres Connectées pour une Gestion Efficace du Temps.",
+            "text": "Enjoy the Power of Smart Watches for Efficient Time Management.",
             "button_label": "En savoir plus"
           }
         },
@@ -520,9 +520,9 @@
             "image_overlay": 80,
             "text_position": "bottom-center",
             "link": "shopify://collections/sports-equipments-and-devices",
-            "heading": "Équipements Sportifs",
+            "heading": "Sports Equipment",
             "subheading": "",
-            "text": "Libérez Votre Potentiel de Jeu avec une Technologie de Pointe.",
+            "text": "Unleash Your Gaming Potential with Cutting-Edge Technology.",
             "button_label": "En savoir plus"
           }
         },
@@ -535,9 +535,9 @@
             "image_overlay": 80,
             "text_position": "bottom-center",
             "link": "shopify://collections/virtual-reality",
-            "heading": "Réalité Virtuelle",
+            "heading": "Virtual Reality",
             "subheading": "",
-            "text": "Explorez les Possibilités Infinies de la Technologie VR.",
+            "text": "Explore the Infinite Possibilities of VR Technology.",
             "button_label": "En savoir plus"
           }
         }
@@ -580,7 +580,7 @@
             "heading": "{{ section.settings.collection.title }}",
             "heading_scale": 80,
             "subheading": "",
-            "button": "Tout Acheter",
+            "button": "Tout Buy",
             "button_tier": "primary"
           }
         }
@@ -590,7 +590,7 @@
         "165469277996cce953-1"
       ],
       "settings": {
-        "heading": "Sacs pour Ordinateur Portable",
+        "heading": "Laptop Bags",
         "subheading": "",
         "collection": "laptop-bags",
         "slide_every": "row",
@@ -662,9 +662,9 @@
         "heading": "Made for <strong>Pros</strong>",
         "heading_scale": 120,
         "subheading": "",
-        "text": "<p>Découvrez des Outils et Équipements de Qualité Professionnelle pour Tous les Secteurs.</p>",
+        "text": "<p>Discover Professional Quality Tools and Equipment for All Sectors.</p>",
         "text_position": "center-left",
-        "f_button_label": "Acheter Maintenant",
+        "f_button_label": "Buy Maintenant",
         "f_button_link": "shopify://collections/charger",
         "f_button_tier": "primary",
         "pattern": "pattern-topography_600",
@@ -678,13 +678,13 @@
         "template--20725112013081__a9c69136-4e22-4bd5-927f-d1dd9081a18a-subheading-1": {
           "type": "subheading",
           "settings": {
-            "subheading": "Abonnez-vous aux dernières actualités"
+            "subheading": "Subscribe to the latest news"
           }
         },
         "template--20725112013081__a9c69136-4e22-4bd5-927f-d1dd9081a18a-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Infolettre",
+            "heading": "Newsletter",
             "heading_scale": 120
           }
         },
@@ -721,8 +721,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Alice J.",
-            "heading": "Mon meilleur choix !",
-            "text": "\"Produit de bonne qualité avec de bonnes performances. Facile à utiliser.\"\nTrès content de ce chargeur. Fonctionne parfaitement pour mon téléphone, ma montre et mes écouteurs. Aucune plainte.",
+            "heading": "My Best Choice!",
+            "text": "\"Good quality product with good performance. Easy to use.\"\nVery happy with this charger. Works perfectly for my phone, watch, and headphones. No complaints.",
             "star_count": "5",
             "product": ""
           }
@@ -731,8 +731,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Fabio W.",
-            "heading": "Vraiment une excellente affaire !",
-            "text": "\"Excellent produit. Charge tous les appareils en même temps.\"\nExcellente qualité et très pratique. Facile à installer. Charge tout en douceur. Recommandé.",
+            "heading": "Really a Great Deal!",
+            "text": "\"Excellent product. Charges all devices at the same time.\"\nExcellent quality and very practical. Easy to set up. Charges everything smoothly. Recommended.",
             "star_count": "5",
             "product": ""
           }
@@ -741,8 +741,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Michael T.",
-            "heading": "Qualité incroyable",
-            "text": "\"Beau design. Fonctionne bien.\"\nBonne station de charge. Le téléphone se charge dans n'importe quelle position. Un peu lent mais parfait pour la nuit. Facile à utiliser.",
+            "heading": "Incredible Quality",
+            "text": "\"Beautiful design. Works well.\"\nGood charging station. Phone charges in any position. A bit slow but perfect for overnight. Easy to use.",
             "star_count": "5",
             "product": ""
           }
@@ -751,8 +751,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Artur S.",
-            "heading": "C'est exactement ce que je cherchais",
-            "text": "\"Parfait pour un usage quotidien. Bonne qualité.\"\nFait parfaitement le travail. Les trois appareils se chargent en même temps. Très facile et pratique. Vaut l'achat.",
+            "heading": "This is Exactly What I Was Looking For",
+            "text": "\"Perfect for daily use. Good quality.\"\nDoes the job perfectly. All three devices charge at the same time. Very easy and convenient. Worth the purchase.",
             "star_count": "5",
             "product": ""
           }
@@ -761,8 +761,8 @@
           "type": "testimonial",
           "settings": {
             "author_name": "Veronika H.",
-            "heading": "Très beau design",
-            "text": "\"Excellent produit. Très pratique.\"\nCharge le téléphone, la montre et les AirPods ensemble. Bonne performance. Facile de placer les appareils. Aucun problème jusqu'à présent.",
+            "heading": "Very Beautiful Design",
+            "text": "\"Excellent product. Very practical.\"\nCharges phone, watch, and AirPods together. Good performance. Easy to place devices. No problems so far.",
             "star_count": "5",
             "product": ""
           }
@@ -776,7 +776,7 @@
         "testimonial_YKn9bF"
       ],
       "settings": {
-        "heading": "Ce Que Nos Clients en Pensent",
+        "heading": "What Our Customers Think",
         "subheading": "",
         "view_max_items": 4,
         "show_stars": true,
