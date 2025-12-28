@@ -70,7 +70,7 @@
             "heading": "",
             "logo": "shopify://shop_images/Artboard_8_copy.svg",
             "logo_width": 80,
-            "text": "<p>BaraKaStore est votre destination de confiance pour les produits électroniques et accessoires technologiques haut de gamme en France.<br/><br/><a href=\"mailto:info@barakastore.net\" title=\"mailto:info@barakastore.net\">info@barakastore.net</a></p>",
+            "text": "<p>BaraKaStore is your trusted destination for premium electronics and high-end technology accessories.<br/><br/><a href=\"mailto:info@barakastore.net\" title=\"mailto:info@barakastore.net\">info@barakastore.net</a></p>",
             "show_social_icons": false
           }
         },
@@ -92,7 +92,7 @@
           "type": "newsletter",
           "settings": {
             "heading": "Newsletter",
-            "text": "<p>Abonnez-vous à notre newsletter et ne manquez jamais les dernières tendances et promotions.</p>",
+            "text": "<p>Subscribe to our newsletter and never miss the latest trends and promotions.</p>",
             "show_social_icons": true
           }
         }

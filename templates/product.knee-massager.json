@@ -28,7 +28,7 @@
           "type": "shopify://apps/upsell-cross-sell-booster/blocks/product-bundle/019ab266-a3a9-7921-a8c4-710967eb5511",
           "disabled": true,
           "settings": {
-            "bundle_title": "FRÉQUEMMENT ACHETÉS ENSEMBLE",
+            "bundle_title": "FREQUENTLY BOUGHT TOGETHER",
             "collection": "",
             "discount_percentage": 10,
             "discount_code": "BUNDLE10",
@@ -45,7 +45,7 @@
         "text_xDKHkM": {
           "type": "text",
           "settings": {
-            "text": "<h4><a href=\"/pages/return-refund\" title=\"Retour et Remboursement\"><span style=\"text-decoration:underline\"><strong>ESSAI SANS RISQUE DE 90 JOURS</strong></span></a></h4><h5><br/>⭐⭐⭐⭐⭐(4.6/5) - 66 avis</h5><ul><li><strong>Découvrez la Technologie Triple Thérapie : </strong>Le design innovant du Masseur de Soulagement du Genou combine la chaleur, la lumière rouge et la thérapie par massage pour stabiliser votre genou et éliminer rapidement la douleur.</li><li><strong>Design Dynamique “Sur-le-Genou” : </strong>Procure un soulagement plus profond et plus durable que de nombreux masseurs cliniques ou manuels — le tout dans le confort de votre foyer.</li><li><strong>Améliore la Circulation Sanguine : </strong>Accélère la récupération sans nécessiter de longues marches ou d'exercice.</li></ul>",
+            "text": "<h4><a href=\"/pages/return-refund\" title=\"Return and Refund\"><span style=\"text-decoration:underline\"><strong>90-DAY RISK-FREE TRIAL</strong></span></a></h4><h5><br/>⭐⭐⭐⭐⭐(4.6/5) - 66 reviews</h5><ul><li><strong>Experience Triple Therapy Technology: </strong>The innovative design of the Knee Relief Massager combines heat, red light, and massage therapy to stabilize your knee and rapidly eliminate pain.</li><li><strong>Dynamic Design “Sur-le-Genou” : </strong>Provides deeper and longer-lasting relief than many clinical or manual massagers — all in the comfort of your home.</li><li><strong>Improves Blood Circulation: </strong>Accelerates recovery without requiring long walks or exercise.</li></ul>",
             "size": "body",
             "text_uppercase": false,
             "prev_attach": false
@@ -64,7 +64,7 @@
         "db834cde-9204-4d36-b1e7-26c7fddc78c2": {
           "type": "countdown",
           "settings": {
-            "meta_heading": "La vente se termine dans :",
+            "meta_heading": "Sale ends in:",
             "text_scale": 175,
             "use_sale_price_color": true,
             "prev_attach": true
@@ -102,7 +102,7 @@
           "type": "custom_liquid",
           "settings": {
             "heading": "",
-            "liquid_content": "<div class=\"#product-stock-alert @text-weight:bold @type:success \">\n    <div class=\"#product-stock-alert-icon\">\n        \n\n\n\n<svg class=\"#icon\">\n            <use href=\"#svg-icon-check\"></use>\n        </svg>\n    </div>\n    <div class=\"#product-stock-alert-text\">Livraison gratuite</div>\n</div>",
+            "liquid_content": "<div class=\"#product-stock-alert @text-weight:bold @type:success \">\n    <div class=\"#product-stock-alert-icon\">\n        \n\n\n\n<svg class=\"#icon\">\n            <use href=\"#svg-icon-check\"></use>\n        </svg>\n    </div>\n    <div class=\"#product-stock-alert-text\">Free shipping</div>\n</div>",
             "prev_attach": true
           }
         },
@@ -120,25 +120,25 @@
           "type": "custom_liquid",
           "settings": {
             "heading": "",
-            "liquid_content": "<style>\n.delivery-box {\n    background-color: #fbfbfb;\n    border-radius: 8px;\n    padding: 16px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    max-width: 600px;\n    margin: 20px auto;\n}\n.truck-icon {\n    width: 28px;\n    height: 28px;\n    flex-shrink: 0;\n}\n.truck-icon svg {\n    width: 100%;\n    height: 100%;\n}\n.delivery-text {\n    font-size: 16px;\n    color: #0e2453;\n    font-weight: 500;\n    text-align: left;\n}\n\n</style>\n<div class=\"delivery-box\">\n  <div class=\"truck-icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n      <path fill=\"#0E8390\" d=\"M20 8h-3V4a1 1 0 0 0-1-1H2v17h2.184a3.001 3.001 0 0 0 5.632 0h4.368a3.001 3.001 0 0 0 5.632 0H22v-7l-2-5zm0 2.618V13h-4V9h2.382l1.618 4.618zM7 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z\"></path>\n    </svg>\n  </div>\n\n  <div class=\"delivery-text\" id=\"delivery-estimate\">\n    Commandez aujourd'hui, recevez votre commande entre\n    <span class=\"start-date\"></span> et \n    <span class=\"end-date\"></span>\n  </div>\n</div>\n<script>\n  function formatDate(date) {\n    return date.toLocaleDateString(\"en-US\", {\n      weekday: \"short\",\n      month: \"short\",\n      day: \"numeric\"\n    });\n  }\n\n  const today = new Date();\n\n  const startDate = new Date(today);\n  startDate.setDate(today.getDate() + 7);\n\n  const endDate = new Date(today);\n  endDate.setDate(today.getDate() + 14);\n\n  document.querySelector(\".start-date\").innerHTML =\n    `<span style=\"color:#0E8390;font-weight:bold;\">${formatDate(startDate)}</span>`;\n\n  document.querySelector(\".end-date\").innerHTML =\n    `<span style=\"color:#0E8390;font-weight:bold;\">${formatDate(endDate)}</span>`;\n</script>",
+            "liquid_content": "<style>\n.delivery-box {\n    background-color: #fbfbfb;\n    border-radius: 8px;\n    padding: 16px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    max-width: 600px;\n    margin: 20px auto;\n}\n.truck-icon {\n    width: 28px;\n    height: 28px;\n    flex-shrink: 0;\n}\n.truck-icon svg {\n    width: 100%;\n    height: 100%;\n}\n.delivery-text {\n    font-size: 16px;\n    color: #0e2453;\n    font-weight: 500;\n    text-align: left;\n}\n\n</style>\n<div class=\"delivery-box\">\n  <div class=\"truck-icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n      <path fill=\"#0E8390\" d=\"M20 8h-3V4a1 1 0 0 0-1-1H2v17h2.184a3.001 3.001 0 0 0 5.632 0h4.368a3.001 3.001 0 0 0 5.632 0H22v-7l-2-5zm0 2.618V13h-4V9h2.382l1.618 4.618zM7 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z\"></path>\n    </svg>\n  </div>\n\n  <div class=\"delivery-text\" id=\"delivery-estimate\">\n    Order today, receive your order between\n    <span class=\"start-date\"></span> et \n    <span class=\"end-date\"></span>\n  </div>\n</div>\n<script>\n  function formatDate(date) {\n    return date.toLocaleDateString(\"en-US\", {\n      weekday: \"short\",\n      month: \"short\",\n      day: \"numeric\"\n    });\n  }\n\n  const today = new Date();\n\n  const startDate = new Date(today);\n  startDate.setDate(today.getDate() + 7);\n\n  const endDate = new Date(today);\n  endDate.setDate(today.getDate() + 14);\n\n  document.querySelector(\".start-date\").innerHTML =\n    `<span style=\"color:#0E8390;font-weight:bold;\">${formatDate(startDate)}</span>`;\n\n  document.querySelector(\".end-date\").innerHTML =\n    `<span style=\"color:#0E8390;font-weight:bold;\">${formatDate(endDate)}</span>`;\n</script>",
             "prev_attach": true
           }
         },
         "a685ac79-30ea-4b8b-83c6-58c2d92e8d88": {
           "type": "collapsible_tab_text",
           "settings": {
-            "heading": "Informations de livraison",
+            "heading": "Shipping Information",
             "icon": "info",
-            "content": "<p>Nous offrons des options d'expédition rapides et fiables pour garantir que votre commande arrive dans les délais. Notre équipe dévouée travaille avec diligence pour traiter et expédier vos articles aussi rapidement que possible.</p><p>Voici quelques points clés à noter concernant notre politique d'expédition :</p><ul><li>Nous offrons la livraison gratuite sur toutes les commandes de plus de 50€ en France.</li><li>Nous proposons également des options d'expédition internationale pour nos clients hors de France. Les frais d'expédition peuvent varier selon la destination.</li><li>Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec les informations de suivi, vous permettant de suivre facilement la progression de votre livraison.</li></ul>",
+            "content": "<p>We offer fast and reliable shipping options to ensure your order arrives on time. Our dedicated team works diligently to process and ship your items as quickly as possible.</p><p>Here are some key points to note about our shipping policy:</p><ul><li>We offer free shipping on all orders over $50.</li><li>We also offer international shipping options for our customers outside the country. Shipping costs may vary depending on the destination.</li><li>Once your order is shipped, you will receive a confirmation email with tracking information, allowing you to easily track the progress of your delivery.</li></ul>",
             "prev_attach": true
           }
         },
         "collapsible_tab_text_LL7m4m": {
           "type": "collapsible_tab_text",
           "settings": {
-            "heading": "Essai sans risque de 90 jours",
+            "heading": "90-Day Risk-Free Trial",
             "icon": "package",
-            "content": "<p><strong>Essayez-le sans risque pendant 90 jours !</strong></p><p>En d'autres termes, vous pouvez essayer le produit en utilisation normale pendant deux mois.</p><p>Retour gratuit si vous n'êtes pas satisfait.</p><p>Contactez info@barakastore.net pour initier un remboursement.</p><p>Nous rembourserons les produits défectueux, les colis perdus et les commandes expédiées incorrectement.</p>",
+            "content": "<p><strong>Try it risk-free for 90 days!</strong></p><p>In other words, you can try the product in normal use for two months.</p><p>Free return if you are not satisfied.</p><p>Contact info@barakastore.net to initiate a refund.</p><p>We will refund defective products, lost packages, and incorrectly shipped orders.</p>",
             "prev_attach": false
           }
         }
@@ -181,7 +181,7 @@
         "product_specs": "<p>Brand: {{ product.vendor }}</p><p>Title: {{ product.title }}</p>",
         "specs_use_expand": false,
         "show_product_bundle": true,
-        "product_bundle_heading": "Achetez ensemble et économisez",
+        "product_bundle_heading": "Buy Together and Save",
         "product_bundle_variant_selector": false
       }
     },
@@ -195,8 +195,8 @@
             "icon_type": "guarantee",
             "days_text": "90",
             "days_label": "DAYS",
-            "title": "RÉSULTATS OU GARANTIE DE REMBOURSEMENT",
-            "description": "Si vous n'êtes pas absolument ravi du Masseur de Soulagement du Genou, nous ne voulons pas votre argent. Aucun tracas, aucune question posée."
+            "title": "RESULTS OR MONEY-BACK GUARANTEE",
+            "description": "If you are not absolutely delighted with the Knee Relief Massager, we don't want your money. No hassle, no questions asked."
           }
         },
         "badge_nk7WC9": {
@@ -206,8 +206,8 @@
             "icon_type": "shipping",
             "days_text": "90",
             "days_label": "DAYS",
-            "title": "LIVRAISON GRATUITE",
-            "description": "Nous offrons la livraison gratuite et la manutention sur toutes les commandes."
+            "title": "FREE SHIPPING",
+            "description": "We offer free shipping and handling on all orders."
           }
         },
         "badge_RAjFrz": {
@@ -217,8 +217,8 @@
             "icon_type": "quality",
             "days_text": "90",
             "days_label": "DAYS",
-            "title": "HAUTE QUALITÉ GARANTIE",
-            "description": "Les Masseurs de Soulagement du Genou sont fabriqués avec des matériaux de qualité supérieure et durables. Profitez d'un soulagement constant et fiable jour après jour."
+            "title": "HIGH QUALITY GUARANTEED",
+            "description": "The Knee Relief Massagers are made with premium, durable materials. Enjoy consistent and reliable relief day after day."
           }
         }
       },
@@ -229,7 +229,7 @@
       ],
       "name": "Trust Badges",
       "settings": {
-        "heading": "Plus de 50 000 clients satisfaits",
+        "heading": "Over 50,000 Satisfied Customers",
         "background_color": "#e8f4f5",
         "icon_color": "#2d9ca5"
       }
@@ -240,19 +240,19 @@
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "La douleur au genou n'est pas seulement une question de vieillissement — il s'agit de ce qui manque à vos genoux. Vos articulations ont besoin de quelque chose appelé liquide synovial. C'est comme de l'huile qui maintient vos genoux en mouvement en douceur et sans douleur."
+            "paragraph": "Knee pain is not just about aging — it's about what your knees are missing. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and pain-free."
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Cela s'appelle la Sécheresse Articulaire — lorsque vous n'avez pas assez de liquide synovial, vos genoux se dessèchent et frottent os contre os."
+            "paragraph": "This is called Joint Dryness — when you don't have enough synovial fluid, your knees dry out and rub bone against bone."
           }
         },
         "paragraph_8cn8JX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Sans suffisamment de mouvement, ce liquide ne peut pas circuler correctement, et vos genoux commencent à grincer comme une charnière de porte rouillée. Mais comment bouger quand vous souffrez ?"
+            "paragraph": "Without enough movement, this fluid cannot circulate properly, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
           }
         }
       },
@@ -266,10 +266,10 @@
         "layout": "image-left",
         "media_type": "video",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "RÉSOLU : La Vraie Raison Derrière Votre Douleur au Genou :",
+        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
         "background_color": "#ffffff",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": "cordless-charger-belkin-wiz029vfbk"
       }
     },
@@ -279,19 +279,19 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou est conçu avec une Technologie Triple Thérapie de pointe qui combine la Thérapie par Lumière Rouge, la Thérapie par Chaleur et la Thérapie par Massage pour soutenir efficacement votre articulation du genou."
+            "paragraph": "The Knee Relief Massager is designed with cutting-edge Triple Therapy Technology that combines Red Light Therapy, Heat Therapy, and Massage Therapy to effectively support your knee joint."
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Cela améliore la circulation sanguine, détend les muscles tendus et réduit l'inflammation dans vos articulations du genou, rendant les mouvements plus faciles et plus confortables."
+            "paragraph": "This improves blood circulation, relaxes tense muscles, and reduces inflammation in your knee joints, making movement easier and more comfortable."
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou offre à vos genoux les soins complets dont ils ont besoin pour rester mobiles et sans douleur."
+            "paragraph": "The Knee Relief Massager provides your knees with the comprehensive care they need to stay mobile and pain-free."
           }
         }
       },
@@ -305,10 +305,10 @@
         "layout": "image-right",
         "media_type": "video",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Présentation : Technologie Triple Thérapie :",
+        "heading": "Introducing: Triple Therapy Technology:",
         "background_color": "#ffffff",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
       }
     },
@@ -318,37 +318,37 @@
         "paragraph_m8n6gY": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Notre design révolutionnaire \"sur le genou\" fournit un soulagement ciblé que les masseurs manuels ne peuvent égaler."
+            "paragraph": "Our revolutionary \"on-the-knee\" design provides targeted relief that manual massagers cannot match."
           }
         },
         "paragraph_aXQGRx": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Le Masseur de Soulagement du Genou est conçu non seulement pour soutenir, mais aussi pour améliorer le mouvement et la santé de votre genou :"
+            "paragraph": "The Knee Relief Massager is designed not only to support but also to improve the movement and health of your knee:"
           }
         },
         "paragraph_UUL8H7": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Mouvement Amélioré du Liquide Synovial : Le design enveloppant unique aide à l'écoulement du liquide synovial, lubrifiant vos articulations et soulageant la douleur."
+            "paragraph": "Enhanced Synovial Fluid Movement: The unique wrap-around design helps synovial fluid flow, lubricating your joints and relieving pain."
           }
         },
         "paragraph_fFfQFD": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Technologie Triple Thérapie : Intègre la Thérapie par Lumière Rouge, la Thérapie par Chaleur et la Thérapie par Massage pour stimuler la circulation, accélérer la récupération des articulations douloureuses et réduire l'inflammation."
+            "paragraph": "Triple Therapy Technology: Integrates Red Light Therapy, Heat Therapy, and Massage Therapy to stimulate circulation, accelerate recovery of painful joints, and reduce inflammation."
           }
         },
         "paragraph_KFgBWt": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Paramètres de Thérapie Personnalisables : Ajustez facilement l'intensité de la chaleur et du massage pour correspondre à votre niveau de confort et répondre à vos besoins thérapeutiques, garantissant que chaque séance est efficace."
+            "paragraph": "Customizable Therapy Settings: Easily adjust the intensity of heat and massage to match your comfort level and meet your therapeutic needs, ensuring each session is effective."
           }
         },
         "paragraph_RFWYBX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Élégant et Pratique pour un Usage Quotidien : Conçu pour être utilisé n'importe où, n'importe quand. Il est facile à porter à la maison, au travail ou même en vous relaxant."
+            "paragraph": "Sleek and Convenient for Daily Use: Designed to be used anywhere, anytime. Easy to wear at home, at work, or even while relaxing."
           }
         }
       },
@@ -365,10 +365,10 @@
         "layout": "image-left",
         "media_type": "video",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Caractéristiques Innovantes pour un Soulagement Ultime du Genou :",
+        "heading": "Innovative Features for Ultimate Knee Relief:",
         "background_color": "#ffffff",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage"
       }
     },
@@ -376,15 +376,15 @@
       "type": "doctor-recommended",
       "name": "Doctor Recommended",
       "settings": {
-        "heading": "Recommandé par les Médecins et Approuvé par les Utilisateurs",
-        "description": "Conçu avec la contribution de spécialistes en orthopédie, le Masseur de Soulagement du Genou est votre solution sans chirurgie pour la douleur chronique au genou.",
+        "heading": "Recommended by Doctors and Approved by Users",
+        "description": "Designed with input from orthopedic specialists, the Knee Relief Massager is your non-surgical solution for chronic knee pain.",
         "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
         "background_color": "#ffffff",
         "show_testimonial": true,
-        "testimonial_text": "Le Masseur de Soulagement du Genou est un outil exceptionnel pour toute personne souffrant d'inconfort au genou. Son système de thérapie intégré non seulement soulage la douleur mais aide également à la récupération. C'est comme avoir un physiothérapeute personnel disponible à tout moment.",
+        "testimonial_text": "The Knee Relief Massager is an exceptional tool for anyone suffering from knee discomfort. Its integrated therapy system not only relieves pain but also aids in recovery. It's like having a personal physical therapist available at any time.",
         "testimonial_author": "- Samantha L",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
       }
     },
@@ -397,8 +397,8 @@
             "media_type": "image",
             "image": "shopify://shop_images/Untitled_design__2___1.avif",
             "video": "",
-            "title": "Design Unique Sur-le-Genou :",
-            "description": "Contrairement aux appareils manuels, ce masseur entoure complètement votre genou en permanence. Il s'ajuste parfaitement pour que vous puissiez lire un livre, regarder la télévision ou simplement vous détendre sans avoir à utiliser vos mains."
+            "title": "Unique On-the-Knee Design:",
+            "description": "Unlike manual devices, this massager completely surrounds your knee at all times. It fits perfectly so you can read a book, watch TV, or simply relax without having to use your hands."
           }
         },
         "step_AG69wg": {
@@ -407,8 +407,8 @@
             "media_type": "image",
             "image": "shopify://shop_images/2__2___1.avif",
             "video": "",
-            "title": "Paramètres de Thérapie Personnalisables :",
-            "description": "En appuyant sur un bouton, vous pouvez changer le niveau de massage. Les commandes faciles à utiliser garantissent que vous obtenez la bonne pression et la bonne chaleur à chaque fois."
+            "title": "Customizable Therapy Settings:",
+            "description": "With the push of a button, you can change the massage level. Easy-to-use controls ensure you get the right pressure and heat every time."
           }
         },
         "step_EKptEd": {
@@ -417,8 +417,8 @@
             "media_type": "image",
             "image": "shopify://shop_images/1__3___1.avif",
             "video": "",
-            "title": "Matériau Durable et Confortable :",
-            "description": "Fabriqué avec des tissus flexibles de haute qualité qui le rendent incroyablement confortable."
+            "title": "Durable and Comfortable Material:",
+            "description": "Made with high-quality flexible fabrics that make it incredibly comfortable."
           }
         }
       },
@@ -429,12 +429,12 @@
       ],
       "name": "How It Works",
       "settings": {
-        "heading": "Comment Fonctionne le Masseur de Soulagement du Genou :",
-        "subheading": "Le Masseur de Soulagement du Genou est expertement conçu pour apaiser la douleur au genou et renforcer vos articulations du genou.",
-        "description": "Placez-le simplement sur votre genou, ajustez pour votre confort et ressentez le soulagement.",
+        "heading": "How the Knee Relief Massager Works:",
+        "subheading": "The Knee Relief Massager is expertly designed to soothe knee pain and strengthen your knee joints.",
+        "description": "Simply place it on your knee, adjust for your comfort, and feel the relief.",
         "background_color": "#ffffff",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": "3-in-1-wireless-heated-knee-elbow-massager-with-vibration-usb-rechargeable-3-modes-for-relaxation"
       }
     },
@@ -444,7 +444,7 @@
         "feature_yg6wEP": {
           "type": "feature",
           "settings": {
-            "feature_name": "Soulagement Durable de la Douleur",
+            "feature_name": "Long-Lasting Pain Relief",
             "has_feature_brand": true,
             "has_feature_comp1": false,
             "has_feature_comp2": false
@@ -453,7 +453,7 @@
         "feature_kfqfzc": {
           "type": "feature",
           "settings": {
-            "feature_name": "Sans Médicaments",
+            "feature_name": "Drug-Free",
             "has_feature_brand": true,
             "has_feature_comp1": true,
             "has_feature_comp2": false
@@ -462,7 +462,7 @@
         "feature_aqjwHA": {
           "type": "feature",
           "settings": {
-            "feature_name": "Mains Libres",
+            "feature_name": "Hands-Free",
             "has_feature_brand": true,
             "has_feature_comp1": false,
             "has_feature_comp2": false
@@ -471,7 +471,7 @@
         "feature_VQH7Nw": {
           "type": "feature",
           "settings": {
-            "feature_name": "Design Sur-le-Genou",
+            "feature_name": "On-the-Knee Design",
             "has_feature_brand": true,
             "has_feature_comp1": false,
             "has_feature_comp2": false
@@ -480,7 +480,7 @@
         "feature_PVeNBw": {
           "type": "feature",
           "settings": {
-            "feature_name": "Paramètres Personnalisables",
+            "feature_name": "Customizable Settings",
             "has_feature_brand": true,
             "has_feature_comp1": false,
             "has_feature_comp2": false
@@ -489,7 +489,7 @@
         "feature_XedTC9": {
           "type": "feature",
           "settings": {
-            "feature_name": "Commodité Portable",
+            "feature_name": "Portable Convenience",
             "has_feature_brand": true,
             "has_feature_comp1": false,
             "has_feature_comp2": false
@@ -498,7 +498,7 @@
         "feature_zrDTfG": {
           "type": "feature",
           "settings": {
-            "feature_name": "Sûr pour un Usage Quotidien",
+            "feature_name": "Safe for Daily Use",
             "has_feature_brand": true,
             "has_feature_comp1": false,
             "has_feature_comp2": false
@@ -507,7 +507,7 @@
         "feature_HQEWkD": {
           "type": "feature",
           "settings": {
-            "feature_name": "Soulagement Rapide de la Douleur",
+            "feature_name": "Fast Pain Relief",
             "has_feature_brand": true,
             "has_feature_comp1": false,
             "has_feature_comp2": false
@@ -526,10 +526,10 @@
       ],
       "name": "Comparison Table",
       "settings": {
-        "heading": "Qu'est-ce qui Distingue le Masseur de Soulagement du Genou des Masseurs de Genou Ordinaires et des Médicaments ?",
+        "heading": "What Sets the Knee Relief Massager Apart from Ordinary Knee Massagers and Medications?",
         "brand_name": "norelie",
-        "competitor1_name": "AUTRES",
-        "competitor2_name": "Médicaments",
+        "competitor1_name": "OTHERS",
+        "competitor2_name": "Medications",
         "background_color": "#f8f8f8"
       }
     },
@@ -539,13 +539,13 @@
         "paragraph_gPbRLw": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Les preuves cliniques soutiennent l'utilisation de masseurs pour genoux pour un soulagement temporaire de la douleur et une mobilité articulaire améliorée. Les masseurs qui combinent chaleur, vibration et thérapie par massage se sont révélés efficaces pour réduire les symptômes de l'arthrose du genou en améliorant la circulation et en soulageant la douleur."
+            "paragraph": "Clinical evidence supports the use of knee massagers for temporary pain relief and improved joint mobility. Massagers that combine heat, vibration, and massage therapy have been shown to be effective in reducing symptoms of knee osteoarthritis by improving circulation and relieving pain."
           }
         },
         "paragraph_b8DYf9": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Cette approche complète aide à gérer efficacement la douleur au genou, conduisant à une amélioration de la qualité de vie et du bien-être. Ces appareils offrent une alternative non invasive pour gérer la douleur au genou sans nécessiter de médicaments continus ou d'interventions chirurgicales."
+            "paragraph": "This comprehensive approach helps effectively manage knee pain, leading to improved quality of life and well-being. These devices offer a non-invasive alternative for managing knee pain without requiring ongoing medications or surgical interventions."
           }
         }
       },
@@ -556,7 +556,7 @@
       "name": "Clinical Proof",
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
-        "heading": "Preuve Clinique",
+        "heading": "Clinical Proof",
         "background_color": "#e8f4f5",
         "show_link": true,
         "link_text": "https://pubmed.ncbi.nlm.nih.gov/34880892/",
@@ -569,7 +569,7 @@
         "paragraph_WrqGbG": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Imaginez vous réveiller rajeuni, libéré de l'inconfort persistant au genou qui vous ralentissait. Le Masseur de Soulagement du Genou a été conçu pour vous offrir exactement cela."
+            "paragraph": "Imagine waking up refreshed, free from the persistent knee discomfort that was slowing you down. The Knee Relief Massager was designed to give you exactly that."
           }
         }
       },
@@ -582,10 +582,10 @@
         "media_type": "image",
         "image": "shopify://shop_images/ComfySole__4___1__1.avif",
         "video": "",
-        "heading": "Imaginez un Jour Sans Douleur au Genou",
+        "heading": "Imagine a Day Without Knee Pain",
         "background_color": "#ffffff",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
       }
     },
@@ -597,8 +597,8 @@
           "settings": {
             "media_type": "video",
             "video": "https://cdn.shopify.com/videos/c/o/v/ce5ce2805c53427ab9c836f478c2cb82.mp4",
-            "title": "Étape 1",
-            "description": "Placez le masseur autour de votre genou et fixez-le."
+            "title": "Step 1",
+            "description": "Place the massager around your knee and secure it."
           }
         },
         "step_jHHymU": {
@@ -606,8 +606,8 @@
           "settings": {
             "media_type": "video",
             "video": "https://cdn.shopify.com/videos/c/o/v/cd6fd4dc25f64983b32ea63f4f700406.mp4",
-            "title": "Étape 2",
-            "description": "Ajustez les paramètres pour un traitement confortable mais efficace afin de stabiliser votre genou."
+            "title": "Step 2",
+            "description": "Adjust the settings for comfortable yet effective treatment to stabilize your knee."
           }
         },
         "step_naVW4x": {
@@ -615,8 +615,8 @@
           "settings": {
             "media_type": "video",
             "video": "https://cdn.shopify.com/videos/c/o/v/eedbd74e7ea14009af62b47fc5759156.mp4",
-            "title": "Étape 3",
-            "description": "Vaquez à vos occupations quotidiennes en profitant d'un mouvement sans douleur."
+            "title": "Step 3",
+            "description": "Go about your daily activities enjoying pain-free movement."
           }
         },
         "step_J6fUKd": {
@@ -624,8 +624,8 @@
           "settings": {
             "media_type": "video",
             "video": "https://cdn.shopify.com/videos/c/o/v/d5e9532b2ebc49c6a57212e66886436f.mp4",
-            "title": "Étape 4",
-            "description": "Utilisez-le pendant toute activité, de la marche au repos, garantissant un soutien continu du genou."
+            "title": "Step 4",
+            "description": "Use it during any activity, from walking to resting, ensuring continuous knee support."
           }
         }
       },
@@ -637,12 +637,12 @@
       ],
       "name": "How It Works",
       "settings": {
-        "heading": "Comment Utiliser le Masseur de Soulagement du Genou",
+        "heading": "How to Use the Knee Relief Massager",
         "subheading": "",
         "description": "",
         "background_color": "#ffffff",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": ""
       }
     },
@@ -654,10 +654,10 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design__12___1.avif",
             "avatar": "shopify://shop_images/Smart-Hot-Compress-Knee-Relaxing-Massager-Knee-Cap-Treasure-Laser-Infrared-Elbow-Shoulder-Massager-Relive-Joint_b5b1b346-e5e3-4a19-b93f-6e3adf14d18a.webp",
-            "quote": "Après avoir utilisé le masseur pour soulager mes douleurs au genou, mes douleurs ont considérablement diminué et je peux marcher beaucoup plus longtemps. Ça a changé ma vie !",
+            "quote": "After using the massager to relieve my knee pain, my pain has significantly decreased and I can walk much longer. It changed my life!",
             "author_name": "James T.",
             "author_location": "Birmingham",
-            "purchase_info": "A acheté 1 paire"
+            "purchase_info": "Purchased 1 pair"
           }
         },
         "testimonial_LntfTE": {
@@ -665,10 +665,10 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design__13___1.avif",
             "avatar": "shopify://shop_images/KneeRelief_3_2048x2048_4c5daa79-c5df-45de-be60-39b3b94874c8.webp",
-            "quote": "Travailler dans le bâtiment est éprouvant pour mes genoux. Le masseur de genoux m'a apporté le soulagement dont j'avais besoin pour supporter les longues journées de travail sans douleur. C'est un produit fantastique !",
+            "quote": "Working in construction is hard on my knees. The knee massager provided me with the relief I needed to endure long workdays without pain. It's a fantastic product!",
             "author_name": "Thomas R. ",
             "author_location": "Newcastle",
-            "purchase_info": "A acheté 1 paire"
+            "purchase_info": "Purchased 1 pair"
           }
         },
         "testimonial_FpiCL3": {
@@ -676,10 +676,10 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design__14___1.avif",
             "avatar": "shopify://shop_images/KneeRelief_1_2048x2048_2da5d2bd-b074-4a43-982e-d8df82c5b1b0.webp",
-            "quote": "Je souffre de douleurs chroniques au genou depuis des années, et rien ne semblait me soulager jusqu'à ce que j'essaie le masseur de genoux. Il est facile à utiliser et a considérablement amélioré mon quotidien.",
+            "quote": "I have suffered from chronic knee pain for years, and nothing seemed to help until I tried the knee massager. It's easy to use and has significantly improved my daily life.",
             "author_name": "Emily S.",
             "author_location": "Cardiff",
-            "purchase_info": "A acheté 1 paire"
+            "purchase_info": "Purchased 1 pair"
           }
         }
       },
@@ -706,19 +706,19 @@
         "benefit_b9E48h": {
           "type": "benefit",
           "settings": {
-            "benefit_text": "Grande Réduction Spéciale"
+            "benefit_text": "Big Special Discount"
           }
         },
         "benefit_Lq6DVR": {
           "type": "benefit",
           "settings": {
-            "benefit_text": "Garantie de Résultats ou Remboursement de 90 Jours"
+            "benefit_text": "90-Day Results or Money-Back Guarantee"
           }
         },
         "benefit_9ebqfF": {
           "type": "benefit",
           "settings": {
-            "benefit_text": "Livraison GRATUITE sur les commandes de plus de 50€"
+            "benefit_text": "FREE Shipping on orders over $50"
           }
         }
       },
@@ -729,25 +729,25 @@
       ],
       "name": "Pricing CTA",
       "settings": {
-        "heading": "Commandez Aujourd'hui et Obtenez des Paires GRATUITES Tant qu'il y a du Stock",
-        "subheading": "Offre à durée limitée",
+        "heading": "Order Today and Get FREE Pairs While Supplies Last",
+        "subheading": "Limited Time Offer",
         "product_image_1": "shopify://shop_images/1_2048x2048_7d8ed7be-2410-4b65-a29a-15bc8a3721d1.jpg",
         "product_image_2": "shopify://shop_images/ComfySole__4___1.avif",
         "product_image_3": "shopify://shop_images/KneeRelief2__1_8d3977dd-8c2c-49aa-bc84-eaffa28b0ae9.avif",
         "product_image_4": "shopify://shop_images/Electric-Heating-Massage-Knee-Pad-Wireless-Heated-Knee-Massager-Wormwood-Constant-Temperature-Hot-Compress-Vibration-Massage_8dc23806-8f48-49c2-819b-44971201c647.webp",
-        "offer_title": "Profitez de la réduction maintenant",
-        "offer_subtitle": "Essayez Vos Masseurs de Genou MAINTENANT Sans Risque Avec Notre Meilleure Offre !",
+        "offer_title": "Take Advantage of the Discount Now",
+        "offer_subtitle": "Try Your Knee Massagers NOW Risk-Free With Our Best Offer!",
         "background_color": "#ffffff",
         "show_cta": true,
-        "cta_text": "Ajouter au panier",
+        "cta_text": "Add to cart",
         "product": "3-in-1-wireless-heated-knee-elbow-massager-with-vibration-usb-rechargeable-3-modes-for-relaxation",
         "show_shipping_badge": true,
-        "shipping_text": "Livraison GRATUITE et RAPIDE !",
+        "shipping_text": "FREE and FAST Shipping!",
         "show_note": true,
-        "note_label": "REMARQUE :",
-        "note_text": "Non Disponible sur Amazon ou eBay",
+        "note_label": "NOTE:",
+        "note_text": "Not Available on Amazon or eBay",
         "show_stock_alert": true,
-        "stock_alert_text": "La vente se termine aujourd'hui ou lorsque le stock actuel est épuisé"
+        "stock_alert_text": "Sale ends today or when current stock runs out"
       }
     },
     "faq_custom_XeQAF9": {
@@ -756,29 +756,29 @@
         "faq_item_EcVnDm": {
           "type": "faq_item",
           "settings": {
-            "question": "À quelle vitesse puis-je m'attendre à ressentir un soulagement avec le Masseur de Soulagement du Genou ?",
-            "answer": "De nombreux utilisateurs signalent ressentir un soulagement dès les premières utilisations. Cependant, les résultats peuvent varier selon les conditions individuelles. Une utilisation régulière est recommandée pour de meilleurs résultats."
+            "question": "How quickly can I expect to feel relief with the Knee Relief Massager?",
+            "answer": "Many users report feeling relief from the first uses. However, results may vary depending on individual conditions. Regular use is recommended for best results."
           }
         },
         "faq_item_cnGaFD": {
           "type": "faq_item",
           "settings": {
-            "question": "À quelle fréquence dois-je utiliser le Masseur de Soulagement du Genou ?",
-            "answer": "Vous pouvez utiliser le masseur quotidiennement pendant des séances de 15 à 20 minutes. Il est sûr pour une utilisation régulière et peut être intégré à votre routine quotidienne."
+            "question": "How often should I use the Knee Relief Massager?",
+            "answer": "You can use the massager daily for 15-20 minute sessions. It is safe for regular use and can be integrated into your daily routine."
           }
         },
         "faq_item_WakN8e": {
           "type": "faq_item",
           "settings": {
-            "question": "Que se passe-t-il si le Masseur de Soulagement du Genou ne fonctionne pas pour moi ?",
-            "answer": "Nous offrons une garantie de remboursement de 90 jours. Si vous n'êtes pas satisfait des résultats, vous pouvez le retourner pour un remboursement complet - sans poser de questions."
+            "question": "What if the Knee Relief Massager doesn't work for me?",
+            "answer": "We offer a 90-day money-back guarantee. If you are not satisfied with the results, you can return it for a full refund - no questions asked."
           }
         },
         "faq_item_NTT8WB": {
           "type": "faq_item",
           "settings": {
-            "question": "Pouvez-vous me parler de votre politique de retour ?",
-            "answer": "Nous avons une politique de retour sans tracas de 90 jours. Si vous n'êtes pas entièrement satisfait, contactez simplement notre équipe de service client pour un remboursement complet."
+            "question": "Can you tell me about your return policy?",
+            "answer": "We have a hassle-free 90-day return policy. If you are not completely satisfied, simply contact our customer service team for a full refund."
           }
         }
       },
@@ -790,7 +790,7 @@
       ],
       "name": "FAQ",
       "settings": {
-        "heading": "Vous Avez une Question ? Nous Sommes Là pour Vous Aider !",
+        "heading": "Do You Have a Question? We're Here to Help!",
         "background_color": "#ffffff"
       }
     },
@@ -800,31 +800,31 @@
         "paragraph_BTXt8X": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Nous croyons en nos produits et nous ne voulons pas que vous dépensiez un centime avant d'être sûr à 100% qu'il fonctionnera pour vous."
+            "paragraph": "We believe in our products and we don't want you to spend a penny before you are 100% sure it will work for you."
           }
         },
         "paragraph_83fFBn": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "C'est pourquoi nous offrons une garantie de 90 jours : résultats ou vous ne payez pas."
+            "paragraph": "That's why we offer a 90-day guarantee: results or you don't pay."
           }
         },
         "paragraph_mP48Yy": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Si pour une raison quelconque vous n'aimez pas le produit, vous récupérez tout votre argent."
+            "paragraph": "If for any reason you don't like the product, you get all your money back."
           }
         },
         "paragraph_KYNmQk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "En d'autres termes, vous ne payez que si vous bénéficiez d'un avantage du produit."
+            "paragraph": "In other words, you only pay if you benefit from the product."
           }
         },
         "paragraph_zFJigM": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Sur la base des statistiques, nous osons dire que nous sommes presque sûrs à 100% que vous le ferez."
+            "paragraph": "Based on statistics, we dare say we are almost 100% sure you will."
           }
         }
       },
@@ -837,11 +837,11 @@
       ],
       "name": "Guarantee",
       "settings": {
-        "heading": "Essayez-le 90 Jours Avec Notre Garantie \"Résultats ou Remboursement\"",
+        "heading": "Try It for 90 Days With Our \"Results or Money-Back\" Guarantee",
         "badge_image": "shopify://shop_images/English_1.avif",
         "satisfaction_percentage": "100%",
         "days_number": "90",
-        "subtitle": "Notre promesse envers vous :",
+        "subtitle": "Our promise to you:",
         "background_color": "#ffffff"
       }
     }
