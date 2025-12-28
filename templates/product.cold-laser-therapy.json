@@ -801,31 +801,31 @@
         "paragraph_BTXt8X": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Nous croyons en nos produits et nous ne voulons pas que vous dépensiez un centime avant d'être sûr à 100% qu'il fonctionnera pour vous."
+            "paragraph": "We believe in our products, and we don't want you to spend a cent until you're 100% sure it will work for you."
           }
         },
         "paragraph_83fFBn": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "C'est pourquoi nous offrons une garantie de 90 jours : résultats ou vous ne payez pas."
+            "paragraph": "That's why we offer a 90-day, results-or-you-don't-pay guarantee."
           }
         },
         "paragraph_mP48Yy": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Si pour une raison quelconque vous n'aimez pas le produit, vous récupérez tout votre argent."
+            "paragraph": "If for any reason you don't like the product, you get all your money back."
           }
         },
         "paragraph_KYNmQk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "En d'autres termes, vous ne payez que si vous bénéficiez d'un avantage du produit."
+            "paragraph": "In other words, you only pay if you experience a benefit from the product."
           }
         },
         "paragraph_zFJigM": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Sur la base des statistiques, nous osons dire que nous sommes presque sûrs à 100% que vous le ferez."
+            "paragraph": "Based on our statistics, we dare to say that we are almost 100% sure that you will."
           }
         }
       },
@@ -842,7 +842,7 @@
         "badge_image": "shopify://shop_images/English_1.avif",
         "satisfaction_percentage": "100%",
         "days_number": "90",
-        "subtitle": "Notre promesse envers vous :",
+        "subtitle": "Our promise to you:",
         "background_color": "#ffffff"
       }
     }
