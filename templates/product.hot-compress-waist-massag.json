@@ -271,7 +271,8 @@
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/2236042781_max.jpg",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
         "heading": "SOLVED: The Real Reason Behind Your Period & Lower Back Pain",
         "background_color": "#ffffff",
