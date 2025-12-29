@@ -359,15 +359,15 @@
       "name": "Doctor Recommended",
       "settings": {
         "heading": "Recommended by Doctors and Approved by Users",
-        "description": "Designed with input from orthopedic specialists, the Knee Relief Massager is your non-surgical solution for chronic knee pain.",
+        "description": "Premium Heated Waist Support Massager for Period & Back Pain Relief",
         "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
         "background_color": "#ffffff",
         "show_testimonial": true,
-        "testimonial_text": "The Knee Relief Massager is an exceptional tool for anyone suffering from knee discomfort. Its integrated therapy system not only relieves pain but also aids in recovery. It's like having a personal physical therapist available at any time.",
+        "testimonial_text": "The Hot Compress Waist Massager for Period Pain Relief – Navy Blue is a premium wellness device designed to provide reliable comfort and muscle relaxation. Featuring a 3D support strip design, it fits closely around the waist to deliver targeted support and pressure. The integrated hot compress massage function helps soothe menstrual cramps, relax muscles, and improve circulation.",
         "testimonial_author": "- Samantha L",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "hot-compress-waist-massager-for-period-pain-relief-navy-blue"
       }
     },
     "how_it_works_7gg6MM": {
@@ -409,6 +409,7 @@
         "step_AG69wg",
         "step_EKptEd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How the Knee Relief Massager Works:",
@@ -506,6 +507,7 @@
         "feature_zrDTfG",
         "feature_HQEWkD"
       ],
+      "disabled": true,
       "name": "Comparison Table",
       "settings": {
         "heading": "What Sets the Knee Relief Massager Apart from Ordinary Knee Massagers and Medications?",
