@@ -360,7 +360,7 @@
       "settings": {
         "heading": "Recommended by Doctors and Approved by Users",
         "description": "Premium Heated Waist Support Massager for Period & Back Pain Relief",
-        "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
+        "image": "shopify://shop_images/V562-A107240800ADE-202508280332-04.jpg",
         "background_color": "#ffffff",
         "show_testimonial": true,
         "testimonial_text": "The Hot Compress Waist Massager for Period Pain Relief – Navy Blue is a premium wellness device designed to provide reliable comfort and muscle relaxation. Featuring a 3D support strip design, it fits closely around the waist to deliver targeted support and pressure. The integrated hot compress massage function helps soothe menstrual cramps, relax muscles, and improve circulation.",
@@ -537,6 +537,7 @@
         "paragraph_gPbRLw",
         "paragraph_b8DYf9"
       ],
+      "disabled": true,
       "name": "Clinical Proof",
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
@@ -560,6 +561,7 @@
       "block_order": [
         "paragraph_WrqGbG"
       ],
+      "disabled": true,
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
@@ -619,6 +621,7 @@
         "step_naVW4x",
         "step_J6fUKd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How to Use the Knee Relief Massager",
@@ -672,6 +675,7 @@
         "testimonial_LntfTE",
         "testimonial_FpiCL3"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "heading_line_1": "Real Users.",
@@ -711,6 +715,7 @@
         "benefit_Lq6DVR",
         "benefit_9ebqfF"
       ],
+      "disabled": true,
       "name": "Pricing CTA",
       "settings": {
         "heading": "Order Today and Get FREE Pairs While Supplies Last",
@@ -772,6 +777,7 @@
         "faq_item_WakN8e",
         "faq_item_NTT8WB"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "heading": "Do You Have a Question? We're Here to Help!",
