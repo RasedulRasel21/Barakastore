@@ -240,33 +240,40 @@
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Knee pain is not just about aging — it's about what your knees are missing. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and pain-free."
+            "paragraph": "Period pain and lower back discomfort aren’t just something you have to “live with” — they’re often caused by muscle tension and poor blood circulation in the waist area. During menstruation, muscles tighten and blood flow slows down, which leads to cramps, stiffness, and deep aching pain."
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This is called Joint Dryness — when you don't have enough synovial fluid, your knees dry out and rub bone against bone."
+            "paragraph": "This condition worsens when you sit for long hours or avoid movement due to discomfort. Without proper warmth and circulation, the muscles stay tense, and pain keeps coming back stronger."
           }
         },
         "paragraph_8cn8JX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Without enough movement, this fluid cannot circulate properly, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
+            "paragraph": "That’s where heat and targeted massage make the real difference. Gentle hot compress therapy helps relax tight muscles, improve blood flow, and naturally ease cramps from the inside out. When combined with rhythmic massage, it supports the waist muscles and provides lasting comfort — even during the most painful days."
+          }
+        },
+        "paragraph_9FPgzh": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Instead of relying only on painkillers, restoring warmth, movement, and support to your waist is the key to real relief."
           }
         }
       },
       "block_order": [
         "paragraph_43QrBB",
         "paragraph_WTpCzk",
-        "paragraph_8cn8JX"
+        "paragraph_8cn8JX",
+        "paragraph_9FPgzh"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
         "media_type": "video",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
+        "heading": "SOLVED: The Real Reason Behind Your Period & Lower Back Pain",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
