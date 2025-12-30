@@ -279,37 +279,45 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager is designed with cutting-edge Triple Therapy Technology that combines Red Light Therapy, Heat Therapy, and Massage Therapy to effectively support your knee joint."
+            "paragraph": "5-in-1 Advanced Skincare Technology – Features hot & cold compress, LED light therapy, high-frequency vibration, EMS lifting, and deep cleansing for a complete spa-quality skincare routine at home."
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This improves blood circulation, relaxes tense muscles, and reduces inflammation in your knee joints, making movement easier and more comfortable."
+            "paragraph": "Red & Blue Light Therapy – Red light stimulates collagen for anti-ageing and skin tightening, while blue light reduces acne, soothes inflammation, and minimizes pores, perfect for oily or sensitive skin types."
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager provides your knees with the comprehensive care they need to stay mobile and pain-free."
+            "paragraph": "Hot & Cold Compress Modes – Adjustable heat (38–42°C) opens pores and enhances serum absorption, while cooling (6–12°C) calms skin, tightens pores, and locks in moisture."
+          }
+        },
+        "paragraph_bmrTUQ": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "USB Rechargeable & Portable – Compact and lightweight with USB cable charging, ideal for travel and daily use. Built with energy-efficient features and CE & ROHS certification."
           }
         }
       },
       "block_order": [
         "paragraph_QXFXx4",
         "paragraph_7fJHcU",
-        "paragraph_kgGUHm"
+        "paragraph_kgGUHm",
+        "paragraph_bmrTUQ"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
-        "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Introducing: Triple Therapy Technology:",
+        "media_type": "image",
+        "image": "shopify://shop_images/S075436207973425dacc26965c674a1fbc_7c02f6d0-9de0-4c5d-939b-7c7d6f9027dd.webp",
+        "video": "",
+        "heading": "Introducing: EMS Hot Cold Face Lifting Beauty Device",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "ems-hot-cold-face-lifting-beauty-device-led-photon-therapy-skin-tighten-machine-anti-aging-deep-clean-vibration-facial-massager"
       }
     },
     "problem_solution_custom_DitJHK": {
