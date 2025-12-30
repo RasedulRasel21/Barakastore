@@ -326,54 +326,20 @@
         "paragraph_m8n6gY": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Our revolutionary \"on-the-knee\" design provides targeted relief that manual massagers cannot match."
-          }
-        },
-        "paragraph_aXQGRx": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "The Knee Relief Massager is designed not only to support but also to improve the movement and health of your knee:"
-          }
-        },
-        "paragraph_UUL8H7": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Enhanced Synovial Fluid Movement: The unique wrap-around design helps synovial fluid flow, lubricating your joints and relieving pain."
-          }
-        },
-        "paragraph_fFfQFD": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Triple Therapy Technology: Integrates Red Light Therapy, Heat Therapy, and Massage Therapy to stimulate circulation, accelerate recovery of painful joints, and reduce inflammation."
-          }
-        },
-        "paragraph_KFgBWt": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Customizable Therapy Settings: Easily adjust the intensity of heat and massage to match your comfort level and meet your therapeutic needs, ensuring each session is effective."
-          }
-        },
-        "paragraph_RFWYBX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Sleek and Convenient for Daily Use: Designed to be used anywhere, anytime. Easy to wear at home, at work, or even while relaxing."
+            "paragraph": "Upgrade your skincare routine with the Multifunction Beauty Machine, a revolutionary facial device engineered to target 7 major skin concerns, including wrinkles, dullness, sagging, acne, and puffiness. With 5 powerful modes, this smart device combines hot & cold therapy, optical LED light, EMS lifting, and vibration massage to help: Firm the skin Reduce signs of ageing Brighten complexion Calm inflammation Improve serum absorption Deep Cleansing Tailored for the face, neck, and delicate eye area, it's your all-in-one solution for radiant, youthful skin."
           }
         }
       },
       "block_order": [
-        "paragraph_m8n6gY",
-        "paragraph_aXQGRx",
-        "paragraph_UUL8H7",
-        "paragraph_fFfQFD",
-        "paragraph_KFgBWt",
-        "paragraph_RFWYBX"
+        "paragraph_m8n6gY"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/Sc9347dc00d0d41e1bff2d64f54978942V_a2f1f675-2e3c-4dad-b71a-029a62d7b588.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Innovative Features for Ultimate Knee Relief:",
+        "heading": "Multifunction Facial Skin Rejuvenation Device – Anti-Wrinkle Face Massager & Eye Lift Tool",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
