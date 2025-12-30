@@ -196,7 +196,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "RESULTS OR MONEY-BACK GUARANTEE",
-            "description": "If you are not absolutely delighted with the Knee Relief Massager, we don't want your money. No hassle, no questions asked."
+            "description": "Eye, Face & Neck Care in One Device – Ergonomically designed to gently and double chin with just one easy-to-use multifunction device."
           }
         },
         "badge_nk7WC9": {
@@ -218,7 +218,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "HIGH QUALITY GUARANTEED",
-            "description": "The Knee Relief Massagers are made with premium, durable materials. Enjoy consistent and reliable relief day after day."
+            "description": "Lifting and firming, improving skin elasticity and whitening, muscle soothing and massage, and better nutrition absorption."
           }
         }
       },
@@ -348,6 +348,7 @@
     },
     "doctor_recommended_hKebFa": {
       "type": "doctor-recommended",
+      "disabled": true,
       "name": "Doctor Recommended",
       "settings": {
         "heading": "Recommended by Doctors and Approved by Users",
@@ -401,6 +402,7 @@
         "step_AG69wg",
         "step_EKptEd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How the Knee Relief Massager Works:",
