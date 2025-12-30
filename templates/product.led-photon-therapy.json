@@ -237,36 +237,36 @@
     "problem_solution_custom_Mi4NhL": {
       "type": "problem-solution-custom",
       "blocks": {
+        "paragraph_kjPkk6": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "The EMS, Hot/Cool, LED, Sonic Vibration Skin Care Device is a multi-function beauty instrument that will provide several of the latest technologies for your skin care routine all in one tool"
+          }
+        },
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Knee pain is not just about aging — it's about what your knees are missing. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and pain-free."
+            "paragraph": "Give your skin the care it deserves with the Face Massager – your personal at-home skincare companion. This compact and powerful beauty tool enhances blood circulation, stimulates collagen production, and improves skin elasticity."
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This is called Joint Dryness — when you don't have enough synovial fluid, your knees dry out and rub bone against bone."
-          }
-        },
-        "paragraph_8cn8JX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Without enough movement, this fluid cannot circulate properly, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
+            "paragraph": "Whether you want to reduce puffiness, soften wrinkles, or simply relax after a long day, this device brings the spa to your home. Easy to use and suitable for all skin types, the Face Massager is a must-have for radiant, youthful skin."
           }
         }
       },
       "block_order": [
+        "paragraph_kjPkk6",
         "paragraph_43QrBB",
-        "paragraph_WTpCzk",
-        "paragraph_8cn8JX"
+        "paragraph_WTpCzk"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
         "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
+        "video": "https://cdn.shopify.com/videos/c/o/v/b8e3d928a290423ab10177d810290601.mp4",
+        "heading": "SOLVED: The Real Reason Behind Your VIBRATION SKIN CARE DEVICE:",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
@@ -756,8 +756,8 @@
         "faq_item_EcVnDm": {
           "type": "faq_item",
           "settings": {
-            "question": "How quickly can I expect to feel relief with the Knee Relief Massager?",
-            "answer": "Many users report feeling relief from the first uses. However, results may vary depending on individual conditions. Regular use is recommended for best results."
+            "question": "What are the benefits of using the Heat & Cool Facial Skincare Tool?",
+            "answer": "The Heat & Cool Facial Skincare Tool offers multiple benefits, including enhanced skin elasticity, reduced wrinkles, and improved overall complexion. Utilizing red and blue LED lights, the device targets various skin concerns: red light stimulates collagen production, promoting skin tightening, while blue light helps combat acne and minimize inflammation. Regular use can lead to a rejuvenated appearance, making it perfect for those seeking to revitalize their skin effectively."
           }
         },
         "faq_item_cnGaFD": {
