@@ -635,6 +635,7 @@
         "step_naVW4x",
         "step_J6fUKd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How to Use the Knee Relief Massager",
@@ -688,6 +689,7 @@
         "testimonial_LntfTE",
         "testimonial_FpiCL3"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "heading_line_1": "Real Users.",
@@ -727,6 +729,7 @@
         "benefit_Lq6DVR",
         "benefit_9ebqfF"
       ],
+      "disabled": true,
       "name": "Pricing CTA",
       "settings": {
         "heading": "Order Today and Get FREE Pairs While Supplies Last",
