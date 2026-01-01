@@ -240,37 +240,45 @@
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Knee pain is not just about aging — it's about what your knees are missing. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and pain-free."
+            "paragraph": "Scalp discomfort isn’t just about tiredness — it’s about poor circulation and muscle tension."
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This is called Joint Dryness — when you don't have enough synovial fluid, your knees dry out and rub bone against bone."
+            "paragraph": "Daily stress, long screen time, and lack of proper scalp stimulation can weaken hair roots, cause headaches, and slow healthy hair growth."
           }
         },
         "paragraph_8cn8JX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Without enough movement, this fluid cannot circulate properly, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
+            "paragraph": "Without regular massage, tension builds up under the scalp, blocking blood flow and reducing oxygen supply to hair follicles. Over time, this leads to scalp fatigue, hair weakness, and mental stress."
+          }
+        },
+        "paragraph_FbjgNH": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "That’s where smart scalp therapy makes a real difference."
           }
         }
       },
       "block_order": [
         "paragraph_43QrBB",
         "paragraph_WTpCzk",
-        "paragraph_8cn8JX"
+        "paragraph_8cn8JX",
+        "paragraph_FbjgNH"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/1398626_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
+        "heading": "The Real Reason Behind Scalp Stress & Hair Fatigue",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "cordless-charger-belkin-wiz029vfbk"
+        "product": "octopus-scalp-massager-electric-powered-head-massager-with-kneading-function-for-dry-and-wet-use-gentle-pet-massage-ergonomic-design-soul-extractor-model-for-deep-relaxation-and-soothing-scalp-massage-experience"
       }
     },
     "problem_solution_custom_RPtgz4": {
