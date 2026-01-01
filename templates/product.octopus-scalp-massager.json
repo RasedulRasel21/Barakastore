@@ -287,24 +287,52 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager is designed with cutting-edge Triple Therapy Technology that combines Red Light Therapy, Heat Therapy, and Massage Therapy to effectively support your knee joint."
+            "paragraph": "This Electric Scalp Head Massager is designed with advanced 3D deep tissue massage technology to simulate real human hand movements."
+          }
+        },
+        "paragraph_MDzKzq": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Why it works better:"
+          }
+        },
+        "paragraph_tNj8gN": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "4 massage heads with 24 soft silicone tentacles gently press and rotate"
+          }
+        },
+        "paragraph_9MrGEF": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Ergonomic grip design fits naturally in your hand"
+          }
+        },
+        "paragraph_GeMmWR": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Food-grade silicone heads ensure comfort, durability, and safety"
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This improves blood circulation, relaxes tense muscles, and reduces inflammation in your knee joints, making movement easier and more comfortable."
+            "paragraph": "Helps improve blood circulation, relax scalp muscles, and relieve stress"
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager provides your knees with the comprehensive care they need to stay mobile and pain-free."
+            "paragraph": "Whether you use it dry for relaxation or wet during hair wash, it delivers a professional-level massage experience at home."
           }
         }
       },
       "block_order": [
         "paragraph_QXFXx4",
+        "paragraph_MDzKzq",
+        "paragraph_tNj8gN",
+        "paragraph_9MrGEF",
+        "paragraph_GeMmWR",
         "paragraph_7fJHcU",
         "paragraph_kgGUHm"
       ],
@@ -312,6 +340,7 @@
       "settings": {
         "layout": "image-right",
         "media_type": "video",
+        "image": "shopify://shop_images/1398627_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
         "heading": "Introducing: Triple Therapy Technology:",
         "background_color": "#ffffff",
