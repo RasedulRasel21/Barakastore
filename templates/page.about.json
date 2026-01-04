@@ -135,6 +135,23 @@
         "pattern_scale": 100,
         "pattern_animation": "none"
       }
+    },
+    "logo_slider_4GyXeU": {
+      "type": "logo-slider",
+      "name": "As Seen On - Rotating",
+      "settings": {
+        "section_title": "As Seen On",
+        "logo_1_alt": "The Good Men Project",
+        "tagline_1": "Helping Americans 50+ live pain-free again",
+        "logo_2_alt": "TechBullion",
+        "tagline_2": "Founded on love, science, and results",
+        "logo_3_alt": "USA TODAY",
+        "tagline_3": "Trusted by thousands nationwide",
+        "logo_4_alt": "Woman's World",
+        "tagline_4": "Science-backed wellness solutions",
+        "logo_5_alt": "Digital Journal",
+        "tagline_5": "Recommended by health experts"
+      }
     }
   },
   "order": [
@@ -142,6 +159,7 @@
     "main",
     "d_rich_text_NfAdHA",
     "d_image_with_text_gFbKWN",
-    "d_image_with_text_UBiFbL"
+    "d_image_with_text_UBiFbL",
+    "logo_slider_4GyXeU"
   ]
 }
