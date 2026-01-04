@@ -345,11 +345,11 @@
       "name": "Doctor Recommended",
       "settings": {
         "heading": "Recommended by Doctors and Approved by Users",
-        "description": "Genouillère articulée professionnelle avec stabilisateurs latéraux amovibles en cuivre et coussinet en gel pour la rotule, support médical pour le genou avec conception ouverte au niveau de la rotule et du dos.",
+        "description": "Professional articulated knee brace with removable copper side stabilizers and a gel patella pad. This medical-grade knee support features an open-patella and open-back design for enhanced comfort and breathability.",
         "image": "shopify://shop_images/81xYfEKsNRL._AC_SL1500_._SX1200.jpg",
         "background_color": "#ffffff",
         "show_testimonial": true,
-        "testimonial_text": "Cette genouillère renforce efficacement le soutien latéral et maintient la stabilité de votre articulation, offrant un soutien maximal au genou. Elle épouse parfaitement la forme de votre jambe à 360° et son système de fixation breveté « X-Strap » assure un ajustement personnalisé. Elle protège le genou des blessures potentielles sans entraver la mobilité ! Plus fiable que les autres genouillères, elle offre un renforcement supplémentaire sans sacrifier le confort, vous permettant de la porter toute la journée !",
+        "testimonial_text": "The brace provides strong lateral support and maintains joint stability, offering maximum knee protection. It wraps around your leg 360° for a perfect fit, while the patented X-Strap system ensures a fully customizable adjustment. Designed to protect the knee from potential injuries without restricting movement, it offers superior support compared to standard knee braces. Comfortable enough for all-day wear, it delivers added reinforcement without compromising mobility.",
         "testimonial_author": "- Samantha L",
         "show_cta": true,
         "cta_text": "Add to cart",
@@ -538,19 +538,19 @@
         "paragraph_WrqGbG": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Système breveté X-Strap : Bénéficiez d’un ajustement parfait à chaque utilisation grâce à notre système X-Strap innovant qui offre une compression et un soutien personnalisés."
+            "paragraph": "Patented X-Strap System:\nEnjoy a perfect fit every time with our innovative X-Strap system, providing customizable compression and support tailored to your knee."
           }
         },
         "paragraph_XQzM73": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Stabilisateurs latéraux amovibles : Nos deux stabilisateurs latéraux en cuivre offrent un renforcement supplémentaire, assurant la stabilité de votre genou lors de toute activité."
+            "paragraph": "Removable Side Stabilizers:\nThe two copper side stabilizers offer extra reinforcement, ensuring your knee stays stable during any activity."
           }
         },
         "paragraph_EfWFFr": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Coussinet rotulien en gel : Le coussinet en gel anatomique entoure votre rotule, offrant un soutien amortissant et soulageant la pression sur vos articulations."
+            "paragraph": "Gel Patella Pad:\nThe anatomically shaped gel pad surrounds the kneecap, providing cushioning support while reducing pressure on the joint for added comfort."
           }
         }
       },
@@ -565,7 +565,7 @@
         "media_type": "image",
         "image": "shopify://shop_images/2-510x510.webp",
         "video": "",
-        "heading": "Pourquoi choisir notre genouillère ?",
+        "heading": "Why Choose Our Knee Brace?",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
