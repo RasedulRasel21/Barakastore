@@ -19,7 +19,7 @@
           "settings": {
             "icon": "truck-delivery",
             "crop_image": true,
-            "heading": "Livraison Gratuite dès €50",
+            "heading": "Free delivery on orders over €50",
             "text": "",
             "link": ""
           }
@@ -29,7 +29,7 @@
           "settings": {
             "icon": "message",
             "crop_image": true,
-            "heading": "Assistance premium 24h/24 et 7j/7",
+            "heading": "24/7 premium support",
             "text": "",
             "link": ""
           }
@@ -39,7 +39,7 @@
           "settings": {
             "icon": "mood-smile",
             "crop_image": true,
-            "heading": "Retours sans tracas",
+            "heading": "Hassle-free returns",
             "text": "",
             "link": ""
           }
