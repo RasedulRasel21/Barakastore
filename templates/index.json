@@ -115,7 +115,7 @@
         "template--20725112013081__4152f3c4-fce8-4429-bb55-9810434cbea7-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Put an End to Pain",
+            "heading": "Best Sellers",
             "heading_scale": 120
           }
         },
@@ -163,7 +163,7 @@
       ],
       "name": "Featured collection grid",
       "settings": {
-        "heading": "Best Sellers",
+        "heading": "",
         "subheading": "",
         "collection": "health-care",
         "columns": 4,
