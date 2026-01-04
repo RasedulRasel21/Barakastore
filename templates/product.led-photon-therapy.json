@@ -196,7 +196,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "RESULTS OR MONEY-BACK GUARANTEE",
-            "description": "If you are not absolutely delighted with the Knee Relief Massager, we don't want your money. No hassle, no questions asked."
+            "description": "Eye, Face & Neck Care in One Device – Ergonomically designed to gently and double chin with just one easy-to-use multifunction device."
           }
         },
         "badge_nk7WC9": {
@@ -218,7 +218,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "HIGH QUALITY GUARANTEED",
-            "description": "The Knee Relief Massagers are made with premium, durable materials. Enjoy consistent and reliable relief day after day."
+            "description": "Lifting and firming, improving skin elasticity and whitening, muscle soothing and massage, and better nutrition absorption."
           }
         }
       },
@@ -237,36 +237,36 @@
     "problem_solution_custom_Mi4NhL": {
       "type": "problem-solution-custom",
       "blocks": {
+        "paragraph_kjPkk6": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "The EMS, Hot/Cool, LED, Sonic Vibration Skin Care Device is a multi-function beauty instrument that will provide several of the latest technologies for your skin care routine all in one tool"
+          }
+        },
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Knee pain is not just about aging — it's about what your knees are missing. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and pain-free."
+            "paragraph": "Give your skin the care it deserves with the Face Massager – your personal at-home skincare companion. This compact and powerful beauty tool enhances blood circulation, stimulates collagen production, and improves skin elasticity."
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This is called Joint Dryness — when you don't have enough synovial fluid, your knees dry out and rub bone against bone."
-          }
-        },
-        "paragraph_8cn8JX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Without enough movement, this fluid cannot circulate properly, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
+            "paragraph": "Whether you want to reduce puffiness, soften wrinkles, or simply relax after a long day, this device brings the spa to your home. Easy to use and suitable for all skin types, the Face Massager is a must-have for radiant, youthful skin."
           }
         }
       },
       "block_order": [
+        "paragraph_kjPkk6",
         "paragraph_43QrBB",
-        "paragraph_WTpCzk",
-        "paragraph_8cn8JX"
+        "paragraph_WTpCzk"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
         "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
+        "video": "https://cdn.shopify.com/videos/c/o/v/b8e3d928a290423ab10177d810290601.mp4",
+        "heading": "SOLVED: The Real Reason Behind Your VIBRATION SKIN CARE DEVICE:",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
@@ -279,37 +279,45 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager is designed with cutting-edge Triple Therapy Technology that combines Red Light Therapy, Heat Therapy, and Massage Therapy to effectively support your knee joint."
+            "paragraph": "5-in-1 Advanced Skincare Technology – Features hot & cold compress, LED light therapy, high-frequency vibration, EMS lifting, and deep cleansing for a complete spa-quality skincare routine at home."
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This improves blood circulation, relaxes tense muscles, and reduces inflammation in your knee joints, making movement easier and more comfortable."
+            "paragraph": "Red & Blue Light Therapy – Red light stimulates collagen for anti-ageing and skin tightening, while blue light reduces acne, soothes inflammation, and minimizes pores, perfect for oily or sensitive skin types."
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager provides your knees with the comprehensive care they need to stay mobile and pain-free."
+            "paragraph": "Hot & Cold Compress Modes – Adjustable heat (38–42°C) opens pores and enhances serum absorption, while cooling (6–12°C) calms skin, tightens pores, and locks in moisture."
+          }
+        },
+        "paragraph_bmrTUQ": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "USB Rechargeable & Portable – Compact and lightweight with USB cable charging, ideal for travel and daily use. Built with energy-efficient features and CE & ROHS certification."
           }
         }
       },
       "block_order": [
         "paragraph_QXFXx4",
         "paragraph_7fJHcU",
-        "paragraph_kgGUHm"
+        "paragraph_kgGUHm",
+        "paragraph_bmrTUQ"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
-        "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Introducing: Triple Therapy Technology:",
+        "media_type": "image",
+        "image": "shopify://shop_images/S075436207973425dacc26965c674a1fbc_7c02f6d0-9de0-4c5d-939b-7c7d6f9027dd.webp",
+        "video": "",
+        "heading": "Introducing: EMS Hot Cold Face Lifting Beauty Device",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "ems-hot-cold-face-lifting-beauty-device-led-photon-therapy-skin-tighten-machine-anti-aging-deep-clean-vibration-facial-massager"
       }
     },
     "problem_solution_custom_DitJHK": {
@@ -318,54 +326,20 @@
         "paragraph_m8n6gY": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Our revolutionary \"on-the-knee\" design provides targeted relief that manual massagers cannot match."
-          }
-        },
-        "paragraph_aXQGRx": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "The Knee Relief Massager is designed not only to support but also to improve the movement and health of your knee:"
-          }
-        },
-        "paragraph_UUL8H7": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Enhanced Synovial Fluid Movement: The unique wrap-around design helps synovial fluid flow, lubricating your joints and relieving pain."
-          }
-        },
-        "paragraph_fFfQFD": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Triple Therapy Technology: Integrates Red Light Therapy, Heat Therapy, and Massage Therapy to stimulate circulation, accelerate recovery of painful joints, and reduce inflammation."
-          }
-        },
-        "paragraph_KFgBWt": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Customizable Therapy Settings: Easily adjust the intensity of heat and massage to match your comfort level and meet your therapeutic needs, ensuring each session is effective."
-          }
-        },
-        "paragraph_RFWYBX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Sleek and Convenient for Daily Use: Designed to be used anywhere, anytime. Easy to wear at home, at work, or even while relaxing."
+            "paragraph": "Upgrade your skincare routine with the Multifunction Beauty Machine, a revolutionary facial device engineered to target 7 major skin concerns, including wrinkles, dullness, sagging, acne, and puffiness. With 5 powerful modes, this smart device combines hot & cold therapy, optical LED light, EMS lifting, and vibration massage to help: Firm the skin Reduce signs of ageing Brighten complexion Calm inflammation Improve serum absorption Deep Cleansing Tailored for the face, neck, and delicate eye area, it's your all-in-one solution for radiant, youthful skin."
           }
         }
       },
       "block_order": [
-        "paragraph_m8n6gY",
-        "paragraph_aXQGRx",
-        "paragraph_UUL8H7",
-        "paragraph_fFfQFD",
-        "paragraph_KFgBWt",
-        "paragraph_RFWYBX"
+        "paragraph_m8n6gY"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/Sc9347dc00d0d41e1bff2d64f54978942V_a2f1f675-2e3c-4dad-b71a-029a62d7b588.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Innovative Features for Ultimate Knee Relief:",
+        "heading": "Multifunction Facial Skin Rejuvenation Device – Anti-Wrinkle Face Massager & Eye Lift Tool",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
@@ -374,6 +348,7 @@
     },
     "doctor_recommended_hKebFa": {
       "type": "doctor-recommended",
+      "disabled": true,
       "name": "Doctor Recommended",
       "settings": {
         "heading": "Recommended by Doctors and Approved by Users",
@@ -427,6 +402,7 @@
         "step_AG69wg",
         "step_EKptEd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How the Knee Relief Massager Works:",
@@ -524,6 +500,7 @@
         "feature_zrDTfG",
         "feature_HQEWkD"
       ],
+      "disabled": true,
       "name": "Comparison Table",
       "settings": {
         "heading": "What Sets the Knee Relief Massager Apart from Ordinary Knee Massagers and Medications?",
@@ -553,6 +530,7 @@
         "paragraph_gPbRLw",
         "paragraph_b8DYf9"
       ],
+      "disabled": true,
       "name": "Clinical Proof",
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
@@ -635,6 +613,7 @@
         "step_naVW4x",
         "step_J6fUKd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How to Use the Knee Relief Massager",
@@ -688,6 +667,7 @@
         "testimonial_LntfTE",
         "testimonial_FpiCL3"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "heading_line_1": "Real Users.",
@@ -727,6 +707,7 @@
         "benefit_Lq6DVR",
         "benefit_9ebqfF"
       ],
+      "disabled": true,
       "name": "Pricing CTA",
       "settings": {
         "heading": "Order Today and Get FREE Pairs While Supplies Last",
@@ -756,29 +737,29 @@
         "faq_item_EcVnDm": {
           "type": "faq_item",
           "settings": {
-            "question": "How quickly can I expect to feel relief with the Knee Relief Massager?",
-            "answer": "Many users report feeling relief from the first uses. However, results may vary depending on individual conditions. Regular use is recommended for best results."
+            "question": "What are the benefits of using the Heat & Cool Facial Skincare Tool?",
+            "answer": "The Heat & Cool Facial Skincare Tool offers multiple benefits, including enhanced skin elasticity, reduced wrinkles, and improved overall complexion. Utilizing red and blue LED lights, the device targets various skin concerns: red light stimulates collagen production, promoting skin tightening, while blue light helps combat acne and minimize inflammation. Regular use can lead to a rejuvenated appearance, making it perfect for those seeking to revitalize their skin effectively."
           }
         },
         "faq_item_cnGaFD": {
           "type": "faq_item",
           "settings": {
-            "question": "How often should I use the Knee Relief Massager?",
-            "answer": "You can use the massager daily for 15-20 minute sessions. It is safe for regular use and can be integrated into your daily routine."
+            "question": "How does the 5-mode feature work in the facial massager?",
+            "answer": "The 5-mode feature of the facial massager provides versatility for different skin types and concerns. Each mode is designed to target specific aspects, such as warming up the skin for better product absorption, cooling down to reduce swelling or redness, and various LED light settings for anti-aging and acne treatment. This customization allows you to tailor your skincare routine according to your personal needs, ensuring a more effective and enjoyable spa-like experience at home."
           }
         },
         "faq_item_WakN8e": {
           "type": "faq_item",
           "settings": {
-            "question": "What if the Knee Relief Massager doesn't work for me?",
-            "answer": "We offer a 90-day money-back guarantee. If you are not satisfied with the results, you can return it for a full refund - no questions asked."
+            "question": "Can I use this tool on my neck and body, or is it just for the face?",
+            "answer": "Yes, the Heat & Cool Facial Skincare Tool is designed for use on not just the face but also the neck and body. This multifunctionality allows you to address signs of aging and improve skin texture in multiple areas. For instance, you can target the neck to reduce sagging and improve skin firmness, or even use it on the body to soothe muscle tension and enhance skin vitality, making it a versatile addition to your skincare regimen."
           }
         },
         "faq_item_NTT8WB": {
           "type": "faq_item",
           "settings": {
-            "question": "Can you tell me about your return policy?",
-            "answer": "We have a hassle-free 90-day return policy. If you are not completely satisfied, simply contact our customer service team for a full refund."
+            "question": "Is the device portable and suitable for travel?",
+            "answer": "Absolutely! This facial massager is designed to be compact and lightweight, making it an ideal travel companion. Its portable nature means you can easily fit it into your bag, allowing you to maintain your skincare routine wherever you are. Whether you’re on a weekend getaway or a business trip, you can enjoy the benefits of the Heat & Cool Facial Skincare Tool, ensuring your skin looks fresh and revitalized even when you're away from home."
           }
         }
       },

@@ -1,0 +1,387 @@
+{% comment %}
+  As Seen On - Rotating Logo Section
+  Shows 5 logos in a row, center logo active, rotates with infinite loop
+{% endcomment %}
+
+<style>
+  .as-seen-on-section {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .as-seen-on-title {
+    font-size: 32px;
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .as-seen-tagline {
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 50px;
+    min-height: 30px;
+    transition: opacity 0.5s ease;
+  }
+
+  .as-seen-tagline.fade-out {
+    opacity: 0;
+  }
+
+  .as-seen-tagline.fade-in {
+    opacity: 1;
+  }
+
+  .logos-track-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .logos-track {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+    position: relative;
+    left: 0;
+    transition: left 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .logo-slot {
+    flex: 0 0 auto;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .logo-slot img {
+    max-width: 140px;
+    height: auto;
+    max-height: 45px;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .logo-slot.center img {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.15);
+  }
+
+  @media (max-width: 768px) {
+    .logos-track {
+      gap: 50px;
+    }
+    
+    .logo-slot {
+      width: 120px;
+    }
+    
+    .logo-slot img {
+      max-width: 100px;
+      max-height: 35px;
+    }
+    
+    .logo-slot.center img {
+      transform: scale(1.1);
+    }
+    
+    .as-seen-on-title {
+      font-size: 24px;
+    }
+    
+    .as-seen-tagline {
+      font-size: 16px;
+      padding: 0 20px;
+    }
+  }
+</style>
+
+<section class="as-seen-on-section">
+  <h2 class="as-seen-on-title">{{ section.settings.section_title }}</h2>
+  
+  <div class="as-seen-tagline" id="taglineText">
+    "{{ section.settings.tagline_1 }}"
+  </div>
+
+  <div class="logos-track-wrapper">
+    <div class="logos-track" id="logosTrack">
+      <!-- Will be populated by JavaScript -->
+    </div>
+  </div>
+</section>
+
+<script>
+  (function() {
+    const logos = [
+      {
+        src: "{{ section.settings.logo_1 | img_url: 'medium' }}",
+        alt: "{{ section.settings.logo_1_alt }}",
+        tagline: "{{ section.settings.tagline_1 }}"
+      },
+      {
+        src: "{{ section.settings.logo_2 | img_url: 'medium' }}",
+        alt: "{{ section.settings.logo_2_alt }}",
+        tagline: "{{ section.settings.tagline_2 }}"
+      },
+      {
+        src: "{{ section.settings.logo_3 | img_url: 'medium' }}",
+        alt: "{{ section.settings.logo_3_alt }}",
+        tagline: "{{ section.settings.tagline_3 }}"
+      },
+      {
+        src: "{{ section.settings.logo_4 | img_url: 'medium' }}",
+        alt: "{{ section.settings.logo_4_alt }}",
+        tagline: "{{ section.settings.tagline_4 }}"
+      },
+      {
+        src: "{{ section.settings.logo_5 | img_url: 'medium' }}",
+        alt: "{{ section.settings.logo_5_alt }}",
+        tagline: "{{ section.settings.tagline_5 }}"
+      }
+    ];
+    
+    const taglineElement = document.getElementById('taglineText');
+    const logosTrack = document.getElementById('logosTrack');
+    let currentIndex = 0;
+    let actualPosition = 0; // Track actual position in the infinite array
+    
+    // Create infinite loop array: more copies for smoother loop
+    const infiniteLogos = [...logos, ...logos, ...logos, ...logos, ...logos];
+    
+    // Populate logos
+    function initLogos() {
+      logosTrack.innerHTML = '';
+      infiniteLogos.forEach((logo, index) => {
+        const slot = document.createElement('div');
+        slot.className = 'logo-slot';
+        // Start with middle set (2 sets before, 2 sets after)
+        if (index === logos.length * 2) {
+          slot.classList.add('center');
+        }
+        
+        const img = document.createElement('img');
+        img.src = logo.src;
+        img.alt = logo.alt;
+        
+        slot.appendChild(img);
+        logosTrack.appendChild(slot);
+      });
+      
+      // Set initial position
+      actualPosition = logos.length * 2;
+    }
+    
+    // Calculate position to center the active logo
+    function updatePosition(instant = false) {
+      const slotWidth = 180; // logo-slot width
+      const gap = 80; // gap between logos
+      const itemWidth = slotWidth + gap;
+      
+      const wrapperWidth = logosTrack.parentElement.offsetWidth;
+      const centerOffset = wrapperWidth / 2 - slotWidth / 2;
+      const offset = centerOffset - (actualPosition * itemWidth);
+      
+      if (instant) {
+        logosTrack.style.transition = 'none';
+      }
+      logosTrack.style.left = offset + 'px';
+      
+      if (instant) {
+        logosTrack.offsetHeight; // Force reflow
+        logosTrack.style.transition = 'left 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+      }
+    }
+    
+    // Update active state
+    function updateActiveState() {
+      const slots = logosTrack.querySelectorAll('.logo-slot');
+      
+      slots.forEach((slot, index) => {
+        if (index === actualPosition) {
+          slot.classList.add('center');
+        } else {
+          slot.classList.remove('center');
+        }
+      });
+    }
+    
+    // Rotate content
+    function rotateContent() {
+      // Fade out tagline
+      taglineElement.classList.add('fade-out');
+      
+      setTimeout(() => {
+        // Move forward
+        actualPosition++;
+        currentIndex = (currentIndex + 1) % logos.length;
+        
+        // Update tagline
+        taglineElement.textContent = '"' + logos[currentIndex].tagline + '"';
+        taglineElement.classList.remove('fade-out');
+        taglineElement.classList.add('fade-in');
+        
+        // Update active state
+        updateActiveState();
+        
+        // Update position with smooth animation
+        updatePosition(false);
+        
+        // Check if we need to reset for infinite loop
+        // When we reach the 4th set (almost at the end), reset to 2nd set
+        if (actualPosition >= logos.length * 3) {
+          setTimeout(() => {
+            // Jump back one full set without animation
+            actualPosition = actualPosition - logos.length;
+            updatePosition(true);
+          }, 800);
+        }
+      }, 500);
+    }
+    
+    // Initialize
+    initLogos();
+    updatePosition(true);
+    
+    // Start rotation
+    setInterval(rotateContent, 3000);
+    
+    // Handle resize
+    window.addEventListener('resize', () => {
+      updatePosition(true);
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "As Seen On - Rotating",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "As Seen On"
+    },
+    {
+      "type": "header",
+      "content": "Logo 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_1",
+      "label": "Logo 1 Image"
+    },
+    {
+      "type": "text",
+      "id": "logo_1_alt",
+      "label": "Logo 1 Alt Text",
+      "default": "The Good Men Project"
+    },
+    {
+      "type": "text",
+      "id": "tagline_1",
+      "label": "Tagline 1",
+      "default": "Helping Americans 50+ live pain-free again"
+    },
+    {
+      "type": "header",
+      "content": "Logo 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_2",
+      "label": "Logo 2 Image"
+    },
+    {
+      "type": "text",
+      "id": "logo_2_alt",
+      "label": "Logo 2 Alt Text",
+      "default": "TechBullion"
+    },
+    {
+      "type": "text",
+      "id": "tagline_2",
+      "label": "Tagline 2",
+      "default": "Founded on love, science, and results"
+    },
+    {
+      "type": "header",
+      "content": "Logo 3 (Center Start)"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_3",
+      "label": "Logo 3 Image"
+    },
+    {
+      "type": "text",
+      "id": "logo_3_alt",
+      "label": "Logo 3 Alt Text",
+      "default": "USA TODAY"
+    },
+    {
+      "type": "text",
+      "id": "tagline_3",
+      "label": "Tagline 3",
+      "default": "Trusted by thousands nationwide"
+    },
+    {
+      "type": "header",
+      "content": "Logo 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_4",
+      "label": "Logo 4 Image"
+    },
+    {
+      "type": "text",
+      "id": "logo_4_alt",
+      "label": "Logo 4 Alt Text",
+      "default": "Woman's World"
+    },
+    {
+      "type": "text",
+      "id": "tagline_4",
+      "label": "Tagline 4",
+      "default": "Science-backed wellness solutions"
+    },
+    {
+      "type": "header",
+      "content": "Logo 5"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_5",
+      "label": "Logo 5 Image"
+    },
+    {
+      "type": "text",
+      "id": "logo_5_alt",
+      "label": "Logo 5 Alt Text",
+      "default": "Digital Journal"
+    },
+    {
+      "type": "text",
+      "id": "tagline_5",
+      "label": "Tagline 5",
+      "default": "Recommended by health experts"
+    }
+  ],
+  "presets": [
+    {
+      "name": "As Seen On - Rotating"
+    }
+  ]
+}
+{% endschema %}

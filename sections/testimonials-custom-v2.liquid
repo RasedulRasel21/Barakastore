@@ -1,0 +1,428 @@
+<!-- sections/testimonials.liquid -->
+<div class="tm-testimonials-section">
+  <div class="tm-testimonials-container">
+    <h2 class="tm-testimonials-heading">{{ section.settings.heading }}</h2>
+    
+    <div class="tm-testimonials-content">
+      <!-- Static Trustpilot Badge - Always visible on left -->
+      <div class="tm-trustpilot-badge-wrapper">
+        <div class="tm-trustpilot-badge">
+          <h3 class="tm-rating-title">{{ section.settings.rating_title }}</h3>
+          <div class="tm-stars">
+            {% for i in (1..5) %}
+              <svg class="tm-star" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+            {% endfor %}
+          </div>
+          <p class="tm-review-count">Based on <strong>{{ section.settings.review_count }}</strong></p>
+        </div>
+      </div>
+
+      <!-- Scrollable Testimonials Area -->
+      <div class="tm-testimonials-slider-wrapper">
+        <button class="tm-testimonials-nav tm-testimonials-nav-prev" aria-label="Previous testimonials">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="tm-testimonials-slider">
+          {% for block in section.blocks %}
+            <div class="tm-testimonial-card" {{ block.shopify_attributes }}>
+              <div class="tm-testimonial-header">
+                {% if block.settings.customer_image %}
+                  <img src="{{ block.settings.customer_image | img_url: 'master', crop: 'center' }}" 
+                       alt="{{ block.settings.customer_name }}"
+                       class="tm-customer-image">
+                {% else %}
+                  <div class="tm-customer-image-placeholder">
+                    {{ block.settings.customer_name | slice: 0 }}
+                  </div>
+                {% endif %}
+                <div class="tm-stars">
+                  {% for i in (1..5) %}
+                    <svg class="tm-star" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                  {% endfor %}
+                </div>
+              </div>
+              <h4 class="tm-testimonial-title">{{ block.settings.title }}</h4>
+              <p class="tm-testimonial-text">{{ block.settings.content }}</p>
+              <p class="tm-customer-name">– {{ block.settings.customer_name }}</p>
+            </div>
+          {% endfor %}
+        </div>
+
+        <button class="tm-testimonials-nav tm-testimonials-nav-next" aria-label="Next testimonials">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.tm-testimonials-section {
+  padding: 60px 20px;
+  background-color: #f9fafb;
+}
+
+.tm-testimonials-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tm-testimonials-heading {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1f2937;
+}
+
+.tm-testimonials-content {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+/* Static Trustpilot Badge on Left */
+.tm-trustpilot-badge-wrapper {
+  flex-shrink: 0;
+  width: 320px;
+}
+
+.tm-trustpilot-badge {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.tm-rating-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+.tm-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.tm-star {
+  width: 22px;
+  height: 22px;
+  color: #00b67a;
+  flex-shrink: 0;
+}
+
+.tm-review-count {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Scrollable Testimonials Area */
+.tm-testimonials-slider-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.tm-testimonials-slider {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 4px;
+  flex: 1;
+}
+
+.tm-testimonials-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.tm-testimonial-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 320px;
+}
+
+.tm-testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.tm-testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.tm-customer-image, .tm-customer-image-placeholder {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.tm-customer-image-placeholder {
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.tm-testimonial-header .tm-stars {
+  margin: 0;
+}
+
+.tm-testimonial-header .tm-star {
+  width: 20px;
+  height: 20px;
+}
+
+.tm-testimonial-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1f2937;
+  line-height: 1.4;
+}
+
+.tm-testimonial-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4b5563;
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.tm-customer-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+.tm-testimonials-nav {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+  color: #1f2937;
+  z-index: 10;
+}
+
+.tm-testimonials-nav svg {
+  width: 18px;
+  height: 18px;
+}
+
+.tm-testimonials-nav:hover {
+  background: #f9fafb;
+  border-color: #d1d5db;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tm-testimonials-nav:active {
+  transform: scale(0.95);
+}
+
+.tm-testimonials-nav-prev {
+  /* Specific styles for prev button if needed */
+}
+
+.tm-testimonials-nav-next {
+  /* Specific styles for next button if needed */
+}
+
+@media (max-width: 1024px) {
+  .tm-testimonials-content {
+    flex-direction: column;
+  }
+  
+  .tm-trustpilot-badge-wrapper {
+    width: 100%;
+  }
+  
+  .tm-trustpilot-badge {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tm-testimonials-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .tm-testimonials-nav {
+    display: none;
+  }
+  
+  .tm-testimonials-slider {
+    scroll-snap-type: x mandatory;
+    padding: 4px 4px 4px 0;
+  }
+  
+  .tm-testimonial-card {
+    scroll-snap-align: start;
+    width: 280px;
+  }
+  
+  .tm-rating-title {
+    font-size: 28px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const prevBtn = document.querySelector('.tm-testimonials-nav-prev');
+  const nextBtn = document.querySelector('.tm-testimonials-nav-next');
+  const slider = document.querySelector('.tm-testimonials-slider');
+  
+  if (prevBtn && nextBtn && slider) {
+    prevBtn.addEventListener('click', function() {
+      slider.scrollBy({ left: -344, behavior: 'smooth' }); // 320px card + 24px gap
+    });
+    
+    nextBtn.addEventListener('click', function() {
+      slider.scrollBy({ left: 344, behavior: 'smooth' }); // 320px card + 24px gap
+    });
+  }
+});
+</script>
+
+{% schema %}
+{
+  "name": "Testimonials v2",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Don't Just take our word for it"
+    },
+    {
+      "type": "text",
+      "id": "rating_title",
+      "label": "Rating Title",
+      "default": "Excellent"
+    },
+    {
+      "type": "text",
+      "id": "review_count",
+      "label": "Review Count",
+      "default": "4,324 reviews"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "customer_image",
+          "label": "Customer Image"
+        },
+        {
+          "type": "text",
+          "id": "customer_name",
+          "label": "Customer Name",
+          "default": "Customer Name"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Great service and amazing product"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Content",
+          "default": "Excellent customer service and follow-up. I got exactly what I needed and..."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials v2",
+      "blocks": [
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Mark H.",
+            "title": "This knee massager has changed my life",
+            "content": "I purchased the Barakashop knee massager and use it twice daily for 15 minutes..."
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Ray S.",
+            "title": "At first, I was skeptical",
+            "content": "At first, I wasn't sure if it would work, but after consistent use, I've seen incredible results..."
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Emily R.",
+            "title": "Barakashop keeps innovating",
+            "content": "Barakashop continues to impress with its product range! I've used a few different items, and the results..."
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Sarah L.",
+            "title": "Amazing relief for my feet and calves",
+            "content": "I've been using the Barakashop foot and calf massager for a few weeks, and it's..."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

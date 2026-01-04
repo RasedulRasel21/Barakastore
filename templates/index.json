@@ -26,7 +26,7 @@
             "heading_scale": 100,
             "subheading": "Knee Relief Massager",
             "text": "<p>Designed with input from orthopedic specialists</p>",
-            "text_position": "center-left",
+            "text_position": "center-center",
             "f_button_label": "Shop now",
             "f_button_link": "shopify://products/electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1",
             "f_button_tier": "primary"
@@ -34,6 +34,7 @@
         },
         "image_6zNkqx": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "color_scheme": "main",
             "image": "shopify://shop_images/S5f57e558d491438a84898777a4f8e3ff6_1681e4c7-b302-46b0-a5f1-00c86810e4a5.webp",
@@ -160,6 +161,7 @@
         "template--20725112013081__15b65ea5-36b9-4044-baab-de887f308881-text-1",
         "001cdebc-882e-4131-bdd3-008b152becf6"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "main",
         "text_scale": 80,
@@ -169,6 +171,28 @@
         "pattern": "none",
         "pattern_scale": 100,
         "pattern_animation": "bottom"
+      }
+    },
+    "logo_slider_AJKnpK": {
+      "type": "logo-slider",
+      "name": "Logo Slider",
+      "settings": {
+        "section_title": "As Seen On",
+        "logo_1": "shopify://shop_images/svgexport-1_1_-05.webp",
+        "logo_1_alt": "The Good Men Project",
+        "tagline_1": "Barakashop started personal. Now, it’s nationwide relief.",
+        "logo_2": "shopify://shop_images/1_ada38534-bad0-4347-8239-de31274be32f.webp",
+        "logo_2_alt": "TechBullion",
+        "tagline_2": "Empowering independence at home",
+        "logo_3": "shopify://shop_images/2_1.webp",
+        "logo_3_alt": "USA TODAY",
+        "tagline_3": "Helping Americans 50+ live pain-free again",
+        "logo_4": "shopify://shop_images/3_437ca095-6924-44fe-a477-95fc5a29a102.webp",
+        "logo_4_alt": "Woman's World",
+        "tagline_4": "Built loyalty with 250,000 customers",
+        "logo_5": "shopify://shop_images/svgexport-1_1_-04.webp",
+        "logo_5_alt": "Digital Journal",
+        "tagline_5": "Founded on love, science, and results"
       }
     },
     "4152f3c4-fce8-4429-bb55-9810434cbea7": {
@@ -268,6 +292,7 @@
           "type": "collection",
           "settings": {
             "collection": "accessories",
+            "image": "shopify://shop_images/Sc898e7ebd6ef4b5988e1e98fef929d59Y_8dd0b889-8ea0-4674-900c-1425c3e61cba.webp",
             "custom_title": "Accessories"
           }
         },
@@ -292,6 +317,7 @@
         "template--15157997109282__7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df-1676598138df78d276-0",
         "collection_hqHM4V"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Featured Categories",
         "subheading": "All Products in One Place",
@@ -336,6 +362,7 @@
         "heading_EVCfhG",
         "buttons_W9DaMj"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "main",
         "content_width": 100,
@@ -373,10 +400,11 @@
         "products_8PfHYp",
         "banner_NRfgMA"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
-        "collection": "sports-equipments-and-devices",
+        "collection": "health-care",
         "slide_every": "row",
         "slides_per_view": 3,
         "section_button_label": ""
@@ -388,7 +416,7 @@
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-1": {
           "type": "heading",
           "settings": {
-            "heading": "Virtual Reality Glasses",
+            "heading": "Wireless Heated Knee Massager",
             "heading_scale": 120
           }
         },
@@ -398,7 +426,7 @@
             "mobile_hidden": false,
             "info": "",
             "f_button_label": "Buy Maintenant",
-            "f_button_link": "shopify://collections/virtual-reality",
+            "f_button_link": "shopify://products/electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1",
             "f_button_tier": "primary",
             "s_button_label": "",
             "s_button_link": "",
@@ -410,10 +438,11 @@
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-1",
         "template--15204627546146__44740013-f582-4a84-95bb-7fedd7580f01-1687157779fe48a569-3"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
         "section_layout": "full",
-        "image": "shopify://shop_images/young-woman-enjoying-new-technology-vr-glasses_23-2149402436.avif",
+        "image": "shopify://shop_images/Electric-Heating-Massage-Knee-Pad-Wireless-Heated-Knee-Massager-Wormwood-Constant-Temperature-Hot-Compress-Vibration-Massage_6fb12dbe-f4eb-44aa-8996-a034b43f3427.webp",
         "image_size": "650px",
         "mobile_image_size": "550px",
         "overlay": 15,
@@ -452,11 +481,12 @@
         "products_YRbnUm",
         "banner_DTqgh3"
       ],
+      "disabled": true,
       "name": "Featured collection grid",
       "settings": {
         "heading": "Best Sellers",
         "subheading": "",
-        "collection": "virtual-reality",
+        "collection": "promotional-products",
         "columns": 4,
         "rows": 3,
         "section_button_label": ""
@@ -477,7 +507,7 @@
             "heading": "Portable Computers",
             "subheading": "",
             "text": "Discover Endless Possibilities with High-Performance Laptops.",
-            "button_label": "En savoir plus"
+            "button_label": "Learn more"
           }
         },
         "165469275384f2da6a-1": {
@@ -492,7 +522,7 @@
             "heading": "Audio Headphones",
             "subheading": "",
             "text": "Discover a New Level of Sound Immersion with Our Premium Headphones.",
-            "button_label": "En savoir plus"
+            "button_label": "Learn more"
           }
         },
         "fbeb17e9-dbcc-42b9-bd81-82f0b552ac11": {
@@ -507,7 +537,7 @@
             "heading": "Laptop Bags",
             "subheading": "",
             "text": "Enjoy the Power of Smart Watches for Efficient Time Management.",
-            "button_label": "En savoir plus"
+            "button_label": "Learn more"
           }
         },
         "6eb76a81-b285-46e6-aae2-d96297973bef": {
@@ -523,7 +553,7 @@
             "heading": "Sports Equipment",
             "subheading": "",
             "text": "Unleash Your Gaming Potential with Cutting-Edge Technology.",
-            "button_label": "En savoir plus"
+            "button_label": "Learn more"
           }
         },
         "95c1ad85-2f0f-4cc6-b65a-6d163b293706": {
@@ -538,7 +568,7 @@
             "heading": "Virtual Reality",
             "subheading": "",
             "text": "Explore the Infinite Possibilities of VR Technology.",
-            "button_label": "En savoir plus"
+            "button_label": "Learn more"
           }
         }
       },
@@ -549,6 +579,7 @@
         "6eb76a81-b285-46e6-aae2-d96297973bef",
         "95c1ad85-2f0f-4cc6-b65a-6d163b293706"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
@@ -562,49 +593,14 @@
         "button_tier": "secondary"
       }
     },
-    "1654692779f62752bf": {
-      "type": "d_featured-collection",
-      "blocks": {
-        "165469277996cce953-0": {
-          "type": "products",
-          "settings": {
-            "products_limit": 9,
-            "show_only_products_in_stock": false
-          }
-        },
-        "165469277996cce953-1": {
-          "type": "banner",
-          "settings": {
-            "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
-            "image_overlay": 0,
-            "heading": "{{ section.settings.collection.title }}",
-            "heading_scale": 80,
-            "subheading": "",
-            "button": "Tout Buy",
-            "button_tier": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "165469277996cce953-0",
-        "165469277996cce953-1"
-      ],
-      "settings": {
-        "heading": "Laptop Bags",
-        "subheading": "",
-        "collection": "laptop-bags",
-        "slide_every": "row",
-        "slides_per_view": 4,
-        "section_button_label": ""
-      }
-    },
     "d_images_collage_with_text_M3WFUU": {
       "type": "d_images-collage-with-text",
       "blocks": {
         "image_6km3x3": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/d4e83b6c-f2c2-11ed-8efc-0a580a69716d.jpg",
+            "image": "shopify://shop_images/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC84MzM4OVwvODMzODktMS0yMDI1LTExLTA2VDEzMjA1MS05YjI3ajUuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0IjoxMDAwLCJ.webp",
             "image_width": 32,
             "coord_x": 4,
             "coord_y": 97
@@ -612,6 +608,7 @@
         },
         "image_k4xWHV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/4nPEezQ9j3xyj5wpYEsfa5.jpg",
             "image_width": 20,
@@ -622,7 +619,7 @@
         "image_4LgYVQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/588a3548-e978-424a-85f1-b9766fe53083_800x800_b1a2e747-a6e4-4b36-b367-4565410c554f.jpg",
+            "image": "shopify://shop_images/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC84MzM4OVwvODMzODktMS0yMDI1LTExLTA2VDEzMjA1MS05YjI3ajUuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0IjoxMDAwLCJ.webp",
             "image_width": 55,
             "coord_x": 50,
             "coord_y": 50
@@ -630,6 +627,7 @@
         },
         "image_Um8rXe": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/217303bb37550e1d83b4f93ebe043768.jpg",
             "image_width": 25,
@@ -639,6 +637,7 @@
         },
         "image_PV9R9P": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/fc63b8ce80580c2c542efe494d4cdebd.jpg",
             "image_width": 20,
@@ -654,6 +653,7 @@
         "image_Um8rXe",
         "image_PV9R9P"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-e103ec40-a79c-4694-84a6-946a9fab9517",
         "section_width": 100,
@@ -665,11 +665,57 @@
         "text": "<p>Discover Professional Quality Tools and Equipment for All Sectors.</p>",
         "text_position": "center-left",
         "f_button_label": "Buy Maintenant",
-        "f_button_link": "shopify://collections/charger",
+        "f_button_link": "shopify://products/octopus-scalp-massager-electric-powered-head-massager-with-kneading-function-for-dry-and-wet-use-gentle-pet-massage-ergonomic-design-soul-extractor-model-for-deep-relaxation-and-soothing-scalp-massage-experience",
         "f_button_tier": "primary",
         "pattern": "pattern-topography_600",
         "pattern_scale": 120,
         "pattern_animation": "none"
+      }
+    },
+    "trust_badges_v2_Wf4qy8": {
+      "type": "trust-badges-v2",
+      "name": "Trust Badges v2",
+      "settings": {
+        "badge_image": "shopify://shop_images/Group_513272_3000x3000_ea208e53-c2e9-46e1-a769-d47748ba9ec1.png",
+        "guarantee_title": "90-Day Money-Back Guarantee",
+        "guarantee_description": "We're confident you'll love your results. If not, contact our team during your risk-free trial and we'll handle the rest!",
+        "learn_more_text": "Learn More",
+        "learn_more_url": "https://thebarakashop.com/pages/about",
+        "icon_shipping": "shopify://shop_images/Group.svg",
+        "shipping_title": "Free & Fast",
+        "shipping_subtitle": "Shipping",
+        "icon_doctor": "shopify://shop_images/Group_513053.svg",
+        "doctor_title": "Doctor Endorsed",
+        "doctor_subtitle": "Solutions",
+        "icon_satisfaction": "shopify://shop_images/Group_513032.svg",
+        "satisfaction_title": "Satisfaction",
+        "satisfaction_subtitle": "Guaranteed",
+        "icon_science": "shopify://shop_images/Vector__2.svg",
+        "science_title": "Proven Results,",
+        "science_subtitle": "Backed By Science"
+      }
+    },
+    "blog_carousel_Wh9Cwx": {
+      "type": "blog-carousel",
+      "name": "Blog Carousel",
+      "settings": {
+        "heading": "Latest from the blog",
+        "subheading": "Explore insightful content that keeps you ahead of the curve and connected to the pulse of what's happening.",
+        "blog": "news",
+        "articles_to_show": 6,
+        "button_text": "Read more"
+      }
+    },
+    "instagram_section_design_hPdjDP": {
+      "type": "instagram-section-design",
+      "name": "Cus Instagram Design",
+      "settings": {
+        "image_01": "shopify://shop_images/V562-A107240800ADE-202508280332-00.jpg",
+        "image_02": "shopify://shop_images/D_NQ_NP_2X_822804-MLB78550134500_082024-F.webp",
+        "image_03": "shopify://shop_images/2-510x510.webp",
+        "image_08": "shopify://shop_images/1398626_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
+        "mb_image_01": "shopify://shop_images/1398626_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
+        "mb_image_04": "shopify://shop_images/V562-A107240800ADE-202508280332-02.jpg"
       }
     },
     "a9c69136-4e22-4bd5-927f-d1dd9081a18a": {
@@ -698,6 +744,7 @@
         "template--20725112013081__a9c69136-4e22-4bd5-927f-d1dd9081a18a-heading-1",
         "template--20725112013081__a9c69136-4e22-4bd5-927f-d1dd9081a18a-newsletter_form-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-87628dca-6445-46de-93c8-f2b63b76e28c",
         "section_layout": "full",
@@ -712,6 +759,46 @@
         "pattern_scale": 100,
         "pattern_opacity": 5,
         "pattern_animation": "top"
+      }
+    },
+    "trust_badges_v3_J47RWw": {
+      "type": "trust-badges-v3",
+      "blocks": {
+        "badge_jkrLrd": {
+          "type": "badge",
+          "settings": {
+            "icon": "shopify://shop_images/Icons__2__1.avif",
+            "heading": "90-Day Money Back Guarantee",
+            "text": "If you're not absolutely thrilled with the results, we don't want your money. No hassles, no questions asked."
+          }
+        },
+        "badge_8edB7E": {
+          "type": "badge",
+          "settings": {
+            "icon": "shopify://shop_images/English_fc9a6368-7506-46e2-b79c-410399b87d29.avif",
+            "heading": "Fast & Free Shipping",
+            "text": "We offer fast and free 4-8 day delivery on all orders to the UK."
+          }
+        },
+        "badge_pzjQED": {
+          "type": "badge",
+          "settings": {
+            "icon": "shopify://shop_images/Icons__2__3.avif",
+            "heading": "Guaranteed High quality",
+            "text": "All Norelie products are made of high quality materials. Enjoy consistent, trouble-free performance for a long time."
+          }
+        }
+      },
+      "block_order": [
+        "badge_jkrLrd",
+        "badge_8edB7E",
+        "badge_pzjQED"
+      ],
+      "name": "Trust Badges v3",
+      "settings": {
+        "background_color": "#ffffff",
+        "heading_color": "#000000",
+        "text_color": "#333333"
       }
     },
     "d_moving_testimonials_dPpCPk": {
@@ -775,6 +862,7 @@
         "testimonial_MLg837",
         "testimonial_YKn9bF"
       ],
+      "disabled": true,
       "settings": {
         "heading": "What Our Customers Think",
         "subheading": "",
@@ -786,12 +874,89 @@
         "section_button_label": "",
         "section_button_link": ""
       }
+    },
+    "testimonials_custom_v2_bWKtMq": {
+      "type": "testimonials-custom-v2",
+      "blocks": {
+        "testimonial_GeCxmR": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Jessica W.",
+            "title": "Great service and amazing product",
+            "content": "Excellent customer service and follow-up. I got exactly what I needed and..."
+          }
+        },
+        "testimonial_rnkzTh": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Mark H.",
+            "title": "This knee massager has changed my life",
+            "content": "I purchased the Barakashop knee massager and use it twice daily for 15 minutes..."
+          }
+        },
+        "testimonial_GAKeV6": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Mark H.",
+            "title": "This knee massager has changed my life",
+            "content": "I purchased the Barakashop knee massager and use it twice daily for 15 minutes..."
+          }
+        },
+        "testimonial_b3TMAT": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Ray S.",
+            "title": "At first, I was skeptical",
+            "content": "At first, I wasn't sure if it would work, but after consistent use, I've seen incredible results..."
+          }
+        },
+        "testimonial_CTtYKU": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Ray S.",
+            "title": "At first, I was skeptical",
+            "content": "At first, I wasn't sure if it would work, but after consistent use, I've seen incredible results..."
+          }
+        },
+        "testimonial_YgNiBb": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Emily R.",
+            "title": "Norelie keeps innovating",
+            "content": "Barakashop continues to impress with its product range! I've used a few different items, and the results..."
+          }
+        },
+        "testimonial_mmBYqi": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Emily R.",
+            "title": "Norelie keeps innovating",
+            "content": "Barakashop continues to impress with its product range! I've used a few different items, and the results..."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_GeCxmR",
+        "testimonial_rnkzTh",
+        "testimonial_GAKeV6",
+        "testimonial_b3TMAT",
+        "testimonial_CTtYKU",
+        "testimonial_YgNiBb",
+        "testimonial_mmBYqi"
+      ],
+      "name": "Testimonials v2",
+      "settings": {
+        "heading": "Don't Just take our word for it",
+        "rating_title": "Excellent",
+        "review_count": "4,324 reviews"
+      }
     }
   },
   "order": [
     "d_image_with_text_slideshow_Hrybxq",
     "bbd66abd-c63a-42b9-84d1-9bb7e7374a9b",
     "15b65ea5-36b9-4044-baab-de887f308881",
+    "logo_slider_AJKnpK",
     "4152f3c4-fce8-4429-bb55-9810434cbea7",
     "a9aa1c18-4e1a-4ece-84d1-856cdf4312fe",
     "7fb5bea1-a14a-4ce3-afc1-5ae74ddc90df",
@@ -800,9 +965,13 @@
     "44740013-f582-4a84-95bb-7fedd7580f01",
     "d_featured_collection_grid_KXmb7T",
     "165469275319e90978",
-    "1654692779f62752bf",
     "d_images_collage_with_text_M3WFUU",
+    "trust_badges_v2_Wf4qy8",
+    "blog_carousel_Wh9Cwx",
+    "instagram_section_design_hPdjDP",
     "a9c69136-4e22-4bd5-927f-d1dd9081a18a",
-    "d_moving_testimonials_dPpCPk"
+    "trust_badges_v3_J47RWw",
+    "d_moving_testimonials_dPpCPk",
+    "testimonials_custom_v2_bWKtMq"
   ]
 }

@@ -196,7 +196,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "RESULTS OR MONEY-BACK GUARANTEE",
-            "description": "If you are not absolutely delighted with the Knee Relief Massager, we don't want your money. No hassle, no questions asked."
+            "description": "If you are not absolutely delighted with the Octopus Scalp Massager, we don't want your money. No hassle, no questions asked."
           }
         },
         "badge_nk7WC9": {
@@ -218,7 +218,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "HIGH QUALITY GUARANTEED",
-            "description": "The Knee Relief Massagers are made with premium, durable materials. Enjoy consistent and reliable relief day after day."
+            "description": "The Octopus Scalp Massagers are made with premium, durable materials. It helps to alleviate stress and improve blood circulation."
           }
         }
       },
@@ -240,37 +240,45 @@
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Knee pain is not just about aging — it's about what your knees are missing. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and pain-free."
+            "paragraph": "Scalp discomfort isn’t just about tiredness — it’s about poor circulation and muscle tension."
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This is called Joint Dryness — when you don't have enough synovial fluid, your knees dry out and rub bone against bone."
+            "paragraph": "Daily stress, long screen time, and lack of proper scalp stimulation can weaken hair roots, cause headaches, and slow healthy hair growth."
           }
         },
         "paragraph_8cn8JX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Without enough movement, this fluid cannot circulate properly, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
+            "paragraph": "Without regular massage, tension builds up under the scalp, blocking blood flow and reducing oxygen supply to hair follicles. Over time, this leads to scalp fatigue, hair weakness, and mental stress."
+          }
+        },
+        "paragraph_FbjgNH": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "That’s where smart scalp therapy makes a real difference."
           }
         }
       },
       "block_order": [
         "paragraph_43QrBB",
         "paragraph_WTpCzk",
-        "paragraph_8cn8JX"
+        "paragraph_8cn8JX",
+        "paragraph_FbjgNH"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/1398626_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
+        "heading": "The Real Reason Behind Scalp Stress & Hair Fatigue",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "cordless-charger-belkin-wiz029vfbk"
+        "product": "octopus-scalp-massager-electric-powered-head-massager-with-kneading-function-for-dry-and-wet-use-gentle-pet-massage-ergonomic-design-soul-extractor-model-for-deep-relaxation-and-soothing-scalp-massage-experience"
       }
     },
     "problem_solution_custom_RPtgz4": {
@@ -279,37 +287,66 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager is designed with cutting-edge Triple Therapy Technology that combines Red Light Therapy, Heat Therapy, and Massage Therapy to effectively support your knee joint."
+            "paragraph": "This Electric Scalp Head Massager is designed with advanced 3D deep tissue massage technology to simulate real human hand movements."
+          }
+        },
+        "paragraph_MDzKzq": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Why it works better:"
+          }
+        },
+        "paragraph_tNj8gN": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "4 massage heads with 24 soft silicone tentacles gently press and rotate"
+          }
+        },
+        "paragraph_9MrGEF": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Ergonomic grip design fits naturally in your hand"
+          }
+        },
+        "paragraph_GeMmWR": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Food-grade silicone heads ensure comfort, durability, and safety"
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This improves blood circulation, relaxes tense muscles, and reduces inflammation in your knee joints, making movement easier and more comfortable."
+            "paragraph": "Helps improve blood circulation, relax scalp muscles, and relieve stress"
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager provides your knees with the comprehensive care they need to stay mobile and pain-free."
+            "paragraph": "Whether you use it dry for relaxation or wet during hair wash, it delivers a professional-level massage experience at home."
           }
         }
       },
       "block_order": [
         "paragraph_QXFXx4",
+        "paragraph_MDzKzq",
+        "paragraph_tNj8gN",
+        "paragraph_9MrGEF",
+        "paragraph_GeMmWR",
         "paragraph_7fJHcU",
         "paragraph_kgGUHm"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/1398627_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
         "heading": "Introducing: Triple Therapy Technology:",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "octopus-scalp-massager-electric-powered-head-massager-with-kneading-function-for-dry-and-wet-use-gentle-pet-massage-ergonomic-design-soul-extractor-model-for-deep-relaxation-and-soothing-scalp-massage-experience"
       }
     },
     "problem_solution_custom_DitJHK": {
@@ -318,37 +355,25 @@
         "paragraph_m8n6gY": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Our revolutionary \"on-the-knee\" design provides targeted relief that manual massagers cannot match."
+            "paragraph": "Designed for comfort, performance, and everyday use, this electric scalp massager offers effortless control with a one-key operation—simply short press to turn on and long press to turn off."
           }
         },
         "paragraph_aXQGRx": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager is designed not only to support but also to improve the movement and health of your knee:"
+            "paragraph": "Its IPX7 waterproof design allows safe wet and dry use, making it ideal for relaxing scalp massages during showers or daily dry sessions. Powered by a gentle yet effective 5W motor, it delivers deep tissue stimulation without pulling or tangling hair, ensuring a comfortable massage every time."
           }
         },
         "paragraph_UUL8H7": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Enhanced Synovial Fluid Movement: The unique wrap-around design helps synovial fluid flow, lubricating your joints and relieving pain."
+            "paragraph": "The built-in 1500mAh rechargeable battery provides long-lasting performance, offering up to one week of daily use on a single USB charge."
           }
         },
         "paragraph_fFfQFD": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Triple Therapy Technology: Integrates Red Light Therapy, Heat Therapy, and Massage Therapy to stimulate circulation, accelerate recovery of painful joints, and reduce inflammation."
-          }
-        },
-        "paragraph_KFgBWt": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Customizable Therapy Settings: Easily adjust the intensity of heat and massage to match your comfort level and meet your therapeutic needs, ensuring each session is effective."
-          }
-        },
-        "paragraph_RFWYBX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Sleek and Convenient for Daily Use: Designed to be used anywhere, anytime. Easy to wear at home, at work, or even while relaxing."
+            "paragraph": "Lightweight, wireless, and easy to clean, this versatile massager is suitable for the scalp, neck, shoulders, and other body areas, helping you relieve stress, relax your mind, and support healthier hair roots anytime, anywhere."
           }
         }
       },
@@ -356,24 +381,24 @@
         "paragraph_m8n6gY",
         "paragraph_aXQGRx",
         "paragraph_UUL8H7",
-        "paragraph_fFfQFD",
-        "paragraph_KFgBWt",
-        "paragraph_RFWYBX"
+        "paragraph_fFfQFD"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC84MzM4OVwvODMzODktMS0yMDI1LTExLTA2VDEzMjA1MS05YjI3ajUuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTAwMCwiaGVpZ2h0IjoxMDAwLCJ.webp",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Innovative Features for Ultimate Knee Relief:",
+        "heading": "Innovative Features for Total Head & Body Relaxation",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage"
+        "product": "octopus-scalp-massager-electric-powered-head-massager-with-kneading-function-for-dry-and-wet-use-gentle-pet-massage-ergonomic-design-soul-extractor-model-for-deep-relaxation-and-soothing-scalp-massage-experience"
       }
     },
     "doctor_recommended_hKebFa": {
       "type": "doctor-recommended",
+      "disabled": true,
       "name": "Doctor Recommended",
       "settings": {
         "heading": "Recommended by Doctors and Approved by Users",
@@ -427,6 +452,7 @@
         "step_AG69wg",
         "step_EKptEd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How the Knee Relief Massager Works:",
@@ -524,6 +550,7 @@
         "feature_zrDTfG",
         "feature_HQEWkD"
       ],
+      "disabled": true,
       "name": "Comparison Table",
       "settings": {
         "heading": "What Sets the Knee Relief Massager Apart from Ordinary Knee Massagers and Medications?",
@@ -553,6 +580,7 @@
         "paragraph_gPbRLw",
         "paragraph_b8DYf9"
       ],
+      "disabled": true,
       "name": "Clinical Proof",
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
@@ -576,6 +604,7 @@
       "block_order": [
         "paragraph_WrqGbG"
       ],
+      "disabled": true,
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
@@ -635,6 +664,7 @@
         "step_naVW4x",
         "step_J6fUKd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How to Use the Knee Relief Massager",
@@ -688,6 +718,7 @@
         "testimonial_LntfTE",
         "testimonial_FpiCL3"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "heading_line_1": "Real Users.",
@@ -727,6 +758,7 @@
         "benefit_Lq6DVR",
         "benefit_9ebqfF"
       ],
+      "disabled": true,
       "name": "Pricing CTA",
       "settings": {
         "heading": "Order Today and Get FREE Pairs While Supplies Last",
@@ -788,6 +820,7 @@
         "faq_item_WakN8e",
         "faq_item_NTT8WB"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "heading": "Do You Have a Question? We're Here to Help!",

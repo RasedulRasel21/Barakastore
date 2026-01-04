@@ -196,7 +196,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "RESULTS OR MONEY-BACK GUARANTEE",
-            "description": "If you are not absolutely delighted with the Knee Relief Massager, we don't want your money. No hassle, no questions asked."
+            "description": "If you are not absolutely delighted with the Waist Massager, we don't want your money. No hassle, no questions asked."
           }
         },
         "badge_nk7WC9": {
@@ -218,7 +218,7 @@
             "days_text": "90",
             "days_label": "DAYS",
             "title": "HIGH QUALITY GUARANTEED",
-            "description": "The Knee Relief Massagers are made with premium, durable materials. Enjoy consistent and reliable relief day after day."
+            "description": "The Waist Massagers are made with premium, durable materials. Enjoy consistent and reliable relief day after day."
           }
         }
       },
@@ -240,37 +240,45 @@
         "paragraph_43QrBB": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Knee pain is not just about aging — it's about what your knees are missing. Your joints need something called synovial fluid. It's like oil that keeps your knees moving smoothly and pain-free."
+            "paragraph": "Period pain and lower back discomfort aren’t just something you have to “live with” — they’re often caused by muscle tension and poor blood circulation in the waist area. During menstruation, muscles tighten and blood flow slows down, which leads to cramps, stiffness, and deep aching pain."
           }
         },
         "paragraph_WTpCzk": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This is called Joint Dryness — when you don't have enough synovial fluid, your knees dry out and rub bone against bone."
+            "paragraph": "This condition worsens when you sit for long hours or avoid movement due to discomfort. Without proper warmth and circulation, the muscles stay tense, and pain keeps coming back stronger."
           }
         },
         "paragraph_8cn8JX": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Without enough movement, this fluid cannot circulate properly, and your knees start to creak like a rusty door hinge. But how do you move when you're in pain?"
+            "paragraph": "That’s where heat and targeted massage make the real difference. Gentle hot compress therapy helps relax tight muscles, improve blood flow, and naturally ease cramps from the inside out. When combined with rhythmic massage, it supports the waist muscles and provides lasting comfort — even during the most painful days."
+          }
+        },
+        "paragraph_9FPgzh": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Instead of relying only on painkillers, restoring warmth, movement, and support to your waist is the key to real relief."
           }
         }
       },
       "block_order": [
         "paragraph_43QrBB",
         "paragraph_WTpCzk",
-        "paragraph_8cn8JX"
+        "paragraph_8cn8JX",
+        "paragraph_9FPgzh"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/2236042781_max.jpg",
         "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "SOLVED: The Real Reason Behind Your Knee Pain:",
+        "heading": "SOLVED: The Real Reason Behind Your Period & Lower Back Pain",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "cordless-charger-belkin-wiz029vfbk"
+        "product": "hot-compress-waist-massager-for-period-pain-relief-navy-blue"
       }
     },
     "problem_solution_custom_RPtgz4": {
@@ -279,19 +287,19 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager is designed with cutting-edge Triple Therapy Technology that combines Red Light Therapy, Heat Therapy, and Massage Therapy to effectively support your knee joint."
+            "paragraph": "The Hot Compress Waist Massager for Period Pain Relief (Navy Blue) is a thoughtfully engineered solution designed to provide deep comfort, relaxation, and effective pain relief during menstrual cycles and daily waist fatigue. Built with an advanced 3D support strip design, this waist massager fits closely to the natural curve of your body, offering strong yet comfortable support to waist and lower back muscles."
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "This improves blood circulation, relaxes tense muscles, and reduces inflammation in your knee joints, making movement easier and more comfortable."
+            "paragraph": "The integrated hot compress function penetrates deeply into the muscles, helping to ease cramps, improve blood circulation, and reduce stiffness caused by prolonged sitting, stress, or period discomfort."
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "The Knee Relief Massager provides your knees with the comprehensive care they need to stay mobile and pain-free."
+            "paragraph": "Featuring four adjustable massage and heat intensity levels, the device allows you to personalize your experience based on your comfort needs—whether you need gentle warmth or deep, soothing relief. The intelligent digital touch screen ensures effortless operation, enabling quick adjustments without interrupting your relaxation."
           }
         }
       },
@@ -303,13 +311,14 @@
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/V562-A107240800ADE-202508280332-03.jpg",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Introducing: Triple Therapy Technology:",
+        "heading": "Advanced Hot Compress Waist Massager for Effective Period Pain Relief",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "hot-compress-waist-massager-for-period-pain-relief-navy-blue"
       }
     },
     "problem_solution_custom_DitJHK": {
@@ -318,58 +327,31 @@
         "paragraph_m8n6gY": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Our revolutionary \"on-the-knee\" design provides targeted relief that manual massagers cannot match."
-          }
-        },
-        "paragraph_aXQGRx": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "The Knee Relief Massager is designed not only to support but also to improve the movement and health of your knee:"
-          }
-        },
-        "paragraph_UUL8H7": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Enhanced Synovial Fluid Movement: The unique wrap-around design helps synovial fluid flow, lubricating your joints and relieving pain."
-          }
-        },
-        "paragraph_fFfQFD": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Triple Therapy Technology: Integrates Red Light Therapy, Heat Therapy, and Massage Therapy to stimulate circulation, accelerate recovery of painful joints, and reduce inflammation."
+            "paragraph": "Experience comfort like never before with the WG-HG-16008 Hot Compress Massage Waist Massager, specially designed to relieve period pain, waist tension, and lower back discomfort. This innovative massager combines targeted massage therapy with soothing heat, offering a natural and effective way to manage menstrual cramps and muscle soreness. Its ergonomic 3D support strip structure hugs your waist securely, ensuring even pressure distribution and enhanced muscle relaxation."
           }
         },
         "paragraph_KFgBWt": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Customizable Therapy Settings: Easily adjust the intensity of heat and massage to match your comfort level and meet your therapeutic needs, ensuring each session is effective."
-          }
-        },
-        "paragraph_RFWYBX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Sleek and Convenient for Daily Use: Designed to be used anywhere, anytime. Easy to wear at home, at work, or even while relaxing."
+            "paragraph": "With four adjustable hot compress massage modes, you can easily customize the intensity to suit your body’s needs—perfect for light relaxation or deeper therapeutic relief. The smart digital display touch panel provides a sleek, modern interface, allowing seamless control with just a gentle tap. Unlike traditional massagers, this device features a fully wireless design, integrating the battery and control unit into one compact system, so you can enjoy unrestricted movement without dealing with tangled cords."
           }
         }
       },
       "block_order": [
         "paragraph_m8n6gY",
-        "paragraph_aXQGRx",
-        "paragraph_UUL8H7",
-        "paragraph_fFfQFD",
-        "paragraph_KFgBWt",
-        "paragraph_RFWYBX"
+        "paragraph_KFgBWt"
       ],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
-        "media_type": "video",
+        "media_type": "image",
+        "image": "shopify://shop_images/V562-A107240800ADE-202508280332-01.jpg",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
-        "heading": "Innovative Features for Ultimate Knee Relief:",
+        "heading": "Wireless Heated Waist Massager with 3D Support for Menstrual Comfort",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage"
+        "product": "hot-compress-waist-massager-for-period-pain-relief-navy-blue"
       }
     },
     "doctor_recommended_hKebFa": {
@@ -377,15 +359,15 @@
       "name": "Doctor Recommended",
       "settings": {
         "heading": "Recommended by Doctors and Approved by Users",
-        "description": "Designed with input from orthopedic specialists, the Knee Relief Massager is your non-surgical solution for chronic knee pain.",
-        "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
+        "description": "Premium Heated Waist Support Massager for Period & Back Pain Relief",
+        "image": "shopify://shop_images/V562-A107240800ADE-202508280332-04.jpg",
         "background_color": "#ffffff",
         "show_testimonial": true,
-        "testimonial_text": "The Knee Relief Massager is an exceptional tool for anyone suffering from knee discomfort. Its integrated therapy system not only relieves pain but also aids in recovery. It's like having a personal physical therapist available at any time.",
+        "testimonial_text": "The Hot Compress Waist Massager for Period Pain Relief – Navy Blue is a premium wellness device designed to provide reliable comfort and muscle relaxation. Featuring a 3D support strip design, it fits closely around the waist to deliver targeted support and pressure. The integrated hot compress massage function helps soothe menstrual cramps, relax muscles, and improve circulation.",
         "testimonial_author": "- Samantha L",
         "show_cta": true,
         "cta_text": "Add to cart",
-        "product": "electric-heating-massage-knee-pad-wireless-heated-knee-massager-wormwood-constant-temperature-hot-compress-vibration-massage-s-1"
+        "product": "hot-compress-waist-massager-for-period-pain-relief-navy-blue"
       }
     },
     "how_it_works_7gg6MM": {
@@ -427,6 +409,7 @@
         "step_AG69wg",
         "step_EKptEd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How the Knee Relief Massager Works:",
@@ -524,6 +507,7 @@
         "feature_zrDTfG",
         "feature_HQEWkD"
       ],
+      "disabled": true,
       "name": "Comparison Table",
       "settings": {
         "heading": "What Sets the Knee Relief Massager Apart from Ordinary Knee Massagers and Medications?",
@@ -553,6 +537,7 @@
         "paragraph_gPbRLw",
         "paragraph_b8DYf9"
       ],
+      "disabled": true,
       "name": "Clinical Proof",
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
@@ -576,6 +561,7 @@
       "block_order": [
         "paragraph_WrqGbG"
       ],
+      "disabled": true,
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
@@ -635,6 +621,7 @@
         "step_naVW4x",
         "step_J6fUKd"
       ],
+      "disabled": true,
       "name": "How It Works",
       "settings": {
         "heading": "How to Use the Knee Relief Massager",
@@ -688,6 +675,7 @@
         "testimonial_LntfTE",
         "testimonial_FpiCL3"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "heading_line_1": "Real Users.",
@@ -727,6 +715,7 @@
         "benefit_Lq6DVR",
         "benefit_9ebqfF"
       ],
+      "disabled": true,
       "name": "Pricing CTA",
       "settings": {
         "heading": "Order Today and Get FREE Pairs While Supplies Last",
@@ -788,6 +777,7 @@
         "faq_item_WakN8e",
         "faq_item_NTT8WB"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "heading": "Do You Have a Question? We're Here to Help!",
