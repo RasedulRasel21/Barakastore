@@ -36,14 +36,14 @@
         "heading_EpntJP": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Supporting Your Path to Better Comfort</strong>",
+            "heading": "+300,00 Happy Customers",
             "heading_scale": 120
           }
         },
         "text_XkNcpJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Experience effective solutions designed to ease nerve discomfort, support circulation, and enhance everyday well-being.</p>",
+            "text": "<p><strong>96% of Customers Loved It Enough to Keep It</strong></p>",
             "enlarge_text": false
           }
         }
@@ -57,6 +57,57 @@
         "color_scheme": "main",
         "content_width": 100,
         "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_moving_image_7c3T76": {
+      "type": "d_moving-image",
+      "blocks": {
+        "image_RVLyr9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design__13___1.avif",
+            "link": ""
+          }
+        },
+        "image_WHKT7X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ed8cb28d-139e-403b-8fd8-af506a5f1c1e_jpg.avif",
+            "link": ""
+          }
+        },
+        "image_jxHjyP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design__12___1.avif",
+            "link": ""
+          }
+        },
+        "image_pPGaDx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/thumb-00001_jpg.avif",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RVLyr9",
+        "image_WHKT7X",
+        "image_jxHjyP",
+        "image_pPGaDx"
+      ],
+      "name": "Image marquee",
+      "settings": {
+        "color_scheme": "main",
+        "image_height": 300,
+        "stop_on_hover": true,
+        "moving_direction": "normal",
+        "speed_mult": "1",
+        "stacked_layout": false,
         "pattern": "none",
         "pattern_scale": 100,
         "pattern_animation": "none"
@@ -164,6 +215,7 @@
     "header",
     "main",
     "d_rich_text_NfAdHA",
+    "d_moving_image_7c3T76",
     "testimonials_custom_v2_9BVjYf",
     "instagram_section_design_LVPMaq",
     "trust_badges_v2_e3CF7F"
