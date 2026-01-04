@@ -265,7 +265,8 @@
       "settings": {
         "layout": "image-left",
         "media_type": "video",
-        "video": "https://cdn.shopify.com/videos/c/o/v/b8e3d928a290423ab10177d810290601.mp4",
+        "image": "shopify://shop_images/71YR747-_WL._AC_SL1500.jpg",
+        "video": "",
         "heading": "SOLVED: The Real Reason Behind Your VIBRATION SKIN CARE DEVICE:",
         "background_color": "#ffffff",
         "show_cta": true,
@@ -337,7 +338,7 @@
       "settings": {
         "layout": "image-left",
         "media_type": "image",
-        "image": "shopify://shop_images/Sc9347dc00d0d41e1bff2d64f54978942V_a2f1f675-2e3c-4dad-b71a-029a62d7b588.webp",
+        "image": "shopify://shop_images/7123hUxyMEL._AC_SX679.jpg",
         "video": "https://cdn.shopify.com/videos/c/o/v/4c729df9d3d047b595fffc1941cffb4d.mp4",
         "heading": "Multifunction Facial Skin Rejuvenation Device – Anti-Wrinkle Face Massager & Eye Lift Tool",
         "background_color": "#ffffff",
@@ -558,7 +559,7 @@
       "settings": {
         "layout": "image-right",
         "media_type": "image",
-        "image": "shopify://shop_images/ComfySole__4___1__1.avif",
+        "image": "shopify://shop_images/71VP-o_NGaL._AC_SX679.jpg",
         "video": "",
         "heading": "Imagine a Day Without Knee Pain",
         "background_color": "#ffffff",
