@@ -28,7 +28,7 @@
             <div class="tm-testimonial-card" {{ block.shopify_attributes }}>
               <div class="tm-testimonial-header">
                 {% if block.settings.customer_image %}
-                  <img src="{{ block.settings.customer_image | img_url: 'master', crop: 'center' }}" 
+                  <img src="{{ block.settings.customer_image | img_url: 'master' }}" 
                        alt="{{ block.settings.customer_name }}"
                        class="tm-customer-image">
                 {% else %}
