@@ -287,6 +287,28 @@
         "text_color": "#333333"
       }
     },
+    "trust_badges_v2_TxMwjP": {
+      "type": "trust-badges-v2",
+      "name": "Trust Badges v2",
+      "settings": {
+        "badge_image": "shopify://shop_images/Icons__31.avif",
+        "guarantee_title": "Crafted in an FDA-Certified Facility",
+        "guarantee_description": "At TheBarakaShop, we’re committed to ensuring that every product we create meets the highest standards of quality and safety. That’s why we manufacture our products in an FDA-certified facilities. This certification means our facility complies with strict guidelines set by the U.S. Food and Drug Administration for cleanliness, safety, and quality control.",
+        "learn_more_text": "Learn More",
+        "learn_more_url": "https://thebarakashop.com/pages/about",
+        "shipping_title": "",
+        "shipping_subtitle": "",
+        "icon_doctor": "shopify://shop_images/Group_513053.svg",
+        "doctor_title": "Doctor Endorsed",
+        "doctor_subtitle": "Solutions",
+        "icon_satisfaction": "shopify://shop_images/Group_513032.svg",
+        "satisfaction_title": "Satisfaction",
+        "satisfaction_subtitle": "Guaranteed",
+        "icon_science": "shopify://shop_images/Vector__2.svg",
+        "science_title": "Proven Results,",
+        "science_subtitle": "Backed By Science"
+      }
+    },
     "testimonials_custom_v2_bWKtMq": {
       "type": "testimonials-custom-v2",
       "blocks": {
@@ -361,6 +383,7 @@
     "instagram_section_design_hPdjDP",
     "d_rich_text_bYxVN3",
     "trust_badges_v3_J47RWw",
+    "trust_badges_v2_TxMwjP",
     "testimonials_custom_v2_bWKtMq"
   ]
 }
