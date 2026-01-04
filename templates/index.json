@@ -216,6 +216,37 @@
         "mb_image_04": "shopify://shop_images/V562-A107240800ADE-202508280332-02.jpg"
       }
     },
+    "d_rich_text_bYxVN3": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_8kNXKw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why TheBarakaShop?",
+            "heading_scale": 120
+          }
+        },
+        "text_AWNUma": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TheBarakaShop was born out of a shared passion for <strong>health, wellness, and pain-free living.</strong></p><p>Our vision is clear: to create a brand that empowers people to <strong>overcome neuropathy and nerve pain,</strong> so they can continue leading active and fulfilling lives.</p><p>We believe that <strong>nerve pain, tingling, and numbness shouldn't hold you back.</strong> Everyone deserves access to <strong>high-quality, science-backed solutions </strong>that enhance comfort, mobility, and overall well-being.</p><p>Our story is an ongoing one, marked by<strong> life-changing relief for our customers</strong> and our unwavering commitment to making a <strong>positive impact in the fight against neuropathy and nerve pain.</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8kNXKw",
+        "text_AWNUma"
+      ],
+      "settings": {
+        "color_scheme": "main",
+        "content_width": 100,
+        "text_align": "left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
     "trust_badges_v3_J47RWw": {
       "type": "trust-badges-v3",
       "blocks": {
@@ -341,6 +372,7 @@
     "trust_badges_v2_Wf4qy8",
     "blog_carousel_Wh9Cwx",
     "instagram_section_design_hPdjDP",
+    "d_rich_text_bYxVN3",
     "trust_badges_v3_J47RWw",
     "testimonials_custom_v2_bWKtMq"
   ]
