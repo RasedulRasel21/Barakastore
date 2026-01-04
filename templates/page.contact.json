@@ -35,7 +35,7 @@
           "type": "text",
           "settings": {
             "width": "4",
-            "label": "Nom",
+            "label": "Name",
             "placeholder": "",
             "is_required": false
           }
@@ -53,7 +53,7 @@
           "type": "phone_number",
           "settings": {
             "width": "4",
-            "label": "Numéro de téléphone",
+            "label": "Number",
             "placeholder": "",
             "is_required": false
           }
