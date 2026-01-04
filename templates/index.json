@@ -293,57 +293,46 @@
         "testimonial_GeCxmR": {
           "type": "testimonial",
           "settings": {
-            "customer_name": "Jessica W.",
-            "title": "Great service and amazing product",
-            "content": "Excellent customer service and follow-up. I got exactly what I needed and..."
+            "customer_image": "shopify://shop_images/f78c43c7e4ad7ce876b5515e708015ed.avif",
+            "customer_name": "Mark H.",
+            "title": "This knee massager has changed my life",
+            "content": "I purchased the Norelie knee massager and use it twice daily for 15 minutes..."
           }
         },
         "testimonial_rnkzTh": {
           "type": "testimonial",
           "settings": {
-            "customer_name": "Mark H.",
-            "title": "This knee massager has changed my life",
-            "content": "I purchased the Barakashop knee massager and use it twice daily for 15 minutes..."
+            "customer_image": "shopify://shop_images/b7c4624f-84ea-48bf-946c-b6d1bb3e3aa8-Dennis_Davoren_picture.avif",
+            "customer_name": "Ray S.",
+            "title": "At first, I was skeptical",
+            "content": "At first, I wasn't sure if it would work, but after consistent use, I’ve seen incredible results..."
           }
         },
         "testimonial_GAKeV6": {
           "type": "testimonial",
           "settings": {
-            "customer_name": "Mark H.",
-            "title": "This knee massager has changed my life",
-            "content": "I purchased the Barakashop knee massager and use it twice daily for 15 minutes..."
+            "customer_image": "shopify://shop_images/Untitled_design__15.avif",
+            "customer_name": "Emily R.",
+            "title": "Norelie keeps innovating",
+            "content": "Norelie continues to impress with its product range! I’ve used a few different items, and the results..."
           }
         },
         "testimonial_b3TMAT": {
           "type": "testimonial",
           "settings": {
-            "customer_name": "Ray S.",
-            "title": "At first, I was skeptical",
-            "content": "At first, I wasn't sure if it would work, but after consistent use, I've seen incredible results..."
+            "customer_image": "shopify://shop_images/Sarah.avif",
+            "customer_name": "Sarah L.",
+            "title": "Amazing relief for my feet and calves",
+            "content": "I’ve been using the Norelie foot and calf massager for a few weeks, and it’s..."
           }
         },
         "testimonial_CTtYKU": {
           "type": "testimonial",
           "settings": {
-            "customer_name": "Ray S.",
-            "title": "At first, I was skeptical",
-            "content": "At first, I wasn't sure if it would work, but after consistent use, I've seen incredible results..."
-          }
-        },
-        "testimonial_YgNiBb": {
-          "type": "testimonial",
-          "settings": {
-            "customer_name": "Emily R.",
-            "title": "Norelie keeps innovating",
-            "content": "Barakashop continues to impress with its product range! I've used a few different items, and the results..."
-          }
-        },
-        "testimonial_mmBYqi": {
-          "type": "testimonial",
-          "settings": {
-            "customer_name": "Emily R.",
-            "title": "Norelie keeps innovating",
-            "content": "Barakashop continues to impress with its product range! I've used a few different items, and the results..."
+            "customer_image": "shopify://shop_images/Untitled_design_-_2025-02-20T122038.972.avif",
+            "customer_name": "Jessica W.",
+            "title": "Great service and amazing product",
+            "content": "Excellent customer service and follow-up. I got exactly what I needed and..."
           }
         }
       },
@@ -352,9 +341,7 @@
         "testimonial_rnkzTh",
         "testimonial_GAKeV6",
         "testimonial_b3TMAT",
-        "testimonial_CTtYKU",
-        "testimonial_YgNiBb",
-        "testimonial_mmBYqi"
+        "testimonial_CTtYKU"
       ],
       "name": "Testimonials v2",
       "settings": {
