@@ -62,7 +62,7 @@
       ],
       "settings": {
         "enable_sticky_header": true,
-        "layout": "default",
+        "layout": "center_nav",
         "toolbar": "only_icons",
         "search_as_icon": true,
         "logo": "shopify://shop_images/Artboard_8_copy.svg",
