@@ -36,14 +36,14 @@
         "heading_EpntJP": {
           "type": "heading",
           "settings": {
-            "heading": "About Us",
+            "heading": "<strong>Supporting Your Path to Better Comfort</strong>",
             "heading_scale": 120
           }
         },
         "text_XkNcpJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to BarakaStore, where innovation meets style. We are passionate about carefully selecting products that enhance your daily life, from cutting-edge tech accessories to premium lifestyle essentials.</p>",
+            "text": "<p>Experience effective solutions designed to ease nerve discomfort, support circulation, and enhance everyday well-being.</p>",
             "enlarge_text": false
           }
         }
@@ -54,7 +54,7 @@
       ],
       "name": "Rich text",
       "settings": {
-        "color_scheme": "scheme-27e1e1b8-7c17-4f87-a38d-34818dc4fad6",
+        "color_scheme": "main",
         "content_width": 100,
         "text_align": "center",
         "pattern": "none",
@@ -68,14 +68,14 @@
         "heading_bh4nt9": {
           "type": "heading",
           "settings": {
-            "heading": "Our Story",
+            "heading": "The Story Behind BarakaShop",
             "heading_scale": 120
           }
         },
         "text_73d3kc": {
           "type": "text",
           "settings": {
-            "text": "<p>Founded with the vision of making quality products accessible to everyone, BarakaStore has grown from a small online shop to a trusted name in e-commerce. We believe everyone deserves access to products that combine functionality, durability, and style without breaking the bank.</p>",
+            "text": "<p>BarakaShop was created with a simple mission: to help people live more comfortably without being held back by nerve pain or neuropathy. We were inspired by real experiences—watching friends and family struggle with numbness, tingling, and ongoing discomfort that affected their movement, sleep, and everyday independence.</p><p></p><p>Motivated to offer a better solution, we focused on developing evidence-based products designed to support nerve health, enhance circulation, and promote natural relief—without relying on surgery or medication. Today, BarakaShop is proud to support individuals on their journey toward improved comfort, mobility, and confidence, helping them move through life with greater ease.</p>",
             "enlarge_text": false
           }
         }
@@ -86,9 +86,9 @@
       ],
       "name": "Image with text",
       "settings": {
-        "color_scheme": "scheme-27e1e1b8-7c17-4f87-a38d-34818dc4fad6",
+        "color_scheme": "main",
         "section_layout": "container",
-        "image": "shopify://shop_images/New-Wireless-Lavalier-Microphone-Portable-Audio-Video-Recording-Mini-Mic-for-iPhone-Android-Live-Broadcast-Gaming_e2b4f0ce-96ec-4628-b5bd-800f9b93a031.webp",
+        "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
         "image_size": "origin",
         "mobile_image_size": "origin",
         "image_width": 50,
@@ -99,33 +99,38 @@
         "pattern_animation": "none"
       }
     },
-    "d_rich_text_yddHFD": {
-      "type": "d_rich-text",
+    "d_image_with_text_UBiFbL": {
+      "type": "d_image-with-text",
       "blocks": {
-        "heading_H9tgX4": {
+        "heading_mMXKj9": {
           "type": "heading",
           "settings": {
-            "heading": "What We Offer",
+            "heading": "Our Mission: Comfort Without Compromise",
             "heading_scale": 120
           }
         },
-        "text_PfWWEB": {
+        "text_DXkBLr": {
           "type": "text",
           "settings": {
-            "text": "<p>Our diverse catalog includes:</p><ul><li><strong>Tech Accessories</strong> : From wireless microphones and projectors to gaming peripherals, we offer the latest technology to keep you connected and entertained.</li><li><strong>Laptop Bags & Briefcases</strong> : Professional and stylish carrying solutions for modern professionals and students.</li><li><strong>Premium Accessories</strong> : Carefully curated items that bring convenience and elegance to your daily life.</li></ul><h3>Our Promise</h3><p><strong>Quality First</strong> : Every product in our store is checked for quality and performance. We work with reliable manufacturers to ensure you receive items that meet our high standards.</p><p><strong>Customer Satisfaction</strong> : Your happiness is our priority. We offer responsive customer support, secure shopping, and hassle-free returns.</p><p><strong>Competitive Prices</strong> : We believe excellent products shouldn't cost a fortune. Our operational efficiency allows us to offer competitive prices without compromising quality.</p><p><strong>Fast Delivery</strong> : We understand your excitement about your purchase. That's why we work hard to process and ship orders quickly.</p><h3>Why Choose BarakaStore?</h3><ul><li>Curated selection of trending products</li><li>Secure payment processing</li><li>Responsive customer service team</li><li>Special offers and regular promotions</li><li>Easy returns and exchanges</li></ul><h3>Contact Us</h3><p>Have questions or suggestions? We'd love to hear from you. Visit our <a href=\"https://barakastore25.myshopify.com/pages/about#\">Contact</a> page to reach our friendly support team.</p><p>Thank you for choosing BarakaStore. We're excited to be part of your shopping journey!</p>",
+            "text": "<p>We understand how nerve discomfort and neuropathy can affect daily movement, sleep, and overall quality of life. That’s why our mission is centered on delivering proven, research-driven solutions that support relief—without relying on medication or invasive procedures. </p><p>We’re committed to helping people move, live, and feel better every day. Our innovative nerve-support technology is designed to improve circulation, ease discomfort, and encourage long-term wellness—so you can return to the activities that matter most to you.</p>",
             "enlarge_text": false
           }
         }
       },
       "block_order": [
-        "heading_H9tgX4",
-        "text_PfWWEB"
+        "heading_mMXKj9",
+        "text_DXkBLr"
       ],
-      "name": "Rich text",
+      "name": "Image with text",
       "settings": {
-        "color_scheme": "scheme-27e1e1b8-7c17-4f87-a38d-34818dc4fad6",
-        "content_width": 100,
-        "text_align": "left",
+        "color_scheme": "main",
+        "section_layout": "container",
+        "image": "shopify://shop_images/bf766aac-b91b-48dc-9570-c6ecaea994a9.webp",
+        "image_size": "origin",
+        "mobile_image_size": "origin",
+        "image_width": 50,
+        "image_position": "right",
+        "text_position": "center-left",
         "pattern": "none",
         "pattern_scale": 100,
         "pattern_animation": "none"
@@ -137,6 +142,6 @@
     "main",
     "d_rich_text_NfAdHA",
     "d_image_with_text_gFbKWN",
-    "d_rich_text_yddHFD"
+    "d_image_with_text_UBiFbL"
   ]
 }
