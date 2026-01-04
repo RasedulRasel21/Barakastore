@@ -96,7 +96,7 @@
     "product_card_badge_sold_out": false,
     "product_card_review_counter": false,
     "product_card_rating_position": "media",
-    "product_card_compare": true,
+    "product_card_compare": false,
     "product_price_variable_display": "min",
     "show_breadcrumb_nav": false,
     "patterns_animation_speed_mult": "1",
