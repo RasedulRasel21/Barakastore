@@ -152,6 +152,29 @@
         "logo_5_alt": "Digital Journal",
         "tagline_5": "Recommended by health experts"
       }
+    },
+    "trust_badges_v2_e3CF7F": {
+      "type": "trust-badges-v2",
+      "name": "Trust Badges v2",
+      "settings": {
+        "badge_image": "shopify://shop_images/Group_513272_3000x3000_ea208e53-c2e9-46e1-a769-d47748ba9ec1.png",
+        "guarantee_title": "90-Day Money-Back Guarantee",
+        "guarantee_description": "We're confident you'll love your results. If not, contact our team during your risk-free trial and we'll handle the rest!",
+        "learn_more_text": "Learn More",
+        "learn_more_url": "https://thebarakashop.com/pages/about",
+        "icon_shipping": "shopify://shop_images/Group.svg",
+        "shipping_title": "Free & Fast",
+        "shipping_subtitle": "Shipping",
+        "icon_doctor": "shopify://shop_images/Group_513053.svg",
+        "doctor_title": "Doctor Endorsed",
+        "doctor_subtitle": "Solutions",
+        "icon_satisfaction": "shopify://shop_images/Group_513032.svg",
+        "satisfaction_title": "Satisfaction",
+        "satisfaction_subtitle": "Guaranteed",
+        "icon_science": "shopify://shop_images/Vector__2.svg",
+        "science_title": "Proven Results,",
+        "science_subtitle": "Backed By Science"
+      }
     }
   },
   "order": [
@@ -160,6 +183,7 @@
     "d_rich_text_NfAdHA",
     "d_image_with_text_gFbKWN",
     "d_image_with_text_UBiFbL",
+    "trust_badges_v2_e3CF7F",
     "logo_slider_4GyXeU"
   ]
 }
