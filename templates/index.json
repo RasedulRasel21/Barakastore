@@ -289,6 +289,9 @@
     },
     "trust_badges_v2_TxMwjP": {
       "type": "trust-badges-v2",
+      "custom_css": [
+        ".trust-features {display: none;}"
+      ],
       "name": "Trust Badges v2",
       "settings": {
         "badge_image": "shopify://shop_images/Icons__31.avif",
