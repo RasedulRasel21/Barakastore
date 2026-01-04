@@ -273,19 +273,19 @@
         "paragraph_QXFXx4": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "SYSTÈME DE SANGLE X-FIT : Les sangles Velcro supérieures et inférieures sont hautement réglables, ce qui assure un ajustement parfait de l’arrière vers l’avant et offre une stabilité maximale à votre jambe."
+            "paragraph": "X-FIT Strap System:\nThe adjustable upper and lower Velcro straps ensure a secure, customized fit from back to front, delivering maximum stability and reliable support for your leg."
           }
         },
         "paragraph_7fJHcU": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Un coussinet en gel anatomique entoure votre rotule. Ce design ingénieux protège votre rotule des blessures potentielles et évite une pression excessive sur celle-ci. Il est spécialement conçu pour les personnes souffrant de douleurs à la rotule ou de lésions articulaires."
+            "paragraph": "Anatomical Gel Pad:\nA specially designed gel pad surrounds the kneecap, helping protect it from potential impact while reducing excessive pressure. This smart design is ideal for individuals experiencing patellar pain or joint-related injuries."
           }
         },
         "paragraph_kgGUHm": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "Conception à dos ouvert : contrairement aux produits similaires, l’arrière de la genouillère est conçu pour une bonne aération. Le tissu ne comprime pas le creux poplité pendant l’effort et la transpiration ne s’accumule pas. Pour une sensation de confort optimal pendant l’entraînement !"
+            "paragraph": "Open-Back Design:\nUnlike conventional knee braces, the open-back construction promotes airflow and prevents pressure behind the knee. The breathable fabric reduces heat and moisture buildup, ensuring superior comfort during exercise and extended wear."
           }
         }
       },
@@ -300,7 +300,7 @@
         "media_type": "video",
         "image": "shopify://shop_images/Screenshot_8.png",
         "video": "https://cdn.shopify.com/videos/c/o/v/6b09e6446100445999b51d9df4707008.mp4",
-        "heading": "Présentation : genouillère :",
+        "heading": "Knee Brace Overview",
         "background_color": "#ffffff",
         "show_cta": true,
         "cta_text": "Add to cart",
