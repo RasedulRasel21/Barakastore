@@ -1,0 +1,247 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "s_page-header",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "250px",
+        "mobile_image_size": "250px",
+        "bg_image_overlay": 30,
+        "text_position": "inside",
+        "custom_text": "",
+        "text_content_width": 50
+      }
+    },
+    "main": {
+      "type": "s_page",
+      "disabled": true,
+      "settings": {
+        "content_width": 80,
+        "font_scale": 100
+      }
+    },
+    "d_rich_text_NfAdHA": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_EpntJP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Supporting Your Path to Better Comfort</strong>",
+            "heading_scale": 120
+          }
+        },
+        "text_XkNcpJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience effective solutions designed to ease nerve discomfort, support circulation, and enhance everyday well-being.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EpntJP",
+        "text_XkNcpJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "color_scheme": "main",
+        "content_width": 100,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_image_with_text_gFbKWN": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "heading_bh4nt9": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Story Behind BarakaShop",
+            "heading_scale": 120
+          }
+        },
+        "text_73d3kc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BarakaShop was created with a simple mission: to help people live more comfortably without being held back by nerve pain or neuropathy. We were inspired by real experiences—watching friends and family struggle with numbness, tingling, and ongoing discomfort that affected their movement, sleep, and everyday independence.</p><p></p><p>Motivated to offer a better solution, we focused on developing evidence-based products designed to support nerve health, enhance circulation, and promote natural relief—without relying on surgery or medication. Today, BarakaShop is proud to support individuals on their journey toward improved comfort, mobility, and confidence, helping them move through life with greater ease.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bh4nt9",
+        "text_73d3kc"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "color_scheme": "main",
+        "section_layout": "container",
+        "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
+        "image_size": "origin",
+        "mobile_image_size": "origin",
+        "image_width": 50,
+        "image_position": "left",
+        "text_position": "center-left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_image_with_text_UBiFbL": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "heading_mMXKj9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission: Comfort Without Compromise",
+            "heading_scale": 120
+          }
+        },
+        "text_DXkBLr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We understand how nerve discomfort and neuropathy can affect daily movement, sleep, and overall quality of life. That’s why our mission is centered on delivering proven, research-driven solutions that support relief—without relying on medication or invasive procedures. </p><p>We’re committed to helping people move, live, and feel better every day. Our innovative nerve-support technology is designed to improve circulation, ease discomfort, and encourage long-term wellness—so you can return to the activities that matter most to you.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mMXKj9",
+        "text_DXkBLr"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "color_scheme": "main",
+        "section_layout": "container",
+        "image": "shopify://shop_images/bf766aac-b91b-48dc-9570-c6ecaea994a9.webp",
+        "image_size": "origin",
+        "mobile_image_size": "origin",
+        "image_width": 50,
+        "image_position": "right",
+        "text_position": "center-left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "trust_badges_v2_e3CF7F": {
+      "type": "trust-badges-v2",
+      "name": "Trust Badges v2",
+      "settings": {
+        "badge_image": "shopify://shop_images/Group_513272_3000x3000_ea208e53-c2e9-46e1-a769-d47748ba9ec1.png",
+        "guarantee_title": "90-Day Money-Back Guarantee",
+        "guarantee_description": "We're confident you'll love your results. If not, contact our team during your risk-free trial and we'll handle the rest!",
+        "learn_more_text": "Learn More",
+        "learn_more_url": "https://thebarakashop.com/pages/about",
+        "icon_shipping": "shopify://shop_images/Group.svg",
+        "shipping_title": "Free & Fast",
+        "shipping_subtitle": "Shipping",
+        "icon_doctor": "shopify://shop_images/Group_513053.svg",
+        "doctor_title": "Doctor Endorsed",
+        "doctor_subtitle": "Solutions",
+        "icon_satisfaction": "shopify://shop_images/Group_513032.svg",
+        "satisfaction_title": "Satisfaction",
+        "satisfaction_subtitle": "Guaranteed",
+        "icon_science": "shopify://shop_images/Vector__2.svg",
+        "science_title": "Proven Results,",
+        "science_subtitle": "Backed By Science"
+      }
+    },
+    "blog_carousel_Mt4wxr": {
+      "type": "blog-carousel",
+      "name": "Blog Carousel",
+      "settings": {
+        "heading": "Latest from the blog",
+        "subheading": "Explore insightful content that keeps you ahead of the curve and connected to the pulse of what's happening.",
+        "blog": "news",
+        "articles_to_show": 6,
+        "button_text": "Read more"
+      }
+    },
+    "testimonials_custom_v2_9BVjYf": {
+      "type": "testimonials-custom-v2",
+      "blocks": {
+        "testimonial_FaGHVH": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/f78c43c7e4ad7ce876b5515e708015ed.avif",
+            "customer_name": "Mark H.",
+            "title": "This knee massager has changed my life",
+            "content": "I purchased the Norelie knee massager and use it twice daily for 15 minutes..."
+          }
+        },
+        "testimonial_GkXDhn": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/b7c4624f-84ea-48bf-946c-b6d1bb3e3aa8-Dennis_Davoren_picture.avif",
+            "customer_name": "Ray S.",
+            "title": "At first, I was skeptical",
+            "content": "At first, I wasn't sure if it would work, but after consistent use, I’ve seen incredible results..."
+          }
+        },
+        "testimonial_R9gcgq": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/Untitled_design__15.avif",
+            "customer_name": "Emily R.",
+            "title": "Norelie keeps innovating",
+            "content": "Norelie continues to impress with its product range! I’ve used a few different items, and the results..."
+          }
+        },
+        "testimonial_fXwLft": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/Sarah.avif",
+            "customer_name": "Sarah L.",
+            "title": "Amazing relief for my feet and calves",
+            "content": "I’ve been using the Norelie foot and calf massager for a few weeks, and it’s..."
+          }
+        },
+        "testimonial_4fygj3": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/Untitled_design_-_2025-02-20T122038.972.avif",
+            "customer_name": "Jessica W.",
+            "title": "Great service and amazing product",
+            "content": "Excellent customer service and follow-up. I got exactly what I needed and..."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_FaGHVH",
+        "testimonial_GkXDhn",
+        "testimonial_R9gcgq",
+        "testimonial_fXwLft",
+        "testimonial_4fygj3"
+      ],
+      "name": "Testimonials v2",
+      "settings": {
+        "heading": "Don't Just take our word for it",
+        "rating_title": "Excellent",
+        "review_count": "4,324 reviews"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "main",
+    "d_rich_text_NfAdHA",
+    "d_image_with_text_gFbKWN",
+    "d_image_with_text_UBiFbL",
+    "trust_badges_v2_e3CF7F",
+    "blog_carousel_Mt4wxr",
+    "testimonials_custom_v2_9BVjYf"
+  ]
+}
