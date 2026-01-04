@@ -234,51 +234,23 @@
         "icon_color": "#2d9ca5"
       }
     },
-    "problem_solution_custom_Mi4NhL": {
-      "type": "problem-solution-custom",
-      "blocks": {
-        "paragraph_43QrBB": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Period pain and lower back discomfort aren’t just something you have to “live with” — they’re often caused by muscle tension and poor blood circulation in the waist area. During menstruation, muscles tighten and blood flow slows down, which leads to cramps, stiffness, and deep aching pain."
-          }
-        },
-        "paragraph_WTpCzk": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "This condition worsens when you sit for long hours or avoid movement due to discomfort. Without proper warmth and circulation, the muscles stay tense, and pain keeps coming back stronger."
-          }
-        },
-        "paragraph_8cn8JX": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "That’s where heat and targeted massage make the real difference. Gentle hot compress therapy helps relax tight muscles, improve blood flow, and naturally ease cramps from the inside out. When combined with rhythmic massage, it supports the waist muscles and provides lasting comfort — even during the most painful days."
-          }
-        },
-        "paragraph_9FPgzh": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Instead of relying only on painkillers, restoring warmth, movement, and support to your waist is the key to real relief."
-          }
-        }
-      },
-      "block_order": [
-        "paragraph_43QrBB",
-        "paragraph_WTpCzk",
-        "paragraph_8cn8JX",
-        "paragraph_9FPgzh"
-      ],
-      "name": "Problem Solution",
+    "d_hero_image_WtR4Y6": {
+      "type": "d_hero-image",
+      "name": "Hero image",
       "settings": {
-        "layout": "image-left",
-        "media_type": "image",
-        "image": "shopify://shop_images/2236042781_max.jpg",
-        "video": "https://cdn.shopify.com/videos/c/o/v/b6cd674023d2481a96048590f72d07c8.mp4",
-        "heading": "SOLVED: The Real Reason Behind Your Period & Lower Back Pain",
-        "background_color": "#ffffff",
-        "show_cta": true,
-        "cta_text": "Add to cart",
-        "product": "hot-compress-waist-massager-for-period-pain-relief-navy-blue"
+        "color_scheme": "",
+        "section_layout": "full",
+        "image": "shopify://shop_images/4069ce77-7022-4271-9ab6-2bff1756bc98.__CR0_0_1464_600_PT0_SX1464_V1.jpg",
+        "image_size": "origin",
+        "mobile_image_size": "origin",
+        "overlay": 0,
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_opacity": 65,
+        "pattern_animation": "none",
+        "use_box": false,
+        "text_position": "center-center",
+        "mobile_offset": false
       }
     },
     "problem_solution_custom_RPtgz4": {
@@ -834,13 +806,33 @@
         "subtitle": "Our promise to you:",
         "background_color": "#ffffff"
       }
+    },
+    "d_hero_image_GA3qPr": {
+      "type": "d_hero-image",
+      "name": "Hero image",
+      "settings": {
+        "color_scheme": "",
+        "section_layout": "full",
+        "image": "shopify://shop_images/921cb29d-6be3-4b9e-a8fc-fdd98d539fb6.__CR0_0_1464_600_PT0_SX1464_V1.jpg",
+        "image_size": "origin",
+        "mobile_image_size": "origin",
+        "overlay": 0,
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_opacity": 65,
+        "pattern_animation": "none",
+        "use_box": false,
+        "text_position": "center-center",
+        "mobile_offset": false
+      }
     }
   },
   "order": [
     "main",
     "trust_badges_custom_BTMF4B",
-    "problem_solution_custom_Mi4NhL",
+    "d_hero_image_WtR4Y6",
     "problem_solution_custom_RPtgz4",
+    "d_hero_image_GA3qPr",
     "problem_solution_custom_DitJHK",
     "doctor_recommended_hKebFa",
     "how_it_works_7gg6MM",
