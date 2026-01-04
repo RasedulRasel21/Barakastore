@@ -9,8 +9,7 @@
         <div class="tm-trustpilot-badge">
           <h3 class="tm-rating-title">{{ section.settings.rating_title }}</h3>
           <div class="tm-stars">
-            <img src="https://cdn.shopify.com/s/files/1/0964/4186/0471/files/Frame_64.avif?v=1767504400" alt="">
-            
+            <img  class="tm-stars-tp" src="https://cdn.shopify.com/s/files/1/0964/4186/0471/files/Frame_64.avif?v=1767504400" alt="">
           </div>
           <p class="tm-review-count">Based on <strong>{{ section.settings.review_count }}</strong></p>
         </div>
@@ -38,7 +37,7 @@
                   </div>
                 {% endif %}
                 <div class="tm-stars">
-                  <img src="https://cdn.shopify.com/s/files/1/0964/4186/0471/files/Frame_64.avif?v=1767504400" alt="">
+                  <img class="tm-stars-tp" src="https://cdn.shopify.com/s/files/1/0964/4186/0471/files/Frame_64.avif?v=1767504400" alt="">
                 </div>
               </div>
               <h4 class="tm-testimonial-title">{{ block.settings.title }}</h4>
@@ -115,7 +114,7 @@
   margin-bottom: 12px;
 }
 
-.tm-star img{
+.tm-stars-tp{
   max-width: 160px;
 }
 
