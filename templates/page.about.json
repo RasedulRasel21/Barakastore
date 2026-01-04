@@ -136,23 +136,6 @@
         "pattern_animation": "none"
       }
     },
-    "logo_slider_4GyXeU": {
-      "type": "logo-slider",
-      "name": "As Seen On - Rotating",
-      "settings": {
-        "section_title": "As Seen On",
-        "logo_1_alt": "The Good Men Project",
-        "tagline_1": "Helping Americans 50+ live pain-free again",
-        "logo_2_alt": "TechBullion",
-        "tagline_2": "Founded on love, science, and results",
-        "logo_3_alt": "USA TODAY",
-        "tagline_3": "Trusted by thousands nationwide",
-        "logo_4_alt": "Woman's World",
-        "tagline_4": "Science-backed wellness solutions",
-        "logo_5_alt": "Digital Journal",
-        "tagline_5": "Recommended by health experts"
-      }
-    },
     "trust_badges_v2_e3CF7F": {
       "type": "trust-badges-v2",
       "name": "Trust Badges v2",
@@ -175,6 +158,80 @@
         "science_title": "Proven Results,",
         "science_subtitle": "Backed By Science"
       }
+    },
+    "blog_carousel_Mt4wxr": {
+      "type": "blog-carousel",
+      "name": "Blog Carousel",
+      "settings": {
+        "heading": "Latest from the blog",
+        "subheading": "Explore insightful content that keeps you ahead of the curve and connected to the pulse of what's happening.",
+        "blog": "news",
+        "articles_to_show": 6,
+        "button_text": "Read more"
+      }
+    },
+    "testimonials_custom_v2_9BVjYf": {
+      "type": "testimonials-custom-v2",
+      "blocks": {
+        "testimonial_FaGHVH": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/f78c43c7e4ad7ce876b5515e708015ed.avif",
+            "customer_name": "Mark H.",
+            "title": "This knee massager has changed my life",
+            "content": "I purchased the Norelie knee massager and use it twice daily for 15 minutes..."
+          }
+        },
+        "testimonial_GkXDhn": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/b7c4624f-84ea-48bf-946c-b6d1bb3e3aa8-Dennis_Davoren_picture.avif",
+            "customer_name": "Ray S.",
+            "title": "At first, I was skeptical",
+            "content": "At first, I wasn't sure if it would work, but after consistent use, I’ve seen incredible results..."
+          }
+        },
+        "testimonial_R9gcgq": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/Untitled_design__15.avif",
+            "customer_name": "Emily R.",
+            "title": "Norelie keeps innovating",
+            "content": "Norelie continues to impress with its product range! I’ve used a few different items, and the results..."
+          }
+        },
+        "testimonial_fXwLft": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/Sarah.avif",
+            "customer_name": "Sarah L.",
+            "title": "Amazing relief for my feet and calves",
+            "content": "I’ve been using the Norelie foot and calf massager for a few weeks, and it’s..."
+          }
+        },
+        "testimonial_4fygj3": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify://shop_images/Untitled_design_-_2025-02-20T122038.972.avif",
+            "customer_name": "Jessica W.",
+            "title": "Great service and amazing product",
+            "content": "Excellent customer service and follow-up. I got exactly what I needed and..."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_FaGHVH",
+        "testimonial_GkXDhn",
+        "testimonial_R9gcgq",
+        "testimonial_fXwLft",
+        "testimonial_4fygj3"
+      ],
+      "name": "Testimonials v2",
+      "settings": {
+        "heading": "Don't Just take our word for it",
+        "rating_title": "Excellent",
+        "review_count": "4,324 reviews"
+      }
     }
   },
   "order": [
@@ -184,6 +241,7 @@
     "d_image_with_text_gFbKWN",
     "d_image_with_text_UBiFbL",
     "trust_badges_v2_e3CF7F",
-    "logo_slider_4GyXeU"
+    "blog_carousel_Mt4wxr",
+    "testimonials_custom_v2_9BVjYf"
   ]
 }
