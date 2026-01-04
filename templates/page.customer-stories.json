@@ -62,114 +62,6 @@
         "pattern_animation": "none"
       }
     },
-    "d_image_with_text_gFbKWN": {
-      "type": "d_image-with-text",
-      "blocks": {
-        "heading_bh4nt9": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Story Behind BarakaShop",
-            "heading_scale": 120
-          }
-        },
-        "text_73d3kc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>BarakaShop was created with a simple mission: to help people live more comfortably without being held back by nerve pain or neuropathy. We were inspired by real experiences—watching friends and family struggle with numbness, tingling, and ongoing discomfort that affected their movement, sleep, and everyday independence.</p><p></p><p>Motivated to offer a better solution, we focused on developing evidence-based products designed to support nerve health, enhance circulation, and promote natural relief—without relying on surgery or medication. Today, BarakaShop is proud to support individuals on their journey toward improved comfort, mobility, and confidence, helping them move through life with greater ease.</p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_bh4nt9",
-        "text_73d3kc"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "color_scheme": "main",
-        "section_layout": "container",
-        "image": "shopify://shop_images/KneeRelief2__1__1_1.jpg",
-        "image_size": "origin",
-        "mobile_image_size": "origin",
-        "image_width": 50,
-        "image_position": "left",
-        "text_position": "center-left",
-        "pattern": "none",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
-      }
-    },
-    "d_image_with_text_UBiFbL": {
-      "type": "d_image-with-text",
-      "blocks": {
-        "heading_mMXKj9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Mission: Comfort Without Compromise",
-            "heading_scale": 120
-          }
-        },
-        "text_DXkBLr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We understand how nerve discomfort and neuropathy can affect daily movement, sleep, and overall quality of life. That’s why our mission is centered on delivering proven, research-driven solutions that support relief—without relying on medication or invasive procedures. </p><p>We’re committed to helping people move, live, and feel better every day. Our innovative nerve-support technology is designed to improve circulation, ease discomfort, and encourage long-term wellness—so you can return to the activities that matter most to you.</p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_mMXKj9",
-        "text_DXkBLr"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "color_scheme": "main",
-        "section_layout": "container",
-        "image": "shopify://shop_images/bf766aac-b91b-48dc-9570-c6ecaea994a9.webp",
-        "image_size": "origin",
-        "mobile_image_size": "origin",
-        "image_width": 50,
-        "image_position": "right",
-        "text_position": "center-left",
-        "pattern": "none",
-        "pattern_scale": 100,
-        "pattern_animation": "none"
-      }
-    },
-    "trust_badges_v2_e3CF7F": {
-      "type": "trust-badges-v2",
-      "name": "Trust Badges v2",
-      "settings": {
-        "badge_image": "shopify://shop_images/Group_513272_3000x3000_ea208e53-c2e9-46e1-a769-d47748ba9ec1.png",
-        "guarantee_title": "90-Day Money-Back Guarantee",
-        "guarantee_description": "We're confident you'll love your results. If not, contact our team during your risk-free trial and we'll handle the rest!",
-        "learn_more_text": "Learn More",
-        "learn_more_url": "https://thebarakashop.com/pages/about",
-        "icon_shipping": "shopify://shop_images/Group.svg",
-        "shipping_title": "Free & Fast",
-        "shipping_subtitle": "Shipping",
-        "icon_doctor": "shopify://shop_images/Group_513053.svg",
-        "doctor_title": "Doctor Endorsed",
-        "doctor_subtitle": "Solutions",
-        "icon_satisfaction": "shopify://shop_images/Group_513032.svg",
-        "satisfaction_title": "Satisfaction",
-        "satisfaction_subtitle": "Guaranteed",
-        "icon_science": "shopify://shop_images/Vector__2.svg",
-        "science_title": "Proven Results,",
-        "science_subtitle": "Backed By Science"
-      }
-    },
-    "blog_carousel_Mt4wxr": {
-      "type": "blog-carousel",
-      "name": "Blog Carousel",
-      "settings": {
-        "heading": "Latest from the blog",
-        "subheading": "Explore insightful content that keeps you ahead of the curve and connected to the pulse of what's happening.",
-        "blog": "news",
-        "articles_to_show": 6,
-        "button_text": "Read more"
-      }
-    },
     "testimonials_custom_v2_9BVjYf": {
       "type": "testimonials-custom-v2",
       "blocks": {
@@ -232,16 +124,48 @@
         "rating_title": "Excellent",
         "review_count": "4,324 reviews"
       }
+    },
+    "instagram_section_design_LVPMaq": {
+      "type": "instagram-section-design",
+      "name": "Cus Instagram Design",
+      "settings": {
+        "image_02": "shopify://shop_images/D_NQ_NP_2X_822804-MLB78550134500_082024-F.webp",
+        "image_03": "shopify://shop_images/2-510x510.webp",
+        "image_08": "shopify://shop_images/1398626_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
+        "mb_image_01": "shopify://shop_images/1398626_electric-scalp-massager-handheld-2-speeds-vibrating-head-massager-with-96-silicone-waterproof-mini-e.webp",
+        "mb_image_04": "shopify://shop_images/V562-A107240800ADE-202508280332-02.jpg"
+      }
+    },
+    "trust_badges_v2_e3CF7F": {
+      "type": "trust-badges-v2",
+      "name": "Trust Badges v2",
+      "settings": {
+        "badge_image": "shopify://shop_images/Group_513272_3000x3000_ea208e53-c2e9-46e1-a769-d47748ba9ec1.png",
+        "guarantee_title": "90-Day Money-Back Guarantee",
+        "guarantee_description": "We're confident you'll love your results. If not, contact our team during your risk-free trial and we'll handle the rest!",
+        "learn_more_text": "Learn More",
+        "learn_more_url": "https://thebarakashop.com/pages/about",
+        "icon_shipping": "shopify://shop_images/Group.svg",
+        "shipping_title": "Free & Fast",
+        "shipping_subtitle": "Shipping",
+        "icon_doctor": "shopify://shop_images/Group_513053.svg",
+        "doctor_title": "Doctor Endorsed",
+        "doctor_subtitle": "Solutions",
+        "icon_satisfaction": "shopify://shop_images/Group_513032.svg",
+        "satisfaction_title": "Satisfaction",
+        "satisfaction_subtitle": "Guaranteed",
+        "icon_science": "shopify://shop_images/Vector__2.svg",
+        "science_title": "Proven Results,",
+        "science_subtitle": "Backed By Science"
+      }
     }
   },
   "order": [
     "header",
     "main",
     "d_rich_text_NfAdHA",
-    "d_image_with_text_gFbKWN",
-    "d_image_with_text_UBiFbL",
-    "trust_badges_v2_e3CF7F",
-    "blog_carousel_Mt4wxr",
-    "testimonials_custom_v2_9BVjYf"
+    "testimonials_custom_v2_9BVjYf",
+    "instagram_section_design_LVPMaq",
+    "trust_badges_v2_e3CF7F"
   ]
 }
