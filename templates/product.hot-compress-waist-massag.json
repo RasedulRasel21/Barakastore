@@ -222,11 +222,7 @@
           }
         }
       },
-      "block_order": [
-        "badge_yCpFrm",
-        "badge_nk7WC9",
-        "badge_RAjFrz"
-      ],
+      "block_order": ["badge_yCpFrm", "badge_nk7WC9", "badge_RAjFrz"],
       "name": "Trust Badges",
       "settings": {
         "heading": "Over 50,000 Satisfied Customers",
@@ -309,10 +305,7 @@
           }
         }
       },
-      "block_order": [
-        "paragraph_m8n6gY",
-        "paragraph_KFgBWt"
-      ],
+      "block_order": ["paragraph_m8n6gY", "paragraph_KFgBWt"],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-left",
@@ -376,11 +369,7 @@
           }
         }
       },
-      "block_order": [
-        "step_3GYRET",
-        "step_AG69wg",
-        "step_EKptEd"
-      ],
+      "block_order": ["step_3GYRET", "step_AG69wg", "step_EKptEd"],
       "disabled": true,
       "name": "How It Works",
       "settings": {
@@ -483,7 +472,7 @@
       "name": "Comparison Table",
       "settings": {
         "heading": "What Sets the Knee Relief Massager Apart from Ordinary Knee Massagers and Medications?",
-        "brand_name": "norelie",
+        "brand_name": "BarakaShop",
         "competitor1_name": "OTHERS",
         "competitor2_name": "Medications",
         "background_color": "#f8f8f8"
@@ -505,10 +494,7 @@
           }
         }
       },
-      "block_order": [
-        "paragraph_gPbRLw",
-        "paragraph_b8DYf9"
-      ],
+      "block_order": ["paragraph_gPbRLw", "paragraph_b8DYf9"],
       "disabled": true,
       "name": "Clinical Proof",
       "settings": {
@@ -530,9 +516,7 @@
           }
         }
       },
-      "block_order": [
-        "paragraph_WrqGbG"
-      ],
+      "block_order": ["paragraph_WrqGbG"],
       "disabled": true,
       "name": "Problem Solution",
       "settings": {
@@ -682,11 +666,7 @@
           }
         }
       },
-      "block_order": [
-        "benefit_b9E48h",
-        "benefit_Lq6DVR",
-        "benefit_9ebqfF"
-      ],
+      "block_order": ["benefit_b9E48h", "benefit_Lq6DVR", "benefit_9ebqfF"],
       "disabled": true,
       "name": "Pricing CTA",
       "settings": {

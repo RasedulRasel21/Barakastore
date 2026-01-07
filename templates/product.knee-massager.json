@@ -222,11 +222,7 @@
           }
         }
       },
-      "block_order": [
-        "badge_yCpFrm",
-        "badge_nk7WC9",
-        "badge_RAjFrz"
-      ],
+      "block_order": ["badge_yCpFrm", "badge_nk7WC9", "badge_RAjFrz"],
       "name": "Trust Badges",
       "settings": {
         "heading": "Over 50,000 Satisfied Customers",
@@ -422,11 +418,7 @@
           }
         }
       },
-      "block_order": [
-        "step_3GYRET",
-        "step_AG69wg",
-        "step_EKptEd"
-      ],
+      "block_order": ["step_3GYRET", "step_AG69wg", "step_EKptEd"],
       "name": "How It Works",
       "settings": {
         "heading": "How the Knee Relief Massager Works:",
@@ -527,7 +519,7 @@
       "name": "Comparison Table",
       "settings": {
         "heading": "What Sets the Knee Relief Massager Apart from Ordinary Knee Massagers and Medications?",
-        "brand_name": "norelie",
+        "brand_name": "BarakaShop",
         "competitor1_name": "OTHERS",
         "competitor2_name": "Medications",
         "background_color": "#f8f8f8"
@@ -549,10 +541,7 @@
           }
         }
       },
-      "block_order": [
-        "paragraph_gPbRLw",
-        "paragraph_b8DYf9"
-      ],
+      "block_order": ["paragraph_gPbRLw", "paragraph_b8DYf9"],
       "name": "Clinical Proof",
       "settings": {
         "image": "shopify://shop_images/1706647335406_1706541107169_1700049546593_1670058628_2_1.png",
@@ -573,9 +562,7 @@
           }
         }
       },
-      "block_order": [
-        "paragraph_WrqGbG"
-      ],
+      "block_order": ["paragraph_WrqGbG"],
       "name": "Problem Solution",
       "settings": {
         "layout": "image-right",
@@ -722,11 +709,7 @@
           }
         }
       },
-      "block_order": [
-        "benefit_b9E48h",
-        "benefit_Lq6DVR",
-        "benefit_9ebqfF"
-      ],
+      "block_order": ["benefit_b9E48h", "benefit_Lq6DVR", "benefit_9ebqfF"],
       "name": "Pricing CTA",
       "settings": {
         "heading": "Order Today and Get FREE Pairs While Supplies Last",

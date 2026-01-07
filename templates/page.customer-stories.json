@@ -48,10 +48,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_EpntJP",
-        "text_XkNcpJ"
-      ],
+      "block_order": ["heading_EpntJP", "text_XkNcpJ"],
       "name": "Rich text",
       "settings": {
         "color_scheme": "main",
@@ -122,7 +119,7 @@
             "customer_image": "shopify://shop_images/f78c43c7e4ad7ce876b5515e708015ed.avif",
             "customer_name": "Mark H.",
             "title": "This knee massager has changed my life",
-            "content": "I purchased the Norelie knee massager and use it twice daily for 15 minutes..."
+            "content": "I purchased the BarakaShop knee massager and use it twice daily for 15 minutes..."
           }
         },
         "testimonial_GkXDhn": {
@@ -139,8 +136,8 @@
           "settings": {
             "customer_image": "shopify://shop_images/Untitled_design__15.avif",
             "customer_name": "Emily R.",
-            "title": "Norelie keeps innovating",
-            "content": "Norelie continues to impress with its product range! I’ve used a few different items, and the results..."
+            "title": "BarakaShop keeps innovating",
+            "content": "BarakaShop continues to impress with its product range! I’ve used a few different items, and the results..."
           }
         },
         "testimonial_fXwLft": {
@@ -149,7 +146,7 @@
             "customer_image": "shopify://shop_images/Sarah.avif",
             "customer_name": "Sarah L.",
             "title": "Amazing relief for my feet and calves",
-            "content": "I’ve been using the Norelie foot and calf massager for a few weeks, and it’s..."
+            "content": "I’ve been using the BarakaShop foot and calf massager for a few weeks, and it’s..."
           }
         },
         "testimonial_4fygj3": {
